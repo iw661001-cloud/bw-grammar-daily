@@ -1,0 +1,72 @@
+[
+  {
+    "id": "sg-01",
+    "question": "If I ______ harder for the exam last month, I ______ so nervous now.",
+    "options": ["study / won't be", "studied / wouldn't be", "had studied / wouldn't be", "had studied / won't be"],
+    "answerIndex": 2,
+    "explanation": "混合時態假設語氣：if 子句描述過去沒做到的事，用過去完成式 had studied；主要子句是「現在」的結果狀態，用 would + 原形V，所以是 wouldn't be，不是 wouldn't have been。"
+  },
+  {
+    "id": "sg-02",
+    "question": "______ had the presentation started when the fire alarm went off.",
+    "options": ["Hardly", "Seldom", "Rarely", "No sooner"],
+    "answerIndex": 0,
+    "explanation": "Hardly...when...（一...就...）是倒裝句固定搭配。No sooner 的固定搭配是 no sooner...than...，不是 when，故不選。"
+  },
+  {
+    "id": "sg-03",
+    "question": "The book ______ on the table belongs to my sister.",
+    "options": ["lying", "lies", "lain", "to lie"],
+    "answerIndex": 0,
+    "explanation": "分詞構句當形容詞修飾 the book，book 和 lie（放置）是主動關係，用現在分詞 lying。"
+  },
+  {
+    "id": "sg-04",
+    "question": "The manager, ______ opinion I respect the most, disagreed with the plan.",
+    "options": ["who", "which", "whose", "that"],
+    "answerIndex": 2,
+    "explanation": "空格後面接名詞 opinion，表示「經理的意見」，屬所有格關係，用關係代名詞 whose。"
+  },
+  {
+    "id": "sg-05",
+    "question": "I had my car ______ before I went on the road trip.",
+    "options": ["check", "checked", "checking", "to check"],
+    "answerIndex": 1,
+    "explanation": "have + 受詞 + 過去分詞表示使役被動，car 是被檢查的，跟 check 是被動關係，用過去分詞 checked。"
+  },
+  {
+    "id": "sg-06",
+    "question": "It was not until she moved abroad ______ she realized how much she missed her family.",
+    "options": ["that", "when", "which", "so"],
+    "answerIndex": 0,
+    "explanation": "It is not until...that...（直到...才...）是強調句型固定搭配，主要子句用 that 引導。"
+  },
+  {
+    "id": "sg-07",
+    "question": "Despite ______ exhausted, the runners kept pushing toward the finish line.",
+    "options": ["they were", "being", "they are", "to be"],
+    "answerIndex": 1,
+    "explanation": "despite 是介系詞，後面接名詞或動名詞，不能直接接子句；這裡省略主詞，用分詞構句 being exhausted。"
+  },
+  {
+    "id": "sg-08",
+    "question": "The committee members, most of ______ had opposing views, finally reached an agreement.",
+    "options": ["them", "whom", "who", "which"],
+    "answerIndex": 1,
+    "explanation": "介系詞 + 關係代名詞的固定用法，先行詞是人（members），用 whom（受格，因為前面接了介系詞 of）。"
+  },
+  {
+    "id": "sg-09",
+    "question": "Were it not for your support, I ______ able to finish this project on time.",
+    "options": ["won't be", "wouldn't be", "wouldn't have been", "hadn't been"],
+    "answerIndex": 1,
+    "explanation": "Were it not for...＝If it were not for...（要不是因為...），是與現在事實相反的假設語氣倒裝句，主要子句用 would + 原形V。"
+  },
+  {
+    "id": "sg-10",
+    "question": "Not only ______ the deadline, but she also improved the quality of the report.",
+    "options": ["she met", "did she meet", "she did meet", "met she"],
+    "answerIndex": 1,
+    "explanation": "Not only 放句首時，後面子句要倒裝，一般動詞句要借助助動詞 did，語序是 did + 主詞 + 原形動詞。"
+  }
+]

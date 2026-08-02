@@ -1,0 +1,72 @@
+[
+  {
+    "id": "tg-01",
+    "question": "Please find the ______ report for your review before Friday's meeting.",
+    "options": ["attach", "attached", "attaching", "attachment"],
+    "answerIndex": 1,
+    "explanation": "attached 是過去分詞當形容詞，修飾 report（「附上的」報告），是商業email固定用語 please find the attached...。"
+  },
+  {
+    "id": "tg-02",
+    "question": "The board of directors was impressed by the ______ of the new marketing strategy.",
+    "options": ["effective", "effect", "effectiveness", "effectively"],
+    "answerIndex": 2,
+    "explanation": "空格前面是 the，後面接介系詞 of，需要名詞，effectiveness（有效性）符合「對策略的有效性印象深刻」。"
+  },
+  {
+    "id": "tg-03",
+    "question": "We would appreciate it if you ______ us know your decision by the end of this week.",
+    "options": ["let", "would let", "will let", "letting"],
+    "answerIndex": 0,
+    "explanation": "I would appreciate it if you + 過去式動詞 是委婉客氣的請求句型，let 的過去式與原形同形，符合句型。"
+  },
+  {
+    "id": "tg-04",
+    "question": "All employees are required to submit their expense reports ______ the 5th of each month.",
+    "options": ["until", "by", "since", "during"],
+    "answerIndex": 1,
+    "explanation": "by + 時間點表示「在...之前」的截止期限；until 強調「持續到...為止」，不符合截止期限的情境。"
+  },
+  {
+    "id": "tg-05",
+    "question": "The new policy will affect ______ full-time and part-time employees.",
+    "options": ["either / or", "neither / nor", "both / and", "not only / but"],
+    "answerIndex": 2,
+    "explanation": "both A and B（A和B兩者都）符合句意「全職和兼職員工都會受影響」。"
+  },
+  {
+    "id": "tg-06",
+    "question": "Compared with last quarter, this quarter's sales figures are significantly ______ .",
+    "options": ["high", "higher", "highest", "more high"],
+    "answerIndex": 1,
+    "explanation": "compared with 暗示比較句型，用形容詞比較級 higher，單音節形容詞比較級直接加 -er。"
+  },
+  {
+    "id": "tg-07",
+    "question": "The manager insisted that the report ______ before the deadline.",
+    "options": ["is submitted", "was submitted", "be submitted", "will be submitted"],
+    "answerIndex": 2,
+    "explanation": "insist that 表示堅持要求時，子句動詞要用「(should) + 原形動詞」的假設語氣形式，這裡是被動語態，原形是 be submitted。"
+  },
+  {
+    "id": "tg-08",
+    "question": "The client was ______ satisfied with the revised proposal that she signed the contract immediately.",
+    "options": ["very", "too", "such", "so"],
+    "answerIndex": 3,
+    "explanation": "so + 形容詞 + that...（如此...以致於...）固定句型，用 so 修飾形容詞 satisfied；such 要接名詞，這裡後面是形容詞。"
+  },
+  {
+    "id": "tg-09",
+    "question": "Our department has been ______ understaffed since two colleagues resigned last month.",
+    "options": ["serious", "seriously", "seriousness", "more serious"],
+    "answerIndex": 1,
+    "explanation": "understaffed 是形容詞（人力不足的），前面要用副詞修飾形容詞，seriously（嚴重地）符合。"
+  },
+  {
+    "id": "tg-10",
+    "question": "It is essential that every team member ______ aware of the project timeline.",
+    "options": ["is", "was", "be", "being"],
+    "answerIndex": 2,
+    "explanation": "It is essential/important/necessary that + 主詞 + (should) 原形動詞 也是假設語氣的固定句型，子句動詞用原形 be。"
+  }
+]

@@ -1,0 +1,12 @@
+[
+  { "id": "st-01", "chinese": "要不是老師的鼓勵，他早就放棄學英文了。", "reference": "If it had not been for the teacher's encouragement, he would have given up learning English long ago." },
+  { "id": "st-02", "chinese": "這座城市之所以吸引這麼多遊客，是因為它同時保留了傳統與現代。", "reference": "This city attracts so many tourists because it preserves both tradition and modernity at the same time." },
+  { "id": "st-03", "chinese": "無論你多忙，都應該找時間運動。", "reference": "No matter how busy you are, you should find time to exercise." },
+  { "id": "st-04", "chinese": "直到看了那部紀錄片，我才意識到海洋污染有多嚴重。", "reference": "It was not until I watched that documentary that I realized how serious ocean pollution was." },
+  { "id": "st-05", "chinese": "這項政策雖立意良善，卻沒有考慮到偏鄉居民的實際需求。", "reference": "Although this policy was well-intentioned, it failed to consider the actual needs of residents in remote areas." },
+  { "id": "st-06", "chinese": "科學家們正在研究氣候變遷如何影響候鳥的遷徙路線。", "reference": "Scientists are studying how climate change affects the migration routes of migratory birds." },
+  { "id": "st-07", "chinese": "與其抱怨環境，不如想辦法適應並改變它。", "reference": "Instead of complaining about the environment, we should try to adapt to it and change it." },
+  { "id": "st-08", "chinese": "那位教授以其對細節的堅持聞名，這也是他的研究備受肯定的原因。", "reference": "That professor is known for his insistence on details, which is also why his research is highly recognized." },
+  { "id": "st-09", "chinese": "一旦你養成每天閱讀的習慣，你會發現進步比你想像中快。", "reference": "Once you develop the habit of reading every day, you will find that you make progress faster than you expect." },
+  { "id": "st-10", "chinese": "這場演講不僅讓聽眾更了解這個議題，也促使許多人開始採取行動。", "reference": "This speech not only helped the audience better understand the issue but also motivated many people to take action." }
+]

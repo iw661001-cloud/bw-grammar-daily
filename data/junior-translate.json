@@ -1,0 +1,12 @@
+[
+  { "id": "jt-01", "chinese": "她每天早上七點起床。", "reference": "She gets up at seven o'clock every morning." },
+  { "id": "jt-02", "chinese": "昨天晚上下雨了，所以我們沒有去公園。", "reference": "It rained last night, so we didn't go to the park." },
+  { "id": "jt-03", "chinese": "這本書比那本書有趣多了。", "reference": "This book is much more interesting than that one." },
+  { "id": "jt-04", "chinese": "你可以借我一支筆嗎？", "reference": "Could you lend me a pen?" },
+  { "id": "jt-05", "chinese": "我姊姊正在廚房裡煮晚餐。", "reference": "My sister is cooking dinner in the kitchen." },
+  { "id": "jt-06", "chinese": "我們應該在下課後打掃教室。", "reference": "We should clean the classroom after school." },
+  { "id": "jt-07", "chinese": "這是我看過最好看的電影。", "reference": "This is the best movie I have ever seen." },
+  { "id": "jt-08", "chinese": "如果明天天氣好，我們就去爬山。", "reference": "If it is sunny tomorrow, we will go hiking." },
+  { "id": "jt-09", "chinese": "她不僅聰明，而且很努力。", "reference": "She is not only smart but also hardworking." },
+  { "id": "jt-10", "chinese": "我到家的時候，我媽媽已經做好晚餐了。", "reference": "When I got home, my mother had already made dinner." }
+]
