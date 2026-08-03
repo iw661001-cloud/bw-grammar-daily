@@ -40,7 +40,7 @@
   {
     "id": "tg-05",
     "category": "連接詞",
-    "question": "The new policy will affect ______ full-time and part-time employees.",
+    "question": "The new policy will affect ______ full-time ______ part-time employees.",
     "chinese": "這項新政策將會影響全職與兼職員工。",
     "options": ["either / or", "neither / nor", "both / and", "not only / but"],
     "answerIndex": 2,
