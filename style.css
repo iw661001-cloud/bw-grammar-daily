@@ -316,10 +316,14 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.7rem;
+  font-size: 1rem;
   font-weight: 700;
   font-variant-numeric: tabular-nums;
   color: var(--text);
+}
+
+@media (min-width: 500px) {
+  .heatmap-cell { font-size: 1.15rem; }
 }
 
 .heatmap-cell[data-level="1"] { background: var(--heat-1); }
