@@ -58,12 +58,18 @@ function heatLevel(count) {
 
 // 每個題庫各自一條小熱力圖，不做全站合併的大格子——題庫一多（文法x3+中翻英x2）
 // 塞進同一個月曆會太擠，分開放在各自卡片下方，一眼就看得出「這個題庫最近有沒有在練」。
-function renderMiniHeatmap(dayCounts, days) {
+// 固定顯示「本週」（週一到週日），不是往回捲動的最近7天——用捲動視窗的話，
+// 只要每天練習量差不多，格子顏色會一直長一樣，看不出週期節奏；固定一週的話，
+// 每週一自動歸零重新填，比較看得出這週練了幾天。
+function renderMiniHeatmap(dayCounts) {
   const cells = [];
   const today = new Date();
-  for (let i = days - 1; i >= 0; i--) {
-    const d = new Date(today);
-    d.setDate(d.getDate() - i);
+  const daysSinceMonday = (today.getDay() + 6) % 7; // 週一=0...週日=6
+  const monday = new Date(today);
+  monday.setDate(today.getDate() - daysSinceMonday);
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(monday);
+    d.setDate(monday.getDate() + i);
     const key = toLocalDateKey(d);
     const count = dayCounts.get(key) || 0;
     cells.push(`<div class="heatmap-cell" data-level="${heatLevel(count)}" title="${key}：${count}題">${count > 0 ? count : ""}</div>`);
@@ -136,8 +142,6 @@ async function render() {
     </div>
   `;
 
-  const MINI_HEATMAP_DAYS = 7;
-
   const renderTrackCard = (track) => {
     const s = byTrack[track.id];
     const pct = Math.min(100, Math.round((s.attempted / 10) * 100));
@@ -154,7 +158,7 @@ async function render() {
           ${s.needsReview > 0 ? `<span class="review-flag">待複習 ${s.needsReview}</span>` : ""}
         </div>
         <div class="track-heat-row">
-          <div class="mini-heatmap-grid">${renderMiniHeatmap(s.dayCounts, MINI_HEATMAP_DAYS)}</div>
+          <div class="mini-heatmap-grid">${renderMiniHeatmap(s.dayCounts)}</div>
           <div class="mini-stat-list">
             <div class="mini-stat"><span class="mini-stat-value">${s.attempts}</span><span class="mini-stat-label">總作答</span></div>
             <div class="mini-stat"><span class="mini-stat-value">${trackPracticeDays}</span><span class="mini-stat-label">練習天數</span></div>
