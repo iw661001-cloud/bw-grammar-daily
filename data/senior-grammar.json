@@ -3,6 +3,7 @@
     "id": "sg-01",
     "category": "假設語氣",
     "question": "If I ______ harder for the exam last month, I ______ so nervous now.",
+    "chinese": "要是我上個月考試前更用功一點，我現在就不會這麼緊張了。",
     "options": ["study / won't be", "studied / wouldn't be", "had studied / wouldn't be", "had studied / won't be"],
     "answerIndex": 2,
     "explanation": "混合時態假設語氣：if 子句描述過去沒做到的事，用過去完成式 had studied；主要子句是「現在」的結果狀態，用 would + 原形V，所以是 wouldn't be，不是 wouldn't have been。"
@@ -11,6 +12,7 @@
     "id": "sg-02",
     "category": "倒裝句",
     "question": "______ had the presentation started when the fire alarm went off.",
+    "chinese": "簡報才剛開始，火災警報就響了。",
     "options": ["Hardly", "Seldom", "Rarely", "No sooner"],
     "answerIndex": 0,
     "explanation": "Hardly...when...（一...就...）是倒裝句固定搭配。No sooner 的固定搭配是 no sooner...than...，不是 when，故不選。"
@@ -19,6 +21,7 @@
     "id": "sg-03",
     "category": "分詞構句",
     "question": "The book ______ on the table belongs to my sister.",
+    "chinese": "放在桌上的那本書是我妹妹的。",
     "options": ["lying", "lies", "lain", "to lie"],
     "answerIndex": 0,
     "explanation": "分詞構句當形容詞修飾 the book，book 和 lie（放置）是主動關係，用現在分詞 lying。"
@@ -27,6 +30,7 @@
     "id": "sg-04",
     "category": "關係子句",
     "question": "The manager, ______ opinion I respect the most, disagreed with the plan.",
+    "chinese": "那位經理不同意這個計畫，我最尊重的就是他的意見。",
     "options": ["who", "which", "whose", "that"],
     "answerIndex": 2,
     "explanation": "空格後面接名詞 opinion，表示「經理的意見」，屬所有格關係，用關係代名詞 whose。"
@@ -35,6 +39,7 @@
     "id": "sg-05",
     "category": "使役/被動",
     "question": "I had my car ______ before I went on the road trip.",
+    "chinese": "我在開始這趟公路旅行之前，把車子送去檢查了。",
     "options": ["check", "checked", "checking", "to check"],
     "answerIndex": 1,
     "explanation": "have + 受詞 + 過去分詞表示使役被動，car 是被檢查的，跟 check 是被動關係，用過去分詞 checked。"
@@ -43,6 +48,7 @@
     "id": "sg-06",
     "category": "強調句",
     "question": "It was not until she moved abroad ______ she realized how much she missed her family.",
+    "chinese": "直到她搬到國外，她才意識到自己有多想念家人。",
     "options": ["that", "when", "which", "so"],
     "answerIndex": 0,
     "explanation": "It is not until...that...（直到...才...）是強調句型固定搭配，主要子句用 that 引導。"
@@ -51,6 +57,7 @@
     "id": "sg-07",
     "category": "分詞構句",
     "question": "Despite ______ exhausted, the runners kept pushing toward the finish line.",
+    "chinese": "儘管筋疲力竭，跑者們仍然繼續朝終點線前進。",
     "options": ["they were", "being", "they are", "to be"],
     "answerIndex": 1,
     "explanation": "despite 是介系詞，後面接名詞或動名詞，不能直接接子句；這裡省略主詞，用分詞構句 being exhausted。"
@@ -59,6 +66,7 @@
     "id": "sg-08",
     "category": "關係子句",
     "question": "The committee members, most of ______ had opposing views, finally reached an agreement.",
+    "chinese": "委員會的成員，其中大多數人意見相左，最終還是達成了共識。",
     "options": ["them", "whom", "who", "which"],
     "answerIndex": 1,
     "explanation": "介系詞 + 關係代名詞的固定用法，先行詞是人（members），用 whom（受格，因為前面接了介系詞 of）。"
@@ -67,6 +75,7 @@
     "id": "sg-09",
     "category": "假設語氣",
     "question": "Were it not for your support, I ______ able to finish this project on time.",
+    "chinese": "要不是有你的支持，我不可能準時完成這個專案。",
     "options": ["won't be", "wouldn't be", "wouldn't have been", "hadn't been"],
     "answerIndex": 1,
     "explanation": "Were it not for...＝If it were not for...（要不是因為...），是與現在事實相反的假設語氣倒裝句，主要子句用 would + 原形V。"
@@ -75,6 +84,7 @@
     "id": "sg-10",
     "category": "倒裝句",
     "question": "Not only ______ the deadline, but she also improved the quality of the report.",
+    "chinese": "她不僅趕上了截止期限，還提升了報告的品質。",
     "options": ["she met", "did she meet", "she did meet", "met she"],
     "answerIndex": 1,
     "explanation": "Not only 放句首時，後面子句要倒裝，一般動詞句要借助助動詞 did，語序是 did + 主詞 + 原形動詞。"

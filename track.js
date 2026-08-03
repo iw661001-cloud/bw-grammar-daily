@@ -60,7 +60,10 @@ function renderMcQuestion(q) {
     <div class="quiz-card">
       <div class="question-text">${q.question}</div>
       ${optionsHtml}
-      <div class="explanation-box" id="explanationBox">${q.explanation}</div>
+      <div class="explanation-box" id="explanationBox">
+        ${q.chinese ? `<div class="chinese-translation">${q.chinese}</div>` : ""}
+        <div>${q.explanation}</div>
+      </div>
       <div class="nav-row">
         <button class="nav-btn" id="nextBtn" disabled>下一題</button>
       </div>

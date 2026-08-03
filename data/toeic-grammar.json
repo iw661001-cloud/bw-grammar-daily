@@ -3,6 +3,7 @@
     "id": "tg-01",
     "category": "分詞構句",
     "question": "Please find the ______ report for your review before Friday's meeting.",
+    "chinese": "請查收附上的報告，並在星期五的會議前審閱。",
     "options": ["attach", "attached", "attaching", "attachment"],
     "answerIndex": 1,
     "explanation": "attached 是過去分詞當形容詞，修飾 report（「附上的」報告），是商業email固定用語 please find the attached...。"
@@ -11,6 +12,7 @@
     "id": "tg-02",
     "category": "詞性判斷",
     "question": "The board of directors was impressed by the ______ of the new marketing strategy.",
+    "chinese": "董事會對新行銷策略的成效印象深刻。",
     "options": ["effective", "effect", "effectiveness", "effectively"],
     "answerIndex": 2,
     "explanation": "空格前面是 the，後面接介系詞 of，需要名詞當 impressed by 的受詞，effectiveness（有效性）是名詞；effect 雖然也是名詞，但語意是「效果/影響」，不如 effectiveness（有效程度）精確符合「對策略的有效性印象深刻」。"
@@ -19,6 +21,7 @@
     "id": "tg-03",
     "category": "假設語氣",
     "question": "We would appreciate it if you ______ us know your decision by the end of this week.",
+    "chinese": "如果您能在本週結束前告知您的決定，我們會非常感激。",
     "options": ["let", "would let", "will let", "letting"],
     "answerIndex": 0,
     "explanation": "I would appreciate it if you + 過去式動詞 是委婉客氣的請求句型（虛擬語氣的禮貌用法），子句動詞用過去式表委婉，let 本身就是原形也是過去式（let 的過去式與原形同形），符合句型。"
@@ -27,6 +30,7 @@
     "id": "tg-04",
     "category": "介系詞",
     "question": "All employees are required to submit their expense reports ______ the 5th of each month.",
+    "chinese": "所有員工都必須在每月5號之前繳交費用報告。",
     "options": ["until", "by", "since", "during"],
     "answerIndex": 1,
     "explanation": "by + 時間點表示「在...之前」的截止期限，符合「每月5號之前要交」的語意；until 強調「持續到...為止」，語意不合截止期限的情境。"
@@ -35,6 +39,7 @@
     "id": "tg-05",
     "category": "連接詞",
     "question": "The new policy will affect ______ full-time and part-time employees.",
+    "chinese": "這項新政策將會影響全職與兼職員工。",
     "options": ["either / or", "neither / nor", "both / and", "not only / but"],
     "answerIndex": 2,
     "explanation": "both A and B（A和B兩者都）符合句意「全職和兼職員工都會受影響」；其餘選項的搭配詞都不對（neither...nor 缺 nor，not only...but 少了 also 也不影響語意但另外幾個選項邏輯不合句意）。"
@@ -43,6 +48,7 @@
     "id": "tg-06",
     "category": "比較級",
     "question": "Compared with last quarter, this quarter's sales figures are significantly ______ .",
+    "chinese": "跟上一季相比，這一季的銷售數字明顯高出許多。",
     "options": ["high", "higher", "highest", "more high"],
     "answerIndex": 1,
     "explanation": "compared with（與...相比）暗示比較句型，用形容詞比較級 higher，形容詞已經是單音節，比較級直接加 -er，不能寫成 more high。"
@@ -51,6 +57,7 @@
     "id": "tg-07",
     "category": "假設語氣",
     "question": "The manager insisted that the report ______ before the deadline.",
+    "chinese": "經理堅持這份報告必須在截止期限前送出。",
     "options": ["is submitted", "was submitted", "be submitted", "will be submitted"],
     "answerIndex": 2,
     "explanation": "insist that 表示「堅持要求」時，子句動詞要用「(should) + 原形動詞」的假設語氣形式（should 常省略只留原形），這裡是被動語態，原形是 be submitted。"
@@ -59,6 +66,7 @@
     "id": "tg-08",
     "category": "連接詞",
     "question": "The client was ______ satisfied with the revised proposal that she signed the contract immediately.",
+    "chinese": "客戶對修訂後的提案非常滿意，當場就簽了合約。",
     "options": ["very", "too", "such", "so"],
     "answerIndex": 3,
     "explanation": "so + 形容詞 + that...（如此...以致於...）固定句型，用 so 修飾形容詞 satisfied；such 則要接名詞（such a satisfied client），這裡後面是形容詞不是名詞，所以不能選 such。"
@@ -67,6 +75,7 @@
     "id": "tg-09",
     "category": "詞性判斷",
     "question": "Our department has been ______ understaffed since two colleagues resigned last month.",
+    "chinese": "自從上個月兩位同事離職後，我們部門一直嚴重人力不足。",
     "options": ["serious", "seriously", "seriousness", "more serious"],
     "answerIndex": 1,
     "explanation": "understaffed 是形容詞（人力不足的），前面要用副詞修飾形容詞，seriously（嚴重地）符合。"
@@ -75,6 +84,7 @@
     "id": "tg-10",
     "category": "假設語氣",
     "question": "It is essential that every team member ______ aware of the project timeline.",
+    "chinese": "每位團隊成員都必須清楚了解專案的時程，這點非常重要。",
     "options": ["is", "was", "be", "being"],
     "answerIndex": 2,
     "explanation": "It is essential/important/necessary that + 主詞 + (should) 原形動詞 也是假設語氣的固定句型（跟 Q7 的 insist 同一套邏輯），子句動詞用原形 be，不隨主詞單複數變化。"
