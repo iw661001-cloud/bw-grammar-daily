@@ -111,7 +111,27 @@ main {
   text-align: center;
   color: var(--muted);
   font-size: 0.95rem;
-  margin-bottom: 12px;
+  margin-bottom: 8px;
+}
+
+.progress-dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+
+.progress-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #e1e0d9;
+  border: 2px solid #dde2f0;
+}
+
+.progress-dot.lit {
+  background: var(--correct);
+  border-color: var(--correct);
 }
 
 .question-text {

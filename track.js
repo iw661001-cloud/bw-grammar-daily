@@ -6,6 +6,7 @@ const reviewQuestionId = params.get("q"); // 從錯題本點進來，只複習�
 let questions = [];
 let pos = 0;
 let isReviewMode = false;
+let results = []; // 每一題目前的狀態：null=還沒作答，true=答對，false=答錯（均一平台式燈泡進度）
 
 function progressKey() {
   return `bw-grammar-progress-${track.id}`;
@@ -83,6 +84,13 @@ function renderQuestion() {
   else renderTranslateQuestion(q);
 }
 
+// 均一平台式燈泡進度：一格一題，答對才亮，答錯或還沒作答都維持不亮
+function renderProgressDots() {
+  return `<div class="progress-dots">${questions.map((_, i) =>
+    `<div class="progress-dot${results[i] ? " lit" : ""}"></div>`
+  ).join("")}</div>`;
+}
+
 function renderMcQuestion(q) {
   const optionsHtml = q.options.map((opt, i) =>
     `<button class="option-btn" data-idx="${i}">${String.fromCharCode(65 + i)}. ${opt}</button>`
@@ -90,6 +98,7 @@ function renderMcQuestion(q) {
 
   appEl.innerHTML = `
     <div class="quiz-progress">第 ${pos + 1} / ${questions.length} 題</div>
+    ${renderProgressDots()}
     <div class="quiz-card">
       <div class="question-text">${q.question}</div>
       ${optionsHtml}
@@ -113,6 +122,8 @@ function renderMcQuestion(q) {
       if (!correct) buttons[q.answerIndex].classList.add("correct");
       document.getElementById("explanationBox").classList.add("show");
       document.getElementById("nextBtn").disabled = false;
+      results[pos] = correct;
+      document.querySelector(".progress-dots").outerHTML = renderProgressDots();
       await recordAnswer(q.id, correct);
     });
   });
@@ -126,6 +137,7 @@ function renderMcQuestion(q) {
 function renderTranslateQuestion(q) {
   appEl.innerHTML = `
     <div class="quiz-progress">第 ${pos + 1} / ${questions.length} 題</div>
+    ${renderProgressDots()}
     <div class="quiz-card">
       <div class="question-text">${q.chinese}</div>
       <textarea class="translate-input" id="translateInput" placeholder="先自己翻翻看..."></textarea>
@@ -149,6 +161,7 @@ function renderTranslateQuestion(q) {
   const mark = async (correct) => {
     document.getElementById("markCorrectBtn").disabled = true;
     document.getElementById("markWrongBtn").disabled = true;
+    results[pos] = correct;
     await recordAnswer(q.id, correct);
     pos++;
     renderQuestion();
@@ -175,6 +188,7 @@ function init() {
         questions = data;
         pos = Math.min(loadProgress(), questions.length);
       }
+      results = new Array(questions.length).fill(null);
       renderQuestion();
     });
 }
