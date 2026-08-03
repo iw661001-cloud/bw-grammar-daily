@@ -176,9 +176,19 @@ async function render() {
   const grammarTracksHtml = TRACKS.filter((t) => t.type === "mc").map(renderTrackCard).join("");
   const translateTracksHtml = TRACKS.filter((t) => t.type === "translate").map(renderTrackCard).join("");
 
-  const categoryHtml =
-    `<div class="dashboard-section-title">文法</div>${grammarTracksHtml}` +
-    `<div class="dashboard-section-title">中翻英</div>${translateTracksHtml}`;
+  // 寬螢幕（電腦）雙欄並排，窄螢幕（手機）自動收成單欄，見 style.css 的 media query
+  const categoryHtml = `
+    <div class="dashboard-category-cols">
+      <div class="dashboard-category-col">
+        <div class="dashboard-section-title" style="margin-top:0;">文法</div>
+        ${grammarTracksHtml}
+      </div>
+      <div class="dashboard-category-col">
+        <div class="dashboard-section-title" style="margin-top:0;">中翻英</div>
+        ${translateTracksHtml}
+      </div>
+    </div>
+  `;
 
   const categoryStatsHtml = renderCategoryStats(byCategory);
 

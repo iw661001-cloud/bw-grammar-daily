@@ -407,3 +407,15 @@ main {
   header h1 { font-size: 1.6rem; }
   .kpi-row { grid-template-columns: repeat(4, 1fr); }
 }
+
+/* 文法/中翻英兩欄並排，只在螢幕夠寬（電腦）時啟用；手機維持單欄，
+   不然題庫卡片會被擠壓到看不清楚。 */
+@media (min-width: 900px) {
+  main.dashboard-main { max-width: 960px; }
+  .dashboard-category-cols {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+}
