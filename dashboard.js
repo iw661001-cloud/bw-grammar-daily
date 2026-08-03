@@ -56,8 +56,9 @@ function heatLevel(count) {
   return 4;
 }
 
-function renderHeatmap(dayCounts) {
-  const days = 35;
+// 每個題庫各自一條小熱力圖，不做全站合併的大格子——題庫一多（文法x3+中翻英x2）
+// 塞進同一個月曆會太擠，分開放在各自卡片下方，一眼就看得出「這個題庫最近有沒有在練」。
+function renderMiniHeatmap(dayCounts, days) {
   const cells = [];
   const today = new Date();
   for (let i = days - 1; i >= 0; i--) {
@@ -78,7 +79,7 @@ async function render() {
   const dayCounts = new Map();
   const byTrack = {};
   const byCategory = {};
-  TRACKS.forEach((t) => (byTrack[t.id] = { attempted: 0, attempts: 0, correct: 0, needsReview: 0 }));
+  TRACKS.forEach((t) => (byTrack[t.id] = { attempted: 0, attempts: 0, correct: 0, needsReview: 0, dayCounts: new Map() }));
 
   items.forEach((item) => {
     const attempts = item.attempts || 0;
@@ -104,7 +105,10 @@ async function render() {
     // 用單字最後一次作答的日期記錄練習天數；同一題若跨多天重練，只算得到最近那一天，
     // 這是目前資料結構（只存累計次數，沒存逐次紀錄）的已知限制，量少時影響不大。
     const key = dateKeyFromTimestamp(item.updatedAt);
-    if (key) dayCounts.set(key, (dayCounts.get(key) || 0) + attempts);
+    if (key) {
+      dayCounts.set(key, (dayCounts.get(key) || 0) + attempts);
+      if (bucket) bucket.dayCounts.set(key, (bucket.dayCounts.get(key) || 0) + attempts);
+    }
   });
 
   const accuracy = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
@@ -132,21 +136,7 @@ async function render() {
     </div>
   `;
 
-  const heatmapHtml = `
-    <div class="heatmap-card">
-      <div class="dashboard-section-title" style="margin-top:0;">最近35天練習狀況</div>
-      <div class="heatmap-grid">${renderHeatmap(dayCounts)}</div>
-      <div class="heatmap-legend">
-        少
-        <div class="heatmap-cell" data-level="0"></div>
-        <div class="heatmap-cell" data-level="1"></div>
-        <div class="heatmap-cell" data-level="2"></div>
-        <div class="heatmap-cell" data-level="3"></div>
-        <div class="heatmap-cell" data-level="4"></div>
-        多
-      </div>
-    </div>
-  `;
+  const MINI_HEATMAP_DAYS = 7;
 
   const renderTrackCard = (track) => {
     const s = byTrack[track.id];
@@ -161,6 +151,7 @@ async function render() {
           <span>${accuracyPct === null ? "尚無資料" : "正確率 " + accuracyPct + "%"}</span>
           ${s.needsReview > 0 ? `<span class="review-flag">待複習 ${s.needsReview}</span>` : ""}
         </div>
+        <div class="mini-heatmap-grid">${renderMiniHeatmap(s.dayCounts, MINI_HEATMAP_DAYS)}</div>
       </div>
     `;
   };
@@ -174,7 +165,7 @@ async function render() {
 
   const categoryStatsHtml = renderCategoryStats(byCategory);
 
-  appEl.innerHTML = kpiHtml + heatmapHtml + categoryHtml + categoryStatsHtml;
+  appEl.innerHTML = kpiHtml + categoryHtml + categoryStatsHtml;
 }
 
 // 文法錯誤類型統計：跨國中/高中/多益三個難度合併看同一個文法點，依錯誤率高到低排序，
