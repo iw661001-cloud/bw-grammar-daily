@@ -16,9 +16,22 @@ async function fetchAllItems() {
   const all = [];
   for (const track of TRACKS) {
     const snap = await db.collection("self_grammar").doc(track.id).collection("items").get();
-    snap.forEach((doc) => all.push({ trackId: track.id, ...doc.data() }));
+    snap.forEach((doc) => all.push({ id: doc.id, trackId: track.id, ...doc.data() }));
   }
   return all;
+}
+
+// 文法題的「文法點分類」存在題庫 json 裡（跟作答紀錄無關的靜態資料），
+// 中翻英沒有單一文法點可標，不計入分類統計。
+async function fetchGrammarCategoryMap() {
+  const map = {};
+  const grammarTracks = TRACKS.filter((t) => t.type === "mc");
+  for (const track of grammarTracks) {
+    const res = await fetch(track.file);
+    const data = await res.json();
+    data.forEach((q) => { map[q.id] = q.category; });
+  }
+  return map;
 }
 
 // 從今天（或昨天，如果今天還沒練習）往回數，中斷就停
@@ -52,18 +65,19 @@ function renderHeatmap(dayCounts) {
     d.setDate(d.getDate() - i);
     const key = toLocalDateKey(d);
     const count = dayCounts.get(key) || 0;
-    cells.push(`<div class="heatmap-cell" data-level="${heatLevel(count)}" title="${key}：${count}題"></div>`);
+    cells.push(`<div class="heatmap-cell" data-level="${heatLevel(count)}" title="${key}：${count}題">${count > 0 ? count : ""}</div>`);
   }
   return cells.join("");
 }
 
 async function render() {
-  const items = await fetchAllItems();
+  const [items, categoryMap] = await Promise.all([fetchAllItems(), fetchGrammarCategoryMap()]);
 
   let totalAttempts = 0;
   let totalCorrect = 0;
   const dayCounts = new Map();
   const byTrack = {};
+  const byCategory = {};
   TRACKS.forEach((t) => (byTrack[t.id] = { attempted: 0, attempts: 0, correct: 0, needsReview: 0 }));
 
   items.forEach((item) => {
@@ -78,6 +92,13 @@ async function render() {
       bucket.attempts += attempts;
       bucket.correct += correct;
       if (item.needsReview) bucket.needsReview++;
+    }
+
+    const category = categoryMap[item.id];
+    if (category && attempts > 0) {
+      if (!byCategory[category]) byCategory[category] = { attempts: 0, correct: 0 };
+      byCategory[category].attempts += attempts;
+      byCategory[category].correct += correct;
     }
 
     // 用單字最後一次作答的日期記錄練習天數；同一題若跨多天重練，只算得到最近那一天，
@@ -127,7 +148,7 @@ async function render() {
     </div>
   `;
 
-  const tracksHtml = TRACKS.map((track) => {
+  const renderTrackCard = (track) => {
     const s = byTrack[track.id];
     const pct = Math.min(100, Math.round((s.attempted / 10) * 100));
     const accuracyPct = s.attempts > 0 ? Math.round((s.correct / s.attempts) * 100) : null;
@@ -142,9 +163,55 @@ async function render() {
         </div>
       </div>
     `;
-  }).join("");
+  };
 
-  appEl.innerHTML = kpiHtml + heatmapHtml + `<div class="dashboard-section-title">各題庫詳情</div>` + tracksHtml;
+  const grammarTracksHtml = TRACKS.filter((t) => t.type === "mc").map(renderTrackCard).join("");
+  const translateTracksHtml = TRACKS.filter((t) => t.type === "translate").map(renderTrackCard).join("");
+
+  const categoryHtml =
+    `<div class="dashboard-section-title">文法</div>${grammarTracksHtml}` +
+    `<div class="dashboard-section-title">中翻英</div>${translateTracksHtml}`;
+
+  const categoryStatsHtml = renderCategoryStats(byCategory);
+
+  appEl.innerHTML = kpiHtml + heatmapHtml + categoryHtml + categoryStatsHtml;
+}
+
+// 文法錯誤類型統計：跨國中/高中/多益三個難度合併看同一個文法點，依錯誤率高到低排序，
+// 沒作答過的類別不顯示。題庫還小的時候（每類常常只有1~3題），這個統計參考價值有限，
+// 明確標註提醒，不要讓人誤以為是可靠的弱點診斷。
+function renderCategoryStats(byCategory) {
+  const rows = Object.entries(byCategory)
+    .map(([category, s]) => ({
+      category,
+      attempts: s.attempts,
+      wrong: s.attempts - s.correct,
+      wrongRate: s.attempts > 0 ? (s.attempts - s.correct) / s.attempts : 0,
+    }))
+    .sort((a, b) => b.wrongRate - a.wrongRate || b.attempts - a.attempts);
+
+  if (rows.length === 0) {
+    return `
+      <div class="dashboard-section-title">文法錯誤類型統計</div>
+      <p class="empty-msg">開始練習文法題後，這裡會依文法點分類顯示錯誤情況。</p>
+    `;
+  }
+
+  const rowsHtml = rows.map((r) => `
+    <div class="dashboard-track-card">
+      <div class="track-name">${r.category}</div>
+      <div class="dashboard-track-row">
+        <span>作答 ${r.attempts} 次</span>
+        <span>答錯 ${r.wrong} 次（${Math.round(r.wrongRate * 100)}%）</span>
+      </div>
+    </div>
+  `).join("");
+
+  return `
+    <div class="dashboard-section-title">文法錯誤類型統計</div>
+    <p class="empty-msg" style="padding:10px 16px;margin-bottom:12px;">題庫還小，每個文法點常常只有1~3題，這個統計僅供參考，題庫變大後會更準。</p>
+    ${rowsHtml}
+  `;
 }
 
 render();

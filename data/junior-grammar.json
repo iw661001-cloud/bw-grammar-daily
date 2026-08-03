@@ -1,6 +1,7 @@
 [
   {
     "id": "jg-01",
+    "category": "時態",
     "question": "She usually ______ to school by bus, but today she ______ walking because it's sunny.",
     "options": ["goes / is", "go / is", "goes / was", "going / is"],
     "answerIndex": 0,
@@ -8,6 +9,7 @@
   },
   {
     "id": "jg-02",
+    "category": "主詞動詞一致",
     "question": "There ______ a lot of books on the desk, but there ______ only one pen.",
     "options": ["is / are", "are / is", "are / are", "is / is"],
     "answerIndex": 1,
@@ -15,6 +17,7 @@
   },
   {
     "id": "jg-03",
+    "category": "比較級",
     "question": "My brother is taller than me, but he is not as ______ as our father.",
     "options": ["tall", "taller", "tallest", "more tall"],
     "answerIndex": 0,
@@ -22,6 +25,7 @@
   },
   {
     "id": "jg-04",
+    "category": "連接詞",
     "question": "______ you finish your homework, you can watch TV.",
     "options": ["Although", "Because", "After", "But"],
     "answerIndex": 2,
@@ -29,6 +33,7 @@
   },
   {
     "id": "jg-05",
+    "category": "時態",
     "question": "Look! The children ______ in the park now.",
     "options": ["play", "plays", "are playing", "played"],
     "answerIndex": 2,
@@ -36,6 +41,7 @@
   },
   {
     "id": "jg-06",
+    "category": "助動詞",
     "question": "You ______ wear a helmet when you ride a motorcycle. It's the law.",
     "options": ["can", "must", "may", "would"],
     "answerIndex": 1,
@@ -43,6 +49,7 @@
   },
   {
     "id": "jg-07",
+    "category": "介系詞",
     "question": "There is a cat ______ the table. It's sleeping there.",
     "options": ["in", "on", "at", "to"],
     "answerIndex": 1,
@@ -50,6 +57,7 @@
   },
   {
     "id": "jg-08",
+    "category": "不定詞/動名詞",
     "question": "My mother told me ______ so much candy because it's bad for my teeth.",
     "options": ["not eat", "not to eat", "to not eat", "don't eat"],
     "answerIndex": 1,
@@ -57,6 +65,7 @@
   },
   {
     "id": "jg-09",
+    "category": "連接詞",
     "question": "Neither Tom ______ his sister likes vegetables.",
     "options": ["or", "and", "nor", "but"],
     "answerIndex": 2,
@@ -64,6 +73,7 @@
   },
   {
     "id": "jg-10",
+    "category": "時態",
     "question": "By the time I got home, my little brother ______ all the cookies.",
     "options": ["eats", "ate", "has eaten", "had eaten"],
     "answerIndex": 3,

@@ -1,6 +1,7 @@
 [
   {
     "id": "sg-01",
+    "category": "假設語氣",
     "question": "If I ______ harder for the exam last month, I ______ so nervous now.",
     "options": ["study / won't be", "studied / wouldn't be", "had studied / wouldn't be", "had studied / won't be"],
     "answerIndex": 2,
@@ -8,6 +9,7 @@
   },
   {
     "id": "sg-02",
+    "category": "倒裝句",
     "question": "______ had the presentation started when the fire alarm went off.",
     "options": ["Hardly", "Seldom", "Rarely", "No sooner"],
     "answerIndex": 0,
@@ -15,6 +17,7 @@
   },
   {
     "id": "sg-03",
+    "category": "分詞構句",
     "question": "The book ______ on the table belongs to my sister.",
     "options": ["lying", "lies", "lain", "to lie"],
     "answerIndex": 0,
@@ -22,6 +25,7 @@
   },
   {
     "id": "sg-04",
+    "category": "關係子句",
     "question": "The manager, ______ opinion I respect the most, disagreed with the plan.",
     "options": ["who", "which", "whose", "that"],
     "answerIndex": 2,
@@ -29,6 +33,7 @@
   },
   {
     "id": "sg-05",
+    "category": "使役/被動",
     "question": "I had my car ______ before I went on the road trip.",
     "options": ["check", "checked", "checking", "to check"],
     "answerIndex": 1,
@@ -36,6 +41,7 @@
   },
   {
     "id": "sg-06",
+    "category": "強調句",
     "question": "It was not until she moved abroad ______ she realized how much she missed her family.",
     "options": ["that", "when", "which", "so"],
     "answerIndex": 0,
@@ -43,6 +49,7 @@
   },
   {
     "id": "sg-07",
+    "category": "分詞構句",
     "question": "Despite ______ exhausted, the runners kept pushing toward the finish line.",
     "options": ["they were", "being", "they are", "to be"],
     "answerIndex": 1,
@@ -50,6 +57,7 @@
   },
   {
     "id": "sg-08",
+    "category": "關係子句",
     "question": "The committee members, most of ______ had opposing views, finally reached an agreement.",
     "options": ["them", "whom", "who", "which"],
     "answerIndex": 1,
@@ -57,6 +65,7 @@
   },
   {
     "id": "sg-09",
+    "category": "假設語氣",
     "question": "Were it not for your support, I ______ able to finish this project on time.",
     "options": ["won't be", "wouldn't be", "wouldn't have been", "hadn't been"],
     "answerIndex": 1,
@@ -64,6 +73,7 @@
   },
   {
     "id": "sg-10",
+    "category": "倒裝句",
     "question": "Not only ______ the deadline, but she also improved the quality of the report.",
     "options": ["she met", "did she meet", "she did meet", "met she"],
     "answerIndex": 1,
