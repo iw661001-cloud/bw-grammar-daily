@@ -23,7 +23,7 @@ async function render() {
       <div class="track-label">${item.track.label}</div>
       <div>${item.question || ""}</div>
       <div class="nav-row">
-        <a class="nav-btn secondary" href="track.html?t=${item.track.id}" style="text-decoration:none;text-align:center;line-height:2.6;">去這個題庫複習</a>
+        <a class="nav-btn secondary" href="track.html?t=${item.track.id}&q=${item.questionId}" style="text-decoration:none;text-align:center;line-height:2.6;">重新練這一題</a>
       </div>
     </div>
   `).join("");

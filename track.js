@@ -1,9 +1,28 @@
 const appEl = document.getElementById("app");
 const params = new URLSearchParams(location.search);
 const track = trackById(params.get("t"));
+const reviewQuestionId = params.get("q"); // 從錯題本點進來，只複習這一題，不影響正常進度
 
 let questions = [];
 let pos = 0;
+let isReviewMode = false;
+
+function progressKey() {
+  return `bw-grammar-progress-${track.id}`;
+}
+
+function loadProgress() {
+  const saved = Number(localStorage.getItem(progressKey()));
+  return Number.isInteger(saved) && saved >= 0 ? saved : 0;
+}
+
+function saveProgress() {
+  localStorage.setItem(progressKey(), String(pos));
+}
+
+function clearProgress() {
+  localStorage.removeItem(progressKey());
+}
 
 function itemRef(questionId) {
   return db.collection("self_grammar").doc(track.id).collection("items").doc(questionId);
@@ -25,6 +44,19 @@ function currentQuestionSummary() {
 }
 
 function renderDone() {
+  if (isReviewMode) {
+    appEl.innerHTML = `
+      <div class="done-card">
+        <div>複習完成！</div>
+        <div class="nav-row">
+          <a class="nav-btn secondary" href="wrong.html" style="text-decoration:none;text-align:center;line-height:2.6;">回錯題本</a>
+          <a class="nav-btn" href="track.html?t=${track.id}" style="text-decoration:none;text-align:center;line-height:2.6;">做整個題庫</a>
+        </div>
+      </div>
+    `;
+    return;
+  }
+  clearProgress();
   appEl.innerHTML = `
     <div class="done-card">
       <div>這個題庫做完一輪了！</div>
@@ -45,6 +77,7 @@ function renderQuestion() {
     renderDone();
     return;
   }
+  if (!isReviewMode) saveProgress();
   const q = questions[pos];
   if (track.type === "mc") renderMcQuestion(q);
   else renderTranslateQuestion(q);
@@ -133,7 +166,15 @@ function init() {
   fetch(track.file)
     .then((res) => res.json())
     .then((data) => {
-      questions = data;
+      if (reviewQuestionId) {
+        const target = data.find((q) => q.id === reviewQuestionId);
+        questions = target ? [target] : [];
+        isReviewMode = true;
+        pos = 0;
+      } else {
+        questions = data;
+        pos = Math.min(loadProgress(), questions.length);
+      }
       renderQuestion();
     });
 }
