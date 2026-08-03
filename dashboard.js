@@ -61,7 +61,11 @@ function heatLevel(count) {
 // 固定顯示「本週」（週一到週日），不是往回捲動的最近7天——用捲動視窗的話，
 // 只要每天練習量差不多，格子顏色會一直長一樣，看不出週期節奏；固定一週的話，
 // 每週一自動歸零重新填，比較看得出這週練了幾天。
+const WEEKDAY_LABELS = ["一", "二", "三", "四", "五", "六", "日"];
+
 function renderMiniHeatmap(dayCounts) {
+  const labelCells = WEEKDAY_LABELS.map((w) => `<div class="heatmap-weekday-label">${w}</div>`).join("");
+
   const cells = [];
   const today = new Date();
   const daysSinceMonday = (today.getDay() + 6) % 7; // 週一=0...週日=6
@@ -74,7 +78,7 @@ function renderMiniHeatmap(dayCounts) {
     const count = dayCounts.get(key) || 0;
     cells.push(`<div class="heatmap-cell" data-level="${heatLevel(count)}" title="${key}：${count}題">${count > 0 ? count : ""}</div>`);
   }
-  return cells.join("");
+  return `<div class="mini-heatmap-labels">${labelCells}</div><div class="mini-heatmap-grid">${cells.join("")}</div>`;
 }
 
 async function render() {
@@ -158,7 +162,7 @@ async function render() {
           ${s.needsReview > 0 ? `<span class="review-flag">待複習 ${s.needsReview}</span>` : ""}
         </div>
         <div class="track-heat-row">
-          <div class="mini-heatmap-grid">${renderMiniHeatmap(s.dayCounts)}</div>
+          <div class="mini-heatmap-wrap">${renderMiniHeatmap(s.dayCounts)}</div>
           <div class="mini-stat-list">
             <div class="mini-stat"><span class="mini-stat-value">${s.attempts}</span><span class="mini-stat-label">總作答</span></div>
             <div class="mini-stat"><span class="mini-stat-value">${trackPracticeDays}</span><span class="mini-stat-label">練習天數</span></div>

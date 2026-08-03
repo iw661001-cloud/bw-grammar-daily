@@ -303,12 +303,28 @@ main {
   flex-wrap: wrap;
 }
 
+.mini-heatmap-wrap {
+  max-width: 220px;
+  flex: 1 1 180px;
+}
+
+.mini-heatmap-labels {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.heatmap-weekday-label {
+  text-align: center;
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+}
+
 .mini-heatmap-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 4px;
-  max-width: 220px;
-  flex: 1 1 180px;
 }
 
 .mini-stat-list {
