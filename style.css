@@ -295,12 +295,43 @@ main {
   margin: 20px 0 10px;
 }
 
+.track-heat-row {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
 .mini-heatmap-grid {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 4px;
-  max-width: 260px;
-  margin-top: 10px;
+  max-width: 220px;
+  flex: 1 1 180px;
+}
+
+.mini-stat-list {
+  display: flex;
+  gap: 14px;
+}
+
+.mini-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mini-stat-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--primary-dark);
+  font-variant-numeric: tabular-nums;
+}
+
+.mini-stat-label {
+  font-size: 0.7rem;
+  color: var(--ink-muted);
 }
 
 .heatmap-cell {

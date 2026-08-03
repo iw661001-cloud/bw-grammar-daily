@@ -142,6 +142,8 @@ async function render() {
     const s = byTrack[track.id];
     const pct = Math.min(100, Math.round((s.attempted / 10) * 100));
     const accuracyPct = s.attempts > 0 ? Math.round((s.correct / s.attempts) * 100) : null;
+    const trackPracticeDays = s.dayCounts.size;
+    const trackStreak = computeStreak(s.dayCounts);
     return `
       <div class="dashboard-track-card">
         <div class="track-name">${track.label}</div>
@@ -151,7 +153,14 @@ async function render() {
           <span>${accuracyPct === null ? "尚無資料" : "正確率 " + accuracyPct + "%"}</span>
           ${s.needsReview > 0 ? `<span class="review-flag">待複習 ${s.needsReview}</span>` : ""}
         </div>
-        <div class="mini-heatmap-grid">${renderMiniHeatmap(s.dayCounts, MINI_HEATMAP_DAYS)}</div>
+        <div class="track-heat-row">
+          <div class="mini-heatmap-grid">${renderMiniHeatmap(s.dayCounts, MINI_HEATMAP_DAYS)}</div>
+          <div class="mini-stat-list">
+            <div class="mini-stat"><span class="mini-stat-value">${s.attempts}</span><span class="mini-stat-label">總作答</span></div>
+            <div class="mini-stat"><span class="mini-stat-value">${trackPracticeDays}</span><span class="mini-stat-label">練習天數</span></div>
+            <div class="mini-stat"><span class="mini-stat-value">${trackStreak}</span><span class="mini-stat-label">連續天數</span></div>
+          </div>
+        </div>
       </div>
     `;
   };
