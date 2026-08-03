@@ -15,7 +15,8 @@
     "chinese": "簡報才剛開始，火災警報就響了。",
     "options": ["Hardly", "Seldom", "Rarely", "No sooner"],
     "answerIndex": 0,
-    "explanation": "Hardly...when...（一...就...）是倒裝句固定搭配。No sooner 的固定搭配是 no sooner...than...，不是 when，故不選。"
+    "explanation": "Hardly...when...（一...就...）是倒裝句固定搭配。No sooner 的固定搭配是 no sooner...than...，不是 when，故不選。",
+    "optionNotes": ["副詞・幾乎不；與when並用表「一...就...」", "副詞・很少", "副詞・很少；罕見地", "副詞片語・與than並用表「一...就...」"]
   },
   {
     "id": "sg-03",
@@ -33,7 +34,8 @@
     "chinese": "那位經理不同意這個計畫，我最尊重的就是他的意見。",
     "options": ["who", "which", "whose", "that"],
     "answerIndex": 2,
-    "explanation": "空格後面接名詞 opinion，表示「經理的意見」，屬所有格關係，用關係代名詞 whose。"
+    "explanation": "空格後面接名詞 opinion，表示「經理的意見」，屬所有格關係，用關係代名詞 whose。",
+    "optionNotes": ["關係代名詞・指人，作主格/受格", "關係代名詞・指事物", "關係代名詞（所有格）・...的", "關係代名詞・指人或物，限定用法"]
   },
   {
     "id": "sg-05",
@@ -51,7 +53,8 @@
     "chinese": "直到她搬到國外，她才意識到自己有多想念家人。",
     "options": ["that", "when", "which", "so"],
     "answerIndex": 0,
-    "explanation": "It is not until...that...（直到...才...）是強調句型固定搭配，主要子句用 that 引導。"
+    "explanation": "It is not until...that...（直到...才...）是強調句型固定搭配，主要子句用 that 引導。",
+    "optionNotes": ["連接詞・強調句固定搭配用字", "連接詞/關係副詞・當...時候", "關係代名詞・指事物", "連接詞/副詞・所以；如此"]
   },
   {
     "id": "sg-07",
@@ -69,7 +72,8 @@
     "chinese": "委員會的成員，其中大多數人意見相左，最終還是達成了共識。",
     "options": ["them", "whom", "who", "which"],
     "answerIndex": 1,
-    "explanation": "介系詞 + 關係代名詞的固定用法，先行詞是人（members），用 whom（受格，因為前面接了介系詞 of）。"
+    "explanation": "介系詞 + 關係代名詞的固定用法，先行詞是人（members），用 whom（受格，因為前面接了介系詞 of）。",
+    "optionNotes": ["代名詞（受格）・他們", "關係代名詞（受格，指人）", "關係代名詞（主格，指人）", "關係代名詞・指事物"]
   },
   {
     "id": "sg-09",

@@ -179,6 +179,14 @@ main {
   border-bottom: 1px solid rgba(11,11,11,0.10);
 }
 
+.option-notes {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(11,11,11,0.10);
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
 .explanation-box {
   margin-top: 16px;
   padding: 14px 16px;

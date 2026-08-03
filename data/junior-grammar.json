@@ -33,7 +33,8 @@
     "chinese": "做完功課之後，你就可以看電視。",
     "options": ["Although", "Because", "After", "But"],
     "answerIndex": 2,
-    "explanation": "句意是「做完功課之後才能看電視」，表示時間先後關係，用 After。"
+    "explanation": "句意是「做完功課之後才能看電視」，表示時間先後關係，用 After。",
+    "optionNotes": ["連接詞・雖然", "連接詞・因為", "連接詞・...之後", "連接詞・但是"]
   },
   {
     "id": "jg-05",
@@ -51,7 +52,8 @@
     "chinese": "騎機車時你必須戴安全帽，這是法律規定。",
     "options": ["can", "must", "may", "would"],
     "answerIndex": 1,
-    "explanation": "法律規定「必須」戴安全帽，must 表示強制性義務，符合「這是法律規定」的語境。"
+    "explanation": "法律規定「必須」戴安全帽，must 表示強制性義務，符合「這是法律規定」的語境。",
+    "optionNotes": ["情態助動詞・可以；能夠", "情態助動詞・必須", "情態助動詞・可能；可以", "情態助動詞・會（will的過去式；委婉語氣）"]
   },
   {
     "id": "jg-07",
@@ -60,7 +62,8 @@
     "chinese": "桌上有一隻貓，牠正在那裡睡覺。",
     "options": ["in", "on", "at", "to"],
     "answerIndex": 1,
-    "explanation": "貓「在桌子上面」用 on（表示接觸某個平面），in 是「在裡面」，不符合「趴在桌面上」的情境。"
+    "explanation": "貓「在桌子上面」用 on（表示接觸某個平面），in 是「在裡面」，不符合「趴在桌面上」的情境。",
+    "optionNotes": ["介系詞・在...裡面", "介系詞・在...上面", "介系詞・在（較小的定點）", "介系詞・到；向"]
   },
   {
     "id": "jg-08",
@@ -78,7 +81,8 @@
     "chinese": "湯姆和他妹妹都不喜歡吃蔬菜。",
     "options": ["or", "and", "nor", "but"],
     "answerIndex": 2,
-    "explanation": "neither...nor... 是固定搭配，表示「兩者都不」，跟 either...or（兩者擇一）要分清楚。"
+    "explanation": "neither...nor... 是固定搭配，表示「兩者都不」，跟 either...or（兩者擇一）要分清楚。",
+    "optionNotes": ["連接詞・或者", "連接詞・和；而且", "連接詞・也不（與neither並用）", "連接詞・但是"]
   },
   {
     "id": "jg-10",

@@ -105,6 +105,9 @@ function renderMcQuestion(q) {
       <div class="explanation-box" id="explanationBox">
         ${q.chinese ? `<div class="chinese-translation">${q.chinese}</div>` : ""}
         <div>${q.explanation}</div>
+        ${q.optionNotes ? `<div class="option-notes">${q.optionNotes.map((note, i) =>
+          `<div><strong>${String.fromCharCode(65 + i)}.</strong> ${note}</div>`
+        ).join("")}</div>` : ""}
       </div>
       <div class="nav-row">
         <button class="nav-btn" id="nextBtn" disabled>下一題</button>

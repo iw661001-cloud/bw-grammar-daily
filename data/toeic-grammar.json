@@ -15,7 +15,8 @@
     "chinese": "董事會對新行銷策略的成效印象深刻。",
     "options": ["effective", "effect", "effectiveness", "effectively"],
     "answerIndex": 2,
-    "explanation": "空格前面是 the，後面接介系詞 of，需要名詞當 impressed by 的受詞，effectiveness（有效性）是名詞；effect 雖然也是名詞，但語意是「效果/影響」，不如 effectiveness（有效程度）精確符合「對策略的有效性印象深刻」。"
+    "explanation": "空格前面是 the，後面接介系詞 of，需要名詞當 impressed by 的受詞，effectiveness（有效性）是名詞；effect 雖然也是名詞，但語意是「效果/影響」，不如 effectiveness（有效程度）精確符合「對策略的有效性印象深刻」。",
+    "optionNotes": ["形容詞・有效的", "名詞・效果；影響", "名詞・有效性；效力", "副詞・有效地"]
   },
   {
     "id": "tg-03",
@@ -33,7 +34,8 @@
     "chinese": "所有員工都必須在每月5號之前繳交費用報告。",
     "options": ["until", "by", "since", "during"],
     "answerIndex": 1,
-    "explanation": "by + 時間點表示「在...之前」的截止期限，符合「每月5號之前要交」的語意；until 強調「持續到...為止」，語意不合截止期限的情境。"
+    "explanation": "by + 時間點表示「在...之前」的截止期限，符合「每月5號之前要交」的語意；until 強調「持續到...為止」，語意不合截止期限的情境。",
+    "optionNotes": ["介系詞・直到...為止", "介系詞・在...之前（截止時間）", "介系詞/連接詞・自從", "介系詞・在...期間"]
   },
   {
     "id": "tg-05",
@@ -42,7 +44,8 @@
     "chinese": "這項新政策將會影響全職與兼職員工。",
     "options": ["either / or", "neither / nor", "both / and", "not only / but"],
     "answerIndex": 2,
-    "explanation": "both A and B（A和B兩者都）符合句意「全職和兼職員工都會受影響」；其餘選項的搭配詞都不對（neither...nor 缺 nor，not only...but 少了 also 也不影響語意但另外幾個選項邏輯不合句意）。"
+    "explanation": "both A and B（A和B兩者都）符合句意「全職和兼職員工都會受影響」；其餘選項的搭配詞都不對（neither...nor 缺 nor，not only...but 少了 also 也不影響語意但另外幾個選項邏輯不合句意）。",
+    "optionNotes": ["相關連接詞・兩者擇一", "相關連接詞・兩者都不", "相關連接詞・兩者都", "相關連接詞・不僅...而且"]
   },
   {
     "id": "tg-06",
@@ -69,7 +72,8 @@
     "chinese": "客戶對修訂後的提案非常滿意，當場就簽了合約。",
     "options": ["very", "too", "such", "so"],
     "answerIndex": 3,
-    "explanation": "so + 形容詞 + that...（如此...以致於...）固定句型，用 so 修飾形容詞 satisfied；such 則要接名詞（such a satisfied client），這裡後面是形容詞不是名詞，所以不能選 such。"
+    "explanation": "so + 形容詞 + that...（如此...以致於...）固定句型，用 so 修飾形容詞 satisfied；such 則要接名詞（such a satisfied client），這裡後面是形容詞不是名詞，所以不能選 such。",
+    "optionNotes": ["副詞・非常（修飾形容詞，不接that子句）", "副詞・太過（too...to句型，不接that子句表結果）", "形容詞・如此的（後面要接名詞）", "副詞・如此（so...that句型，修飾形容詞/副詞）"]
   },
   {
     "id": "tg-09",
@@ -78,7 +82,8 @@
     "chinese": "自從上個月兩位同事離職後，我們部門一直嚴重人力不足。",
     "options": ["serious", "seriously", "seriousness", "more serious"],
     "answerIndex": 1,
-    "explanation": "understaffed 是形容詞（人力不足的），前面要用副詞修飾形容詞，seriously（嚴重地）符合。"
+    "explanation": "understaffed 是形容詞（人力不足的），前面要用副詞修飾形容詞，seriously（嚴重地）符合。",
+    "optionNotes": ["形容詞・嚴重的；認真的", "副詞・嚴重地；認真地", "名詞・嚴重性；認真", "形容詞比較級・更嚴重的"]
   },
   {
     "id": "tg-10",
