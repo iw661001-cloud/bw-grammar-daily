@@ -1,0 +1,102 @@
+[
+  {
+    "id": "tv-01",
+    "category": "動詞",
+    "question": "The company will ______ employees for any travel expenses related to business trips.",
+    "chinese": "公司會退還員工出差相關的所有旅費。",
+    "options": ["reimburse", "resign", "reserve", "resume"],
+    "answerIndex": 0,
+    "explanation": "reimburse（退還費用、補償）符合「公司會退還員工出差旅費」；resign辭職、reserve保留/預訂、resume恢復/履歷，都是常見商務字但語意不合。",
+    "optionNotes": ["動詞・退還費用、補償", "動詞・辭職", "動詞・保留、預訂", "動詞・恢復；名詞・履歷"]
+  },
+  {
+    "id": "tv-02",
+    "category": "動詞",
+    "question": "The two companies spent several weeks trying to ______ a fair contract for both sides.",
+    "chinese": "這兩家公司花了好幾週試圖協商出對雙方都公平的合約。",
+    "options": ["negotiate", "neglect", "navigate", "notify"],
+    "answerIndex": 0,
+    "explanation": "negotiate（協商、談判）符合「花數週嘗試談出對雙方都公平的合約」；neglect忽略、navigate導航、notify通知，都不符合「談合約」的語境。",
+    "optionNotes": ["動詞・協商、談判", "動詞・忽略", "動詞・導航、引導", "動詞・通知"]
+  },
+  {
+    "id": "tv-03",
+    "category": "動詞",
+    "question": "Due to the CEO's sudden illness, the shareholders' meeting has been ______ until next month.",
+    "chinese": "由於執行長突然生病，股東會已延期到下個月。",
+    "options": ["postponed", "proposed", "promoted", "prohibited"],
+    "answerIndex": 0,
+    "explanation": "postpone（延期）符合「執行長突然生病，股東會延到下個月」；propose提議、promote晉升/推廣、prohibit禁止，字首都是 pro-開頭常見混淆字。",
+    "optionNotes": ["動詞・延期", "動詞・提議", "動詞・晉升、推廣", "動詞・禁止"]
+  },
+  {
+    "id": "tv-04",
+    "category": "名詞",
+    "question": "Please send the ______ to the accounting department so we can process the payment.",
+    "chinese": "請把請款單送到會計部門，以便我們處理付款。",
+    "options": ["invoice", "income", "insurance", "instance"],
+    "answerIndex": 0,
+    "explanation": "invoice（發票、請款單）符合「送請款單到會計部門以便處理付款」；income收入、insurance保險、instance例子，語意都不符合。",
+    "optionNotes": ["名詞・發票、請款單", "名詞・收入", "名詞・保險", "名詞・例子"]
+  },
+  {
+    "id": "tv-05",
+    "category": "名詞",
+    "question": "I'd like to introduce you to my ______ , who will be joining us for the project.",
+    "chinese": "我想介紹你認識我的同事，他將加入我們的專案。",
+    "options": ["colleague", "collateral", "collision", "collection"],
+    "answerIndex": 0,
+    "explanation": "colleague（同事）符合「介紹將加入專案的同事」；collateral擔保品、collision碰撞、collection收集，字形相似但意思不同。",
+    "optionNotes": ["名詞・同事", "名詞・擔保品", "名詞・碰撞", "名詞・收集、收藏"]
+  },
+  {
+    "id": "tv-06",
+    "category": "名詞",
+    "question": "If we don't meet the ______ , the client may cancel the entire contract.",
+    "chinese": "如果我們沒趕上截止期限，客戶可能會取消整個合約。",
+    "options": ["deadline", "decline", "discipline", "outline"],
+    "answerIndex": 0,
+    "explanation": "deadline（截止期限）符合「沒趕上期限，客戶可能取消整個合約」；decline拒絕/下降、discipline紀律、outline大綱，都不符合語境。",
+    "optionNotes": ["名詞・截止期限", "動詞・拒絕、下降", "名詞・紀律", "名詞・大綱"]
+  },
+  {
+    "id": "tv-07",
+    "category": "名詞",
+    "question": "The warehouse manager checks the ______ every week to make sure nothing is out of stock.",
+    "chinese": "倉庫經理每週都會檢查庫存，確保沒有缺貨。",
+    "options": ["inventory", "investment", "instrument", "institute"],
+    "answerIndex": 0,
+    "explanation": "inventory（庫存）符合「每週檢查庫存以確保沒有缺貨」；investment投資、instrument儀器/工具、institute機構，語意都不符合。",
+    "optionNotes": ["名詞・庫存", "名詞・投資", "名詞・儀器、工具", "名詞・機構"]
+  },
+  {
+    "id": "tv-08",
+    "category": "名詞",
+    "question": "The HR department interviewed five ______ for the marketing position.",
+    "chinese": "人資部門面試了五位應徵行銷職位的人。",
+    "options": ["candidates", "campaigns", "capacities", "categories"],
+    "answerIndex": 0,
+    "explanation": "candidate（應徵者、候選人）符合「面試了五位應徵行銷職位的人」；campaign活動、capacity容量/能力、category類別，語意都不符合。",
+    "optionNotes": ["名詞・應徵者、候選人", "名詞・活動、行銷活動", "名詞・容量、能力", "名詞・類別"]
+  },
+  {
+    "id": "tv-09",
+    "category": "形容詞",
+    "question": "We need a more ______ supplier who can deliver the parts on time every month.",
+    "chinese": "我們需要一個更可靠的供應商，能每個月準時交貨。",
+    "options": ["reliable", "relative", "relevant", "reluctant"],
+    "answerIndex": 0,
+    "explanation": "reliable（可靠的）符合「需要能每月準時交貨的更可靠供應商」；relative相對的、relevant相關的、reluctant不情願的，都是 re-開頭常見混淆字。",
+    "optionNotes": ["形容詞・可靠的", "形容詞・相對的", "形容詞・相關的", "形容詞・不情願的"]
+  },
+  {
+    "id": "tv-10",
+    "category": "名詞",
+    "question": "The marketing team has to stay within ______ while planning the new advertising campaign.",
+    "chinese": "行銷團隊在規劃新的廣告活動時，必須維持在預算內。",
+    "options": ["budget", "benefit", "behavior", "bonus"],
+    "answerIndex": 0,
+    "explanation": "budget（預算）符合「規劃新廣告活動時要維持在預算內」；benefit利益、behavior行為、bonus獎金，語意都不符合。",
+    "optionNotes": ["名詞・預算", "名詞・利益", "名詞・行為", "名詞・獎金"]
+  }
+]
