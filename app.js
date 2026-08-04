@@ -12,16 +12,38 @@ async function trackSummary(track) {
   return { attempted, needsReview };
 }
 
+function renderTrackCard(track, s) {
+  const reviewText = s.needsReview > 0 ? `<span class="review-flag">・待複習 ${s.needsReview} 題</span>` : "";
+  return `
+    <a class="track-card" href="track.html?t=${track.id}">
+      <div class="track-name">${track.label}</div>
+      <div class="track-stats">已作答 ${s.attempted}/10 題${reviewText}</div>
+    </a>
+  `;
+}
+
+function renderComingSoonCard(item) {
+  return `
+    <div class="track-card coming-soon">
+      <div class="track-name">${item.label}</div>
+      <div class="track-stats">即將推出</div>
+    </div>
+  `;
+}
+
 async function render() {
   const summaries = await Promise.all(TRACKS.map((t) => trackSummary(t)));
-  appEl.innerHTML = TRACKS.map((track, i) => {
-    const s = summaries[i];
-    const reviewText = s.needsReview > 0 ? `<span class="review-flag">・待複習 ${s.needsReview} 題</span>` : "";
+  appEl.innerHTML = GROUP_ORDER.map((group) => {
+    const realCardsHtml = TRACKS
+      .map((t, i) => ({ t, s: summaries[i] }))
+      .filter(({ t }) => t.group === group)
+      .map(({ t, s }) => renderTrackCard(t, s))
+      .join("");
+    const soonCardsHtml = COMING_SOON.filter((c) => c.group === group).map(renderComingSoonCard).join("");
+    if (!realCardsHtml && !soonCardsHtml) return "";
     return `
-      <a class="track-card" href="track.html?t=${track.id}">
-        <div class="track-name">${track.label}</div>
-        <div class="track-stats">已作答 ${s.attempted}/10 題${reviewText}</div>
-      </a>
+      <div class="section-title">${GROUP_LABELS[group]}</div>
+      ${realCardsHtml}${soonCardsHtml}
     `;
   }).join("");
 }

@@ -324,11 +324,22 @@ main {
   margin-left: 2px;
 }
 
-.dashboard-section-title {
+.section-title {
   font-size: 0.95rem;
   font-weight: 700;
   color: var(--ink-secondary);
   margin: 20px 0 10px;
+}
+
+.track-card.coming-soon,
+.dashboard-track-card.coming-soon {
+  opacity: 0.55;
+  cursor: default;
+}
+
+.track-card.coming-soon .track-stats,
+.dashboard-track-card.coming-soon .dashboard-track-row {
+  font-style: italic;
 }
 
 .track-heat-row {
@@ -444,13 +455,13 @@ main {
   .kpi-row { grid-template-columns: repeat(4, 1fr); }
 }
 
-/* 文法/中翻英兩欄並排，只在螢幕夠寬（電腦）時啟用；手機維持單欄，
+/* 文法/單字/中翻英三欄並排，只在螢幕夠寬（電腦）時啟用；手機維持單欄，
    不然題庫卡片會被擠壓到看不清楚。 */
 @media (min-width: 900px) {
-  main.dashboard-main { max-width: 960px; }
+  main.dashboard-main { max-width: 1200px; }
   .dashboard-category-cols {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
     align-items: start;
   }

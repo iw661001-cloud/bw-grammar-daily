@@ -177,22 +177,28 @@ async function render() {
     `;
   };
 
-  const grammarTracksHtml = TRACKS.filter((t) => t.type === "mc").map(renderTrackCard).join("");
-  const translateTracksHtml = TRACKS.filter((t) => t.type === "translate").map(renderTrackCard).join("");
+  function renderComingSoonCard(item) {
+    return `
+      <div class="dashboard-track-card coming-soon">
+        <div class="track-name">${item.label}</div>
+        <div class="dashboard-track-row"><span>即將推出</span></div>
+      </div>
+    `;
+  }
 
-  // 寬螢幕（電腦）雙欄並排，窄螢幕（手機）自動收成單欄，見 style.css 的 media query
-  const categoryHtml = `
-    <div class="dashboard-category-cols">
+  const columnsHtml = GROUP_ORDER.map((group) => {
+    const realCardsHtml = TRACKS.filter((t) => t.group === group).map(renderTrackCard).join("");
+    const soonCardsHtml = COMING_SOON.filter((c) => c.group === group).map(renderComingSoonCard).join("");
+    return `
       <div class="dashboard-category-col">
-        <div class="dashboard-section-title" style="margin-top:0;">文法</div>
-        ${grammarTracksHtml}
+        <div class="section-title" style="margin-top:0;">${GROUP_LABELS[group]}</div>
+        ${realCardsHtml}${soonCardsHtml}
       </div>
-      <div class="dashboard-category-col">
-        <div class="dashboard-section-title" style="margin-top:0;">中翻英</div>
-        ${translateTracksHtml}
-      </div>
-    </div>
-  `;
+    `;
+  }).join("");
+
+  // 寬螢幕（電腦）三欄並排，窄螢幕（手機）自動收成單欄，見 style.css 的 media query
+  const categoryHtml = `<div class="dashboard-category-cols">${columnsHtml}</div>`;
 
   const categoryStatsHtml = renderCategoryStats(byCategory);
 
@@ -214,7 +220,7 @@ function renderCategoryStats(byCategory) {
 
   if (rows.length === 0) {
     return `
-      <div class="dashboard-section-title">文法錯誤類型統計</div>
+      <div class="section-title">文法錯誤類型統計</div>
       <p class="empty-msg">開始練習文法題後，這裡會依文法點分類顯示錯誤情況。</p>
     `;
   }
@@ -230,7 +236,7 @@ function renderCategoryStats(byCategory) {
   `).join("");
 
   return `
-    <div class="dashboard-section-title">文法錯誤類型統計</div>
+    <div class="section-title">文法錯誤類型統計</div>
     <p class="empty-msg" style="padding:10px 16px;margin-bottom:12px;">題庫還小，每個文法點常常只有1~3題，這個統計僅供參考，題庫變大後會更準。</p>
     ${rowsHtml}
   `;
