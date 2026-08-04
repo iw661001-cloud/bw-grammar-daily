@@ -89,10 +89,10 @@
 - `toeic-grammar`（多益 Part 5，文法+字彙混合）已用：分詞構句×1、詞性判斷×3、假設語氣×3、介系詞×2、連接詞×3、比較級×1、代名詞×1、時態×1、關係子句×1、動詞(字彙)×3、形容詞(字彙)×3、使役/被動×1、不定詞/動名詞×1（共25題，id到tg-25）
 - `junior-vocab`（國中單字）已用目標字：borrow, nervous, improve, polite, expect, environment, honest, achieve, crowded, prepare, traditional, celebrate, expensive, language, protect, serious, modern, surprise, promised, discover, patient, generous, delicious, comfortable, knowledge（共25題，id到jv-25）
 - `senior-vocab`（高中單字）已用目標字：significant, reluctant, consequence, accomplish, efficient, genuine, controversial, diverse, aware, essential, ambiguous, compromise, inevitable, substantial, equivalent, interpret, vulnerable, superficial, manipulate, comprehensive, accumulate, subtle, relevant, compulsory, persistent（共25題，id到sv-25）
-- `toeic-vocab`（多益單字）已用目標字：reimburse, negotiate, postponed, invoice, colleague, deadline, inventory, candidates, reliable, budget（共10題，id到tv-10，另有15題擴充草稿待審查）
-- `ielts-vocab`（雅思單字）已用目標字：sustainable, phenomenon, assumption, statistics, contribute, adequate, perspective, exposure, inevitable, outweigh（共10題，id到iv-10，另有15題擴充草稿待審查）
-- `junior-translate`（國中中翻英）已出過的中文句子主題：日常作息、天氣、書籍比較、借東西、做家事、電影評論、假設句、連接詞句型、過去完成式（共10題，id到jt-10）
-- `senior-translate`（高中/學測中翻英）已出過的主題：假設語氣倒裝、原因強調句、讓步句、強調句、對比句、科學研究敘述、祈使建議、關係子句、條件句、複合句（共10題，id到st-10）
+- `toeic-vocab`（多益單字）已用目標字：reimburse, negotiate, postponed, invoice, colleague, deadline, inventory, candidates, reliable, budget, implement, complimentary, accommodate, tentative, itinerary, eligible, feedback, compensation, allocate, mandatory, previous, seminar, launch, verify, confidential（共25題，id到tv-25）
+- `ielts-vocab`（雅思單字）已用目標字：sustainable, phenomenon, assumption, statistics, contribute, adequate, perspective, exposure, inevitable, outweigh, fundamental, contradictory, fluctuate, empirical, paradigm, correlation, mitigate, underlying, subsequent, comprehensive, prominent, facilitate, consensus, intrinsic, hypothesis（共25題，id到iv-25）
+- `junior-translate`（國中中翻英）已出過的中文句子主題：日常作息、天氣、書籍比較、借東西、做家事、電影評論、假設句、連接詞句型、過去完成式、海邊游泳、聽音樂、下雨待家、去過日本、運動健康、熬夜考試、袋子比較、冰箱食物、手機製造、洗澡電話、走路上學、學英文多久、身高比較、圖書館安靜、英文說得好（共25題，id到jt-25）
+- `senior-translate`（高中/學測中翻英）已出過的主題：假設語氣倒裝、原因強調句、讓步句、強調句、對比句、科學研究敘述、祈使建議、關係子句、條件句、複合句、智慧型手機影響、全球暖化行動、成功需努力、運動習慣、速食健康、追求夢想、睡眠不足、廣泛閱讀、網路霸凌、有效溝通、志工同理心、保護古蹟、青少年壓力、大眾運輸、挫折視為機會（共25題，id到st-25）
 
 ---
 
