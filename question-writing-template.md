@@ -1,0 +1,95 @@
+# 題目撰寫範本（給其他 AI 使用）
+
+> 用途：bw-grammar-daily 擴充題庫時，把這份文件連同下面「本次任務」欄位的具體需求一起貼給其他 AI（Gemini/ChatGPT），
+> 請它們照格式寫出題目，寫好後交給 Claude Code 檢視、修正、實際上線。
+> Claude Code 不會照單全收，會逐題核對格式、正確性、難度、原創性後才會用。
+
+---
+
+## 一、絕對規則（違反其中任一項，整批退回重寫）
+
+1. **完全原創**：句子、選項、解析全部自己寫，不得逐字或改寫自任何specific書籍/網站/他人考題。文法規則、常見單字本身不受著作權保護，可以參考「這個級別通常考什麼」，但具體句子、例句、解析文字必須是你自己的原創表達。
+2. **只能輸出純 JSON 陣列**，不要加任何說明文字、不要用 ```json 包起來，就是一個可以直接被程式解析的 JSON array。
+3. **每一題都要有正確答案，且只有一個正確答案**，其餘三個選項必須明確錯誤（不能有爭議、模稜兩可）。
+4. **不能跟「已有內容」清單重複**——每個題庫下面都列了目前已經用過的目標單字或文法點範例，新題目的目標單字/句型不能重複出現。
+
+---
+
+## 二、JSON 格式規範
+
+### 文法題／單字題（type: "mc"）共用格式
+
+```json
+{
+  "id": "{題庫代碼}-{兩位數字流水號，接續現有最大號碼}",
+  "category": "{文法點分類，或詞性：動詞/名詞/形容詞/副詞}",
+  "question": "英文句子，空格處用 ______（6個底線）標示",
+  "chinese": "整句話的中文翻譯",
+  "options": ["選項A", "選項B", "選項C", "選項D"],
+  "answerIndex": 0,
+  "explanation": "解釋為什麼正確答案符合語境/文法規則，並簡短說明為什麼其他選項不對（尤其是為什麼容易被搞混）",
+  "optionNotes": ["選項A的詞性・中文意思", "選項B的詞性・中文意思", "選項C的詞性・中文意思", "選項D的詞性・中文意思"]
+}
+```
+
+**出題核心原則**：四個選項要「看起來都合理」，最好是字形相似、詞性相同、或意思相近容易混淆的字，不要出現一眼就能刪掉的無關選項（例如用「香蕉」當文法題的錯誤選項）。這樣才能真正測出理解程度，不是用消去法猜答案。
+
+**範例**（實際上線的題目，照這個難度/風格寫）：
+
+```json
+{
+  "id": "tv-01",
+  "category": "動詞",
+  "question": "The company will ______ employees for any travel expenses related to business trips.",
+  "chinese": "公司會退還員工出差相關的所有旅費。",
+  "options": ["reimburse", "resign", "reserve", "resume"],
+  "answerIndex": 0,
+  "explanation": "reimburse（退還費用、補償）符合「公司會退還員工出差旅費」；resign辭職、reserve保留/預訂、resume恢復/履歷，都是常見商務字但語意不合。",
+  "optionNotes": ["動詞・退還費用、補償", "動詞・辭職", "動詞・保留、預訂", "動詞・恢復；名詞・履歷"]
+}
+```
+
+### 中翻英題（type: "translate"）格式
+
+```json
+{ "id": "{題庫代碼}-{兩位數字流水號}", "chinese": "中文句子", "reference": "對應的英文參考答案（自然道地的表達，不要逐字直譯）" }
+```
+
+**範例**：
+```json
+{ "id": "st-01", "chinese": "要不是老師的鼓勵，他早就放棄學英文了。", "reference": "If it had not been for the teacher's encouragement, he would have given up learning English long ago." }
+```
+
+---
+
+## 三、本次任務（每次委託時，把下面表格換成實際要做的題庫）
+
+| 題庫代碼 | 名稱 | 類型 | 程度 | 這次要加幾題 | id流水號從幾號接續 |
+|---|---|---|---|---|---|
+| （填入） | （填入） | mc / translate | （填入） | （填入） | （填入） |
+
+**已有內容清單（避免重複，貼上對應題庫的清單）**：
+
+- `junior-grammar`（國中文法）已用文法點：時態×3、主詞動詞一致×1、比較級×1、連接詞×2、助動詞×1、介系詞×1、不定詞/動名詞×1（共10題，id到jg-10）
+- `senior-grammar`（高中/學測文法）已用文法點：假設語氣×2、倒裝句×2、分詞構句×2、關係子句×2、使役/被動×1、強調句×1（共10題，id到sg-10）
+- `toeic-grammar`（多益 Part 5，文法+字彙混合）已用：分詞構句×1、詞性判斷×2、假設語氣×3、介系詞×1、連接詞×2、比較級×1（共10題，id到tg-10）
+- `junior-vocab`（國中單字）已用目標字：borrow, nervous, improve, polite, expect, environment, honest, achieve, crowded, prepare（共10題，id到jv-10）
+- `senior-vocab`（高中單字）已用目標字：significant, reluctant, consequence, accomplish, efficient, genuine, controversial, diverse, aware, essential（共10題，id到sv-10）
+- `toeic-vocab`（多益單字）已用目標字：reimburse, negotiate, postponed, invoice, colleague, deadline, inventory, candidates, reliable, budget（共10題，id到tv-10）
+- `ielts-vocab`（雅思單字）已用目標字：sustainable, phenomenon, assumption, statistics, contribute, adequate, perspective, exposure, inevitable, outweigh（共10題，id到iv-10）
+- `junior-translate`（國中中翻英）已出過的中文句子主題：日常作息、天氣、書籍比較、借東西、做家事、電影評論、假設句、連接詞句型、過去完成式（共10題，id到jt-10）
+- `senior-translate`（高中/學測中翻英）已出過的主題：假設語氣倒裝、原因強調句、讓步句、強調句、對比句、科學研究敘述、祈使建議、關係子句、條件句、複合句（共10題，id到st-10）
+
+---
+
+## 四、Claude Code 收到草稿後的檢查項目
+
+1. JSON 格式是否有效、欄位是否齊全
+2. `answerIndex` 是否真的對應唯一正確答案
+3. 句子文法/用字是否道地正確（不是機器直譯腔）
+4. 難度是否符合該題庫程度（不會太簡單或太超綱）
+5. 是否跟已有內容重複（目標字/文法點/中文句子主題）
+6. 是否有疑似照抄特定教材的痕跡（例句過於巧合、跟已知試閱PDF內容雷同等）
+7. `optionNotes` 詞性/意思標註是否正確
+
+不符合的題目會退回重寫或由 Claude Code 直接修正，不會不檢查就上線。
