@@ -30,7 +30,7 @@ async function fetchTrackDayCounts(trackId) {
 // 中翻英沒有單一文法點可標，不計入分類統計。
 async function fetchGrammarCategoryMap() {
   const map = {};
-  const grammarTracks = TRACKS.filter((t) => t.type === "mc");
+  const grammarTracks = TRACKS.filter((t) => t.group === "grammar");
   for (const track of grammarTracks) {
     const res = await fetch(track.file);
     const data = await res.json();

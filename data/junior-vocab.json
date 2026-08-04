@@ -1,0 +1,102 @@
+[
+  {
+    "id": "jv-01",
+    "category": "動詞",
+    "question": "Can I ______ your pen? I forgot mine at home.",
+    "chinese": "我可以跟你借筆嗎？我把我的忘在家裡了。",
+    "options": ["lend", "borrow", "rent", "owe"],
+    "answerIndex": 1,
+    "explanation": "borrow（跟人借）的方向是「我向你借」；lend（借出）方向相反，是「你借給我」，這裡是說話者想跟對方借筆，所以用 borrow。",
+    "optionNotes": ["動詞・借出（給別人）", "動詞・借入（向別人借）", "動詞・租借（付費）", "動詞・欠（錢或人情）"]
+  },
+  {
+    "id": "jv-02",
+    "category": "形容詞",
+    "question": "She felt very ______ before her first speech in front of the whole school.",
+    "chinese": "在全校面前第一次演講前，她感到非常緊張。",
+    "options": ["nervous", "angry", "curious", "proud"],
+    "answerIndex": 0,
+    "explanation": "nervous（緊張的）符合「第一次在全校面前演講前」的情境；angry生氣、curious好奇、proud驕傲都不是考前該有的心情。",
+    "optionNotes": ["形容詞・緊張的", "形容詞・生氣的", "形容詞・好奇的", "形容詞・驕傲的"]
+  },
+  {
+    "id": "jv-03",
+    "category": "動詞",
+    "question": "If you practice every day, your English will ______ quickly.",
+    "chinese": "如果你每天練習，你的英文會進步得很快。",
+    "options": ["improve", "injure", "imagine", "include"],
+    "answerIndex": 0,
+    "explanation": "improve（進步、改善）符合「每天練習會進步」；其餘三字字形相近但意思不同（injure受傷、imagine想像、include包含），是常見的形似字陷阱。",
+    "optionNotes": ["動詞・進步、改善", "動詞・使受傷", "動詞・想像", "動詞・包含"]
+  },
+  {
+    "id": "jv-04",
+    "category": "形容詞",
+    "question": "It is ______ to say \"please\" and \"thank you\" when you ask for help.",
+    "chinese": "請求幫忙時說「請」和「謝謝」是有禮貌的。",
+    "options": ["polite", "popular", "positive", "possible"],
+    "answerIndex": 0,
+    "explanation": "polite（有禮貌的）符合「說請與謝謝是有禮貌的」；popular受歡迎的、positive正面的、possible可能的，都是常跟 polite 搞混的 po-開頭形容詞。",
+    "optionNotes": ["形容詞・有禮貌的", "形容詞・受歡迎的", "形容詞・正面的、樂觀的", "形容詞・可能的"]
+  },
+  {
+    "id": "jv-05",
+    "category": "動詞",
+    "question": "We ______ more rain tomorrow, so bring an umbrella.",
+    "chinese": "我們預期明天會下更多雨，所以帶把傘吧。",
+    "options": ["expect", "except", "express", "explain"],
+    "answerIndex": 0,
+    "explanation": "expect（預期、預料）符合「預料明天會下更多雨」；except（除了）、express（表達）、explain（解釋）都是常見的 ex-開頭形似字，意思完全不同。",
+    "optionNotes": ["動詞・預期、預料", "介系詞・除了", "動詞・表達", "動詞・解釋"]
+  },
+  {
+    "id": "jv-06",
+    "category": "名詞",
+    "question": "Turning off the lights when you leave a room helps protect the ______ .",
+    "chinese": "離開房間時關燈有助於保護環境。",
+    "options": ["environment", "equipment", "experiment", "entertainment"],
+    "answerIndex": 0,
+    "explanation": "environment（環境）符合「關燈保護環境」；equipment設備、experiment實驗、entertainment娛樂，字形都跟 environment 相似但意思完全不同。",
+    "optionNotes": ["名詞・環境", "名詞・設備", "名詞・實驗", "名詞・娛樂"]
+  },
+  {
+    "id": "jv-07",
+    "category": "形容詞",
+    "question": "A good friend should always be ______ with you, even when the truth is hard to hear.",
+    "chinese": "好朋友即使在真相難以入耳時，也應該對你誠實。",
+    "options": ["honest", "friendly", "funny", "careful"],
+    "answerIndex": 0,
+    "explanation": "honest（誠實的）符合「即使難聽也要說實話」；friendly友善的、funny好笑的、careful小心的，都是常見形容詞但不符合「說真話」這個語境。",
+    "optionNotes": ["形容詞・誠實的", "形容詞・友善的", "形容詞・好笑的", "形容詞・小心的"]
+  },
+  {
+    "id": "jv-08",
+    "category": "動詞",
+    "question": "With hard work and patience, you can ______ your dreams.",
+    "chinese": "透過努力和耐心，你可以實現你的夢想。",
+    "options": ["achieve", "avoid", "arrange", "admire"],
+    "answerIndex": 0,
+    "explanation": "achieve（達成、實現）符合「努力和耐心能實現夢想」；avoid避免、arrange安排、admire欽佩，字首都是 a-開頭，是常見的混淆組合。",
+    "optionNotes": ["動詞・達成、實現", "動詞・避免", "動詞・安排", "動詞・欽佩"]
+  },
+  {
+    "id": "jv-09",
+    "category": "形容詞",
+    "question": "The night market was so ______ that we could hardly walk.",
+    "chinese": "夜市擠到我們幾乎無法走路。",
+    "options": ["crowded", "colorful", "cheerful", "careful"],
+    "answerIndex": 0,
+    "explanation": "crowded（擁擠的）符合「擠到幾乎無法走路」；colorful五顏六色的、cheerful開心的、careful小心的，都不符合擁擠的語境。",
+    "optionNotes": ["形容詞・擁擠的", "形容詞・色彩豐富的", "形容詞・開心的", "形容詞・小心的"]
+  },
+  {
+    "id": "jv-10",
+    "category": "動詞",
+    "question": "We need to ______ everything before the guests arrive at six.",
+    "chinese": "我們需要在客人六點抵達前把一切準備好。",
+    "options": ["prepare", "protect", "prevent", "produce"],
+    "answerIndex": 0,
+    "explanation": "prepare（準備）符合「客人抵達前把一切準備好」；protect保護、prevent防止、produce生產，字首都是 pre-/pro-開頭，容易與 prepare 搞混。",
+    "optionNotes": ["動詞・準備", "動詞・保護", "動詞・防止", "動詞・生產"]
+  }
+]
