@@ -8,5 +8,20 @@
   { "id": "jt-07", "chinese": "這是我看過最好看的電影。", "reference": "This is the best movie I have ever seen." },
   { "id": "jt-08", "chinese": "如果明天天氣好，我們就去爬山。", "reference": "If it is sunny tomorrow, we will go hiking." },
   { "id": "jt-09", "chinese": "她不僅聰明，而且很努力。", "reference": "She is not only smart but also hardworking." },
-  { "id": "jt-10", "chinese": "我到家的時候，我媽媽已經做好晚餐了。", "reference": "When I got home, my mother had already made dinner." }
+  { "id": "jt-10", "chinese": "我到家的時候，我媽媽已經做好晚餐了。", "reference": "When I got home, my mother had already made dinner." },
+  { "id": "jt-11", "chinese": "明天我們將會去海邊游泳。", "reference": "We will go swimming at the beach tomorrow." },
+  { "id": "jt-12", "chinese": "她現在正在她的房間裡聽音樂。", "reference": "She is listening to music in her room now." },
+  { "id": "jt-13", "chinese": "因為下大雨，所以我們待在家裡。", "reference": "Because it rained heavily, we stayed at home." },
+  { "id": "jt-14", "chinese": "他已經去過日本三次了。", "reference": "He has been to Japan three times." },
+  { "id": "jt-15", "chinese": "每天運動對你的健康有益。", "reference": "Exercising every day is good for your health." },
+  { "id": "jt-16", "chinese": "為了通過考試，他每天熬夜。", "reference": "To pass the exam, he stays up late every day." },
+  { "id": "jt-17", "chinese": "這個袋子比那個重得多。", "reference": "This bag is much heavier than that one." },
+  { "id": "jt-18", "chinese": "冰箱裡有很多蘋果和一些牛奶。", "reference": "There are a lot of apples and some milk in the refrigerator." },
+  { "id": "jt-19", "chinese": "這支智慧型手機是在台灣製造的。", "reference": "This smartphone is made in Taiwan." },
+  { "id": "jt-20", "chinese": "當電話響起時，我正在洗澡。", "reference": "I was taking a bath when the phone rang." },
+  { "id": "jt-21", "chinese": "我每天花大約半小時走到學校。", "reference": "It takes me about half an hour to walk to school every day." },
+  { "id": "jt-22", "chinese": "你學英文學多久了？", "reference": "How long have you been learning English?" },
+  { "id": "jt-23", "chinese": "我哥哥沒有我爸爸那麼高。", "reference": "My brother is not as tall as my father." },
+  { "id": "jt-24", "chinese": "請不要在圖書館裡講話。", "reference": "Please don't talk in the library." },
+  { "id": "jt-25", "chinese": "瑪麗是全班英文說得最好的人。", "reference": "Mary speaks English the best in the class." }
 ]
