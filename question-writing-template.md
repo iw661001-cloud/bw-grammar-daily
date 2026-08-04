@@ -73,7 +73,7 @@
 
 - `junior-grammar`（國中文法）已用文法點：時態×3、主詞動詞一致×1、比較級×1、連接詞×2、助動詞×1、介系詞×1、不定詞/動名詞×1（共10題，id到jg-10）
 - `senior-grammar`（高中/學測文法）已用文法點：假設語氣×2、倒裝句×2、分詞構句×2、關係子句×2、使役/被動×1、強調句×1（共10題，id到sg-10）
-- `toeic-grammar`（多益 Part 5，文法+字彙混合）已用：分詞構句×1、詞性判斷×2、假設語氣×3、介系詞×1、連接詞×2、比較級×1（共10題，id到tg-10）
+- `toeic-grammar`（多益 Part 5，文法+字彙混合）已用：分詞構句×1、詞性判斷×3、假設語氣×3、介系詞×2、連接詞×3、比較級×1、代名詞×1、時態×1、關係子句×1、動詞(字彙)×3、形容詞(字彙)×3、使役/被動×1、不定詞/動名詞×1（共25題，id到tg-25）
 - `junior-vocab`（國中單字）已用目標字：borrow, nervous, improve, polite, expect, environment, honest, achieve, crowded, prepare（共10題，id到jv-10）
 - `senior-vocab`（高中單字）已用目標字：significant, reluctant, consequence, accomplish, efficient, genuine, controversial, diverse, aware, essential（共10題，id到sv-10）
 - `toeic-vocab`（多益單字）已用目標字：reimburse, negotiate, postponed, invoice, colleague, deadline, inventory, candidates, reliable, budget（共10題，id到tv-10）
