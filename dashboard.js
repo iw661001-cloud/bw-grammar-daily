@@ -39,6 +39,17 @@ async function fetchGrammarCategoryMap() {
   return map;
 }
 
+// 題庫會陸續擴充題量，不能把分母寫死成10，要讀每個題庫json的實際長度。
+async function fetchTrackTotals() {
+  const totals = {};
+  await Promise.all(TRACKS.map(async (track) => {
+    const res = await fetch(track.file);
+    const data = await res.json();
+    totals[track.id] = data.length;
+  }));
+  return totals;
+}
+
 // 從今天（或昨天，如果今天還沒練習）往回數，中斷就停
 function computeStreak(dayCounts) {
   let streak = 0;
@@ -87,10 +98,11 @@ function renderMiniHeatmap(dayCounts) {
 }
 
 async function render() {
-  const [items, categoryMap, trackDayCountsList] = await Promise.all([
+  const [items, categoryMap, trackDayCountsList, trackTotals] = await Promise.all([
     fetchAllItems(),
     fetchGrammarCategoryMap(),
     Promise.all(TRACKS.map((t) => fetchTrackDayCounts(t.id))),
+    fetchTrackTotals(),
   ]);
 
   let totalAttempts = 0;
@@ -158,7 +170,8 @@ async function render() {
 
   const renderTrackCard = (track) => {
     const s = byTrack[track.id];
-    const pct = Math.min(100, Math.round((s.attempted / 10) * 100));
+    const total = trackTotals[track.id] || 0;
+    const pct = total > 0 ? Math.min(100, Math.round((s.attempted / total) * 100)) : 0;
     const accuracyPct = s.attempts > 0 ? Math.round((s.correct / s.attempts) * 100) : null;
     const trackPracticeDays = s.dayCounts.size;
     const trackStreak = computeStreak(s.dayCounts);
@@ -167,7 +180,7 @@ async function render() {
         <div class="track-name">${track.label}</div>
         <div class="meter-track"><div class="meter-fill" style="width:${pct}%"></div></div>
         <div class="dashboard-track-row">
-          <span>已作答 ${s.attempted}/10</span>
+          <span>已作答 ${s.attempted}/${total}</span>
           <span>${accuracyPct === null ? "尚無資料" : "正確率 " + accuracyPct + "%"}</span>
           ${s.needsReview > 0 ? `<span class="review-flag">待複習 ${s.needsReview}</span>` : ""}
         </div>

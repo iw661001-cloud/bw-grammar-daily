@@ -92,5 +92,155 @@
     "options": ["eats", "ate", "has eaten", "had eaten"],
     "answerIndex": 3,
     "explanation": "弟弟吃餅乾這個動作發生在「我到家」（過去某個時間點）之前，屬於過去完成式的典型情境（過去的過去），用 had + p.p.。這題稍微超出最基礎範圍，是國中升高中的銜接題。"
+  },
+  {
+    "id": "jg-11",
+    "category": "附加問句",
+    "question": "You don't like playing baseball, ______?",
+    "chinese": "你不喜歡打棒球，對吧？",
+    "options": ["do you", "don't you", "are you", "aren't you"],
+    "answerIndex": 0,
+    "explanation": "前面的主要子句是否定 (don't)，所以後面的附加問句要用肯定 (do)；且助動詞要與前面保持一致，用 do you。",
+    "optionNotes": ["助動詞・肯定用法", "助動詞・否定用法", "be動詞・肯定用法", "be動詞・否定用法"]
+  },
+  {
+    "id": "jg-12",
+    "category": "代名詞",
+    "question": "This is my pencil. Where is ______?",
+    "chinese": "這是我的鉛筆。你的在哪裡？",
+    "options": ["your", "yours", "you", "yourself"],
+    "answerIndex": 1,
+    "explanation": "空格處需要代表「你的鉛筆」(your pencil)，所以要使用所有格代名詞 yours；your 後面必須加上名詞才能用。",
+    "optionNotes": ["所有格・你的(接名詞)", "所有格代名詞・你的(東西)", "主格/受格・你", "反身代名詞・你自己"]
+  },
+  {
+    "id": "jg-13",
+    "category": "數量詞",
+    "question": "Are there ______ apples left in the basket?",
+    "chinese": "籃子裡還有剩下任何蘋果嗎？",
+    "options": ["any", "some", "much", "little"],
+    "answerIndex": 0,
+    "explanation": "在疑問句中，通常使用 any 來表示「任何的」；some 通常用於肯定句或提出請求；much 和 little 只能接不可數名詞，而 apples 是可數名詞。",
+    "optionNotes": ["數量詞・任何的 (疑問/否定句)", "數量詞・一些 (肯定句)", "數量詞・許多的 (不可數)", "數量詞・幾乎沒有的 (不可數)"]
+  },
+  {
+    "id": "jg-14",
+    "category": "關係子句",
+    "question": "The boy ______ is wearing a red hat is my brother.",
+    "chinese": "戴著紅帽子的那個男孩是我哥哥。",
+    "options": ["who", "which", "where", "what"],
+    "answerIndex": 0,
+    "explanation": "先行詞 The boy 是「人」，且在子句中作主詞，所以關係代名詞必須用 who；which 用於「事物」。",
+    "optionNotes": ["關係代名詞・(指人)", "關係代名詞・(指事物)", "關係副詞・(指地方)", "疑問詞/關係代名詞・(指事物，無先行詞)"]
+  },
+  {
+    "id": "jg-15",
+    "category": "感官動詞",
+    "question": "I saw him ______ basketball in the park yesterday.",
+    "chinese": "我昨天看到他在公園裡打籃球。",
+    "options": ["play", "to play", "played", "plays"],
+    "answerIndex": 0,
+    "explanation": "感官動詞 (saw) 後面接接受詞 (him) 時，動詞要用原形 (強調事實) 或 V-ing (強調進行中)。選項中只有 play 符合。",
+    "optionNotes": ["動詞原形", "不定詞", "過去式/過去分詞", "現在簡單式(第三人稱單數)"]
+  },
+  {
+    "id": "jg-16",
+    "category": "使役/被動",
+    "question": "My mom made me ______ my room before I went out.",
+    "chinese": "我媽讓我在出門前打掃房間。",
+    "options": ["clean", "to clean", "cleaned", "cleaning"],
+    "answerIndex": 0,
+    "explanation": "使役動詞 make/have/let 在主動語態中，後面接「人」時，必須使用原形動詞。",
+    "optionNotes": ["動詞原形", "不定詞", "過去式/過去分詞", "現在分詞/動名詞"]
+  },
+  {
+    "id": "jg-17",
+    "category": "介系詞",
+    "question": "We usually have a big dinner ______ Christmas Eve.",
+    "chinese": "我們通常在平安夜吃一頓豐盛的晚餐。",
+    "options": ["on", "in", "at", "for"],
+    "answerIndex": 0,
+    "explanation": "指「特定的一天」(Christmas Eve) 時，介系詞要用 on。in 用於月份或年份，at 用於特定的時間點 (例如 at 5 o'clock) 或節慶期間 (at Christmas)。",
+    "optionNotes": ["介系詞・在(特定日期)", "介系詞・在(月份/年份/長時間)", "介系詞・在(時間點)", "介系詞・為了"]
+  },
+  {
+    "id": "jg-18",
+    "category": "祈使句",
+    "question": "______ quiet, please. The baby is sleeping.",
+    "chinese": "請安靜。寶寶正在睡覺。",
+    "options": ["Be", "Are", "Do", "Is"],
+    "answerIndex": 0,
+    "explanation": "祈使句要用原形動詞開頭。quiet 是形容詞，所以前面要加上 be 動詞的原形 Be。",
+    "optionNotes": ["be動詞原形", "be動詞(現在式複數/第二人稱)", "助動詞/動詞原形", "be動詞(現在式單數)"]
+  },
+  {
+    "id": "jg-19",
+    "category": "連綴動詞",
+    "question": "The soup ______ delicious. Can I have some more?",
+    "chinese": "這湯嚐起來很美味。我可以再來一點嗎？",
+    "options": ["tastes", "tasting", "is tasted", "taste"],
+    "answerIndex": 0,
+    "explanation": "taste 這裡作為連綴動詞，後面直接加形容詞 (delicious)。主詞 The soup 是第三人稱單數，現在式動詞要加 s。",
+    "optionNotes": ["動詞(第三人稱單數)・嚐起來", "現在分詞", "被動語態", "動詞原形"]
+  },
+  {
+    "id": "jg-20",
+    "category": "時態",
+    "question": "What ______ you ______ when I called you last night?",
+    "chinese": "我昨晚打給你的時候，你正在做什麼？",
+    "options": ["were, doing", "are, doing", "did, do", "do, do"],
+    "answerIndex": 0,
+    "explanation": "句子描述「過去某個特定時間點(我打給你的時候)正在發生的事」，要用過去進行式 (was/were + V-ing)。主詞是 you，所以用 were doing。",
+    "optionNotes": ["過去進行式", "現在進行式", "過去簡單式", "現在簡單式"]
+  },
+  {
+    "id": "jg-21",
+    "category": "不定詞/動名詞",
+    "question": "______ books is my favorite hobby.",
+    "chinese": "看書是我最喜歡的嗜好。",
+    "options": ["Reading", "Read", "Reads", "Readed"],
+    "answerIndex": 0,
+    "explanation": "動詞不能直接當主詞，必須改成動名詞 (V-ing) 或不定詞 (to V)。選項中只有動名詞 Reading 符合。",
+    "optionNotes": ["動名詞・閱讀", "動詞原形", "動詞(第三人稱單數)", "錯誤拼法(read過去式為read)"]
+  },
+  {
+    "id": "jg-22",
+    "category": "疑問詞",
+    "question": "______ do you go to the library? Twice a week.",
+    "chinese": "你多常去圖書館？一週兩次。",
+    "options": ["How often", "How long", "How much", "How soon"],
+    "answerIndex": 0,
+    "explanation": "答句是 Twice a week (一週兩次)，表示頻率，所以疑問詞要用 How often (多常)。",
+    "optionNotes": ["疑問詞・多常(問頻率)", "疑問詞・多久(問時間長度)", "疑問詞・多少(問數量/價錢)", "疑問詞・多快"]
+  },
+  {
+    "id": "jg-23",
+    "category": "時態",
+    "question": "I have ______ finished my homework, so I can play video games now.",
+    "chinese": "我已經做完功課了，所以我現在可以玩電動了。",
+    "options": ["already", "yet", "ever", "never"],
+    "answerIndex": 0,
+    "explanation": "現在完成式中，already (已經) 用於肯定句，yet (還沒) 用於否定句或疑問句的句尾。句子為肯定句且表達已經完成，故選 already。",
+    "optionNotes": ["副詞・已經", "副詞・還沒/已經(疑問)", "副詞・曾經", "副詞・從未"]
+  },
+  {
+    "id": "jg-24",
+    "category": "比較級",
+    "question": "This is ______ movie I have ever seen.",
+    "chinese": "這是我看過最無聊的電影。",
+    "options": ["the most boring", "more boring", "most boring", "the more boring"],
+    "answerIndex": 0,
+    "explanation": "I have ever seen 表達「我看過之中最...的」，要用最高級。boring 的最高級要在前面加上 the most。",
+    "optionNotes": ["最高級・最無聊的", "比較級・較無聊的", "最高級(少the)", "比較級(多the)"]
+  },
+  {
+    "id": "jg-25",
+    "category": "花費動詞",
+    "question": "It ______ me two hours to finish the report yesterday.",
+    "chinese": "昨天那份報告花了我兩個小時才寫完。",
+    "options": ["took", "cost", "spent", "paid"],
+    "answerIndex": 0,
+    "explanation": "主詞是虛主詞 It 時，花費「時間」的動詞要用 take (過去式為 took)。cost 用於花費金錢，spend 和 pay 的主詞必須是人。",
+    "optionNotes": ["動詞・花費(時間)", "動詞・花費(金錢)", "動詞・花費(時間/金錢，人當主詞)", "動詞・付錢"]
   }
 ]
