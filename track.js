@@ -29,14 +29,24 @@ function itemRef(questionId) {
   return db.collection("self_grammar").doc(track.id).collection("items").doc(questionId);
 }
 
+function dayRef() {
+  return db.collection("self_grammar").doc(track.id).collection("days").doc(toLocalDateKey(new Date()));
+}
+
 async function recordAnswer(questionId, correct) {
-  await itemRef(questionId).set({
-    attempts: firebase.firestore.FieldValue.increment(1),
-    correctCount: firebase.firestore.FieldValue.increment(correct ? 1 : 0),
-    needsReview: !correct,
-    question: currentQuestionSummary(),
-    updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
-  }, { merge: true });
+  // items/{id} 的 attempts 是「這題歷來總次數」，updatedAt 只留得住最後一次的日期，
+  // 同一題跨天重練會讓早期的日期被覆蓋掉；改在 days/{日期} 另外獨立計數，
+  // 才能讓儀表板熱力圖/連續天數正確反映每天實際練了幾題。
+  await Promise.all([
+    itemRef(questionId).set({
+      attempts: firebase.firestore.FieldValue.increment(1),
+      correctCount: firebase.firestore.FieldValue.increment(correct ? 1 : 0),
+      needsReview: !correct,
+      question: currentQuestionSummary(),
+      updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+    }, { merge: true }),
+    dayRef().set({ count: firebase.firestore.FieldValue.increment(1) }, { merge: true }),
+  ]);
 }
 
 function currentQuestionSummary() {
@@ -127,6 +137,9 @@ function renderMcQuestion(q) {
       document.getElementById("nextBtn").disabled = false;
       results[pos] = correct;
       document.querySelector(".progress-dots").outerHTML = renderProgressDots();
+      // 手機直式畫面塞不下題目+解析+下一題，答完不主動捲動的話，
+      // 使用者在 iPhone Safari 上完全看不到解析已經出現，得自己手滑找按鈕。
+      document.getElementById("nextBtn").scrollIntoView({ behavior: "smooth", block: "end" });
       await recordAnswer(q.id, correct);
     });
   });
@@ -159,6 +172,7 @@ function renderTranslateQuestion(q) {
     document.getElementById("referenceBox").classList.add("show");
     document.getElementById("markRow").style.display = "flex";
     document.getElementById("showRefBtn").disabled = true;
+    document.getElementById("markRow").scrollIntoView({ behavior: "smooth", block: "end" });
   });
 
   const mark = async (correct) => {

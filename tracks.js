@@ -10,3 +10,12 @@ const TRACKS = [
 function trackById(id) {
   return TRACKS.find((t) => t.id === id);
 }
+
+// 兩個地方都要用同一套日期字串規則（練習頁記錄用、儀表板讀取用），
+// 放共用檔案避免各自實作出現時區/格式落差。
+function toLocalDateKey(date) {
+  const y = date.getFullYear();
+  const m = String(date.getMonth() + 1).padStart(2, "0");
+  const day = String(date.getDate()).padStart(2, "0");
+  return `${y}-${m}-${day}`;
+}

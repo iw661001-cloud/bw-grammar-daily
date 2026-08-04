@@ -7,11 +7,6 @@ function toLocalDateKey(date) {
   return `${y}-${m}-${day}`;
 }
 
-function dateKeyFromTimestamp(timestamp) {
-  if (!timestamp) return null;
-  return toLocalDateKey(timestamp.toDate());
-}
-
 async function fetchAllItems() {
   const all = [];
   for (const track of TRACKS) {
@@ -19,6 +14,16 @@ async function fetchAllItems() {
     snap.forEach((doc) => all.push({ id: doc.id, trackId: track.id, ...doc.data() }));
   }
   return all;
+}
+
+// 每天實際練幾題另外存在 days/{日期} 子集合（見 track.js 的 dayRef()），
+// 不能用 items 的 updatedAt 推算——同一題跨天重練時 updatedAt 只留得住最後一天，
+// 會把之前那幾天的練習次數整批洗到最新那天。
+async function fetchTrackDayCounts(trackId) {
+  const snap = await db.collection("self_grammar").doc(trackId).collection("days").get();
+  const map = new Map();
+  snap.forEach((doc) => map.set(doc.id, doc.data().count || 0));
+  return map;
 }
 
 // 文法題的「文法點分類」存在題庫 json 裡（跟作答紀錄無關的靜態資料），
@@ -82,14 +87,21 @@ function renderMiniHeatmap(dayCounts) {
 }
 
 async function render() {
-  const [items, categoryMap] = await Promise.all([fetchAllItems(), fetchGrammarCategoryMap()]);
+  const [items, categoryMap, trackDayCountsList] = await Promise.all([
+    fetchAllItems(),
+    fetchGrammarCategoryMap(),
+    Promise.all(TRACKS.map((t) => fetchTrackDayCounts(t.id))),
+  ]);
 
   let totalAttempts = 0;
   let totalCorrect = 0;
   const dayCounts = new Map();
   const byTrack = {};
   const byCategory = {};
-  TRACKS.forEach((t) => (byTrack[t.id] = { attempted: 0, attempts: 0, correct: 0, needsReview: 0, dayCounts: new Map() }));
+  TRACKS.forEach((t, i) => {
+    byTrack[t.id] = { attempted: 0, attempts: 0, correct: 0, needsReview: 0, dayCounts: trackDayCountsList[i] };
+    trackDayCountsList[i].forEach((count, key) => dayCounts.set(key, (dayCounts.get(key) || 0) + count));
+  });
 
   items.forEach((item) => {
     const attempts = item.attempts || 0;
@@ -110,14 +122,6 @@ async function render() {
       if (!byCategory[category]) byCategory[category] = { attempts: 0, correct: 0 };
       byCategory[category].attempts += attempts;
       byCategory[category].correct += correct;
-    }
-
-    // 用單字最後一次作答的日期記錄練習天數；同一題若跨多天重練，只算得到最近那一天，
-    // 這是目前資料結構（只存累計次數，沒存逐次紀錄）的已知限制，量少時影響不大。
-    const key = dateKeyFromTimestamp(item.updatedAt);
-    if (key) {
-      dayCounts.set(key, (dayCounts.get(key) || 0) + attempts);
-      if (bucket) bucket.dayCounts.set(key, (bucket.dayCounts.get(key) || 0) + attempts);
     }
   });
 
