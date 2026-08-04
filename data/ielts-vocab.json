@@ -198,5 +198,305 @@
       "動詞・否決、凌駕",
       "動詞・勝過、比…更重要"
     ]
+  },
+  {
+    "id": "iv-11",
+    "category": "形容詞",
+    "question": "Freedom of speech is a ______ human right that forms the basis of any democratic society.",
+    "chinese": "言論自由是一項基本的人權，構成了任何民主社會的基礎。",
+    "options": [
+      "ornamental",
+      "superficial",
+      "trivial",
+      "fundamental"
+    ],
+    "answerIndex": 3,
+    "explanation": "fundamental 意思是「基礎的、根本的」，與 forms the basis (構成基礎) 呼應；superficial 是「表面的」，trivial 是「微不足道的」，ornamental 是「裝飾性的」。",
+    "optionNotes": [
+      "形容詞・裝飾性的",
+      "形容詞・表面的",
+      "形容詞・微不足道的",
+      "形容詞・基礎的、根本的"
+    ]
+  },
+  {
+    "id": "iv-12",
+    "category": "形容詞",
+    "question": "The two studies produced ______ results, making it difficult for scientists to draw a firm conclusion.",
+    "chinese": "這兩項研究產生了相互矛盾的結果，使得科學家難以得出確切的結論。",
+    "options": [
+      "cooperative",
+      "complementary",
+      "consistent",
+      "contradictory"
+    ],
+    "answerIndex": 3,
+    "explanation": "contradictory 意思是「矛盾的、對立的」，解釋了為何科學家難以得出結論；consistent 是「一致的」，complementary 是「互補的」，cooperative 是「合作的」。",
+    "optionNotes": [
+      "形容詞・合作的",
+      "形容詞・互補的",
+      "形容詞・一致的",
+      "形容詞・矛盾的"
+    ]
+  },
+  {
+    "id": "iv-13",
+    "category": "動詞",
+    "question": "The price of oil tends to ______ wildly depending on global political and economic stability.",
+    "chinese": "石油價格往往會根據全球政治與經濟穩定性而劇烈波動。",
+    "options": [
+      "stabilize",
+      "fluctuate",
+      "plummet",
+      "stagnate"
+    ],
+    "answerIndex": 1,
+    "explanation": "fluctuate 意思是「波動、起伏」，描述價格隨條件變化的常態；stabilize 是「穩定」，stagnate 是「停滯」，plummet 是「垂直落下、暴跌」(後面不加 depending on)。",
+    "optionNotes": [
+      "動詞・穩定",
+      "動詞・波動",
+      "動詞・暴跌",
+      "動詞・停滯"
+    ]
+  },
+  {
+    "id": "iv-14",
+    "category": "形容詞",
+    "question": "The researcher gathered ______ evidence from field experiments to support her theory on animal behavior.",
+    "chinese": "研究員從田野實驗中收集了實證證據，以支持她關於動物行為的理論。",
+    "options": [
+      "hypothetical",
+      "fictional",
+      "theoretical",
+      "empirical"
+    ],
+    "answerIndex": 3,
+    "explanation": "empirical 意思是「經驗主義的、實證的」，指來自實際觀察或實驗的證據；hypothetical 是「假設的」，theoretical 是「理論上的」，fictional 是「虛構的」。",
+    "optionNotes": [
+      "形容詞・假設的",
+      "形容詞・虛構的",
+      "形容詞・理論上的",
+      "形容詞・實證的、經驗的"
+    ]
+  },
+  {
+    "id": "iv-15",
+    "category": "名詞",
+    "question": "The discovery of quantum mechanics caused a major shift in the scientific ______ of the 20th century.",
+    "chinese": "量子力學的發現引起了二十世紀科學典範的重大轉變。",
+    "options": [
+      "parameter",
+      "paragraph",
+      "paradox",
+      "paradigm"
+    ],
+    "answerIndex": 3,
+    "explanation": "paradigm 意思是「典範、範例」，paradigm shift (典範轉移) 是學術常見搭配；paragraph 是「段落」，paradox 是「矛盾、悖論」，parameter 是「參數」。",
+    "optionNotes": [
+      "名詞・參數",
+      "名詞・段落",
+      "名詞・矛盾、悖論",
+      "名詞・典範、範例"
+    ]
+  },
+  {
+    "id": "iv-16",
+    "category": "名詞",
+    "question": "Studies have shown a strong ______ between poverty and poor health outcomes in urban areas.",
+    "chinese": "研究顯示，在都會區中，貧窮與不良的健康狀況之間有強烈的相關性。",
+    "options": [
+      "correction",
+      "collection",
+      "collision",
+      "correlation"
+    ],
+    "answerIndex": 3,
+    "explanation": "correlation 意思是「相關性、關聯」，描述兩個變數之間的關係；correction 是「訂正」，collection 是「收集」，collision 是「碰撞」。",
+    "optionNotes": [
+      "名詞・訂正",
+      "名詞・收集",
+      "名詞・碰撞",
+      "名詞・相關性、關聯"
+    ]
+  },
+  {
+    "id": "iv-17",
+    "category": "動詞",
+    "question": "The government must take immediate action to ______ the negative effects of climate change on coastal cities.",
+    "chinese": "政府必須立即採取行動，以減輕氣候變遷對沿海城市造成的負面影響。",
+    "options": [
+      "aggravate",
+      "mitigate",
+      "eliminate",
+      "generate"
+    ],
+    "answerIndex": 1,
+    "explanation": "mitigate 意思是「減輕、緩和」，常接負面影響或風險；aggravate 是「加重、惡化」，generate 是「產生」，eliminate 是「消除(影響無法完全消除，通常用減輕)」。",
+    "optionNotes": [
+      "動詞・加重、惡化",
+      "動詞・減輕、緩和",
+      "動詞・消除",
+      "動詞・產生"
+    ]
+  },
+  {
+    "id": "iv-18",
+    "category": "形容詞",
+    "question": "While the symptom is a mild fever, the ______ cause of the illness is actually a severe infection.",
+    "chinese": "雖然症狀是輕微發燒，但疾病的潛在原因其實是嚴重的感染。",
+    "options": [
+      "underlying",
+      "promising",
+      "overwhelming",
+      "misleading"
+    ],
+    "answerIndex": 0,
+    "explanation": "underlying 意思是「潛在的、根本的」，underlying cause (潛在原因) 是學術及醫學常用搭配；overwhelming 是「壓倒性的」，misleading 是「誤導的」，promising 是「有希望的」。",
+    "optionNotes": [
+      "形容詞・潛在的、根本的",
+      "形容詞・有希望的",
+      "形容詞・壓倒性的",
+      "形容詞・誤導的"
+    ]
+  },
+  {
+    "id": "iv-19",
+    "category": "形容詞",
+    "question": "The initial experiment failed, but ______ trials proved to be highly successful.",
+    "chinese": "最初的實驗失敗了，但隨後的試驗被證明是非常成功的。",
+    "options": [
+      "consequent",
+      "subsequent",
+      "frequent",
+      "eloquent"
+    ],
+    "answerIndex": 1,
+    "explanation": "subsequent 意思是「隨後的、接著發生的」，對比 initial (最初的)；frequent 是「頻繁的」，eloquent 是「能言善道的」，consequent 雖然指「作為結果的」，但 subsequent 強調時間上的延續。",
+    "optionNotes": [
+      "形容詞・作為結果的",
+      "形容詞・隨後的、接下來的",
+      "形容詞・頻繁的",
+      "形容詞・能言善道的"
+    ]
+  },
+  {
+    "id": "iv-20",
+    "category": "形容詞",
+    "question": "Before writing the thesis, students must conduct a ______ review of all the existing literature on the topic.",
+    "chinese": "在撰寫論文之前，學生必須對該主題所有現有文獻進行全面的回顧。",
+    "options": [
+      "subjective",
+      "superficial",
+      "comprehensive",
+      "exclusive"
+    ],
+    "answerIndex": 2,
+    "explanation": "comprehensive 意思是「全面的、詳盡的」，comprehensive review (全面回顧) 是寫論文的標準要求；subjective 是「主觀的」，superficial 是「膚淺的」，exclusive 是「排外的」。",
+    "optionNotes": [
+      "形容詞・主觀的",
+      "形容詞・表面的",
+      "形容詞・全面的、詳盡的",
+      "形容詞・排外的"
+    ]
+  },
+  {
+    "id": "iv-21",
+    "category": "形容詞",
+    "question": "Dr. Lee is a ______ figure in the field of neuroscience, having published dozens of influential papers.",
+    "chinese": "李博士是神經科學領域的傑出人物，已經發表了數十篇具影響力的論文。",
+    "options": [
+      "prominent",
+      "permanent",
+      "dominant",
+      "imminent"
+    ],
+    "answerIndex": 0,
+    "explanation": "prominent 意思是「著名的、傑出的」，用來形容重要學者；permanent 是「永久的」，dominant 是「佔優勢的」，imminent 是「即將發生的」。",
+    "optionNotes": [
+      "形容詞・著名的、傑出的",
+      "形容詞・永久的",
+      "形容詞・佔優勢的",
+      "形容詞・即將發生的"
+    ]
+  },
+  {
+    "id": "iv-22",
+    "category": "動詞",
+    "question": "The new interactive whiteboards are designed to ______ collaborative learning in the classroom.",
+    "chinese": "新型互動白板的設計旨在促進課堂上的合作學習。",
+    "options": [
+      "hesitate",
+      "complicate",
+      "fabricate",
+      "facilitate"
+    ],
+    "answerIndex": 3,
+    "explanation": "facilitate 意思是「促進、使便利」，常用於科技或工具幫助某事發生；complicate 是「使複雜化」，fabricate 是「偽造」，hesitate 是「猶豫」。",
+    "optionNotes": [
+      "動詞・猶豫",
+      "動詞・使複雜",
+      "動詞・偽造",
+      "動詞・促進、使便利"
+    ]
+  },
+  {
+    "id": "iv-23",
+    "category": "名詞",
+    "question": "After hours of heated debate, the committee finally reached a ______ on the new environmental policy.",
+    "chinese": "經過數小時激烈的辯論，委員會最終對新環境政策達成共識。",
+    "options": [
+      "contrast",
+      "conflict",
+      "consensus",
+      "contract"
+    ],
+    "answerIndex": 2,
+    "explanation": "consensus 意思是「共識」，reach a consensus (達成共識) 是常見固定搭配；conflict 是「衝突」，contract 是「合約」，contrast 是「對比」。",
+    "optionNotes": [
+      "名詞・對比",
+      "名詞・衝突",
+      "名詞・共識",
+      "名詞・合約"
+    ]
+  },
+  {
+    "id": "iv-24",
+    "category": "形容詞",
+    "question": "Curiosity is an ______ part of human nature, driving us to explore the unknown.",
+    "chinese": "好奇心是人性的內在部分，驅使我們去探索未知。",
+    "options": [
+      "intrinsic",
+      "eccentric",
+      "extrinsic",
+      "electric"
+    ],
+    "answerIndex": 0,
+    "explanation": "intrinsic 意思是「內在的、本質的」，指事物本身固有的特質；extrinsic 是「外在的」，eccentric 是「古怪的」，electric 是「電的」。",
+    "optionNotes": [
+      "形容詞・內在的、本質的",
+      "形容詞・古怪的",
+      "形容詞・外在的",
+      "形容詞・電的"
+    ]
+  },
+  {
+    "id": "iv-25",
+    "category": "名詞",
+    "question": "The researchers designed a series of rigorous tests to prove their ______ about the virus mutation.",
+    "chinese": "研究人員設計了一系列嚴格的測試，以證明他們關於病毒突變的假說。",
+    "options": [
+      "parenthesis",
+      "hypothesis",
+      "synthesis",
+      "diagnosis"
+    ],
+    "answerIndex": 1,
+    "explanation": "hypothesis 意思是「假說、假設」，科學研究通常是為了證明或推翻某個 hypothesis；synthesis 是「合成」，parenthesis 是「括號」，diagnosis 是「診斷」。",
+    "optionNotes": [
+      "名詞・括號",
+      "名詞・假說",
+      "名詞・合成",
+      "名詞・診斷"
+    ]
   }
 ]

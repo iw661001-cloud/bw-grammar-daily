@@ -198,5 +198,305 @@
       "名詞・獎金",
       "名詞・預算"
     ]
+  },
+  {
+    "id": "tv-11",
+    "category": "動詞",
+    "question": "The board of directors decided to ______ a new marketing strategy to increase sales this quarter.",
+    "chinese": "董事會決定實施新的行銷策略，以增加本季的銷售額。",
+    "options": [
+      "imitate",
+      "impress",
+      "implement",
+      "implore"
+    ],
+    "answerIndex": 2,
+    "explanation": "implement 意思是「實施、執行」，implement a strategy (實施策略) 是多益常考搭配詞；implore 是「懇求」，imitate 是「模仿」，impress 是「使印象深刻」。",
+    "optionNotes": [
+      "動詞・模仿",
+      "動詞・使印象深刻",
+      "動詞・實施、執行",
+      "動詞・懇求"
+    ]
+  },
+  {
+    "id": "tv-12",
+    "category": "形容詞",
+    "question": "As a token of our appreciation, all hotel guests will receive a ______ breakfast buffet during their stay.",
+    "chinese": "為了表達我們的感謝，所有飯店房客在住宿期間都將獲得免費的自助早餐。",
+    "options": [
+      "complementary",
+      "complicated",
+      "compulsory",
+      "complimentary"
+    ],
+    "answerIndex": 3,
+    "explanation": "complimentary 意思是「免費贈送的」，常與 breakfast/beverage 等字連用；complementary 意思是「互補的」，拼字極易混淆；complicated 是「複雜的」，compulsory 是「強制的」。",
+    "optionNotes": [
+      "形容詞・互補的",
+      "形容詞・複雜的",
+      "形容詞・強制的",
+      "形容詞・免費贈送的"
+    ]
+  },
+  {
+    "id": "tv-13",
+    "category": "動詞",
+    "question": "The conference room on the second floor can ______ up to 200 attendees comfortably.",
+    "chinese": "二樓的會議室可以舒適地容納多達 200 名與會者。",
+    "options": [
+      "accumulate",
+      "accompany",
+      "accommodate",
+      "accelerate"
+    ],
+    "answerIndex": 2,
+    "explanation": "accommodate 意思是「容納、提供住宿」，指空間能容納多少人；accumulate 是「累積」，accelerate 是「加速」，accompany 是「陪伴」。",
+    "optionNotes": [
+      "動詞・累積",
+      "動詞・陪伴",
+      "動詞・容納",
+      "動詞・加速"
+    ]
+  },
+  {
+    "id": "tv-14",
+    "category": "形容詞",
+    "question": "Please note that this schedule is ______ and may be subject to changes before the event.",
+    "chinese": "請注意，此行程表是暫定的，在活動開始前可能會有變動。",
+    "options": [
+      "lucrative",
+      "sensitive",
+      "defective",
+      "tentative"
+    ],
+    "answerIndex": 3,
+    "explanation": "tentative 意思是「暫定的、初步的」，常用來形容 schedule (行程) 或 agreement (協議)；lucrative 是「獲利豐厚的」，defective 是「有缺陷的」，sensitive 是「敏感的」。",
+    "optionNotes": [
+      "形容詞・獲利豐厚的",
+      "形容詞・敏感的",
+      "形容詞・有缺陷的",
+      "形容詞・暫定的"
+    ]
+  },
+  {
+    "id": "tv-15",
+    "category": "名詞",
+    "question": "Mr. Smith's travel agent sent him a detailed ______ including flight times and hotel reservations.",
+    "chinese": "史密斯先生的旅行社發給他一份詳細的行程表，包含了航班時間與飯店預訂。",
+    "options": [
+      "inventory",
+      "investigation",
+      "itinerary",
+      "interview"
+    ],
+    "answerIndex": 2,
+    "explanation": "itinerary 意思是「旅遊行程表」，是多益旅遊情境的高頻字；inventory 是「庫存、存貨清單」，investigation 是「調查」，interview 是「面試」。",
+    "optionNotes": [
+      "名詞・庫存、存貨",
+      "名詞・調查",
+      "名詞・旅遊行程表",
+      "名詞・面試"
+    ]
+  },
+  {
+    "id": "tv-16",
+    "category": "形容詞",
+    "question": "Employees who have worked here for more than a year are ______ for the annual bonus.",
+    "chinese": "在這裡工作超過一年的員工有資格獲得年度獎金。",
+    "options": [
+      "edible",
+      "legible",
+      "flexible",
+      "eligible"
+    ],
+    "answerIndex": 3,
+    "explanation": "eligible for 意思是「有資格的、符合條件的」，常用於福利或晉升；legible 是「字跡易讀的」，edible 是「可食用的」，flexible 是「有彈性的」。",
+    "optionNotes": [
+      "形容詞・可食用的",
+      "形容詞・(字跡)易讀的",
+      "形容詞・有彈性的",
+      "形容詞・有資格的"
+    ]
+  },
+  {
+    "id": "tv-17",
+    "category": "名詞",
+    "question": "We highly value customer ______ because it helps us improve the quality of our products and services.",
+    "chinese": "我們非常重視顧客的回饋，因為這能幫助我們改善產品與服務的品質。",
+    "options": [
+      "drawback",
+      "setback",
+      "feedback",
+      "playback"
+    ],
+    "answerIndex": 2,
+    "explanation": "feedback 意思是「回饋意見」，customer feedback 是常見搭配；setback 是「挫折」，drawback 是「缺點」，playback 是「重播」。",
+    "optionNotes": [
+      "名詞・缺點",
+      "名詞・挫折",
+      "名詞・回饋意見",
+      "名詞・重播"
+    ]
+  },
+  {
+    "id": "tv-18",
+    "category": "名詞",
+    "question": "The company offered the injured worker financial ______ for the accident that happened in the factory.",
+    "chinese": "公司向受傷的工人提供了工廠意外的財務補償。",
+    "options": [
+      "compliment",
+      "composition",
+      "competition",
+      "compensation"
+    ],
+    "answerIndex": 3,
+    "explanation": "compensation 意思是「補償、賠償金」，也常指「薪酬」；competition 是「競爭」，composition 是「組成、作文」，compliment 是「讚美」。",
+    "optionNotes": [
+      "名詞・讚美",
+      "名詞・組成",
+      "名詞・競爭",
+      "名詞・補償(金)、薪酬"
+    ]
+  },
+  {
+    "id": "tv-19",
+    "category": "動詞",
+    "question": "The manager decided to ______ more funds to the marketing department for the upcoming advertising campaign.",
+    "chinese": "經理決定為即將到來的廣告活動分配更多資金給行銷部門。",
+    "options": [
+      "educate",
+      "allocate",
+      "locate",
+      "relocate"
+    ],
+    "answerIndex": 1,
+    "explanation": "allocate 意思是「分配、撥給」，常接 funds (資金) 或 resources (資源)；relocate 是「搬遷」，locate 是「找出位置」，educate 是「教育」。",
+    "optionNotes": [
+      "動詞・教育",
+      "動詞・分配、撥給",
+      "動詞・找出位置",
+      "動詞・搬遷"
+    ]
+  },
+  {
+    "id": "tv-20",
+    "category": "形容詞",
+    "question": "Attendance at the fire safety seminar next Wednesday is ______ for all new staff members.",
+    "chinese": "所有新進員工都強制必須參加下週三的消防安全研討會。",
+    "options": [
+      "mandatory",
+      "satisfactory",
+      "voluntary",
+      "temporary"
+    ],
+    "answerIndex": 0,
+    "explanation": "mandatory 意思是「強制的、必須的」，常與 attendance (出席) 搭配；voluntary 是「自願的」，temporary 是「暫時的」，satisfactory 是「令人滿意的」。",
+    "optionNotes": [
+      "形容詞・強制的、必須的",
+      "形容詞・令人滿意的",
+      "形容詞・自願的",
+      "形容詞・暫時的"
+    ]
+  },
+  {
+    "id": "tv-21",
+    "category": "形容詞",
+    "question": "Applicants must have at least three years of ______ experience in the software development industry.",
+    "chinese": "申請者必須在軟體開發產業有至少三年的過往經驗。",
+    "options": [
+      "various",
+      "previous",
+      "obvious",
+      "precious"
+    ],
+    "answerIndex": 1,
+    "explanation": "previous 意思是「先前的、過往的」，previous experience (過往經驗) 是求職情境高頻詞；precious 是「珍貴的」，various 是「各種的」，obvious 是「明顯的」。",
+    "optionNotes": [
+      "形容詞・各種的",
+      "形容詞・先前的、過往的",
+      "形容詞・明顯的",
+      "形容詞・珍貴的"
+    ]
+  },
+  {
+    "id": "tv-22",
+    "category": "名詞",
+    "question": "Ms. Johnson will be the keynote speaker at the leadership ______ held in the main auditorium.",
+    "chinese": "強森女士將擔任在主禮堂舉辦的領導力研討會的專題演講者。",
+    "options": [
+      "semester",
+      "sensation",
+      "senior",
+      "seminar"
+    ],
+    "answerIndex": 3,
+    "explanation": "seminar 意思是「研討會」，是多益常見字；semester 是「學期」，sensation 是「感覺、轟動」，senior 是「資深者、大四生」。",
+    "optionNotes": [
+      "名詞・學期",
+      "名詞・感覺、轟動",
+      "名詞・資深者",
+      "名詞・研討會"
+    ]
+  },
+  {
+    "id": "tv-23",
+    "category": "動詞",
+    "question": "The tech company plans to ______ its latest generation of smartphones globally next month.",
+    "chinese": "這家科技公司計畫下個月在全球發表其最新一代的智慧型手機。",
+    "options": [
+      "latch",
+      "lounge",
+      "launch",
+      "lunch"
+    ],
+    "answerIndex": 2,
+    "explanation": "launch 意思是「發表、推出(新產品)」，符合科技公司推出新手機的語境；lunch 是「午餐」，lounge 是「休息室」，latch 是「門閂」。",
+    "optionNotes": [
+      "名詞/動詞・門閂",
+      "名詞・休息室",
+      "動詞・發表、推出",
+      "名詞・午餐"
+    ]
+  },
+  {
+    "id": "tv-24",
+    "category": "動詞",
+    "question": "Please ______ your billing address before submitting your final order on our website.",
+    "chinese": "在我們的網站上提交最終訂單之前，請核對您的帳單地址。",
+    "options": [
+      "vanish",
+      "vary",
+      "verify",
+      "violate"
+    ],
+    "answerIndex": 2,
+    "explanation": "verify 意思是「核對、確認」，verify an address/account (核對地址/帳戶) 是網購常見語境；vary 是「變化」，vanish 是「消失」，violate 是「違反」。",
+    "optionNotes": [
+      "動詞・消失",
+      "動詞・變化",
+      "動詞・核對、確認",
+      "動詞・違反"
+    ]
+  },
+  {
+    "id": "tv-25",
+    "category": "形容詞",
+    "question": "All client records and financial data are highly ______ and must not be shared with outside parties.",
+    "chinese": "所有客戶紀錄與財務數據都是高度機密的，不得與外部各方分享。",
+    "options": [
+      "confident",
+      "convenient",
+      "confidential",
+      "conventional"
+    ],
+    "answerIndex": 2,
+    "explanation": "confidential 意思是「機密的」，常修飾 document (文件) 或 information (資訊)；confident 是「自信的」，convenient 是「方便的」，conventional 是「傳統的、常規的」。",
+    "optionNotes": [
+      "形容詞・自信的",
+      "形容詞・方便的",
+      "形容詞・機密的",
+      "形容詞・傳統的"
+    ]
   }
 ]
