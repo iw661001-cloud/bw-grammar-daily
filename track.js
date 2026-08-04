@@ -33,17 +33,46 @@ function dayRef() {
   return db.collection("self_grammar").doc(track.id).collection("days").doc(toLocalDateKey(new Date()));
 }
 
+// 間隔重複排程（SM-2簡化版，因為只有對/錯二元結果，沒有 Anki 那種5級自評）：
+// 第1次答對＝1天後，第2次連續答對＝6天後，之後每次答對＝上次間隔×難易度係數；
+// 答錯就把 repetition 歸零、間隔打回1天、難易度係數降0.2（下限1.3）。
+// repetition 是「連續答對幾次」的計數器，跟 attempts（歷來總作答次數，含答錯）是不同的數字。
+function nextSchedule(prev, correct) {
+  const repetition = prev.repetition || 0;
+  const easeFactor = prev.easeFactor || 2.5;
+  if (!correct) {
+    return { repetition: 0, interval: 1, easeFactor: Math.max(1.3, easeFactor - 0.2) };
+  }
+  const nextRepetition = repetition + 1;
+  let interval;
+  if (nextRepetition === 1) interval = 1;
+  else if (nextRepetition === 2) interval = 6;
+  else interval = Math.round((prev.interval || 1) * easeFactor);
+  return { repetition: nextRepetition, interval, easeFactor };
+}
+
 async function recordAnswer(questionId, correct) {
+  const ref = itemRef(questionId);
+  const prevSnap = await ref.get();
+  const prev = prevSnap.data() || {};
+  const schedule = nextSchedule(prev, correct);
+  const dueDate = new Date();
+  dueDate.setDate(dueDate.getDate() + schedule.interval);
+
   // items/{id} 的 attempts 是「這題歷來總次數」，updatedAt 只留得住最後一次的日期，
   // 同一題跨天重練會讓早期的日期被覆蓋掉；改在 days/{日期} 另外獨立計數，
   // 才能讓儀表板熱力圖/連續天數正確反映每天實際練了幾題。
   await Promise.all([
-    itemRef(questionId).set({
+    ref.set({
       attempts: firebase.firestore.FieldValue.increment(1),
       correctCount: firebase.firestore.FieldValue.increment(correct ? 1 : 0),
       needsReview: !correct,
       question: currentQuestionSummary(),
       updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+      repetition: schedule.repetition,
+      interval: schedule.interval,
+      easeFactor: schedule.easeFactor,
+      dueDate: firebase.firestore.Timestamp.fromDate(dueDate),
     }, { merge: true }),
     dayRef().set({ count: firebase.firestore.FieldValue.increment(1) }, { merge: true }),
   ]);
@@ -60,7 +89,7 @@ function renderDone() {
       <div class="done-card">
         <div>複習完成！</div>
         <div class="nav-row">
-          <a class="nav-btn secondary" href="wrong.html" style="text-decoration:none;text-align:center;line-height:2.6;">回錯題本</a>
+          <a class="nav-btn secondary" href="wrong.html" style="text-decoration:none;text-align:center;line-height:2.6;">回複習佇列</a>
           <a class="nav-btn" href="track.html?t=${track.id}" style="text-decoration:none;text-align:center;line-height:2.6;">做整個題庫</a>
         </div>
       </div>

@@ -128,6 +128,12 @@ async function render() {
   const accuracy = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
   const practiceDays = dayCounts.size;
   const streak = computeStreak(dayCounts);
+  const now = new Date();
+  const dueCount = items.filter((item) => isDueForReview(item, now)).length;
+
+  const reviewBannerHtml = dueCount > 0
+    ? `<a class="review-banner" href="wrong.html">今天有 <strong>${dueCount}</strong> 題到期需要複習・前往複習</a>`
+    : `<div class="review-banner is-clear">今天沒有到期需要複習的題目</div>`;
 
   const kpiHtml = `
     <div class="kpi-row">
@@ -202,7 +208,7 @@ async function render() {
 
   const categoryStatsHtml = renderCategoryStats(byCategory);
 
-  appEl.innerHTML = kpiHtml + categoryHtml + categoryStatsHtml;
+  appEl.innerHTML = reviewBannerHtml + kpiHtml + categoryHtml + categoryStatsHtml;
 }
 
 // 文法錯誤類型統計：跨國中/高中/多益三個難度合併看同一個文法點，依錯誤率高到低排序，

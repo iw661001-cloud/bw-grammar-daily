@@ -26,6 +26,14 @@ function trackById(id) {
   return TRACKS.find((t) => t.id === id);
 }
 
+// 間隔重複複習佇列共用判斷：沒作答過的題目不算複習範圍；
+// 這次改版之前寫入的舊資料沒有 dueDate 欄位，視為今天已到期，自然併入新排程，不用另外跑遷移腳本。
+function isDueForReview(itemData, now) {
+  if (!itemData || !itemData.attempts) return false;
+  const due = itemData.dueDate ? itemData.dueDate.toDate() : now;
+  return due <= now;
+}
+
 // 兩個地方都要用同一套日期字串規則（練習頁記錄用、儀表板讀取用），
 // 放共用檔案避免各自實作出現時區/格式落差。
 function toLocalDateKey(date) {

@@ -290,6 +290,26 @@ main {
   margin-bottom: 4px;
 }
 
+.review-banner {
+  display: block;
+  text-align: center;
+  background: var(--wrong);
+  color: #fff;
+  border-radius: 14px;
+  padding: 14px 16px;
+  margin-bottom: 16px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.review-banner.is-clear {
+  background: var(--card-bg);
+  color: var(--muted);
+  font-weight: 400;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
 .kpi-row {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
