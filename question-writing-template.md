@@ -25,6 +25,7 @@
 2. **只能輸出純 JSON 陣列**，不要加任何說明文字、不要用 ```json 包起來，就是一個可以直接被程式解析的 JSON array。
 3. **每一題都要有正確答案，且只有一個正確答案**，其餘三個選項必須明確錯誤（不能有爭議、模稜兩可）。
 4. **不能跟「已有內容」清單重複**——每個題庫下面都列了目前已經用過的目標單字或文法點範例，新題目的目標單字/句型不能重複出現。
+5. **正確答案的位置（answerIndex）要平均分散在0~3，不要每題都放在同一個位置**（例如每題都放第一個選項）。這是實際發生過的問題：整批15題全部 answerIndex:0，等於「每題都選A」就能拿高分，選項排序本身洩題。寫完一批後自己檢查一次這批題目的 answerIndex 有沒有集中在少數幾個數字。
 
 ---
 
@@ -83,13 +84,13 @@
 
 **已有內容清單（避免重複，貼上對應題庫的清單）**：
 
-- `junior-grammar`（國中文法）已用文法點：時態×3、主詞動詞一致×1、比較級×1、連接詞×2、助動詞×1、介系詞×1、不定詞/動名詞×1（共10題，id到jg-10）
-- `senior-grammar`（高中/學測文法）已用文法點：假設語氣×2、倒裝句×2、分詞構句×2、關係子句×2、使役/被動×1、強調句×1（共10題，id到sg-10）
+- `junior-grammar`（國中文法）已用文法點：時態×5、主詞動詞一致×1、比較級×2、連接詞×2、助動詞×1、介系詞×2、不定詞/動名詞×2、附加問句×1、代名詞×1、數量詞×1、關係子句×1、感官動詞×1、使役/被動×1、祈使句×1、連綴動詞×1、疑問詞×1、花費動詞×1（共25題，id到jg-25）
+- `senior-grammar`（高中/學測文法）已用文法點：假設語氣×4、倒裝句×4、分詞構句×3、關係子句×4、使役/被動×1、強調句×1、助動詞×1、轉折語氣×1、雙重否定×1、代名詞×1、不定詞/動名詞×2、時態×1、比較級×1（共25題，id到sg-25）
 - `toeic-grammar`（多益 Part 5，文法+字彙混合）已用：分詞構句×1、詞性判斷×3、假設語氣×3、介系詞×2、連接詞×3、比較級×1、代名詞×1、時態×1、關係子句×1、動詞(字彙)×3、形容詞(字彙)×3、使役/被動×1、不定詞/動名詞×1（共25題，id到tg-25）
-- `junior-vocab`（國中單字）已用目標字：borrow, nervous, improve, polite, expect, environment, honest, achieve, crowded, prepare（共10題，id到jv-10）
-- `senior-vocab`（高中單字）已用目標字：significant, reluctant, consequence, accomplish, efficient, genuine, controversial, diverse, aware, essential（共10題，id到sv-10）
-- `toeic-vocab`（多益單字）已用目標字：reimburse, negotiate, postponed, invoice, colleague, deadline, inventory, candidates, reliable, budget（共10題，id到tv-10）
-- `ielts-vocab`（雅思單字）已用目標字：sustainable, phenomenon, assumption, statistics, contribute, adequate, perspective, exposure, inevitable, outweigh（共10題，id到iv-10）
+- `junior-vocab`（國中單字）已用目標字：borrow, nervous, improve, polite, expect, environment, honest, achieve, crowded, prepare, traditional, celebrate, expensive, language, protect, serious, modern, surprise, promised, discover, patient, generous, delicious, comfortable, knowledge（共25題，id到jv-25）
+- `senior-vocab`（高中單字）已用目標字：significant, reluctant, consequence, accomplish, efficient, genuine, controversial, diverse, aware, essential, ambiguous, compromise, inevitable, substantial, equivalent, interpret, vulnerable, superficial, manipulate, comprehensive, accumulate, subtle, relevant, compulsory, persistent（共25題，id到sv-25）
+- `toeic-vocab`（多益單字）已用目標字：reimburse, negotiate, postponed, invoice, colleague, deadline, inventory, candidates, reliable, budget（共10題，id到tv-10，另有15題擴充草稿待審查）
+- `ielts-vocab`（雅思單字）已用目標字：sustainable, phenomenon, assumption, statistics, contribute, adequate, perspective, exposure, inevitable, outweigh（共10題，id到iv-10，另有15題擴充草稿待審查）
 - `junior-translate`（國中中翻英）已出過的中文句子主題：日常作息、天氣、書籍比較、借東西、做家事、電影評論、假設句、連接詞句型、過去完成式（共10題，id到jt-10）
 - `senior-translate`（高中/學測中翻英）已出過的主題：假設語氣倒裝、原因強調句、讓步句、強調句、對比句、科學研究敘述、祈使建議、關係子句、條件句、複合句（共10題，id到st-10）
 
@@ -140,5 +141,6 @@ Claude Code 收到這題後的審查示範（對照第四節檢查項目逐條�
 5. 是否跟已有內容重複（目標字/文法點/中文句子主題）
 6. 例句/情境是否為通用敘述，還是恰好跟某個特定已知來源的具體情節高度雷同（第一節「原創性參考」提到的[L4]判斷，供參考不是硬性關卡）
 7. `optionNotes` 詞性/意思標註是否正確
+8. **這一批的 `answerIndex` 分布是否集中在少數幾個數字**（實際發生過整批15題全部是0的狀況，等於選項排序本身洩題，需要打亂重排才能上線）
 
 有疑慮的地方會直接跟使用者說明、由使用者決定怎麼處理，不會自己認定退回。
