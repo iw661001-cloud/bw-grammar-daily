@@ -4,99 +4,499 @@
     "category": "形容詞",
     "question": "The new medicine has made a ______ difference in patients' recovery time.",
     "chinese": "這種新藥讓病患的康復時間出現顯著的差異。",
-    "options": ["significant", "silent", "similar", "simple"],
+    "options": [
+      "significant",
+      "silent",
+      "similar",
+      "simple"
+    ],
     "answerIndex": 0,
     "explanation": "significant（顯著的、重大的）符合「使康復時間出現重大差異」；silent沉默的、similar相似的、simple簡單的，語意都不符合，且字形容易跟 significant 搞混。",
-    "optionNotes": ["形容詞・顯著的、重大的", "形容詞・沉默的", "形容詞・相似的", "形容詞・簡單的"]
+    "optionNotes": [
+      "形容詞・顯著的、重大的",
+      "形容詞・沉默的",
+      "形容詞・相似的",
+      "形容詞・簡單的"
+    ]
   },
   {
     "id": "sv-02",
     "category": "形容詞",
     "question": "He was ______ to admit his mistake, even though everyone knew he was wrong.",
     "chinese": "即使大家都知道他錯了，他還是不情願承認自己的錯誤。",
-    "options": ["reluctant", "relevant", "reliable", "relative"],
-    "answerIndex": 0,
+    "options": [
+      "relative",
+      "relevant",
+      "reliable",
+      "reluctant"
+    ],
+    "answerIndex": 3,
     "explanation": "reluctant（不情願的）符合「即使大家都知道他錯了，還是不情願承認」；relevant相關的、reliable可靠的、relative相對的，都是常見的 re-開頭形似字。",
-    "optionNotes": ["形容詞・不情願的", "形容詞・相關的", "形容詞・可靠的", "形容詞・相對的"]
+    "optionNotes": [
+      "形容詞・相對的",
+      "形容詞・相關的",
+      "形容詞・可靠的",
+      "形容詞・不情願的"
+    ]
   },
   {
     "id": "sv-03",
     "category": "名詞",
     "question": "Every action has a ______ , whether we realize it at the time or not.",
     "chinese": "每個行動都有後果，不論我們當下是否意識到。",
-    "options": ["consequence", "confidence", "conference", "convenience"],
-    "answerIndex": 0,
+    "options": [
+      "convenience",
+      "confidence",
+      "consequence",
+      "conference"
+    ],
+    "answerIndex": 2,
     "explanation": "consequence（後果、結果）符合「每個行動都有後果」；confidence信心、conference會議、convenience方便，字形相似但意思完全不同。",
-    "optionNotes": ["名詞・後果、結果", "名詞・信心", "名詞・會議", "名詞・方便"]
+    "optionNotes": [
+      "名詞・方便",
+      "名詞・信心",
+      "名詞・後果、結果",
+      "名詞・會議"
+    ]
   },
   {
     "id": "sv-04",
     "category": "動詞",
     "question": "She worked overtime for months in order to ______ her career goal.",
     "chinese": "她加班了好幾個月，為了達成她的職涯目標。",
-    "options": ["accomplish", "accompany", "accumulate", "accuse"],
+    "options": [
+      "accomplish",
+      "accumulate",
+      "accompany",
+      "accuse"
+    ],
     "answerIndex": 0,
     "explanation": "accomplish（達成）符合「加班數月以達成職涯目標」；accompany陪伴、accumulate累積、accuse指控，字首都是 acc-開頭，容易混淆。",
-    "optionNotes": ["動詞・達成", "動詞・陪伴", "動詞・累積", "動詞・指控"]
+    "optionNotes": [
+      "動詞・達成",
+      "動詞・累積",
+      "動詞・陪伴",
+      "動詞・指控"
+    ]
   },
   {
     "id": "sv-05",
     "category": "形容詞",
     "question": "The new system allows the factory to produce more goods in less time, making the whole process more ______ .",
     "chinese": "新系統讓工廠能在更少時間內生產更多產品，使整個流程更有效率。",
-    "options": ["efficient", "sufficient", "ancient", "patient"],
-    "answerIndex": 0,
+    "options": [
+      "ancient",
+      "efficient",
+      "sufficient",
+      "patient"
+    ],
+    "answerIndex": 1,
     "explanation": "efficient（有效率的）符合「用更少時間生產更多產品」；sufficient足夠的、ancient古老的、patient有耐心的，字尾都是 -ient，是常見混淆組合。",
-    "optionNotes": ["形容詞・有效率的", "形容詞・足夠的", "形容詞・古老的", "形容詞・有耐心的"]
+    "optionNotes": [
+      "形容詞・古老的",
+      "形容詞・有效率的",
+      "形容詞・足夠的",
+      "形容詞・有耐心的"
+    ]
   },
   {
     "id": "sv-06",
     "category": "形容詞",
     "question": "It's hard to tell if his apology was ______ or just a way to avoid punishment.",
     "chinese": "很難判斷他的道歉是真心的，還是只是為了逃避處罰。",
-    "options": ["genuine", "generous", "general", "genetic"],
-    "answerIndex": 0,
+    "options": [
+      "general",
+      "genetic",
+      "genuine",
+      "generous"
+    ],
+    "answerIndex": 2,
     "explanation": "genuine（真誠的、真正的）符合「難以判斷道歉是真心的還是為了逃避處罰」；generous慷慨的、general一般的、genetic基因的，都是 gen-開頭常見混淆字。",
-    "optionNotes": ["形容詞・真誠的、真正的", "形容詞・慷慨的", "形容詞・一般的", "形容詞・基因的"]
+    "optionNotes": [
+      "形容詞・一般的",
+      "形容詞・基因的",
+      "形容詞・真誠的、真正的",
+      "形容詞・慷慨的"
+    ]
   },
   {
     "id": "sv-07",
     "category": "形容詞",
     "question": "The mayor's plan to build a new highway through the park has become a ______ topic in the city.",
     "chinese": "市長打算穿越公園興建新高速公路的計畫，已成為這座城市裡有爭議的話題。",
-    "options": ["controversial", "convenient", "conventional", "confidential"],
-    "answerIndex": 0,
+    "options": [
+      "confidential",
+      "convenient",
+      "controversial",
+      "conventional"
+    ],
+    "answerIndex": 2,
     "explanation": "controversial（有爭議的）符合「引發爭議的話題」；convenient方便的、conventional傳統的、confidential機密的，都是 con-開頭易混淆字。",
-    "optionNotes": ["形容詞・有爭議的", "形容詞・方便的", "形容詞・傳統的", "形容詞・機密的"]
+    "optionNotes": [
+      "形容詞・機密的",
+      "形容詞・方便的",
+      "形容詞・有爭議的",
+      "形容詞・傳統的"
+    ]
   },
   {
     "id": "sv-08",
     "category": "形容詞",
     "question": "The city's population is incredibly ______ , with people from more than fifty different countries.",
     "chinese": "這座城市的人口組成非常多元，居民來自超過五十個不同國家。",
-    "options": ["diverse", "dense", "distant", "durable"],
-    "answerIndex": 0,
+    "options": [
+      "dense",
+      "distant",
+      "durable",
+      "diverse"
+    ],
+    "answerIndex": 3,
     "explanation": "diverse（多元的）符合「來自超過五十個不同國家」；dense密集的、distant遙遠的、durable耐用的，都是常見的 d-開頭形容詞，但語意不符。",
-    "optionNotes": ["形容詞・多元的", "形容詞・密集的", "形容詞・遙遠的", "形容詞・耐用的"]
+    "optionNotes": [
+      "形容詞・密集的",
+      "形容詞・遙遠的",
+      "形容詞・耐用的",
+      "形容詞・多元的"
+    ]
   },
   {
     "id": "sv-09",
     "category": "形容詞",
     "question": "Many teenagers are not fully ______ of how their online behavior can affect their future.",
     "chinese": "許多青少年沒有充分意識到自己的網路行為會如何影響未來。",
-    "options": ["aware", "awake", "awful", "awkward"],
-    "answerIndex": 0,
+    "options": [
+      "awful",
+      "awake",
+      "aware",
+      "awkward"
+    ],
+    "answerIndex": 2,
     "explanation": "aware（意識到的）符合「沒有充分意識到網路行為的影響」；awake清醒的、awful糟糕的、awkward尷尬的，都是 aw-開頭常見形似字。",
-    "optionNotes": ["形容詞・意識到的", "形容詞・清醒的", "形容詞・糟糕的", "形容詞・尷尬的"]
+    "optionNotes": [
+      "形容詞・糟糕的",
+      "形容詞・清醒的",
+      "形容詞・意識到的",
+      "形容詞・尷尬的"
+    ]
   },
   {
     "id": "sv-10",
     "category": "形容詞",
     "question": "Getting enough sleep is ______ for both physical health and mental focus.",
     "chinese": "充足的睡眠對身體健康和精神專注都是必要的。",
-    "options": ["essential", "potential", "initial", "official"],
-    "answerIndex": 0,
+    "options": [
+      "initial",
+      "official",
+      "potential",
+      "essential"
+    ],
+    "answerIndex": 3,
     "explanation": "essential（必要的、必需的）符合「充足睡眠對身心都是必要的」；potential潛在的、initial最初的、official正式的，字尾都是 -ial/-tial，容易混淆。",
-    "optionNotes": ["形容詞・必要的、必需的", "形容詞・潛在的", "形容詞・最初的", "形容詞・正式的"]
+    "optionNotes": [
+      "形容詞・最初的",
+      "形容詞・正式的",
+      "形容詞・潛在的",
+      "形容詞・必要的、必需的"
+    ]
+  },
+  {
+    "id": "sv-11",
+    "category": "形容詞",
+    "question": "The manager's instructions were so ______ that the team didn't know whether to start the project immediately or wait.",
+    "chinese": "經理的指示非常模稜兩可，導致團隊不知道該立刻開始專案還是繼續等待。",
+    "options": [
+      "logical",
+      "obvious",
+      "ambiguous",
+      "precise"
+    ],
+    "answerIndex": 2,
+    "explanation": "ambiguous 意思是「模稜兩可的、含糊不清的」，符合不知道該怎麼做的語境；obvious 是「明顯的」，precise 是「精準的」，logical 是「合乎邏輯的」。",
+    "optionNotes": [
+      "形容詞・合乎邏輯的",
+      "形容詞・明顯的",
+      "形容詞・模稜兩可的",
+      "形容詞・精準的"
+    ]
+  },
+  {
+    "id": "sv-12",
+    "category": "動詞",
+    "question": "Since neither side wanted to go to court, they finally decided to ______ and sign the agreement.",
+    "chinese": "既然雙方都不想上法庭，他們最後決定妥協並簽署協議。",
+    "options": [
+      "dominate",
+      "compromise",
+      "conquer",
+      "compete"
+    ],
+    "answerIndex": 1,
+    "explanation": "compromise 意思是「妥協、讓步」，符合雙方為避免上法庭而達成共識的狀況；compete 是「競爭」，dominate 是「支配」，conquer 是「征服」。",
+    "optionNotes": [
+      "動詞・支配",
+      "動詞・妥協、讓步",
+      "動詞・征服",
+      "動詞・競爭"
+    ]
+  },
+  {
+    "id": "sv-13",
+    "category": "形容詞",
+    "question": "With the rapid advancement of technology, the decline of traditional print media seems ______.",
+    "chinese": "隨著科技的快速進步，傳統紙本媒體的衰退似乎是不可避免的。",
+    "options": [
+      "incredible",
+      "preventable",
+      "reversible",
+      "inevitable"
+    ],
+    "answerIndex": 3,
+    "explanation": "inevitable 意思是「不可避免的、必然發生的」；preventable 是「可預防的」，reversible 是「可逆的」，incredible 是「難以置信的」。",
+    "optionNotes": [
+      "形容詞・難以置信的",
+      "形容詞・可預防的",
+      "形容詞・可逆轉的",
+      "形容詞・不可避免的"
+    ]
+  },
+  {
+    "id": "sv-14",
+    "category": "形容詞",
+    "question": "The company has invested a ______ amount of money in research and development to stay ahead of its rivals.",
+    "chinese": "這家公司在研發上投入了大量的資金，以保持領先對手。",
+    "options": [
+      "minimal",
+      "fragile",
+      "trivial",
+      "substantial"
+    ],
+    "answerIndex": 3,
+    "explanation": "substantial 意思是「大量的、重大的」，用來形容投入很多資金；trivial 是「微不足道的」，minimal 是「最小的」，fragile 是「脆弱的」。",
+    "optionNotes": [
+      "形容詞・最小的",
+      "形容詞・脆弱的",
+      "形容詞・微不足道的",
+      "形容詞・大量的、重大的"
+    ]
+  },
+  {
+    "id": "sv-15",
+    "category": "形容詞",
+    "question": "A mile is roughly ______ to 1.6 kilometers, which is useful to know when traveling abroad.",
+    "chinese": "一英里大約等於1.6公里，這在出國旅行時很有用。",
+    "options": [
+      "equivalent",
+      "opposite",
+      "superior",
+      "inferior"
+    ],
+    "answerIndex": 0,
+    "explanation": "equivalent to 意思是「相等的、相當的」，表示單位換算；inferior 是「較差的」，superior 是「優越的」，opposite 是「相反的」。",
+    "optionNotes": [
+      "形容詞・相等的、等值的",
+      "形容詞・相反的",
+      "形容詞・優越的",
+      "形容詞・較差的"
+    ]
+  },
+  {
+    "id": "sv-16",
+    "category": "動詞",
+    "question": "It can be difficult to ______ poems because they often contain hidden meanings and metaphors.",
+    "chinese": "詮釋詩歌可能會很困難，因為它們經常包含隱藏的含義和隱喻。",
+    "options": [
+      "ignore",
+      "imitate",
+      "interrupt",
+      "interpret"
+    ],
+    "answerIndex": 3,
+    "explanation": "interpret 意思是「詮釋、解釋」，符合理解隱藏含義的語境；interrupt 是「打斷」，imitate 是「模仿」，ignore 是「忽略」。",
+    "optionNotes": [
+      "動詞・忽略",
+      "動詞・模仿",
+      "動詞・打斷",
+      "動詞・詮釋、解釋"
+    ]
+  },
+  {
+    "id": "sv-17",
+    "category": "形容詞",
+    "question": "Elderly people are often more ______ to extreme weather conditions, such as severe heat waves.",
+    "chinese": "老年人通常對極端天氣條件（例如嚴重的熱浪）較為脆弱/易受傷害。",
+    "options": [
+      "vulnerable",
+      "immune",
+      "indifferent",
+      "resistant"
+    ],
+    "answerIndex": 0,
+    "explanation": "vulnerable to 意思是「易受傷害的、脆弱的」，指老人抵禦力較低；immune 是「免疫的」，resistant 是「有抵抗力的」，indifferent 是「漠不關心的」。",
+    "optionNotes": [
+      "形容詞・易受傷害的、脆弱的",
+      "形容詞・免疫的",
+      "形容詞・漠不關心的",
+      "形容詞・有抵抗力的"
+    ]
+  },
+  {
+    "id": "sv-18",
+    "category": "形容詞",
+    "question": "He only has a ______ understanding of the topic, so he couldn't answer the professor's detailed questions.",
+    "chinese": "他對這個主題只有膚淺的了解，所以無法回答教授詳細的問題。",
+    "options": [
+      "thorough",
+      "superficial",
+      "profound",
+      "fundamental"
+    ],
+    "answerIndex": 1,
+    "explanation": "superficial 意思是「表面的、膚淺的」，因為不懂細節所以是膚淺的了解；profound 是「深刻的」，thorough 是「徹底的」，fundamental 是「基礎的、根本的」。",
+    "optionNotes": [
+      "形容詞・徹底的",
+      "形容詞・表面的、膚淺的",
+      "形容詞・深刻的",
+      "形容詞・基礎的"
+    ]
+  },
+  {
+    "id": "sv-19",
+    "category": "動詞",
+    "question": "The clever politician tried to ______ the media in order to win more votes in the upcoming election.",
+    "chinese": "這位聰明的政客試圖操縱媒體，以在即將到來的選舉中贏得更多選票。",
+    "options": [
+      "maintain",
+      "manipulate",
+      "multiply",
+      "manufacture"
+    ],
+    "answerIndex": 1,
+    "explanation": "manipulate 意思是「操縱」，常用於操縱媒體或人心；manufacture 是「製造」，maintain 是「維持」，multiply 是「乘、繁殖」。",
+    "optionNotes": [
+      "動詞・維持",
+      "動詞・操縱",
+      "動詞・乘、繁殖",
+      "動詞・製造"
+    ]
+  },
+  {
+    "id": "sv-20",
+    "category": "形容詞",
+    "question": "The university provides a ______ training program for freshmen to help them adapt to college life easily.",
+    "chinese": "大學為新生提供了全面的培訓計畫，幫助他們輕鬆適應大學生活。",
+    "options": [
+      "comprehensive",
+      "exclusive",
+      "subjective",
+      "aggressive"
+    ],
+    "answerIndex": 0,
+    "explanation": "comprehensive 意思是「全面的、綜合的」，指內容豐富完整的計畫；subjective 是「主觀的」，aggressive 是「具攻擊性的/積極的」，exclusive 是「獨有的/排外的」。",
+    "optionNotes": [
+      "形容詞・全面的、綜合的",
+      "形容詞・獨有的",
+      "形容詞・主觀的",
+      "形容詞・具攻擊性的"
+    ]
+  },
+  {
+    "id": "sv-21",
+    "category": "動詞",
+    "question": "Over the years, the collector has managed to ______ a vast number of rare paintings from around the world.",
+    "chinese": "多年來，這位收藏家成功累積了大量來自世界各地的稀有畫作。",
+    "options": [
+      "accumulate",
+      "calculate",
+      "circulate",
+      "accommodate"
+    ],
+    "answerIndex": 0,
+    "explanation": "accumulate 意思是「累積」，符合長時間收集畫作的語境；accommodate 是「容納、提供住宿」，calculate 是「計算」，circulate 是「循環、流通」。",
+    "optionNotes": [
+      "動詞・累積",
+      "動詞・計算",
+      "動詞・循環",
+      "動詞・容納"
+    ]
+  },
+  {
+    "id": "sv-22",
+    "category": "形容詞",
+    "question": "There is a ______ difference in taste between the two brands of coffee, which only an expert can tell.",
+    "chinese": "這兩個品牌的咖啡在味道上有著細微的差別，只有專家才能分辨出來。",
+    "options": [
+      "evident",
+      "massive",
+      "drastic",
+      "subtle"
+    ],
+    "answerIndex": 3,
+    "explanation": "subtle 意思是「細微的、微妙的」，只有專家能分辨代表差別很小；drastic 是「劇烈的」，evident 是「明顯的」，massive 是「巨大的」。",
+    "optionNotes": [
+      "形容詞・明顯的",
+      "形容詞・巨大的",
+      "形容詞・劇烈的",
+      "形容詞・細微的、微妙的"
+    ]
+  },
+  {
+    "id": "sv-23",
+    "category": "形容詞",
+    "question": "Please attach any documents that are ______ to your application, such as your resume and certificates.",
+    "chinese": "請附上與您的申請相關的任何文件，例如您的履歷和證書。",
+    "options": [
+      "relevant",
+      "resistant",
+      "reluctant",
+      "redundant"
+    ],
+    "answerIndex": 0,
+    "explanation": "relevant 意思是「相關的」，relevant to 是固定搭配；reluctant 是「不情願的」，redundant 是「多餘的」，resistant 是「抗拒的」。",
+    "optionNotes": [
+      "形容詞・相關的",
+      "形容詞・抗拒的",
+      "形容詞・不情願的",
+      "形容詞・多餘的"
+    ]
+  },
+  {
+    "id": "sv-24",
+    "category": "形容詞",
+    "question": "Physical education is a ______ subject in junior high school; every student must take it.",
+    "chinese": "體育在國中是必修科目；每個學生都必須上這門課。",
+    "options": [
+      "contemporary",
+      "compulsory",
+      "voluntary",
+      "temporary"
+    ],
+    "answerIndex": 1,
+    "explanation": "compulsory 意思是「強制的、必修的」，與後文的 every student must take it (每個學生都必須上) 呼應；voluntary 是「自願的」，temporary 是「暫時的」，contemporary 是「當代的」。",
+    "optionNotes": [
+      "形容詞・當代的",
+      "形容詞・必修的、強制的",
+      "形容詞・自願的",
+      "形容詞・暫時的"
+    ]
+  },
+  {
+    "id": "sv-25",
+    "category": "形容詞",
+    "question": "Despite facing numerous failures, her ______ effort eventually led her to success.",
+    "chinese": "儘管面臨無數次失敗，她堅持不懈的努力最終讓她獲得了成功。",
+    "options": [
+      "obedient",
+      "inconsistent",
+      "persistent",
+      "hesitant"
+    ],
+    "answerIndex": 2,
+    "explanation": "persistent 意思是「堅持不懈的、持久的」，符合不怕失敗繼續努力的語境；hesitant 是「猶豫的」，inconsistent 是「不一致的」，obedient 是「服從的」。",
+    "optionNotes": [
+      "形容詞・服從的",
+      "形容詞・不一致的",
+      "形容詞・堅持不懈的",
+      "形容詞・猶豫的"
+    ]
   }
 ]

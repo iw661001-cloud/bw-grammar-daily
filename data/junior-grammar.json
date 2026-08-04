@@ -4,7 +4,12 @@
     "category": "時態",
     "question": "She usually ______ to school by bus, but today she ______ walking because it's sunny.",
     "chinese": "她通常搭公車上學，但今天因為天氣晴朗，她用走的。",
-    "options": ["goes / is", "go / is", "goes / was", "going / is"],
+    "options": [
+      "goes / is",
+      "go / is",
+      "goes / was",
+      "going / is"
+    ],
     "answerIndex": 0,
     "explanation": "習慣性動作用現在簡單式，主詞 she 第三人稱單數動詞加 -s，所以是 goes；後半句描述「今天」的選擇，用現在進行式，be 動詞用 is。"
   },
@@ -13,7 +18,12 @@
     "category": "主詞動詞一致",
     "question": "There ______ a lot of books on the desk, but there ______ only one pen.",
     "chinese": "桌上有很多書，但只有一支筆。",
-    "options": ["is / are", "are / is", "are / are", "is / is"],
+    "options": [
+      "is / are",
+      "are / is",
+      "are / are",
+      "is / is"
+    ],
     "answerIndex": 1,
     "explanation": "there be 句型的 be 動詞要跟後面的名詞單複數一致：books 是複數用 are，one pen 是單數用 is。"
   },
@@ -22,7 +32,12 @@
     "category": "比較級",
     "question": "My brother is taller than me, but he is not as ______ as our father.",
     "chinese": "我哥哥比我高，但他沒有我們爸爸那麼高。",
-    "options": ["tall", "taller", "tallest", "more tall"],
+    "options": [
+      "tall",
+      "taller",
+      "tallest",
+      "more tall"
+    ],
     "answerIndex": 0,
     "explanation": "as...as 原級比較句型中間要用形容詞原級，不能用比較級或最高級。"
   },
@@ -31,17 +46,32 @@
     "category": "連接詞",
     "question": "______ you finish your homework, you can watch TV.",
     "chinese": "做完功課之後，你就可以看電視。",
-    "options": ["Although", "Because", "After", "But"],
+    "options": [
+      "Although",
+      "Because",
+      "After",
+      "But"
+    ],
     "answerIndex": 2,
     "explanation": "句意是「做完功課之後才能看電視」，表示時間先後關係，用 After。",
-    "optionNotes": ["連接詞・雖然", "連接詞・因為", "連接詞・...之後", "連接詞・但是"]
+    "optionNotes": [
+      "連接詞・雖然",
+      "連接詞・因為",
+      "連接詞・...之後",
+      "連接詞・但是"
+    ]
   },
   {
     "id": "jg-05",
     "category": "時態",
     "question": "Look! The children ______ in the park now.",
     "chinese": "你看！那些孩子現在正在公園裡玩。",
-    "options": ["play", "plays", "are playing", "played"],
+    "options": [
+      "play",
+      "plays",
+      "are playing",
+      "played"
+    ],
     "answerIndex": 2,
     "explanation": "Look! 加上 now 都是現在進行式的明顯提示詞，主詞 children 是複數，be 動詞用 are，動詞加 -ing。"
   },
@@ -50,27 +80,52 @@
     "category": "助動詞",
     "question": "You ______ wear a helmet when you ride a motorcycle. It's the law.",
     "chinese": "騎機車時你必須戴安全帽，這是法律規定。",
-    "options": ["can", "must", "may", "would"],
+    "options": [
+      "can",
+      "must",
+      "may",
+      "would"
+    ],
     "answerIndex": 1,
     "explanation": "法律規定「必須」戴安全帽，must 表示強制性義務，符合「這是法律規定」的語境。",
-    "optionNotes": ["情態助動詞・可以；能夠", "情態助動詞・必須", "情態助動詞・可能；可以", "情態助動詞・會（will的過去式；委婉語氣）"]
+    "optionNotes": [
+      "情態助動詞・可以；能夠",
+      "情態助動詞・必須",
+      "情態助動詞・可能；可以",
+      "情態助動詞・會（will的過去式；委婉語氣）"
+    ]
   },
   {
     "id": "jg-07",
     "category": "介系詞",
     "question": "There is a cat ______ the table. It's sleeping there.",
     "chinese": "桌上有一隻貓，牠正在那裡睡覺。",
-    "options": ["in", "on", "at", "to"],
+    "options": [
+      "in",
+      "on",
+      "at",
+      "to"
+    ],
     "answerIndex": 1,
     "explanation": "貓「在桌子上面」用 on（表示接觸某個平面），in 是「在裡面」，不符合「趴在桌面上」的情境。",
-    "optionNotes": ["介系詞・在...裡面", "介系詞・在...上面", "介系詞・在（較小的定點）", "介系詞・到；向"]
+    "optionNotes": [
+      "介系詞・在...裡面",
+      "介系詞・在...上面",
+      "介系詞・在（較小的定點）",
+      "介系詞・到；向"
+    ]
   },
   {
     "id": "jg-08",
     "category": "不定詞/動名詞",
     "question": "My mother told me ______ so much candy because it's bad for my teeth.",
     "chinese": "媽媽叫我不要吃太多糖果，因為對牙齒不好。",
-    "options": ["not eat", "not to eat", "to not eat", "don't eat"],
+    "options": [
+      "not eat",
+      "not to eat",
+      "to not eat",
+      "don't eat"
+    ],
     "answerIndex": 1,
     "explanation": "tell somebody to V 的否定式是 tell somebody not to V，not 放在 to 前面，動詞用原形。"
   },
@@ -79,17 +134,32 @@
     "category": "連接詞",
     "question": "Neither Tom ______ his sister likes vegetables.",
     "chinese": "湯姆和他妹妹都不喜歡吃蔬菜。",
-    "options": ["or", "and", "nor", "but"],
+    "options": [
+      "or",
+      "and",
+      "nor",
+      "but"
+    ],
     "answerIndex": 2,
     "explanation": "neither...nor... 是固定搭配，表示「兩者都不」，跟 either...or（兩者擇一）要分清楚。",
-    "optionNotes": ["連接詞・或者", "連接詞・和；而且", "連接詞・也不（與neither並用）", "連接詞・但是"]
+    "optionNotes": [
+      "連接詞・或者",
+      "連接詞・和；而且",
+      "連接詞・也不（與neither並用）",
+      "連接詞・但是"
+    ]
   },
   {
     "id": "jg-10",
     "category": "時態",
     "question": "By the time I got home, my little brother ______ all the cookies.",
     "chinese": "我到家的時候，我弟弟已經把餅乾都吃光了。",
-    "options": ["eats", "ate", "has eaten", "had eaten"],
+    "options": [
+      "eats",
+      "ate",
+      "has eaten",
+      "had eaten"
+    ],
     "answerIndex": 3,
     "explanation": "弟弟吃餅乾這個動作發生在「我到家」（過去某個時間點）之前，屬於過去完成式的典型情境（過去的過去），用 had + p.p.。這題稍微超出最基礎範圍，是國中升高中的銜接題。"
   },
@@ -98,149 +168,299 @@
     "category": "附加問句",
     "question": "You don't like playing baseball, ______?",
     "chinese": "你不喜歡打棒球，對吧？",
-    "options": ["do you", "don't you", "are you", "aren't you"],
-    "answerIndex": 0,
+    "options": [
+      "don't you",
+      "aren't you",
+      "are you",
+      "do you"
+    ],
+    "answerIndex": 3,
     "explanation": "前面的主要子句是否定 (don't)，所以後面的附加問句要用肯定 (do)；且助動詞要與前面保持一致，用 do you。",
-    "optionNotes": ["助動詞・肯定用法", "助動詞・否定用法", "be動詞・肯定用法", "be動詞・否定用法"]
+    "optionNotes": [
+      "助動詞・否定用法",
+      "be動詞・否定用法",
+      "be動詞・肯定用法",
+      "助動詞・肯定用法"
+    ]
   },
   {
     "id": "jg-12",
     "category": "代名詞",
     "question": "This is my pencil. Where is ______?",
     "chinese": "這是我的鉛筆。你的在哪裡？",
-    "options": ["your", "yours", "you", "yourself"],
-    "answerIndex": 1,
+    "options": [
+      "yourself",
+      "you",
+      "your",
+      "yours"
+    ],
+    "answerIndex": 3,
     "explanation": "空格處需要代表「你的鉛筆」(your pencil)，所以要使用所有格代名詞 yours；your 後面必須加上名詞才能用。",
-    "optionNotes": ["所有格・你的(接名詞)", "所有格代名詞・你的(東西)", "主格/受格・你", "反身代名詞・你自己"]
+    "optionNotes": [
+      "反身代名詞・你自己",
+      "主格/受格・你",
+      "所有格・你的(接名詞)",
+      "所有格代名詞・你的(東西)"
+    ]
   },
   {
     "id": "jg-13",
     "category": "數量詞",
     "question": "Are there ______ apples left in the basket?",
     "chinese": "籃子裡還有剩下任何蘋果嗎？",
-    "options": ["any", "some", "much", "little"],
-    "answerIndex": 0,
+    "options": [
+      "much",
+      "any",
+      "some",
+      "little"
+    ],
+    "answerIndex": 1,
     "explanation": "在疑問句中，通常使用 any 來表示「任何的」；some 通常用於肯定句或提出請求；much 和 little 只能接不可數名詞，而 apples 是可數名詞。",
-    "optionNotes": ["數量詞・任何的 (疑問/否定句)", "數量詞・一些 (肯定句)", "數量詞・許多的 (不可數)", "數量詞・幾乎沒有的 (不可數)"]
+    "optionNotes": [
+      "數量詞・許多的 (不可數)",
+      "數量詞・任何的 (疑問/否定句)",
+      "數量詞・一些 (肯定句)",
+      "數量詞・幾乎沒有的 (不可數)"
+    ]
   },
   {
     "id": "jg-14",
     "category": "關係子句",
     "question": "The boy ______ is wearing a red hat is my brother.",
     "chinese": "戴著紅帽子的那個男孩是我哥哥。",
-    "options": ["who", "which", "where", "what"],
+    "options": [
+      "who",
+      "what",
+      "which",
+      "where"
+    ],
     "answerIndex": 0,
     "explanation": "先行詞 The boy 是「人」，且在子句中作主詞，所以關係代名詞必須用 who；which 用於「事物」。",
-    "optionNotes": ["關係代名詞・(指人)", "關係代名詞・(指事物)", "關係副詞・(指地方)", "疑問詞/關係代名詞・(指事物，無先行詞)"]
+    "optionNotes": [
+      "關係代名詞・(指人)",
+      "疑問詞/關係代名詞・(指事物，無先行詞)",
+      "關係代名詞・(指事物)",
+      "關係副詞・(指地方)"
+    ]
   },
   {
     "id": "jg-15",
     "category": "感官動詞",
     "question": "I saw him ______ basketball in the park yesterday.",
     "chinese": "我昨天看到他在公園裡打籃球。",
-    "options": ["play", "to play", "played", "plays"],
+    "options": [
+      "play",
+      "to play",
+      "played",
+      "plays"
+    ],
     "answerIndex": 0,
     "explanation": "感官動詞 (saw) 後面接接受詞 (him) 時，動詞要用原形 (強調事實) 或 V-ing (強調進行中)。選項中只有 play 符合。",
-    "optionNotes": ["動詞原形", "不定詞", "過去式/過去分詞", "現在簡單式(第三人稱單數)"]
+    "optionNotes": [
+      "動詞原形",
+      "不定詞",
+      "過去式/過去分詞",
+      "現在簡單式(第三人稱單數)"
+    ]
   },
   {
     "id": "jg-16",
     "category": "使役/被動",
     "question": "My mom made me ______ my room before I went out.",
     "chinese": "我媽讓我在出門前打掃房間。",
-    "options": ["clean", "to clean", "cleaned", "cleaning"],
-    "answerIndex": 0,
+    "options": [
+      "cleaning",
+      "cleaned",
+      "clean",
+      "to clean"
+    ],
+    "answerIndex": 2,
     "explanation": "使役動詞 make/have/let 在主動語態中，後面接「人」時，必須使用原形動詞。",
-    "optionNotes": ["動詞原形", "不定詞", "過去式/過去分詞", "現在分詞/動名詞"]
+    "optionNotes": [
+      "現在分詞/動名詞",
+      "過去式/過去分詞",
+      "動詞原形",
+      "不定詞"
+    ]
   },
   {
     "id": "jg-17",
     "category": "介系詞",
     "question": "We usually have a big dinner ______ Christmas Eve.",
     "chinese": "我們通常在平安夜吃一頓豐盛的晚餐。",
-    "options": ["on", "in", "at", "for"],
-    "answerIndex": 0,
+    "options": [
+      "for",
+      "at",
+      "on",
+      "in"
+    ],
+    "answerIndex": 2,
     "explanation": "指「特定的一天」(Christmas Eve) 時，介系詞要用 on。in 用於月份或年份，at 用於特定的時間點 (例如 at 5 o'clock) 或節慶期間 (at Christmas)。",
-    "optionNotes": ["介系詞・在(特定日期)", "介系詞・在(月份/年份/長時間)", "介系詞・在(時間點)", "介系詞・為了"]
+    "optionNotes": [
+      "介系詞・為了",
+      "介系詞・在(時間點)",
+      "介系詞・在(特定日期)",
+      "介系詞・在(月份/年份/長時間)"
+    ]
   },
   {
     "id": "jg-18",
     "category": "祈使句",
     "question": "______ quiet, please. The baby is sleeping.",
     "chinese": "請安靜。寶寶正在睡覺。",
-    "options": ["Be", "Are", "Do", "Is"],
-    "answerIndex": 0,
+    "options": [
+      "Is",
+      "Are",
+      "Be",
+      "Do"
+    ],
+    "answerIndex": 2,
     "explanation": "祈使句要用原形動詞開頭。quiet 是形容詞，所以前面要加上 be 動詞的原形 Be。",
-    "optionNotes": ["be動詞原形", "be動詞(現在式複數/第二人稱)", "助動詞/動詞原形", "be動詞(現在式單數)"]
+    "optionNotes": [
+      "be動詞(現在式單數)",
+      "be動詞(現在式複數/第二人稱)",
+      "be動詞原形",
+      "助動詞/動詞原形"
+    ]
   },
   {
     "id": "jg-19",
     "category": "連綴動詞",
     "question": "The soup ______ delicious. Can I have some more?",
     "chinese": "這湯嚐起來很美味。我可以再來一點嗎？",
-    "options": ["tastes", "tasting", "is tasted", "taste"],
-    "answerIndex": 0,
+    "options": [
+      "tasting",
+      "is tasted",
+      "taste",
+      "tastes"
+    ],
+    "answerIndex": 3,
     "explanation": "taste 這裡作為連綴動詞，後面直接加形容詞 (delicious)。主詞 The soup 是第三人稱單數，現在式動詞要加 s。",
-    "optionNotes": ["動詞(第三人稱單數)・嚐起來", "現在分詞", "被動語態", "動詞原形"]
+    "optionNotes": [
+      "現在分詞",
+      "被動語態",
+      "動詞原形",
+      "動詞(第三人稱單數)・嚐起來"
+    ]
   },
   {
     "id": "jg-20",
     "category": "時態",
     "question": "What ______ you ______ when I called you last night?",
     "chinese": "我昨晚打給你的時候，你正在做什麼？",
-    "options": ["were, doing", "are, doing", "did, do", "do, do"],
-    "answerIndex": 0,
+    "options": [
+      "are, doing",
+      "do, do",
+      "were, doing",
+      "did, do"
+    ],
+    "answerIndex": 2,
     "explanation": "句子描述「過去某個特定時間點(我打給你的時候)正在發生的事」，要用過去進行式 (was/were + V-ing)。主詞是 you，所以用 were doing。",
-    "optionNotes": ["過去進行式", "現在進行式", "過去簡單式", "現在簡單式"]
+    "optionNotes": [
+      "現在進行式",
+      "現在簡單式",
+      "過去進行式",
+      "過去簡單式"
+    ]
   },
   {
     "id": "jg-21",
     "category": "不定詞/動名詞",
     "question": "______ books is my favorite hobby.",
     "chinese": "看書是我最喜歡的嗜好。",
-    "options": ["Reading", "Read", "Reads", "Readed"],
-    "answerIndex": 0,
+    "options": [
+      "Reads",
+      "Read",
+      "Readed",
+      "Reading"
+    ],
+    "answerIndex": 3,
     "explanation": "動詞不能直接當主詞，必須改成動名詞 (V-ing) 或不定詞 (to V)。選項中只有動名詞 Reading 符合。",
-    "optionNotes": ["動名詞・閱讀", "動詞原形", "動詞(第三人稱單數)", "錯誤拼法(read過去式為read)"]
+    "optionNotes": [
+      "動詞(第三人稱單數)",
+      "動詞原形",
+      "錯誤拼法(read過去式為read)",
+      "動名詞・閱讀"
+    ]
   },
   {
     "id": "jg-22",
     "category": "疑問詞",
     "question": "______ do you go to the library? Twice a week.",
     "chinese": "你多常去圖書館？一週兩次。",
-    "options": ["How often", "How long", "How much", "How soon"],
-    "answerIndex": 0,
+    "options": [
+      "How much",
+      "How often",
+      "How long",
+      "How soon"
+    ],
+    "answerIndex": 1,
     "explanation": "答句是 Twice a week (一週兩次)，表示頻率，所以疑問詞要用 How often (多常)。",
-    "optionNotes": ["疑問詞・多常(問頻率)", "疑問詞・多久(問時間長度)", "疑問詞・多少(問數量/價錢)", "疑問詞・多快"]
+    "optionNotes": [
+      "疑問詞・多少(問數量/價錢)",
+      "疑問詞・多常(問頻率)",
+      "疑問詞・多久(問時間長度)",
+      "疑問詞・多快"
+    ]
   },
   {
     "id": "jg-23",
     "category": "時態",
     "question": "I have ______ finished my homework, so I can play video games now.",
     "chinese": "我已經做完功課了，所以我現在可以玩電動了。",
-    "options": ["already", "yet", "ever", "never"],
-    "answerIndex": 0,
+    "options": [
+      "ever",
+      "yet",
+      "already",
+      "never"
+    ],
+    "answerIndex": 2,
     "explanation": "現在完成式中，already (已經) 用於肯定句，yet (還沒) 用於否定句或疑問句的句尾。句子為肯定句且表達已經完成，故選 already。",
-    "optionNotes": ["副詞・已經", "副詞・還沒/已經(疑問)", "副詞・曾經", "副詞・從未"]
+    "optionNotes": [
+      "副詞・曾經",
+      "副詞・還沒/已經(疑問)",
+      "副詞・已經",
+      "副詞・從未"
+    ]
   },
   {
     "id": "jg-24",
     "category": "比較級",
     "question": "This is ______ movie I have ever seen.",
     "chinese": "這是我看過最無聊的電影。",
-    "options": ["the most boring", "more boring", "most boring", "the more boring"],
-    "answerIndex": 0,
+    "options": [
+      "the more boring",
+      "the most boring",
+      "most boring",
+      "more boring"
+    ],
+    "answerIndex": 1,
     "explanation": "I have ever seen 表達「我看過之中最...的」，要用最高級。boring 的最高級要在前面加上 the most。",
-    "optionNotes": ["最高級・最無聊的", "比較級・較無聊的", "最高級(少the)", "比較級(多the)"]
+    "optionNotes": [
+      "比較級(多the)",
+      "最高級・最無聊的",
+      "最高級(少the)",
+      "比較級・較無聊的"
+    ]
   },
   {
     "id": "jg-25",
     "category": "花費動詞",
     "question": "It ______ me two hours to finish the report yesterday.",
     "chinese": "昨天那份報告花了我兩個小時才寫完。",
-    "options": ["took", "cost", "spent", "paid"],
-    "answerIndex": 0,
+    "options": [
+      "cost",
+      "took",
+      "paid",
+      "spent"
+    ],
+    "answerIndex": 1,
     "explanation": "主詞是虛主詞 It 時，花費「時間」的動詞要用 take (過去式為 took)。cost 用於花費金錢，spend 和 pay 的主詞必須是人。",
-    "optionNotes": ["動詞・花費(時間)", "動詞・花費(金錢)", "動詞・花費(時間/金錢，人當主詞)", "動詞・付錢"]
+    "optionNotes": [
+      "動詞・花費(金錢)",
+      "動詞・花費(時間)",
+      "動詞・付錢",
+      "動詞・花費(時間/金錢，人當主詞)"
+    ]
   }
 ]

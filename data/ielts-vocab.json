@@ -4,99 +4,199 @@
     "category": "形容詞",
     "question": "Governments around the world are under pressure to adopt more ______ energy policies.",
     "chinese": "世界各國政府都面臨壓力，必須採用更永續的能源政策。",
-    "options": ["sustainable", "substantial", "suspicious", "subsequent"],
+    "options": [
+      "sustainable",
+      "substantial",
+      "subsequent",
+      "suspicious"
+    ],
     "answerIndex": 0,
     "explanation": "sustainable（永續的）符合「採用更永續的能源政策」；substantial大量的、suspicious可疑的、subsequent隨後的，都是常見的 su(b)-開頭混淆字。",
-    "optionNotes": ["形容詞・永續的", "形容詞・大量的、實質的", "形容詞・可疑的", "形容詞・隨後的"]
+    "optionNotes": [
+      "形容詞・永續的",
+      "形容詞・大量的、實質的",
+      "形容詞・隨後的",
+      "形容詞・可疑的"
+    ]
   },
   {
     "id": "iv-02",
     "category": "名詞",
     "question": "Climate change is a global ______ that affects every country, regardless of its wealth.",
     "chinese": "氣候變遷是一個全球現象，不論貧富都會影響到每個國家。",
-    "options": ["phenomenon", "philosophy", "photograph", "physician"],
-    "answerIndex": 0,
+    "options": [
+      "philosophy",
+      "phenomenon",
+      "physician",
+      "photograph"
+    ],
+    "answerIndex": 1,
     "explanation": "phenomenon（現象）符合「氣候變遷是影響所有國家的全球現象」；philosophy哲學、photograph照片、physician醫生，都是 ph-開頭常見混淆字。",
-    "optionNotes": ["名詞・現象", "名詞・哲學", "名詞・照片", "名詞・醫生"]
+    "optionNotes": [
+      "名詞・哲學",
+      "名詞・現象",
+      "名詞・醫生",
+      "名詞・照片"
+    ]
   },
   {
     "id": "iv-03",
     "category": "名詞",
     "question": "Many people make the ______ that higher education always leads to a better-paying job.",
     "chinese": "許多人認定高等教育總是會帶來薪水更高的工作。",
-    "options": ["assumption", "assignment", "assessment", "agreement"],
+    "options": [
+      "assumption",
+      "assignment",
+      "assessment",
+      "agreement"
+    ],
     "answerIndex": 0,
     "explanation": "assumption（假設、認定）符合「許多人認定高等教育總會帶來更高薪的工作」；assignment作業、assessment評估、agreement同意、協議，語意都不符合。",
-    "optionNotes": ["名詞・假設、認定", "名詞・作業、指派", "名詞・評估", "名詞・同意、協議"]
+    "optionNotes": [
+      "名詞・假設、認定",
+      "名詞・作業、指派",
+      "名詞・評估",
+      "名詞・同意、協議"
+    ]
   },
   {
     "id": "iv-04",
     "category": "名詞",
     "question": "According to recent ______ , the number of people living in cities is expected to double by 2050.",
     "chinese": "根據最近的統計數據，到2050年城市居住人口預計會增加一倍。",
-    "options": ["statistics", "strategies", "structures", "standards"],
-    "answerIndex": 0,
+    "options": [
+      "structures",
+      "standards",
+      "strategies",
+      "statistics"
+    ],
+    "answerIndex": 3,
     "explanation": "statistics（統計數據）符合「根據最近的統計數據」；strategy策略、structure結構、standard標準，都是常見的 st-開頭混淆字。",
-    "optionNotes": ["名詞・統計數據", "名詞・策略", "名詞・結構", "名詞・標準"]
+    "optionNotes": [
+      "名詞・結構",
+      "名詞・標準",
+      "名詞・策略",
+      "名詞・統計數據"
+    ]
   },
   {
     "id": "iv-05",
     "category": "動詞",
     "question": "Experts believe that lack of sleep can ______ to a wide range of health problems.",
     "chinese": "專家認為缺乏睡眠可能導致各種各樣的健康問題。",
-    "options": ["contribute", "distribute", "attribute", "tribute"],
-    "answerIndex": 0,
+    "options": [
+      "tribute",
+      "attribute",
+      "contribute",
+      "distribute"
+    ],
+    "answerIndex": 2,
     "explanation": "contribute to（促成、導致）符合「缺乏睡眠導致廣泛的健康問題」；distribute分配、attribute（常接to，歸因於，主詞受詞方向與此句不合）、tribute（名詞，致敬），都是同一個 -tribute 字根的常見混淆字。",
-    "optionNotes": ["動詞・促成、導致（後接to）", "動詞・分配", "動詞・將…歸因於（後接to，但方向不合此句）", "名詞・致敬、貢品"]
+    "optionNotes": [
+      "名詞・致敬、貢品",
+      "動詞・將…歸因於（後接to，但方向不合此句）",
+      "動詞・促成、導致（後接to）",
+      "動詞・分配"
+    ]
   },
   {
     "id": "iv-06",
     "category": "形容詞",
     "question": "Without ______ funding, many public libraries may be forced to reduce their opening hours.",
     "chinese": "沒有足夠的資金，許多公立圖書館可能被迫縮短開放時間。",
-    "options": ["adequate", "accurate", "appropriate", "approximate"],
-    "answerIndex": 0,
+    "options": [
+      "appropriate",
+      "accurate",
+      "approximate",
+      "adequate"
+    ],
+    "answerIndex": 3,
     "explanation": "adequate（足夠的）強調「數量上足夠」，符合「沒有足夠『數量』的資金」；appropriate強調性質合適，較少用來形容資金多寡；accurate精確的、approximate大約的，語意都不符合。",
-    "optionNotes": ["形容詞・足夠的（數量上）", "形容詞・精確的", "形容詞・合適的（性質上）", "形容詞・大約的"]
+    "optionNotes": [
+      "形容詞・合適的（性質上）",
+      "形容詞・精確的",
+      "形容詞・大約的",
+      "形容詞・足夠的（數量上）"
+    ]
   },
   {
     "id": "iv-07",
     "category": "名詞",
     "question": "Traveling to other countries can give you a completely different ______ on your own culture.",
     "chinese": "到其他國家旅行能讓你對自己的文化有截然不同的觀點。",
-    "options": ["perspective", "prospect", "respect", "aspect"],
-    "answerIndex": 0,
+    "options": [
+      "respect",
+      "perspective",
+      "aspect",
+      "prospect"
+    ],
+    "answerIndex": 1,
     "explanation": "perspective（觀點、視角）符合「對自己的文化有截然不同的觀點」；prospect前景、respect尊重、aspect方面，都是同一個 -spect 字根的常見混淆字。",
-    "optionNotes": ["名詞・觀點、視角", "名詞・前景、可能性", "名詞・尊重", "名詞・方面"]
+    "optionNotes": [
+      "名詞・尊重",
+      "名詞・觀點、視角",
+      "名詞・方面",
+      "名詞・前景、可能性"
+    ]
   },
   {
     "id": "iv-08",
     "category": "名詞",
     "question": "Children who grow up with more ______ to books tend to develop stronger reading skills.",
     "chinese": "從小接觸較多書籍的孩子，通常會發展出較強的閱讀能力。",
-    "options": ["exposure", "expansion", "expense", "experiment"],
+    "options": [
+      "exposure",
+      "expansion",
+      "expense",
+      "experiment"
+    ],
     "answerIndex": 0,
     "explanation": "exposure（接觸、暴露於）符合「從小接觸較多書籍」；expansion擴張、expense費用、experiment實驗，語意都不符合。",
-    "optionNotes": ["名詞・接觸、暴露", "名詞・擴張", "名詞・費用", "名詞・實驗"]
+    "optionNotes": [
+      "名詞・接觸、暴露",
+      "名詞・擴張",
+      "名詞・費用",
+      "名詞・實驗"
+    ]
   },
   {
     "id": "iv-09",
     "category": "形容詞",
     "question": "As technology continues to advance, some job losses in traditional industries seem ______ .",
     "chinese": "隨著科技持續進步，傳統產業的部分工作流失似乎是不可避免的。",
-    "options": ["inevitable", "invisible", "informal", "intensive"],
-    "answerIndex": 0,
+    "options": [
+      "informal",
+      "inevitable",
+      "invisible",
+      "intensive"
+    ],
+    "answerIndex": 1,
     "explanation": "inevitable（不可避免的）符合「傳統產業的工作流失似乎是不可避免的」；invisible看不見的、informal非正式的、intensive密集的，語意都不符合。",
-    "optionNotes": ["形容詞・不可避免的", "形容詞・看不見的", "形容詞・非正式的", "形容詞・密集的"]
+    "optionNotes": [
+      "形容詞・非正式的",
+      "形容詞・不可避免的",
+      "形容詞・看不見的",
+      "形容詞・密集的"
+    ]
   },
   {
     "id": "iv-10",
     "category": "動詞",
     "question": "In this case, the benefits of the new policy clearly ______ the potential risks.",
     "chinese": "在這個情況下，新政策的好處明顯勝過潛在的風險。",
-    "options": ["outweigh", "overcome", "overlook", "override"],
-    "answerIndex": 0,
+    "options": [
+      "overcome",
+      "overlook",
+      "override",
+      "outweigh"
+    ],
+    "answerIndex": 3,
     "explanation": "outweigh（勝過、比…更重要）符合「新政策的好處明顯勝過潛在風險」；overcome克服、overlook忽視、override否決、凌駕，都是 over-開頭常見混淆字。",
-    "optionNotes": ["動詞・勝過、比…更重要", "動詞・克服", "動詞・忽視", "動詞・否決、凌駕"]
+    "optionNotes": [
+      "動詞・克服",
+      "動詞・忽視",
+      "動詞・否決、凌駕",
+      "動詞・勝過、比…更重要"
+    ]
   }
 ]

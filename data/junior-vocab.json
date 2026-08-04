@@ -4,99 +4,499 @@
     "category": "動詞",
     "question": "Can I ______ your pen? I forgot mine at home.",
     "chinese": "我可以跟你借筆嗎？我把我的忘在家裡了。",
-    "options": ["lend", "borrow", "rent", "owe"],
-    "answerIndex": 1,
+    "options": [
+      "rent",
+      "owe",
+      "lend",
+      "borrow"
+    ],
+    "answerIndex": 3,
     "explanation": "borrow（跟人借）的方向是「我向你借」；lend（借出）方向相反，是「你借給我」，這裡是說話者想跟對方借筆，所以用 borrow。",
-    "optionNotes": ["動詞・借出（給別人）", "動詞・借入（向別人借）", "動詞・租借（付費）", "動詞・欠（錢或人情）"]
+    "optionNotes": [
+      "動詞・租借（付費）",
+      "動詞・欠（錢或人情）",
+      "動詞・借出（給別人）",
+      "動詞・借入（向別人借）"
+    ]
   },
   {
     "id": "jv-02",
     "category": "形容詞",
     "question": "She felt very ______ before her first speech in front of the whole school.",
     "chinese": "在全校面前第一次演講前，她感到非常緊張。",
-    "options": ["nervous", "angry", "curious", "proud"],
-    "answerIndex": 0,
+    "options": [
+      "angry",
+      "curious",
+      "proud",
+      "nervous"
+    ],
+    "answerIndex": 3,
     "explanation": "nervous（緊張的）符合「第一次在全校面前演講前」的情境；angry生氣、curious好奇、proud驕傲都不是考前該有的心情。",
-    "optionNotes": ["形容詞・緊張的", "形容詞・生氣的", "形容詞・好奇的", "形容詞・驕傲的"]
+    "optionNotes": [
+      "形容詞・生氣的",
+      "形容詞・好奇的",
+      "形容詞・驕傲的",
+      "形容詞・緊張的"
+    ]
   },
   {
     "id": "jv-03",
     "category": "動詞",
     "question": "If you practice every day, your English will ______ quickly.",
     "chinese": "如果你每天練習，你的英文會進步得很快。",
-    "options": ["improve", "injure", "imagine", "include"],
-    "answerIndex": 0,
+    "options": [
+      "injure",
+      "include",
+      "improve",
+      "imagine"
+    ],
+    "answerIndex": 2,
     "explanation": "improve（進步、改善）符合「每天練習會進步」；其餘三字字形相近但意思不同（injure受傷、imagine想像、include包含），是常見的形似字陷阱。",
-    "optionNotes": ["動詞・進步、改善", "動詞・使受傷", "動詞・想像", "動詞・包含"]
+    "optionNotes": [
+      "動詞・使受傷",
+      "動詞・包含",
+      "動詞・進步、改善",
+      "動詞・想像"
+    ]
   },
   {
     "id": "jv-04",
     "category": "形容詞",
     "question": "It is ______ to say \"please\" and \"thank you\" when you ask for help.",
     "chinese": "請求幫忙時說「請」和「謝謝」是有禮貌的。",
-    "options": ["polite", "popular", "positive", "possible"],
-    "answerIndex": 0,
+    "options": [
+      "popular",
+      "possible",
+      "positive",
+      "polite"
+    ],
+    "answerIndex": 3,
     "explanation": "polite（有禮貌的）符合「說請與謝謝是有禮貌的」；popular受歡迎的、positive正面的、possible可能的，都是常跟 polite 搞混的 po-開頭形容詞。",
-    "optionNotes": ["形容詞・有禮貌的", "形容詞・受歡迎的", "形容詞・正面的、樂觀的", "形容詞・可能的"]
+    "optionNotes": [
+      "形容詞・受歡迎的",
+      "形容詞・可能的",
+      "形容詞・正面的、樂觀的",
+      "形容詞・有禮貌的"
+    ]
   },
   {
     "id": "jv-05",
     "category": "動詞",
     "question": "We ______ more rain tomorrow, so bring an umbrella.",
     "chinese": "我們預期明天會下更多雨，所以帶把傘吧。",
-    "options": ["expect", "except", "express", "explain"],
-    "answerIndex": 0,
+    "options": [
+      "except",
+      "express",
+      "expect",
+      "explain"
+    ],
+    "answerIndex": 2,
     "explanation": "expect（預期、預料）符合「預料明天會下更多雨」；except（除了）、express（表達）、explain（解釋）都是常見的 ex-開頭形似字，意思完全不同。",
-    "optionNotes": ["動詞・預期、預料", "介系詞・除了", "動詞・表達", "動詞・解釋"]
+    "optionNotes": [
+      "介系詞・除了",
+      "動詞・表達",
+      "動詞・預期、預料",
+      "動詞・解釋"
+    ]
   },
   {
     "id": "jv-06",
     "category": "名詞",
     "question": "Turning off the lights when you leave a room helps protect the ______ .",
     "chinese": "離開房間時關燈有助於保護環境。",
-    "options": ["environment", "equipment", "experiment", "entertainment"],
-    "answerIndex": 0,
+    "options": [
+      "experiment",
+      "equipment",
+      "entertainment",
+      "environment"
+    ],
+    "answerIndex": 3,
     "explanation": "environment（環境）符合「關燈保護環境」；equipment設備、experiment實驗、entertainment娛樂，字形都跟 environment 相似但意思完全不同。",
-    "optionNotes": ["名詞・環境", "名詞・設備", "名詞・實驗", "名詞・娛樂"]
+    "optionNotes": [
+      "名詞・實驗",
+      "名詞・設備",
+      "名詞・娛樂",
+      "名詞・環境"
+    ]
   },
   {
     "id": "jv-07",
     "category": "形容詞",
     "question": "A good friend should always be ______ with you, even when the truth is hard to hear.",
     "chinese": "好朋友即使在真相難以入耳時，也應該對你誠實。",
-    "options": ["honest", "friendly", "funny", "careful"],
-    "answerIndex": 0,
+    "options": [
+      "funny",
+      "friendly",
+      "honest",
+      "careful"
+    ],
+    "answerIndex": 2,
     "explanation": "honest（誠實的）符合「即使難聽也要說實話」；friendly友善的、funny好笑的、careful小心的，都是常見形容詞但不符合「說真話」這個語境。",
-    "optionNotes": ["形容詞・誠實的", "形容詞・友善的", "形容詞・好笑的", "形容詞・小心的"]
+    "optionNotes": [
+      "形容詞・好笑的",
+      "形容詞・友善的",
+      "形容詞・誠實的",
+      "形容詞・小心的"
+    ]
   },
   {
     "id": "jv-08",
     "category": "動詞",
     "question": "With hard work and patience, you can ______ your dreams.",
     "chinese": "透過努力和耐心，你可以實現你的夢想。",
-    "options": ["achieve", "avoid", "arrange", "admire"],
-    "answerIndex": 0,
+    "options": [
+      "admire",
+      "arrange",
+      "avoid",
+      "achieve"
+    ],
+    "answerIndex": 3,
     "explanation": "achieve（達成、實現）符合「努力和耐心能實現夢想」；avoid避免、arrange安排、admire欽佩，字首都是 a-開頭，是常見的混淆組合。",
-    "optionNotes": ["動詞・達成、實現", "動詞・避免", "動詞・安排", "動詞・欽佩"]
+    "optionNotes": [
+      "動詞・欽佩",
+      "動詞・安排",
+      "動詞・避免",
+      "動詞・達成、實現"
+    ]
   },
   {
     "id": "jv-09",
     "category": "形容詞",
     "question": "The night market was so ______ that we could hardly walk.",
     "chinese": "夜市擠到我們幾乎無法走路。",
-    "options": ["crowded", "colorful", "cheerful", "careful"],
-    "answerIndex": 0,
+    "options": [
+      "careful",
+      "crowded",
+      "cheerful",
+      "colorful"
+    ],
+    "answerIndex": 1,
     "explanation": "crowded（擁擠的）符合「擠到幾乎無法走路」；colorful五顏六色的、cheerful開心的、careful小心的，都不符合擁擠的語境。",
-    "optionNotes": ["形容詞・擁擠的", "形容詞・色彩豐富的", "形容詞・開心的", "形容詞・小心的"]
+    "optionNotes": [
+      "形容詞・小心的",
+      "形容詞・擁擠的",
+      "形容詞・開心的",
+      "形容詞・色彩豐富的"
+    ]
   },
   {
     "id": "jv-10",
     "category": "動詞",
     "question": "We need to ______ everything before the guests arrive at six.",
     "chinese": "我們需要在客人六點抵達前把一切準備好。",
-    "options": ["prepare", "protect", "prevent", "produce"],
+    "options": [
+      "prepare",
+      "produce",
+      "protect",
+      "prevent"
+    ],
     "answerIndex": 0,
     "explanation": "prepare（準備）符合「客人抵達前把一切準備好」；protect保護、prevent防止、produce生產，字首都是 pre-/pro-開頭，容易與 prepare 搞混。",
-    "optionNotes": ["動詞・準備", "動詞・保護", "動詞・防止", "動詞・生產"]
+    "optionNotes": [
+      "動詞・準備",
+      "動詞・生產",
+      "動詞・保護",
+      "動詞・防止"
+    ]
+  },
+  {
+    "id": "jv-11",
+    "category": "形容詞",
+    "question": "My grandmother likes to cook ______ Chinese food for us during the Lunar New Year.",
+    "chinese": "我奶奶喜歡在農曆新年時為我們煮傳統的中國菜。",
+    "options": [
+      "foreign",
+      "traditional",
+      "convenient",
+      "healthy"
+    ],
+    "answerIndex": 1,
+    "explanation": "traditional 意思是「傳統的」，配合 Lunar New Year (農曆新年) 最符合語境；healthy 是「健康的」，foreign 是「外國的」，convenient 是「方便的」。",
+    "optionNotes": [
+      "形容詞・外國的",
+      "形容詞・傳統的",
+      "形容詞・方便的",
+      "形容詞・健康的"
+    ]
+  },
+  {
+    "id": "jv-12",
+    "category": "動詞",
+    "question": "We are going to have a big party to ______ my father's 50th birthday this weekend.",
+    "chinese": "這個週末我們將舉辦一個盛大的派對來慶祝我父親的五十歲生日。",
+    "options": [
+      "invite",
+      "discuss",
+      "accept",
+      "celebrate"
+    ],
+    "answerIndex": 3,
+    "explanation": "celebrate 意思是「慶祝」，配合 50th birthday 最符合語境；invite 是「邀請」，discuss 是「討論」，accept 是「接受」。",
+    "optionNotes": [
+      "動詞・邀請",
+      "動詞・討論",
+      "動詞・接受",
+      "動詞・慶祝"
+    ]
+  },
+  {
+    "id": "jv-13",
+    "category": "形容詞",
+    "question": "This watch is too ______ for me to buy; I don't have that much money.",
+    "chinese": "這支手錶太貴了我買不起；我沒有那麼多錢。",
+    "options": [
+      "special",
+      "heavy",
+      "expensive",
+      "cheap"
+    ],
+    "answerIndex": 2,
+    "explanation": "expensive 意思是「昂貴的」，配合後面的 I don't have that much money (我沒有那麼多錢) 最符合語境；cheap 是「便宜的」，heavy 是「重的」，special 是「特別的」。",
+    "optionNotes": [
+      "形容詞・特別的",
+      "形容詞・重的",
+      "形容詞・昂貴的",
+      "形容詞・便宜的"
+    ]
+  },
+  {
+    "id": "jv-14",
+    "category": "名詞",
+    "question": "English is a very important ______ that connects people from all over the world.",
+    "chinese": "英文是一個非常重要的語言，它連結了來自世界各地的人們。",
+    "options": [
+      "habit",
+      "country",
+      "language",
+      "problem"
+    ],
+    "answerIndex": 2,
+    "explanation": "language 意思是「語言」，English 是一種語言；country 是「國家」，habit 是「習慣」，problem 是「問題」。",
+    "optionNotes": [
+      "名詞・習慣",
+      "名詞・國家",
+      "名詞・語言",
+      "名詞・問題"
+    ]
+  },
+  {
+    "id": "jv-15",
+    "category": "動詞",
+    "question": "We should plant more trees to ______ the earth and keep the air clean.",
+    "chinese": "我們應該種植更多的樹木來保護地球並保持空氣清新。",
+    "options": [
+      "destroy",
+      "pollute",
+      "protect",
+      "attack"
+    ],
+    "answerIndex": 2,
+    "explanation": "protect 意思是「保護」，種樹是為了保護地球；destroy 是「破壞」，pollute 是「汙染」，attack 是「攻擊」。",
+    "optionNotes": [
+      "動詞・破壞",
+      "動詞・汙染",
+      "動詞・保護",
+      "動詞・攻擊"
+    ]
+  },
+  {
+    "id": "jv-16",
+    "category": "形容詞",
+    "question": "You need to be ______ about your studies if you want to get into a good high school.",
+    "chinese": "如果你想考上好高中，你需要對你的課業認真。",
+    "options": [
+      "boring",
+      "funny",
+      "lazy",
+      "serious"
+    ],
+    "answerIndex": 3,
+    "explanation": "serious 意思是「認真的、嚴肅的」，be serious about (對...認真) 符合考上好高中的語境；funny 是「好笑的」，lazy 是「懶惰的」，boring 是「無聊的」。",
+    "optionNotes": [
+      "形容詞・無聊的",
+      "形容詞・好笑的",
+      "形容詞・懶惰的",
+      "形容詞・認真的、嚴肅的"
+    ]
+  },
+  {
+    "id": "jv-17",
+    "category": "形容詞",
+    "question": "Many ______ cities have tall buildings, subways, and busy traffic.",
+    "chinese": "許多現代化城市都有高樓大廈、地鐵和繁忙的交通。",
+    "options": [
+      "terrible",
+      "quiet",
+      "ancient",
+      "modern"
+    ],
+    "answerIndex": 3,
+    "explanation": "modern 意思是「現代的」，配合高樓大廈與地鐵等特徵最符合；ancient 是「古代的」，quiet 是「安靜的」，terrible 是「糟糕的」。",
+    "optionNotes": [
+      "形容詞・糟糕的",
+      "形容詞・安靜的",
+      "形容詞・古代的",
+      "形容詞・現代的"
+    ]
+  },
+  {
+    "id": "jv-18",
+    "category": "動詞",
+    "question": "It didn't ______ me that he was late again, because he never wakes up on time.",
+    "chinese": "他再次遲到並沒有讓我感到驚訝，因為他從來沒有準時起床過。",
+    "options": [
+      "scare",
+      "surprise",
+      "hurt",
+      "interest"
+    ],
+    "answerIndex": 1,
+    "explanation": "surprise 意思是「使驚訝」，因為他總是晚起，所以遲到「不令人驚訝」；scare 是「使害怕」，interest 是「使感興趣」，hurt 是「傷害」。",
+    "optionNotes": [
+      "動詞・使害怕",
+      "動詞・使驚訝",
+      "動詞・傷害",
+      "動詞・使感興趣"
+    ]
+  },
+  {
+    "id": "jv-19",
+    "category": "動詞",
+    "question": "My dad ______ to take me to the zoo if I finish all my homework this week.",
+    "chinese": "我爸爸答應如果我這週寫完所有的功課，就帶我去動物園。",
+    "options": [
+      "forgot",
+      "stopped",
+      "refused",
+      "promised"
+    ],
+    "answerIndex": 3,
+    "explanation": "promise 意思是「承諾、答應」，符合條件交換的語境；forgot 是「忘記」，refused 是「拒絕」，stopped 是「停止」。",
+    "optionNotes": [
+      "動詞・忘記",
+      "動詞・停止",
+      "動詞・拒絕",
+      "動詞・承諾、答應"
+    ]
+  },
+  {
+    "id": "jv-20",
+    "category": "動詞",
+    "question": "Scientists hope to ______ a new way to cure the disease in the near future.",
+    "chinese": "科學家希望在不久的將來能發現治癒這種疾病的新方法。",
+    "options": [
+      "guess",
+      "cover",
+      "hide",
+      "discover"
+    ],
+    "answerIndex": 3,
+    "explanation": "discover 意思是「發現」，搭配 a new way (新方法) 最符合科學家的任務；cover 是「覆蓋」，hide 是「隱藏」，guess 是「猜測」。",
+    "optionNotes": [
+      "動詞・猜測",
+      "動詞・覆蓋",
+      "動詞・隱藏",
+      "動詞・發現"
+    ]
+  },
+  {
+    "id": "jv-21",
+    "category": "形容詞",
+    "question": "You have to be ______ when you teach young children; they learn slowly.",
+    "chinese": "當你教導幼童時必須有耐心；他們學得很慢。",
+    "options": [
+      "angry",
+      "proud",
+      "stupid",
+      "patient"
+    ],
+    "answerIndex": 3,
+    "explanation": "patient 意思是「有耐心的」，教導學得慢的小孩需要耐心；angry 是「生氣的」，proud 是「驕傲的」，stupid 是「愚蠢的」。",
+    "optionNotes": [
+      "形容詞・生氣的",
+      "形容詞・驕傲的",
+      "形容詞・愚蠢的",
+      "形容詞・有耐心的"
+    ]
+  },
+  {
+    "id": "jv-22",
+    "category": "形容詞",
+    "question": "It was very ______ of him to share his lunch with the poor old man.",
+    "chinese": "他把自己的午餐分給那位可憐的老人，真是非常慷慨。",
+    "options": [
+      "selfish",
+      "generous",
+      "common",
+      "jealous"
+    ],
+    "answerIndex": 1,
+    "explanation": "generous 意思是「慷慨的」，分享食物給窮人是慷慨的行為；selfish 是「自私的」，jealous 是「嫉妒的」，common 是「普遍的」。",
+    "optionNotes": [
+      "形容詞・自私的",
+      "形容詞・慷慨的",
+      "形容詞・普遍的",
+      "形容詞・嫉妒的"
+    ]
+  },
+  {
+    "id": "jv-23",
+    "category": "形容詞",
+    "question": "The cake my mom baked smells so ______ that everyone wants a piece.",
+    "chinese": "我媽烤的蛋糕聞起來太美味了，每個人都想要一塊。",
+    "options": [
+      "delicious",
+      "fresh",
+      "terrible",
+      "strange"
+    ],
+    "answerIndex": 0,
+    "explanation": "delicious 意思是「美味的」，因為每個人都想要，代表味道很好；terrible 是「糟糕的」，strange 是「奇怪的」，fresh 雖然是「新鮮的」，但修飾味道以 delicious 最直接。",
+    "optionNotes": [
+      "形容詞・美味的",
+      "形容詞・新鮮的",
+      "形容詞・糟糕的",
+      "形容詞・奇怪的"
+    ]
+  },
+  {
+    "id": "jv-24",
+    "category": "形容詞",
+    "question": "This sofa is so ______ that I always fall asleep when I sit on it.",
+    "chinese": "這張沙發太舒服了，我坐在上面總是會睡著。",
+    "options": [
+      "popular",
+      "comfortable",
+      "hard",
+      "useful"
+    ],
+    "answerIndex": 1,
+    "explanation": "comfortable 意思是「舒適的」，坐著會睡著代表很舒服；hard 是「硬的/困難的」，useful 是「有用的」，popular 是「受歡迎的」。",
+    "optionNotes": [
+      "形容詞・受歡迎的",
+      "形容詞・舒適的",
+      "形容詞・硬的、困難的",
+      "形容詞・有用的"
+    ]
+  },
+  {
+    "id": "jv-25",
+    "category": "名詞",
+    "question": "Reading books every day is a good way to get more ______ about the world.",
+    "chinese": "每天看書是獲得更多關於這個世界知識的好方法。",
+    "options": [
+      "garbage",
+      "traffic",
+      "knowledge",
+      "medicine"
+    ],
+    "answerIndex": 2,
+    "explanation": "knowledge 意思是「知識」，看書可以獲得知識；garbage 是「垃圾」，traffic 是「交通」，medicine 是「藥物」。",
+    "optionNotes": [
+      "名詞・垃圾",
+      "名詞・交通",
+      "名詞・知識",
+      "名詞・藥物"
+    ]
   }
 ]

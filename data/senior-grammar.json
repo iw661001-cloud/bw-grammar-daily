@@ -4,7 +4,12 @@
     "category": "假設語氣",
     "question": "If I ______ harder for the exam last month, I ______ so nervous now.",
     "chinese": "要是我上個月考試前更用功一點，我現在就不會這麼緊張了。",
-    "options": ["study / won't be", "studied / wouldn't be", "had studied / wouldn't be", "had studied / won't be"],
+    "options": [
+      "study / won't be",
+      "studied / wouldn't be",
+      "had studied / wouldn't be",
+      "had studied / won't be"
+    ],
     "answerIndex": 2,
     "explanation": "混合時態假設語氣：if 子句描述過去沒做到的事，用過去完成式 had studied；主要子句是「現在」的結果狀態，用 would + 原形V，所以是 wouldn't be，不是 wouldn't have been。"
   },
@@ -13,17 +18,32 @@
     "category": "倒裝句",
     "question": "______ had the presentation started when the fire alarm went off.",
     "chinese": "簡報才剛開始，火災警報就響了。",
-    "options": ["Hardly", "Seldom", "Rarely", "No sooner"],
+    "options": [
+      "Hardly",
+      "Seldom",
+      "Rarely",
+      "No sooner"
+    ],
     "answerIndex": 0,
     "explanation": "Hardly...when...（一...就...）是倒裝句固定搭配。No sooner 的固定搭配是 no sooner...than...，不是 when，故不選。",
-    "optionNotes": ["副詞・幾乎不；與when並用表「一...就...」", "副詞・很少", "副詞・很少；罕見地", "副詞片語・與than並用表「一...就...」"]
+    "optionNotes": [
+      "副詞・幾乎不；與when並用表「一...就...」",
+      "副詞・很少",
+      "副詞・很少；罕見地",
+      "副詞片語・與than並用表「一...就...」"
+    ]
   },
   {
     "id": "sg-03",
     "category": "分詞構句",
     "question": "The book ______ on the table belongs to my sister.",
     "chinese": "放在桌上的那本書是我妹妹的。",
-    "options": ["lying", "lies", "lain", "to lie"],
+    "options": [
+      "lying",
+      "lies",
+      "lain",
+      "to lie"
+    ],
     "answerIndex": 0,
     "explanation": "分詞構句當形容詞修飾 the book，book 和 lie（放置）是主動關係，用現在分詞 lying。"
   },
@@ -32,17 +52,32 @@
     "category": "關係子句",
     "question": "The manager, ______ opinion I respect the most, disagreed with the plan.",
     "chinese": "那位經理不同意這個計畫，我最尊重的就是他的意見。",
-    "options": ["who", "which", "whose", "that"],
+    "options": [
+      "who",
+      "which",
+      "whose",
+      "that"
+    ],
     "answerIndex": 2,
     "explanation": "空格後面接名詞 opinion，表示「經理的意見」，屬所有格關係，用關係代名詞 whose。",
-    "optionNotes": ["關係代名詞・指人，作主格/受格", "關係代名詞・指事物", "關係代名詞（所有格）・...的", "關係代名詞・指人或物，限定用法"]
+    "optionNotes": [
+      "關係代名詞・指人，作主格/受格",
+      "關係代名詞・指事物",
+      "關係代名詞（所有格）・...的",
+      "關係代名詞・指人或物，限定用法"
+    ]
   },
   {
     "id": "sg-05",
     "category": "使役/被動",
     "question": "I had my car ______ before I went on the road trip.",
     "chinese": "我在開始這趟公路旅行之前，把車子送去檢查了。",
-    "options": ["check", "checked", "checking", "to check"],
+    "options": [
+      "check",
+      "checked",
+      "checking",
+      "to check"
+    ],
     "answerIndex": 1,
     "explanation": "have + 受詞 + 過去分詞表示使役被動，car 是被檢查的，跟 check 是被動關係，用過去分詞 checked。"
   },
@@ -51,17 +86,32 @@
     "category": "強調句",
     "question": "It was not until she moved abroad ______ she realized how much she missed her family.",
     "chinese": "直到她搬到國外，她才意識到自己有多想念家人。",
-    "options": ["that", "when", "which", "so"],
+    "options": [
+      "that",
+      "when",
+      "which",
+      "so"
+    ],
     "answerIndex": 0,
     "explanation": "It is not until...that...（直到...才...）是強調句型固定搭配，主要子句用 that 引導。",
-    "optionNotes": ["連接詞・強調句固定搭配用字", "連接詞/關係副詞・當...時候", "關係代名詞・指事物", "連接詞/副詞・所以；如此"]
+    "optionNotes": [
+      "連接詞・強調句固定搭配用字",
+      "連接詞/關係副詞・當...時候",
+      "關係代名詞・指事物",
+      "連接詞/副詞・所以；如此"
+    ]
   },
   {
     "id": "sg-07",
     "category": "分詞構句",
     "question": "Despite ______ exhausted, the runners kept pushing toward the finish line.",
     "chinese": "儘管筋疲力竭，跑者們仍然繼續朝終點線前進。",
-    "options": ["they were", "being", "they are", "to be"],
+    "options": [
+      "they were",
+      "being",
+      "they are",
+      "to be"
+    ],
     "answerIndex": 1,
     "explanation": "despite 是介系詞，後面接名詞或動名詞，不能直接接子句；這裡省略主詞，用分詞構句 being exhausted。"
   },
@@ -70,17 +120,32 @@
     "category": "關係子句",
     "question": "The committee members, most of ______ had opposing views, finally reached an agreement.",
     "chinese": "委員會的成員，其中大多數人意見相左，最終還是達成了共識。",
-    "options": ["them", "whom", "who", "which"],
+    "options": [
+      "them",
+      "whom",
+      "who",
+      "which"
+    ],
     "answerIndex": 1,
     "explanation": "介系詞 + 關係代名詞的固定用法，先行詞是人（members），用 whom（受格，因為前面接了介系詞 of）。",
-    "optionNotes": ["代名詞（受格）・他們", "關係代名詞（受格，指人）", "關係代名詞（主格，指人）", "關係代名詞・指事物"]
+    "optionNotes": [
+      "代名詞（受格）・他們",
+      "關係代名詞（受格，指人）",
+      "關係代名詞（主格，指人）",
+      "關係代名詞・指事物"
+    ]
   },
   {
     "id": "sg-09",
     "category": "假設語氣",
     "question": "Were it not for your support, I ______ able to finish this project on time.",
     "chinese": "要不是有你的支持，我不可能準時完成這個專案。",
-    "options": ["won't be", "wouldn't be", "wouldn't have been", "hadn't been"],
+    "options": [
+      "won't be",
+      "wouldn't be",
+      "wouldn't have been",
+      "hadn't been"
+    ],
     "answerIndex": 1,
     "explanation": "Were it not for...＝If it were not for...（要不是因為...），是與現在事實相反的假設語氣倒裝句，主要子句用 would + 原形V。"
   },
@@ -89,7 +154,12 @@
     "category": "倒裝句",
     "question": "Not only ______ the deadline, but she also improved the quality of the report.",
     "chinese": "她不僅趕上了截止期限，還提升了報告的品質。",
-    "options": ["she met", "did she meet", "she did meet", "met she"],
+    "options": [
+      "she met",
+      "did she meet",
+      "she did meet",
+      "met she"
+    ],
     "answerIndex": 1,
     "explanation": "Not only 放句首時，後面子句要倒裝，一般動詞句要借助助動詞 did，語序是 did + 主詞 + 原形動詞。"
   },
@@ -98,149 +168,299 @@
     "category": "助動詞",
     "question": "He ______ his keys at home, because he couldn't open the door just now.",
     "chinese": "他一定是把鑰匙忘在家裡了，因為他剛才打不開門。",
-    "options": ["must have left", "should have left", "could leave", "ought to leave"],
-    "answerIndex": 0,
+    "options": [
+      "should have left",
+      "could leave",
+      "ought to leave",
+      "must have left"
+    ],
+    "answerIndex": 3,
     "explanation": "對過去事實的強烈肯定推測要用 must have + p.p.。should have + p.p. 表示「本來應該做卻沒做」；could leave/ought to leave 是對現在/未來的推測或建議。",
-    "optionNotes": ["助動詞・一定已經", "助動詞・本應該", "助動詞・可能會", "助動詞・應該"]
+    "optionNotes": [
+      "助動詞・本應該",
+      "助動詞・可能會",
+      "助動詞・應該",
+      "助動詞・一定已經"
+    ]
   },
   {
     "id": "sg-12",
     "category": "轉折語氣",
     "question": "The new smartphone is excellent ______ its battery life, which can last for two days.",
     "chinese": "這款新智慧型手機在電池續航力方面非常出色，可以撐兩天。",
-    "options": ["in terms of", "regardless of", "in spite of", "as a result of"],
-    "answerIndex": 0,
+    "options": [
+      "as a result of",
+      "regardless of",
+      "in terms of",
+      "in spite of"
+    ],
+    "answerIndex": 2,
     "explanation": "in terms of 意為「就...而言，在...方面」，符合句意；regardless of 是「不管」；in spite of 是「儘管」；as a result of 是「由於」。",
-    "optionNotes": ["介系詞片語・在...方面", "介系詞片語・不管...", "介系詞片語・儘管...", "介系詞片語・由於..."]
+    "optionNotes": [
+      "介系詞片語・由於...",
+      "介系詞片語・不管...",
+      "介系詞片語・在...方面",
+      "介系詞片語・儘管..."
+    ]
   },
   {
     "id": "sg-13",
     "category": "倒裝句",
     "question": "No sooner ______ the train station than the train left.",
     "chinese": "我一到火車站，火車就開走了。",
-    "options": ["had I reached", "I had reached", "did I reach", "I reached"],
-    "answerIndex": 0,
+    "options": [
+      "did I reach",
+      "I reached",
+      "had I reached",
+      "I had reached"
+    ],
+    "answerIndex": 2,
     "explanation": "No sooner... than... 句型中，No sooner 放在句首時，後面的子句需要倒裝。過去完成式 had + S + V-p.p. 表示在另一個過去動作 (left) 之前發生的事，所以選 had I reached。",
-    "optionNotes": ["過去完成式倒裝", "過去完成式(未倒裝)", "過去簡單式倒裝(時態不符)", "過去簡單式(未倒裝)"]
+    "optionNotes": [
+      "過去簡單式倒裝(時態不符)",
+      "過去簡單式(未倒裝)",
+      "過去完成式倒裝",
+      "過去完成式(未倒裝)"
+    ]
   },
   {
     "id": "sg-14",
     "category": "分詞構句",
     "question": "______ all his money, the man had to walk home in the rain.",
     "chinese": "因為花光了所有的錢，那個男人只好在雨中走回家。",
-    "options": ["Having spent", "Spent", "To spend", "Spend"],
-    "answerIndex": 0,
+    "options": [
+      "To spend",
+      "Having spent",
+      "Spent",
+      "Spend"
+    ],
+    "answerIndex": 1,
     "explanation": "兩個動作的主詞相同時可使用分詞構句。花錢的動作 (spend) 發生在走回家 (had to walk) 之前，且是主動式，因此使用完成分詞主動語態 Having + p.p.。",
-    "optionNotes": ["完成分詞(主動・已完成)", "過去分詞(被動)", "不定詞(表目的)", "原形動詞"]
+    "optionNotes": [
+      "不定詞(表目的)",
+      "完成分詞(主動・已完成)",
+      "過去分詞(被動)",
+      "原形動詞"
+    ]
   },
   {
     "id": "sg-15",
     "category": "關係子句",
     "question": "She bought several books, ______ were written in French.",
     "chinese": "她買了幾本書，其中有一些是用法文寫的。",
-    "options": ["some of which", "some of them", "which", "them"],
-    "answerIndex": 0,
+    "options": [
+      "some of them",
+      "some of which",
+      "them",
+      "which"
+    ],
+    "answerIndex": 1,
     "explanation": "逗號後面需要連接詞來連接兩個子句，所以不能用 them (只能作代名詞)。用關係代名詞 which 結合 some of，變成 some of which，在此等於 and some of them。",
-    "optionNotes": ["關係代名詞片語・其中有一些", "代名詞片語・他們之中有一些(缺連接詞)", "關係代名詞・哪個", "代名詞・他們"]
+    "optionNotes": [
+      "代名詞片語・他們之中有一些(缺連接詞)",
+      "關係代名詞片語・其中有一些",
+      "代名詞・他們",
+      "關係代名詞・哪個"
+    ]
   },
   {
     "id": "sg-16",
     "category": "假設語氣",
     "question": "The doctor strongly advised that the patient ______ taking the medicine immediately.",
     "chinese": "醫生強烈建議病人立刻停止服用該藥物。",
-    "options": ["stop", "stopped", "stops", "has stopped"],
-    "answerIndex": 0,
+    "options": [
+      "stopped",
+      "stops",
+      "has stopped",
+      "stop"
+    ],
+    "answerIndex": 3,
     "explanation": "表示「建議、命令、要求」的動詞 (advise, suggest, demand 等) 後面接 that 子句時，子句動詞應該用 (should) + 原形動詞。should 通常被省略，故選原形動詞 stop。",
-    "optionNotes": ["動詞原形", "過去式", "第三人稱單數", "現在完成式"]
+    "optionNotes": [
+      "過去式",
+      "第三人稱單數",
+      "現在完成式",
+      "動詞原形"
+    ]
   },
   {
     "id": "sg-17",
     "category": "倒裝句",
     "question": "Only when you lose your health ______ its true value.",
     "chinese": "只有當你失去健康時，你才會體會到它真正的價值。",
-    "options": ["will you realize", "you will realize", "did you realize", "you realized"],
-    "answerIndex": 0,
+    "options": [
+      "did you realize",
+      "you will realize",
+      "will you realize",
+      "you realized"
+    ],
+    "answerIndex": 2,
     "explanation": "Only + 副詞子句 (when you lose...) 放在句首時，主要子句必須倒裝。表示未來或普遍真理，故用 will + S + V 原形。",
-    "optionNotes": ["助動詞倒裝 (未來)", "直述句 (未倒裝)", "助動詞倒裝 (過去)", "直述句 (過去)"]
+    "optionNotes": [
+      "助動詞倒裝 (過去)",
+      "直述句 (未倒裝)",
+      "助動詞倒裝 (未來)",
+      "直述句 (過去)"
+    ]
   },
   {
     "id": "sg-18",
     "category": "假設語氣",
     "question": "He talks about Paris as if he ______ there for many years, but he has actually never been there.",
     "chinese": "他談論巴黎的樣子好像他在那裡住過好幾年一樣，但實際上他從沒去過。",
-    "options": ["had lived", "lives", "has lived", "lived"],
-    "answerIndex": 0,
+    "options": [
+      "has lived",
+      "lives",
+      "lived",
+      "had lived"
+    ],
+    "answerIndex": 3,
     "explanation": "as if (彷彿) 後面接與事實相反的情況時要用假設語氣。因為是與過去事實相反 (過去其實沒住過，這件事發生在過去到現在之前)，用過去完成式 (had + p.p.)。",
-    "optionNotes": ["過去完成式 (與過去相反)", "現在簡單式 (可能為真)", "現在完成式 (非假設語氣)", "過去簡單式 (與現在相反)"]
+    "optionNotes": [
+      "現在完成式 (非假設語氣)",
+      "現在簡單式 (可能為真)",
+      "過去簡單式 (與現在相反)",
+      "過去完成式 (與過去相反)"
+    ]
   },
   {
     "id": "sg-19",
     "category": "不定詞/動名詞",
     "question": "The project is expected ______ by the end of next month.",
     "chinese": "這個專案預計會在下個月底前完成。",
-    "options": ["to be completed", "to complete", "completing", "completed"],
-    "answerIndex": 0,
+    "options": [
+      "to complete",
+      "completing",
+      "to be completed",
+      "completed"
+    ],
+    "answerIndex": 2,
     "explanation": "expect 常用被動語態 be expected to V。這裡專案 (The project) 是「被完成」，所以不定詞也要用被動語態 to be + p.p.。",
-    "optionNotes": ["被動不定詞", "主動不定詞", "現在分詞/動名詞", "過去分詞"]
+    "optionNotes": [
+      "主動不定詞",
+      "現在分詞/動名詞",
+      "被動不定詞",
+      "過去分詞"
+    ]
   },
   {
     "id": "sg-20",
     "category": "時態",
     "question": "By the time you wake up tomorrow morning, I ______ for London.",
     "chinese": "到你明天早上醒來的時候，我已經出發前往倫敦了。",
-    "options": ["will have left", "will leave", "have left", "left"],
+    "options": [
+      "will have left",
+      "will leave",
+      "have left",
+      "left"
+    ],
     "answerIndex": 0,
     "explanation": "By the time 搭配未來時間 (tomorrow morning)，主要子句要用「未來完成式」 (will have + p.p.)，表示在未來某個時間點之前已經完成的動作。",
-    "optionNotes": ["未來完成式", "未來簡單式", "現在完成式", "過去簡單式"]
+    "optionNotes": [
+      "未來完成式",
+      "未來簡單式",
+      "現在完成式",
+      "過去簡單式"
+    ]
   },
   {
     "id": "sg-21",
     "category": "關係子句",
     "question": "This is the exact spot ______ the famous poet wrote his greatest masterpiece.",
     "chinese": "這就是那位著名詩人寫下他最偉大傑作的確切地點。",
-    "options": ["where", "which", "when", "that"],
-    "answerIndex": 0,
+    "options": [
+      "when",
+      "that",
+      "which",
+      "where"
+    ],
+    "answerIndex": 3,
     "explanation": "先行詞 the spot 是地方，且在後面的子句中作地方副詞 (in the spot)，所以必須用關係副詞 where (= in which)。which 只能代替名詞。",
-    "optionNotes": ["關係副詞・在哪裡", "關係代名詞・哪個", "關係副詞・在何時", "關係代名詞・那個"]
+    "optionNotes": [
+      "關係副詞・在何時",
+      "關係代名詞・那個",
+      "關係代名詞・哪個",
+      "關係副詞・在哪裡"
+    ]
   },
   {
     "id": "sg-22",
     "category": "雙重否定",
     "question": "She never goes to a coffee shop ______ ordering a slice of chocolate cake.",
     "chinese": "她去咖啡廳一定會點一塊巧克力蛋糕。",
-    "options": ["without", "except", "but", "unless"],
-    "answerIndex": 0,
+    "options": [
+      "but",
+      "unless",
+      "without",
+      "except"
+    ],
+    "answerIndex": 2,
     "explanation": "never... without... 是雙重否定的固定用法，表示「每次(做A)一定會(做B)」，字面意思是「沒有做B就不會做A」。without 是介系詞，後面接 V-ing。",
-    "optionNotes": ["介系詞・沒有...", "介系詞・除了...", "連接詞/介系詞・除了", "連接詞・除非"]
+    "optionNotes": [
+      "連接詞/介系詞・除了",
+      "連接詞・除非",
+      "介系詞・沒有...",
+      "介系詞・除了..."
+    ]
   },
   {
     "id": "sg-23",
     "category": "代名詞",
     "question": "The scholarship will be awarded to ______ who have demonstrated excellent academic performance.",
     "chinese": "獎學金將頒發給那些表現出優異學業成績的人。",
-    "options": ["those", "them", "anyone", "they"],
+    "options": [
+      "those",
+      "them",
+      "anyone",
+      "they"
+    ],
     "answerIndex": 0,
     "explanation": "those who... 是一個常見的句型，指「那些...的人」。them 和 they 後面不能直接接關係子句 who... 修飾。anyone 後面通常接單數動詞 (has)，這裡子句是複數 (have)，所以選 those。",
-    "optionNotes": ["指示代名詞・那些人", "代名詞・他們(受格)", "代名詞・任何人(單數)", "代名詞・他們(主格)"]
+    "optionNotes": [
+      "指示代名詞・那些人",
+      "代名詞・他們(受格)",
+      "代名詞・任何人(單數)",
+      "代名詞・他們(主格)"
+    ]
   },
   {
     "id": "sg-24",
     "category": "不定詞/動名詞",
     "question": "Many citizens strongly objected to ______ the historic building to build a modern shopping mall.",
     "chinese": "許多市民強烈反對拆除這棟歷史建築來蓋現代購物中心。",
-    "options": ["destroying", "destroy", "destroyed", "be destroyed"],
-    "answerIndex": 0,
+    "options": [
+      "be destroyed",
+      "destroying",
+      "destroy",
+      "destroyed"
+    ],
+    "answerIndex": 1,
     "explanation": "object to (反對) 中的 to 是介系詞，因此後面遇到動詞時，必須使用動名詞 (V-ing)。",
-    "optionNotes": ["動名詞", "動詞原形", "過去式/過去分詞", "被動語態"]
+    "optionNotes": [
+      "被動語態",
+      "動名詞",
+      "動詞原形",
+      "過去式/過去分詞"
+    ]
   },
   {
     "id": "sg-25",
     "category": "比較級",
     "question": "The final exam was ______ more difficult than the students had anticipated.",
     "chinese": "期末考比學生們預期的要困難得多。",
-    "options": ["much", "very", "too", "many"],
+    "options": [
+      "much",
+      "many",
+      "too",
+      "very"
+    ],
     "answerIndex": 0,
     "explanation": "要強調/修飾比較級 (more difficult) 時，只能用 much, a lot, even, far, a little 等字；very 和 too 只能修飾原級形容詞。",
-    "optionNotes": ["副詞・多地(修飾比較級)", "副詞・非常(修飾原級)", "副詞・太(修飾原級)", "數量詞・許多(修飾可數名詞)"]
+    "optionNotes": [
+      "副詞・多地(修飾比較級)",
+      "數量詞・許多(修飾可數名詞)",
+      "副詞・太(修飾原級)",
+      "副詞・非常(修飾原級)"
+    ]
   }
 ]
