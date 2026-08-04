@@ -1,0 +1,102 @@
+[
+  {
+    "id": "sv-01",
+    "category": "形容詞",
+    "question": "The new medicine has made a ______ difference in patients' recovery time.",
+    "chinese": "這種新藥讓病患的康復時間出現顯著的差異。",
+    "options": ["significant", "silent", "similar", "simple"],
+    "answerIndex": 0,
+    "explanation": "significant（顯著的、重大的）符合「使康復時間出現重大差異」；silent沉默的、similar相似的、simple簡單的，語意都不符合，且字形容易跟 significant 搞混。",
+    "optionNotes": ["形容詞・顯著的、重大的", "形容詞・沉默的", "形容詞・相似的", "形容詞・簡單的"]
+  },
+  {
+    "id": "sv-02",
+    "category": "形容詞",
+    "question": "He was ______ to admit his mistake, even though everyone knew he was wrong.",
+    "chinese": "即使大家都知道他錯了，他還是不情願承認自己的錯誤。",
+    "options": ["reluctant", "relevant", "reliable", "relative"],
+    "answerIndex": 0,
+    "explanation": "reluctant（不情願的）符合「即使大家都知道他錯了，還是不情願承認」；relevant相關的、reliable可靠的、relative相對的，都是常見的 re-開頭形似字。",
+    "optionNotes": ["形容詞・不情願的", "形容詞・相關的", "形容詞・可靠的", "形容詞・相對的"]
+  },
+  {
+    "id": "sv-03",
+    "category": "名詞",
+    "question": "Every action has a ______ , whether we realize it at the time or not.",
+    "chinese": "每個行動都有後果，不論我們當下是否意識到。",
+    "options": ["consequence", "confidence", "conference", "convenience"],
+    "answerIndex": 0,
+    "explanation": "consequence（後果、結果）符合「每個行動都有後果」；confidence信心、conference會議、convenience方便，字形相似但意思完全不同。",
+    "optionNotes": ["名詞・後果、結果", "名詞・信心", "名詞・會議", "名詞・方便"]
+  },
+  {
+    "id": "sv-04",
+    "category": "動詞",
+    "question": "She worked overtime for months in order to ______ her career goal.",
+    "chinese": "她加班了好幾個月，為了達成她的職涯目標。",
+    "options": ["accomplish", "accompany", "accumulate", "accuse"],
+    "answerIndex": 0,
+    "explanation": "accomplish（達成）符合「加班數月以達成職涯目標」；accompany陪伴、accumulate累積、accuse指控，字首都是 acc-開頭，容易混淆。",
+    "optionNotes": ["動詞・達成", "動詞・陪伴", "動詞・累積", "動詞・指控"]
+  },
+  {
+    "id": "sv-05",
+    "category": "形容詞",
+    "question": "The new system allows the factory to produce more goods in less time, making the whole process more ______ .",
+    "chinese": "新系統讓工廠能在更少時間內生產更多產品，使整個流程更有效率。",
+    "options": ["efficient", "sufficient", "ancient", "patient"],
+    "answerIndex": 0,
+    "explanation": "efficient（有效率的）符合「用更少時間生產更多產品」；sufficient足夠的、ancient古老的、patient有耐心的，字尾都是 -ient，是常見混淆組合。",
+    "optionNotes": ["形容詞・有效率的", "形容詞・足夠的", "形容詞・古老的", "形容詞・有耐心的"]
+  },
+  {
+    "id": "sv-06",
+    "category": "形容詞",
+    "question": "It's hard to tell if his apology was ______ or just a way to avoid punishment.",
+    "chinese": "很難判斷他的道歉是真心的，還是只是為了逃避處罰。",
+    "options": ["genuine", "generous", "general", "genetic"],
+    "answerIndex": 0,
+    "explanation": "genuine（真誠的、真正的）符合「難以判斷道歉是真心的還是為了逃避處罰」；generous慷慨的、general一般的、genetic基因的，都是 gen-開頭常見混淆字。",
+    "optionNotes": ["形容詞・真誠的、真正的", "形容詞・慷慨的", "形容詞・一般的", "形容詞・基因的"]
+  },
+  {
+    "id": "sv-07",
+    "category": "形容詞",
+    "question": "The mayor's plan to build a new highway through the park has become a ______ topic in the city.",
+    "chinese": "市長打算穿越公園興建新高速公路的計畫，已成為這座城市裡有爭議的話題。",
+    "options": ["controversial", "convenient", "conventional", "confidential"],
+    "answerIndex": 0,
+    "explanation": "controversial（有爭議的）符合「引發爭議的話題」；convenient方便的、conventional傳統的、confidential機密的，都是 con-開頭易混淆字。",
+    "optionNotes": ["形容詞・有爭議的", "形容詞・方便的", "形容詞・傳統的", "形容詞・機密的"]
+  },
+  {
+    "id": "sv-08",
+    "category": "形容詞",
+    "question": "The city's population is incredibly ______ , with people from more than fifty different countries.",
+    "chinese": "這座城市的人口組成非常多元，居民來自超過五十個不同國家。",
+    "options": ["diverse", "dense", "distant", "durable"],
+    "answerIndex": 0,
+    "explanation": "diverse（多元的）符合「來自超過五十個不同國家」；dense密集的、distant遙遠的、durable耐用的，都是常見的 d-開頭形容詞，但語意不符。",
+    "optionNotes": ["形容詞・多元的", "形容詞・密集的", "形容詞・遙遠的", "形容詞・耐用的"]
+  },
+  {
+    "id": "sv-09",
+    "category": "形容詞",
+    "question": "Many teenagers are not fully ______ of how their online behavior can affect their future.",
+    "chinese": "許多青少年沒有充分意識到自己的網路行為會如何影響未來。",
+    "options": ["aware", "awake", "awful", "awkward"],
+    "answerIndex": 0,
+    "explanation": "aware（意識到的）符合「沒有充分意識到網路行為的影響」；awake清醒的、awful糟糕的、awkward尷尬的，都是 aw-開頭常見形似字。",
+    "optionNotes": ["形容詞・意識到的", "形容詞・清醒的", "形容詞・糟糕的", "形容詞・尷尬的"]
+  },
+  {
+    "id": "sv-10",
+    "category": "形容詞",
+    "question": "Getting enough sleep is ______ for both physical health and mental focus.",
+    "chinese": "充足的睡眠對身體健康和精神專注都是必要的。",
+    "options": ["essential", "potential", "initial", "official"],
+    "answerIndex": 0,
+    "explanation": "essential（必要的、必需的）符合「充足睡眠對身心都是必要的」；potential潛在的、initial最初的、official正式的，字尾都是 -ial/-tial，容易混淆。",
+    "optionNotes": ["形容詞・必要的、必需的", "形容詞・潛在的", "形容詞・最初的", "形容詞・正式的"]
+  }
+]

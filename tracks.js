@@ -5,6 +5,7 @@ const TRACKS = [
   { id: "senior-grammar", label: "高中/學測文法", type: "mc", group: "grammar", file: "data/senior-grammar.json" },
   { id: "toeic-grammar", label: "多益 Part 5", type: "mc", group: "grammar", file: "data/toeic-grammar.json" },
   { id: "junior-vocab", label: "國中單字", type: "mc", group: "vocab", file: "data/junior-vocab.json" },
+  { id: "senior-vocab", label: "高中單字", type: "mc", group: "vocab", file: "data/senior-vocab.json" },
   { id: "junior-translate", label: "國中中翻英", type: "translate", group: "translate", file: "data/junior-translate.json" },
   { id: "senior-translate", label: "高中/學測中翻英", type: "translate", group: "translate", file: "data/senior-translate.json" },
 ];
@@ -14,7 +15,6 @@ const TRACKS = [
 const COMING_SOON = [
   { label: "多益 Part 6", group: "grammar" },
   { label: "多益 Part 7", group: "grammar" },
-  { label: "高中單字", group: "vocab" },
   { label: "多益單字", group: "vocab" },
   { label: "雅思單字", group: "vocab" },
 ];
