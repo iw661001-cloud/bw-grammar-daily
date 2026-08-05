@@ -35,10 +35,12 @@ function dayRef() {
 
 // nextSchedule() 已搬到 tracks.js 共用（part6.js 也要用同一套排程邏輯）。
 
-// 有些題目一句裡有兩個空格、答案選項是「goes / is」這種組合格式（例如jg-01），
-// 不能只換第一個「______」——依「/」拆開答案，依序對應每一個空格。
+// 有些題目一句裡有兩個空格，答案選項是組合格式，依序對應每一個空格：
+// 「goes / is」是兩個各自獨立的空格（例如jg-01）；「take ... for granted」是同一個片語
+// 被主詞/受詞隔開的不連續片語（例如sv-29的take...their health...for granted），
+// 兩種分隔符號都要拆開處理，不能只認「/」。
 function fillAnswerIntoQuestion(question, answerText) {
-  const parts = answerText.split(" / ");
+  const parts = answerText.split(/\s\/\s|\s\.\.\.\s/);
   let i = 0;
   return question.replace(/______/g, () => {
     const part = i < parts.length ? parts[i] : parts[parts.length - 1];

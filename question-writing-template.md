@@ -52,6 +52,11 @@
 
 **出題核心原則**：四個選項要「看起來都合理」，最好是字形相似、詞性相同、或意思相近容易混淆的字，不要出現一眼就能刪掉的無關選項（例如用「香蕉」當文法題的錯誤選項）。這樣才能真正測出理解程度，不是用消去法猜答案。
 
+**一句裡有兩個空格時，答案要依實際情況用固定分隔符號寫，程式才能正確把答案填回空格**：
+- 兩個空格是**各自獨立**的答案（例如時態一致：「goes / is」）→ 用「 / 」分隔，前後各一個空格
+- 兩個空格是**同一個片語被隔開**（例如take...for granted中間夾了受詞，題目寫成「______ their health ______」）→ 用「 ... 」分隔（例如「take ... for granted」），前後各一個空格
+- 只有一個空格的題目不用管這條規則，正常寫就好
+
 **單字題庫（`junior-vocab`／`senior-vocab`／`toeic-vocab`／`ielts-vocab`）專屬規則**：
 - `junior-vocab` 依教育部十二年國教課綱「國中常用2000字參考詞彙表」（基本1200字+挑戰800字）依序或分級挑字，不要自由發揮想到什麼字就出
 - `senior-vocab` 依大考中心《高中英文參考詞彙表》（分基礎2200/核心2201-4400/進階4401-7000三級）依級數挑字
@@ -117,22 +122,15 @@
 
 | 題庫代碼 | 名稱 | 類型 | 程度 | 這次要加幾題 | id流水號從幾號接續 |
 |---|---|---|---|---|---|
-| junior-vocab | 國中單字 | mc | 國中（依教育部十二年國教課綱「國中常用2000字參考詞彙表」，基本1200字+挑戰800字，依序或分級挑字，不要自由發揮） | 10 | jv-26 開始 |
-| senior-vocab | 高中單字 | mc | 高中/學測（依大考中心《高中英文參考詞彙表》，分基礎2200/核心2201-4400/進階4401-7000三級，依級數挑字） | 10 | sv-26 開始 |
-
-**這次額外要求**（本次任務專屬，非長期規則以外的部分見第一、二節）：
-- 兩個題庫各10題裡，可以有1~2題是「片語」（`category` 填「片語」，目標改成整串片語，例如 look forward to、give up），不用每題都是單一單字
-- 有明顯字根字首可拆的字，`etymology` 欄位填拆解（例如 unbelievable → un-(不) + believe(相信) + -able(可以) → 難以置信的），沒有好拆的字根就不寫這個欄位
-- `junior-vocab` 跟 `senior-vocab` 這次可以互相選到同一個字（例如兩邊都出 achieve），只要同一題庫內部不重複即可，不用跨題庫比對
-- 解析視情況補同義字/反義字/搭配詞，或標註「順便複習：XX文法點」這種交叉知識提示，不用每題都硬湊
+| （填入） | （填入） | mc / translate | （填入） | （填入） | （填入） |
 
 **已有內容清單（避免重複，貼上對應題庫的清單）**：
 
 - `junior-grammar`（國中文法）已用文法點：時態×5、主詞動詞一致×1、比較級×2、連接詞×2、助動詞×1、介系詞×2、不定詞/動名詞×2、附加問句×1、代名詞×1、數量詞×1、關係子句×1、感官動詞×1、使役/被動×1、祈使句×1、連綴動詞×1、疑問詞×1、花費動詞×1（共25題，id到jg-25）
 - `senior-grammar`（高中/學測文法）已用文法點：假設語氣×4、倒裝句×4、分詞構句×3、關係子句×4、使役/被動×1、強調句×1、助動詞×1、轉折語氣×1、雙重否定×1、代名詞×1、不定詞/動名詞×2、時態×1、比較級×1（共25題，id到sg-25）
 - `toeic-grammar`（多益 Part 5，文法+字彙混合）已用：分詞構句×1、詞性判斷×3、假設語氣×3、介系詞×2、連接詞×3、比較級×1、代名詞×1、時態×1、關係子句×1、動詞(字彙)×3、形容詞(字彙)×3、使役/被動×1、不定詞/動名詞×1（共25題，id到tg-25）
-- `junior-vocab`（國中單字）已用目標字：borrow, nervous, improve, polite, expect, environment, honest, achieve, crowded, prepare, traditional, celebrate, expensive, language, protect, serious, modern, surprise, promised, discover, patient, generous, delicious, comfortable, knowledge（共25題，id到jv-25）
-- `senior-vocab`（高中單字）已用目標字：significant, reluctant, consequence, accomplish, efficient, genuine, controversial, diverse, aware, essential, ambiguous, compromise, inevitable, substantial, equivalent, interpret, vulnerable, superficial, manipulate, comprehensive, accumulate, subtle, relevant, compulsory, persistent（共25題，id到sv-25）
+- `junior-vocab`（國中單字）已用目標字：borrow, nervous, improve, polite, expect, environment, honest, achieve, crowded, prepare, traditional, celebrate, expensive, language, protect, serious, modern, surprise, promised, discover, patient, generous, delicious, comfortable, knowledge, accident, suddenly, temperature, give up(片語), successful, encourage, restaurant, information, look forward to(片語), foreign（共35題，id到jv-35）
+- `senior-vocab`（高中單字）已用目標字：significant, reluctant, consequence, accomplish, efficient, genuine, controversial, diverse, aware, essential, ambiguous, compromise, inevitable, substantial, equivalent, interpret, vulnerable, superficial, manipulate, comprehensive, accumulate, subtle, relevant, compulsory, persistent, obstacle, deliberately, deteriorate, take...for granted(片語), indispensable, incorporate, perspective, profitable, come up with(片語), spontaneous（共35題，id到sv-35）
 - `toeic-vocab`（多益單字）已用目標字：reimburse, negotiate, postponed, invoice, colleague, deadline, inventory, candidates, reliable, budget, implement, complimentary, accommodate, tentative, itinerary, eligible, feedback, compensation, allocate, mandatory, previous, seminar, launch, verify, confidential（共25題，id到tv-25）
 - `ielts-vocab`（雅思單字）已用目標字：sustainable, phenomenon, assumption, statistics, contribute, adequate, perspective, exposure, inevitable, outweigh, fundamental, contradictory, fluctuate, empirical, paradigm, correlation, mitigate, underlying, subsequent, comprehensive, prominent, facilitate, consensus, intrinsic, hypothesis（共25題，id到iv-25）
 - `junior-translate`（國中中翻英）已出過的中文句子主題：日常作息、天氣、書籍比較、借東西、做家事、電影評論、假設句、連接詞句型、過去完成式、海邊游泳、聽音樂、下雨待家、去過日本、運動健康、熬夜考試、袋子比較、冰箱食物、手機製造、洗澡電話、走路上學、學英文多久、身高比較、圖書館安靜、英文說得好（共25題，id到jt-25）

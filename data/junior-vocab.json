@@ -498,5 +498,207 @@
       "名詞・知識",
       "名詞・藥物"
     ]
+  },
+  {
+    "id": "jv-26",
+    "category": "名詞",
+    "question": "He was badly injured in a car ______ yesterday.",
+    "chinese": "他昨天在一場車禍中受了重傷。",
+    "options": [
+      "accident",
+      "action",
+      "address",
+      "attention"
+    ],
+    "answerIndex": 0,
+    "explanation": "accident 指「意外、車禍」。action(行動)、address(地址)、attention(注意) 皆不符合語意。（順便複習：car accident 是常見的複合名詞）",
+    "optionNotes": [
+      "名詞・意外/事故",
+      "名詞・行動",
+      "名詞・地址",
+      "名詞・注意"
+    ]
+  },
+  {
+    "id": "jv-27",
+    "category": "副詞",
+    "question": "We were walking in the park when it ______ started to rain.",
+    "chinese": "我們在公園散步時，突然開始下雨了。",
+    "options": [
+      "safely",
+      "suddenly",
+      "silently",
+      "simply"
+    ],
+    "answerIndex": 1,
+    "explanation": "suddenly 指「突然地」，符合情境。safely(安全地)、silently(安靜地)、simply(簡單地) 語意不通。反義詞：gradually（逐漸地）。（順便複習：when 連接過去進行式與過去簡單式，表示動作被突發事件打斷）",
+    "optionNotes": [
+      "副詞・安全地",
+      "副詞・突然地",
+      "副詞・安靜地",
+      "副詞・簡單地"
+    ]
+  },
+  {
+    "id": "jv-28",
+    "category": "名詞",
+    "question": "You should wear a heavy coat because the ______ is dropping fast tonight.",
+    "chinese": "你應該穿件厚外套，因為今晚氣溫下降得很快。",
+    "options": [
+      "direction",
+      "difference",
+      "temperature",
+      "tradition"
+    ],
+    "answerIndex": 2,
+    "explanation": "temperature（溫度、氣溫）會 drop（下降）。direction(方向)、difference(差異)、tradition(傳統) 不會用 dropping 來形容天氣。",
+    "optionNotes": [
+      "名詞・方向",
+      "名詞・差異",
+      "名詞・溫度",
+      "名詞・傳統"
+    ]
+  },
+  {
+    "id": "jv-29",
+    "category": "片語",
+    "question": "No matter how hard the test is, you should never ______.",
+    "chinese": "無論考試有多難，你都不應該放棄。",
+    "options": [
+      "get up",
+      "grow up",
+      "wake up",
+      "give up"
+    ],
+    "answerIndex": 3,
+    "explanation": "give up 是「放棄」的意思。get up(起床)、grow up(長大)、wake up(醒來) 語意不合。同義詞：quit。",
+    "optionNotes": [
+      "片語・起床",
+      "片語・長大",
+      "片語・醒來",
+      "片語・放棄"
+    ]
+  },
+  {
+    "id": "jv-30",
+    "category": "形容詞",
+    "question": "After years of hard work, she finally became a ______ writer.",
+    "chinese": "經過多年的努力，她終於成為一位成功的作家。",
+    "options": [
+      "successful",
+      "stupid",
+      "strange",
+      "secret"
+    ],
+    "answerIndex": 0,
+    "explanation": "successful（成功的）符合「多年努力後」的結果。stupid(愚蠢的)、strange(奇怪的)、secret(秘密的) 語意不合。名詞形式為 success。",
+    "optionNotes": [
+      "形容詞・成功的",
+      "形容詞・愚蠢的",
+      "形容詞・奇怪的",
+      "形容詞・秘密的"
+    ],
+    "etymology": "suc-(在...之下) + cess(走) + -ful(充滿...的) → 走到最後的 → 成功的"
+  },
+  {
+    "id": "jv-31",
+    "category": "動詞",
+    "question": "My parents always ______ me to follow my dreams and do what I love.",
+    "chinese": "我的父母總是鼓勵我追隨夢想，做我喜歡做的事。",
+    "options": [
+      "exercise",
+      "encourage",
+      "explain",
+      "excuse"
+    ],
+    "answerIndex": 1,
+    "explanation": "encourage 指「鼓勵」，常用句型為 encourage sb. to do sth.（鼓勵某人做某事）。exercise(運動)、explain(解釋)、excuse(原諒/藉口) 都不符合這個句型與語意。",
+    "optionNotes": [
+      "動詞・運動",
+      "動詞・鼓勵",
+      "動詞・解釋",
+      "動詞・原諒"
+    ],
+    "etymology": "en-(使...) + courage(勇氣) → 使人有勇氣 → 鼓勵"
+  },
+  {
+    "id": "jv-32",
+    "category": "名詞",
+    "question": "Let's celebrate your birthday at that new Italian ______ tonight.",
+    "chinese": "我們今晚在那家新開的義大利餐廳慶祝你的生日吧。",
+    "options": [
+      "restroom",
+      "hospital",
+      "restaurant",
+      "supermarket"
+    ],
+    "answerIndex": 2,
+    "explanation": "restaurant（餐廳）是可以用餐慶祝的地方。restroom(洗手間)、hospital(醫院)、supermarket(超市) 都不適合用來「義式慶生」。",
+    "optionNotes": [
+      "名詞・洗手間",
+      "名詞・醫院",
+      "名詞・餐廳",
+      "名詞・超級市場"
+    ]
+  },
+  {
+    "id": "jv-33",
+    "category": "名詞",
+    "question": "You can find a lot of useful ______ about the museum on its website.",
+    "chinese": "你可以在該博物館的網站上找到很多有用的資訊。",
+    "options": [
+      "instrument",
+      "invitation",
+      "invention",
+      "information"
+    ],
+    "answerIndex": 3,
+    "explanation": "information（資訊）是不可數名詞，網路上找到的是資訊。instrument(樂器/儀器)、invitation(邀請)、invention(發明) 語意皆不符。（順便複習：information 不可數，不能加 s）",
+    "optionNotes": [
+      "名詞・儀器/樂器",
+      "名詞・邀請",
+      "名詞・發明",
+      "名詞・資訊"
+    ]
+  },
+  {
+    "id": "jv-34",
+    "category": "片語",
+    "question": "I really ______ seeing my grandparents during the winter vacation.",
+    "chinese": "我真的很期待在寒假期間見到我的祖父母。",
+    "options": [
+      "look forward to",
+      "look for",
+      "look after",
+      "look at"
+    ],
+    "answerIndex": 0,
+    "explanation": "look forward to 指「期待」，後接名詞或動名詞 (seeing)。look for(尋找)、look after(照顧)、look at(看著) 都不符合「期待」的語意。（順便複習：這個片語的 to 是介系詞，所以後面動詞要加 ing）",
+    "optionNotes": [
+      "片語・期待",
+      "片語・尋找",
+      "片語・照顧",
+      "片語・看著"
+    ]
+  },
+  {
+    "id": "jv-35",
+    "category": "形容詞",
+    "question": "Learning a ______ language can help you communicate with people from other countries.",
+    "chinese": "學習外語可以幫助你與來自其他國家的人溝通。",
+    "options": [
+      "friendly",
+      "foreign",
+      "famous",
+      "fresh"
+    ],
+    "answerIndex": 1,
+    "explanation": "foreign language 即為「外語」，符合後文與「其他國家的人」溝通的語境。friendly(友善的)、famous(有名的)、fresh(新鮮的) 套入語意皆不自然。",
+    "optionNotes": [
+      "形容詞・友善的",
+      "形容詞・外國的",
+      "形容詞・有名的",
+      "形容詞・新鮮的"
+    ]
   }
 ]

@@ -498,5 +498,210 @@
       "形容詞・堅持不懈的",
       "形容詞・猶豫的"
     ]
+  },
+  {
+    "id": "sv-26",
+    "category": "名詞",
+    "question": "His lack of experience proved to be a major ______ in his career advancement.",
+    "chinese": "經驗不足證明是他職涯發展上的一大障礙。",
+    "options": [
+      "obstacle",
+      "miracle",
+      "vehicle",
+      "particle"
+    ],
+    "answerIndex": 0,
+    "explanation": "obstacle 指「障礙、阻礙」。miracle(奇蹟)、vehicle(車輛/媒介)、particle(粒子) 都不符合語意。搭配詞：overcome an obstacle（克服障礙）。",
+    "optionNotes": [
+      "名詞・障礙",
+      "名詞・奇蹟",
+      "名詞・車輛",
+      "名詞・粒子"
+    ],
+    "etymology": "ob-(反對/阻擋) + sta-(站立) + -cle(名詞字尾) → 擋在前面的東西 → 障礙"
+  },
+  {
+    "id": "sv-27",
+    "category": "副詞",
+    "question": "The suspect claimed it was an accident, but the police believed he had set the fire ______.",
+    "chinese": "嫌犯聲稱那是一場意外，但警方認為他是蓄意縱火。",
+    "options": [
+      "desperately",
+      "deliberately",
+      "delicately",
+      "drastically"
+    ],
+    "answerIndex": 1,
+    "explanation": "deliberately 指「故意地、蓄意地」，與前文的 accident（意外）形成對比。desperately(絕望地/拼命地)、delicately(精緻地/小心翼翼地)、drastically(大幅地) 語意皆不符。同義詞：intentionally。",
+    "optionNotes": [
+      "副詞・拼命地/絕望地",
+      "副詞・故意地",
+      "副詞・精緻地",
+      "副詞・大幅地"
+    ]
+  },
+  {
+    "id": "sv-28",
+    "category": "動詞",
+    "question": "Due to the lack of maintenance, the condition of the historical building began to ______ rapidly.",
+    "chinese": "由於缺乏維護，這棟歷史建築的狀況開始迅速惡化。",
+    "options": [
+      "dominate",
+      "demonstrate",
+      "deteriorate",
+      "discriminate"
+    ],
+    "answerIndex": 2,
+    "explanation": "deteriorate 指「惡化」，常用於健康、天氣或事物狀況變差。dominate(支配)、demonstrate(示範/證明)、discriminate(歧視) 語意不通。反義詞：improve。",
+    "optionNotes": [
+      "動詞・支配",
+      "動詞・示範/證明",
+      "動詞・惡化",
+      "動詞・歧視"
+    ],
+    "etymology": "de-(向下) + terior(較差的) + -ate(動詞字尾) → 變得更差 → 惡化"
+  },
+  {
+    "id": "sv-29",
+    "category": "片語",
+    "question": "Many young people ______ their health ______, not realizing its value until they fall ill.",
+    "chinese": "許多年輕人將健康視為理所當然，直到生病才意識到它的價值。",
+    "options": [
+      "take ... into account",
+      "make ... of",
+      "get ... across",
+      "take ... for granted"
+    ],
+    "answerIndex": 3,
+    "explanation": "take... for granted 指「將...視為理所當然」。take... into account(將...列入考慮)、make... of(理解...)、get... across(清楚傳達...) 皆不符合「生病才知價值」的對比語境。",
+    "optionNotes": [
+      "片語・將...列入考慮",
+      "片語・理解/看待...",
+      "片語・清楚傳達...",
+      "片語・將...視為理所當然"
+    ]
+  },
+  {
+    "id": "sv-30",
+    "category": "形容詞",
+    "question": "In modern society, smartphones have become an ______ tool for communication and work.",
+    "chinese": "在現代社會中，智慧型手機已成為溝通與工作上不可或缺的工具。",
+    "options": [
+      "indispensable",
+      "independent",
+      "indifferent",
+      "inappropriate"
+    ],
+    "answerIndex": 0,
+    "explanation": "indispensable 指「不可或缺的、必需的」。independent(獨立的)、indifferent(漠不關心的)、inappropriate(不適當的) 語意不合。同義詞：essential。",
+    "optionNotes": [
+      "形容詞・不可或缺的",
+      "形容詞・獨立的",
+      "形容詞・漠不關心的",
+      "形容詞・不適當的"
+    ],
+    "etymology": "in-(不) + dispense(分配/省掉) + -able(可以...的) → 不能省掉的 → 不可或缺的"
+  },
+  {
+    "id": "sv-31",
+    "category": "動詞",
+    "question": "The designer decided to ______ environmentally friendly materials into the new clothing line.",
+    "chinese": "設計師決定將環保材質納入新的服裝系列中。",
+    "options": [
+      "investigate",
+      "incorporate",
+      "intimidate",
+      "illustrate"
+    ],
+    "answerIndex": 1,
+    "explanation": "incorporate A into B 是一個常見搭配，意思是「將 A 納入 B 之中」。investigate(調查)、intimidate(威嚇)、illustrate(說明) 不符合此搭配語法及語意。",
+    "optionNotes": [
+      "動詞・調查",
+      "動詞・納入/合併",
+      "動詞・威嚇",
+      "動詞・說明"
+    ],
+    "etymology": "in-(進入) + corpor(身體/實體) + -ate(動詞字尾) → 進入實體 → 納入"
+  },
+  {
+    "id": "sv-32",
+    "category": "名詞",
+    "question": "Traveling to different countries can help you view your own culture from a fresh ______.",
+    "chinese": "到不同國家旅行可以幫助你從嶄新的觀點來看待自己的文化。",
+    "options": [
+      "personality",
+      "proportion",
+      "perspective",
+      "privilege"
+    ],
+    "answerIndex": 2,
+    "explanation": "perspective 指「觀點、視角」，常用搭配為 from a... perspective（從...的觀點）。personality(個性)、proportion(比例)、privilege(特權) 語意皆不符。",
+    "optionNotes": [
+      "名詞・個性",
+      "名詞・比例",
+      "名詞・觀點",
+      "名詞・特權"
+    ],
+    "etymology": "per-(完全/穿過) + spect(看) + -ive(名詞/形容詞字尾) → 看透徹 → 觀點"
+  },
+  {
+    "id": "sv-33",
+    "category": "形容詞",
+    "question": "Investing in renewable energy has proven to be highly ______ for the company in recent years.",
+    "chinese": "近年來，投資再生能源對該公司而言已被證明是高度有利可圖的。",
+    "options": [
+      "predictable",
+      "passionate",
+      "pessimistic",
+      "profitable"
+    ],
+    "answerIndex": 3,
+    "explanation": "profitable 指「有利可圖的、賺錢的」，符合投資 (investing) 帶來的結果。predictable(可預測的)、passionate(熱情的)、pessimistic(悲觀的) 語意皆不自然。同義詞：lucrative。",
+    "optionNotes": [
+      "形容詞・可預測的",
+      "形容詞・熱情的",
+      "形容詞・悲觀的",
+      "形容詞・有利可圖的"
+    ]
+  },
+  {
+    "id": "sv-34",
+    "category": "片語",
+    "question": "We need to ______ a practical solution to this problem before the deadline.",
+    "chinese": "我們必須在期限之前想出一個實用的解決方案來處理這個問題。",
+    "options": [
+      "put up with",
+      "catch up with",
+      "come up with",
+      "keep up with"
+    ],
+    "answerIndex": 2,
+    "explanation": "come up with 指「想出（主意、解決方案等）」。put up with(忍受)、catch up with(趕上)、keep up with(跟上) 皆為常見的三字片語，但語意不符合「想出解決方案」。",
+    "optionNotes": [
+      "片語・忍受",
+      "片語・趕上",
+      "片語・想出",
+      "片語・跟上"
+    ]
+  },
+  {
+    "id": "sv-35",
+    "category": "形容詞",
+    "question": "Instead of planning everything in advance, they took a ______ trip to the beach.",
+    "chinese": "他們沒有事先計畫好一切，而是自發性地去海邊旅行。",
+    "options": [
+      "suspicious",
+      "simultaneous",
+      "superficial",
+      "spontaneous"
+    ],
+    "answerIndex": 3,
+    "explanation": "spontaneous 指「自發的、未經事先計畫的」，與前文的 planning in advance（事先計畫）形成對比。suspicious(可疑的)、simultaneous(同時發生的)、superficial(表面的) 語意不通。",
+    "optionNotes": [
+      "形容詞・可疑的",
+      "形容詞・同時發生的",
+      "形容詞・表面的",
+      "形容詞・自發的"
+    ]
   }
 ]
