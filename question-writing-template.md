@@ -74,6 +74,31 @@
 { "id": "st-01", "chinese": "要不是老師的鼓勵，他早就放棄學英文了。", "reference": "If it had not been for the teacher's encouragement, he would have given up learning English long ago." }
 ```
 
+### 多益 Part 6 短文填空（`toeic-part6`專用，格式跟上面兩種完全不同）
+
+一篇文章＋4小題，不是單句：
+
+```json
+{
+  "id": "{兩位數字流水號，如p6-01}",
+  "passageType": "email／memo／notice／article 四選一",
+  "passage": "文章全文，4個空格用 ______(1)______、______(2)______、______(3)______、______(4)______ 標記",
+  "chinese": "整篇中文翻譯（可選）",
+  "questions": [
+    { "blankType": "詞性判斷", "options": [...4個], "answerIndex": 0, "explanation": "...", "optionNotes": [...4個] },
+    { "blankType": "時態", "options": [...], "answerIndex": 0, "explanation": "...", "optionNotes": [...] },
+    { "blankType": "動詞或名詞或形容詞（依實際考的字選一個當分類）", "options": [...], "answerIndex": 0, "explanation": "...", "optionNotes": [...] },
+    { "blankType": "段落邏輯", "options": ["四個完整句子，不是單字"], "answerIndex": 0, "explanation": "必須明確指出線索是「指示代名詞／邏輯轉折詞／詞彙關聯性」三者中的哪一個，具體點出是哪一句提供的線索" }
+  ]
+}
+```
+
+**這個格式的專屬規則**：
+- 4小題固定順序：前3題是詞性/時態/單字片語類型（`blankType`盡量對應現有文法題庫已經在用的分類名稱：時態、詞性判斷、介系詞、連接詞等），第4題固定是「段落邏輯」句子插入題
+- 句子插入題的4個選項是**完整句子**，不是單字，`answerIndex`一樣是0~3
+- 文章開頭依體裁慣例寫：email/letter開頭直接說明目的；memo要交代收件對象/主旨/施行日期；notice/article要交代Event/When/Action Required
+- 情境內容全部自創虛構（虛構公司/人物/數據），不照抄任何具體來源的文章內容；可以參考 toeic.com.tw（多益官方台灣代理機構）釋出的官方範例確認格式，但一樣不照抄其例句
+
 ---
 
 ## 三、本次任務（每次委託時，把下面表格換成實際要做的題庫）
