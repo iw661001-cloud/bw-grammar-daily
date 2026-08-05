@@ -469,6 +469,111 @@ main {
   color: var(--ink-secondary);
 }
 
+/* 卡片拆兩個獨立可點擊區：上半部（連結進練習頁）跟下半部（點了展開細節）
+   功能完全不同，用分隔線+游標樣式明確區隔，避免使用者以為整張卡是同一個連結
+   （WEB_DESIGN_SPEC.md：可點擊元件需要足夠視覺區隔，不能只靠顏色深淺）。 */
+.dashboard-track-link {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.track-detail-toggle {
+  cursor: pointer;
+  padding-top: 10px;
+  border-top: 1px dashed rgba(11,11,11,0.12);
+  position: relative;
+}
+
+.track-detail-toggle::after {
+  content: "點看細節 ›";
+  position: absolute;
+  right: 0;
+  top: 10px;
+  font-size: 0.7rem;
+  color: var(--ink-muted);
+}
+
+.track-detail {
+  display: none;
+  margin-top: 14px;
+  padding-top: 14px;
+  border-top: 1px solid rgba(11,11,11,0.10);
+}
+
+.track-detail.show {
+  display: block;
+}
+
+.detail-section-title {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--ink-secondary);
+  margin: 14px 0 6px;
+}
+
+.detail-section-title:first-child {
+  margin-top: 0;
+}
+
+.detail-date-block {
+  margin-bottom: 10px;
+}
+
+.detail-date-label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--primary-dark);
+  margin-bottom: 4px;
+}
+
+.detail-question {
+  font-size: 0.85rem;
+  color: var(--text);
+  padding: 4px 0 4px 10px;
+  border-left: 2px solid #e1e0d9;
+}
+
+.detail-item-row {
+  padding: 8px 0;
+  border-bottom: 1px solid rgba(11,11,11,0.06);
+}
+
+.detail-item-meta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+  font-size: 0.8rem;
+  color: var(--ink-muted);
+  flex-wrap: wrap;
+}
+
+.difficulty-tag {
+  color: var(--wrong);
+  font-weight: 600;
+  font-size: 0.75rem;
+  border: 1px solid var(--wrong);
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+
+.report-btn {
+  margin-left: auto;
+  background: none;
+  border: 1px solid #dde2f0;
+  border-radius: 999px;
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  color: var(--ink-muted);
+  cursor: pointer;
+}
+
+.report-btn:disabled {
+  cursor: default;
+  opacity: 0.7;
+}
+
 @media (min-width: 700px) {
   main { max-width: 720px; }
   header h1 { font-size: 1.6rem; }

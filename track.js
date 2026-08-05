@@ -74,7 +74,10 @@ async function recordAnswer(questionId, correct) {
       easeFactor: schedule.easeFactor,
       dueDate: firebase.firestore.Timestamp.fromDate(dueDate),
     }, { merge: true }),
-    dayRef().set({ count: firebase.firestore.FieldValue.increment(1) }, { merge: true }),
+    dayRef().set({
+      count: firebase.firestore.FieldValue.increment(1),
+      itemIds: firebase.firestore.FieldValue.arrayUnion(questionId),
+    }, { merge: true }),
   ]);
 }
 
@@ -101,7 +104,7 @@ function renderDone() {
     <div class="done-card">
       <div>這個題庫做完一輪了！</div>
       <div class="nav-row">
-        <a class="nav-btn secondary" href="index.html" style="text-decoration:none;text-align:center;line-height:2.6;">回首頁</a>
+        <a class="nav-btn secondary" href="dashboard.html" style="text-decoration:none;text-align:center;line-height:2.6;">回儀表板</a>
         <button class="nav-btn" id="restartBtn">重新做一次</button>
       </div>
     </div>

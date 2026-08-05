@@ -16,13 +16,23 @@ async function fetchAllItems() {
   return all;
 }
 
-// 每天實際練幾題另外存在 days/{日期} 子集合（見 track.js 的 dayRef()），
+// 每天實際練幾題、練了哪幾題，存在 days/{日期} 子集合（見 track.js 的 dayRef()），
 // 不能用 items 的 updatedAt 推算——同一題跨天重練時 updatedAt 只留得住最後一天，
 // 會把之前那幾天的練習次數整批洗到最新那天。
-async function fetchTrackDayCounts(trackId) {
+// 回傳 Map<日期, {count, itemIds}>，itemIds 是舊資料可能沒有的欄位（沿用時視為空陣列）。
+async function fetchTrackDayDetails(trackId) {
   const snap = await db.collection("self_grammar").doc(trackId).collection("days").get();
   const map = new Map();
-  snap.forEach((doc) => map.set(doc.id, doc.data().count || 0));
+  snap.forEach((doc) => {
+    const d = doc.data();
+    map.set(doc.id, { count: d.count || 0, itemIds: d.itemIds || [] });
+  });
+  return map;
+}
+
+function toCountMap(dayDetails) {
+  const map = new Map();
+  dayDetails.forEach((v, k) => map.set(k, v.count));
   return map;
 }
 
@@ -50,18 +60,25 @@ async function fetchTrackTotals() {
   return totals;
 }
 
-// 從今天（或昨天，如果今天還沒練習）往回數，中斷就停
+// 從今天（或昨天，如果今天還沒練習）往回數，中斷就停。
+// 回傳 {count, startDate, endDate}（YYYY-MM-DD字串），不只回傳數字，
+// 讓畫面上可以顯示「連續天數是從幾號到幾號」，不是只有一個孤立的數字。
 function computeStreak(dayCounts) {
-  let streak = 0;
+  let count = 0;
+  let startDate = null;
+  let endDate = null;
   const cursor = new Date();
   if (!dayCounts.has(toLocalDateKey(cursor))) {
     cursor.setDate(cursor.getDate() - 1);
   }
   while (dayCounts.has(toLocalDateKey(cursor))) {
-    streak++;
+    const key = toLocalDateKey(cursor);
+    if (!endDate) endDate = key;
+    startDate = key;
+    count++;
     cursor.setDate(cursor.getDate() - 1);
   }
-  return streak;
+  return { count, startDate, endDate };
 }
 
 function heatLevel(count) {
@@ -98,10 +115,10 @@ function renderMiniHeatmap(dayCounts) {
 }
 
 async function render() {
-  const [items, categoryMap, trackDayCountsList, trackTotals] = await Promise.all([
+  const [items, categoryMap, trackDayDetailsList, trackTotals] = await Promise.all([
     fetchAllItems(),
     fetchGrammarCategoryMap(),
-    Promise.all(TRACKS.map((t) => fetchTrackDayCounts(t.id))),
+    Promise.all(TRACKS.map((t) => fetchTrackDayDetails(t.id))),
     fetchTrackTotals(),
   ]);
 
@@ -111,8 +128,14 @@ async function render() {
   const byTrack = {};
   const byCategory = {};
   TRACKS.forEach((t, i) => {
-    byTrack[t.id] = { attempted: 0, attempts: 0, correct: 0, needsReview: 0, dayCounts: trackDayCountsList[i] };
-    trackDayCountsList[i].forEach((count, key) => dayCounts.set(key, (dayCounts.get(key) || 0) + count));
+    const dayDetails = trackDayDetailsList[i];
+    byTrack[t.id] = {
+      attempted: 0, attempts: 0, correct: 0, needsReview: 0,
+      dayDetails,
+      dayCounts: toCountMap(dayDetails),
+      items: [],
+    };
+    dayDetails.forEach((v, key) => dayCounts.set(key, (dayCounts.get(key) || 0) + v.count));
   });
 
   items.forEach((item) => {
@@ -127,6 +150,7 @@ async function render() {
       bucket.attempts += attempts;
       bucket.correct += correct;
       if (item.needsReview) bucket.needsReview++;
+      bucket.items.push(item);
     }
 
     const category = categoryMap[item.id];
@@ -139,7 +163,7 @@ async function render() {
 
   const accuracy = totalAttempts > 0 ? Math.round((totalCorrect / totalAttempts) * 100) : 0;
   const practiceDays = dayCounts.size;
-  const streak = computeStreak(dayCounts);
+  const streak = computeStreak(dayCounts).count;
   const now = new Date();
   const dueCount = items.filter((item) => isDueForReview(item, now)).length;
 
@@ -168,23 +192,91 @@ async function render() {
     </div>
   `;
 
+  // 答錯率超過50%標「較難」，門檻是簡單的經驗值，不是統計顯著性判斷——
+  // 借鏡 staresto 網站的難度標示設計，但我們沒有官方P/D值，只能用自己累積的答錯率概算。
+  function difficultyTag(item) {
+    const attempts = item.attempts || 0;
+    if (attempts < 2) return "";
+    const wrongRate = 1 - (item.correctCount || 0) / attempts;
+    return wrongRate > 0.5 ? `<span class="difficulty-tag">較難</span>` : "";
+  }
+
+  function renderTrackDetail(track, s) {
+    const dateEntries = [...s.dayDetails.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1));
+    const itemById = {};
+    s.items.forEach((it) => { itemById[it.id] = it; });
+
+    const dateListHtml = dateEntries.length
+      ? dateEntries.map(([date, v]) => {
+          const qList = v.itemIds.length
+            ? v.itemIds.map((id) => `<div class="detail-question">${(itemById[id] && itemById[id].question) || id}</div>`).join("")
+            : `<div class="detail-question empty-msg">這天的題目明細是舊資料，沒有記錄實際作答哪幾題</div>`;
+          return `
+            <div class="detail-date-block">
+              <div class="detail-date-label">${date}（${v.count}題）</div>
+              ${qList}
+            </div>
+          `;
+        }).join("")
+      : `<p class="empty-msg">還沒有任何作答紀錄</p>`;
+
+    const streak = computeStreak(s.dayCounts);
+    const streakRangeHtml = streak.count > 0
+      ? `<p>${streak.startDate} ～ ${streak.endDate}（連續 ${streak.count} 天）</p>`
+      : `<p class="empty-msg">目前沒有連續中的複習</p>`;
+
+    const sortedItems = [...s.items].sort((a, b) => {
+      const rateA = a.attempts > 0 ? (a.correctCount || 0) / a.attempts : 1;
+      const rateB = b.attempts > 0 ? (b.correctCount || 0) / b.attempts : 1;
+      return rateA - rateB;
+    });
+    const itemListHtml = sortedItems.length
+      ? sortedItems.map((it) => {
+          const acc = it.attempts > 0 ? Math.round(((it.correctCount || 0) / it.attempts) * 100) : 0;
+          return `
+            <div class="detail-item-row">
+              <div class="detail-question">${it.question}</div>
+              <div class="detail-item-meta">
+                <span>作答 ${it.attempts || 0} 次・正確率 ${acc}%</span>
+                ${difficultyTag(it)}
+                <button class="report-btn" data-track="${track.id}" data-item="${it.id}">回報這題有問題</button>
+              </div>
+            </div>
+          `;
+        }).join("")
+      : `<p class="empty-msg">還沒有任何作答紀錄</p>`;
+
+    return `
+      <div class="track-detail" id="detail-${track.id}">
+        <div class="detail-section-title">練習紀錄</div>
+        ${dateListHtml}
+        <div class="detail-section-title">連續天數區間</div>
+        ${streakRangeHtml}
+        <div class="detail-section-title">每題正確率（由低到高）</div>
+        ${itemListHtml}
+      </div>
+    `;
+  }
+
   const renderTrackCard = (track) => {
     const s = byTrack[track.id];
     const total = trackTotals[track.id] || 0;
     const pct = total > 0 ? Math.min(100, Math.round((s.attempted / total) * 100)) : 0;
     const accuracyPct = s.attempts > 0 ? Math.round((s.correct / s.attempts) * 100) : null;
     const trackPracticeDays = s.dayCounts.size;
-    const trackStreak = computeStreak(s.dayCounts);
+    const trackStreak = computeStreak(s.dayCounts).count;
     return `
       <div class="dashboard-track-card">
-        <div class="track-name">${track.label}</div>
-        <div class="meter-track"><div class="meter-fill" style="width:${pct}%"></div></div>
-        <div class="dashboard-track-row">
-          <span>已作答 ${s.attempted}/${total}</span>
-          <span>${accuracyPct === null ? "尚無資料" : "正確率 " + accuracyPct + "%"}</span>
-          ${s.needsReview > 0 ? `<span class="review-flag">待複習 ${s.needsReview}</span>` : ""}
-        </div>
-        <div class="track-heat-row">
+        <a class="dashboard-track-link" href="track.html?t=${track.id}">
+          <div class="track-name">${track.label}</div>
+          <div class="meter-track"><div class="meter-fill" style="width:${pct}%"></div></div>
+          <div class="dashboard-track-row">
+            <span>已作答 ${s.attempted}/${total}</span>
+            <span>${accuracyPct === null ? "尚無資料" : "正確率 " + accuracyPct + "%"}</span>
+            ${s.needsReview > 0 ? `<span class="review-flag">待複習 ${s.needsReview}</span>` : ""}
+          </div>
+        </a>
+        <div class="track-heat-row track-detail-toggle" data-target="detail-${track.id}">
           <div class="mini-heatmap-wrap">${renderMiniHeatmap(s.dayCounts)}</div>
           <div class="mini-stat-list">
             <div class="mini-stat"><span class="mini-stat-value">${s.attempts}</span><span class="mini-stat-label">總作答</span></div>
@@ -192,6 +284,7 @@ async function render() {
             <div class="mini-stat"><span class="mini-stat-value">${trackStreak}</span><span class="mini-stat-label">連續天數</span></div>
           </div>
         </div>
+        ${renderTrackDetail(track, s)}
       </div>
     `;
   };
@@ -222,6 +315,26 @@ async function render() {
   const categoryStatsHtml = renderCategoryStats(byCategory);
 
   appEl.innerHTML = reviewBannerHtml + kpiHtml + categoryHtml + categoryStatsHtml;
+
+  // 卡片下半部（熱力圖/統計數字）點擊展開細節，不是連結——跟上半部的練習連結是兩個獨立的可點擊區，
+  // 中間用CSS分隔線區隔（見style.css），避免同一張卡片裡有兩種點擊行為卻長得一樣。
+  appEl.querySelectorAll(".track-detail-toggle").forEach((el) => {
+    el.addEventListener("click", () => {
+      const target = document.getElementById(el.dataset.target);
+      if (target) target.classList.toggle("show");
+    });
+  });
+
+  appEl.querySelectorAll(".report-btn").forEach((btn) => {
+    btn.addEventListener("click", async () => {
+      btn.disabled = true;
+      btn.textContent = "回報中...";
+      await db.collection("self_grammar").doc(btn.dataset.track).collection("reports").doc(btn.dataset.item).set({
+        reportedAt: firebase.firestore.FieldValue.serverTimestamp(),
+      }, { merge: true });
+      btn.textContent = "已回報，謝謝";
+    });
+  });
 }
 
 // 文法錯誤類型統計：跨國中/高中/多益三個難度合併看同一個文法點，依錯誤率高到低排序，
