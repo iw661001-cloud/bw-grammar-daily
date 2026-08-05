@@ -201,8 +201,14 @@ async function render() {
     return wrongRate > 0.5 ? `<span class="difficulty-tag">較難</span>` : "";
   }
 
+  // 練習紀錄只顯示最近14天——這個清單會隨著每天使用一直長，題庫題數上限只有25題不會這樣，
+  // 但練習天數是無上限的，累積幾個月下來不設限會讓細節面板越展越長，不好用。
+  const RECENT_DAYS_LIMIT = 14;
+
   function renderTrackDetail(track, s) {
-    const dateEntries = [...s.dayDetails.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1));
+    const allDateEntries = [...s.dayDetails.entries()].sort((a, b) => (a[0] < b[0] ? 1 : -1));
+    const dateEntries = allDateEntries.slice(0, RECENT_DAYS_LIMIT);
+    const hiddenCount = allDateEntries.length - dateEntries.length;
     const itemById = {};
     s.items.forEach((it) => { itemById[it.id] = it; });
 
@@ -217,7 +223,7 @@ async function render() {
               ${qList}
             </div>
           `;
-        }).join("")
+        }).join("") + (hiddenCount > 0 ? `<p class="empty-msg">還有更早的 ${hiddenCount} 天紀錄未顯示</p>` : "")
       : `<p class="empty-msg">還沒有任何作答紀錄</p>`;
 
     const streak = computeStreak(s.dayCounts);
