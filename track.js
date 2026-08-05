@@ -35,6 +35,18 @@ function dayRef() {
 
 // nextSchedule() 已搬到 tracks.js 共用（part6.js 也要用同一套排程邏輯）。
 
+// 有些題目一句裡有兩個空格、答案選項是「goes / is」這種組合格式（例如jg-01），
+// 不能只換第一個「______」——依「/」拆開答案，依序對應每一個空格。
+function fillAnswerIntoQuestion(question, answerText) {
+  const parts = answerText.split(" / ");
+  let i = 0;
+  return question.replace(/______/g, () => {
+    const part = i < parts.length ? parts[i] : parts[parts.length - 1];
+    i++;
+    return `<span class="answer-fill">${part}</span>`;
+  });
+}
+
 async function recordAnswer(questionId, correct) {
   const ref = itemRef(questionId);
   const prevSnap = await ref.get();
@@ -126,7 +138,7 @@ function renderMcQuestion(q) {
     <div class="quiz-progress">第 ${pos + 1} / ${questions.length} 題</div>
     ${renderProgressDots()}
     <div class="quiz-card">
-      <div class="question-text">${q.question}</div>
+      <div class="question-text" id="questionText">${q.question}</div>
       ${optionsHtml}
       <div class="explanation-box" id="explanationBox">
         ${q.chinese ? `<div class="chinese-translation">${q.chinese}</div>` : ""}
@@ -149,6 +161,9 @@ function renderMcQuestion(q) {
       const correct = idx === q.answerIndex;
       btn.classList.add(correct ? "correct" : "wrong");
       if (!correct) buttons[q.answerIndex].classList.add("correct");
+      // 答完不管對錯都把題目文字的空格換成正確答案並標色，讓使用者直接看到完整正確句子，
+      // 不用自己在腦中拼湊空格前後文意。
+      document.getElementById("questionText").innerHTML = fillAnswerIntoQuestion(q.question, q.options[q.answerIndex]);
       document.getElementById("explanationBox").classList.add("show");
       document.getElementById("nextBtn").disabled = false;
       results[pos] = correct;

@@ -171,6 +171,16 @@ main {
   font-weight: 700;
 }
 
+/* 答題後題目文字的空格直接換成正確答案，顏色語意跟 .option-btn.correct 一致（都是「這是正確答案」），
+   讓使用者看到完整正確句子，不用自己拼湊空格前後文意。 */
+.answer-fill {
+  font-weight: 700;
+  color: var(--correct);
+  background: #ebfbee;
+  padding: 1px 6px;
+  border-radius: 4px;
+}
+
 .chinese-translation {
   font-weight: 700;
   color: var(--text);
