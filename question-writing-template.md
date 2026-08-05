@@ -98,6 +98,7 @@
 - 句子插入題的4個選項是**完整句子**，不是單字，`answerIndex`一樣是0~3
 - 文章開頭依體裁慣例寫：email/letter開頭直接說明目的；memo要交代收件對象/主旨/施行日期；notice/article要交代Event/When/Action Required
 - 情境內容全部自創虛構（虛構公司/人物/數據），不照抄任何具體來源的文章內容；可以參考 toeic.com.tw（多益官方台灣代理機構）釋出的官方範例確認格式，但一樣不照抄其例句
+- 句子插入題的線索類型（指示代名詞／邏輯轉折詞／詞彙關聯性）盡量整批分散，不要同一批大多集中在同一種——第一批5篇20題全部答對，但5題裡有4題都用「詞彙關聯性」，只有1題用「指示代名詞」，沒有用到「邏輯轉折詞」，之後幾批麻煩刻意平衡一下三種都出現
 
 ---
 
@@ -118,6 +119,7 @@
 - `ielts-vocab`（雅思單字）已用目標字：sustainable, phenomenon, assumption, statistics, contribute, adequate, perspective, exposure, inevitable, outweigh, fundamental, contradictory, fluctuate, empirical, paradigm, correlation, mitigate, underlying, subsequent, comprehensive, prominent, facilitate, consensus, intrinsic, hypothesis（共25題，id到iv-25）
 - `junior-translate`（國中中翻英）已出過的中文句子主題：日常作息、天氣、書籍比較、借東西、做家事、電影評論、假設句、連接詞句型、過去完成式、海邊游泳、聽音樂、下雨待家、去過日本、運動健康、熬夜考試、袋子比較、冰箱食物、手機製造、洗澡電話、走路上學、學英文多久、身高比較、圖書館安靜、英文說得好（共25題，id到jt-25）
 - `senior-translate`（高中/學測中翻英）已出過的主題：假設語氣倒裝、原因強調句、讓步句、強調句、對比句、科學研究敘述、祈使建議、關係子句、條件句、複合句、智慧型手機影響、全球暖化行動、成功需努力、運動習慣、速食健康、追求夢想、睡眠不足、廣泛閱讀、網路霸凌、有效溝通、志工同理心、保護古蹟、青少年壓力、大眾運輸、挫折視為機會（共25題，id到st-25）
+- `toeic-part6`（多益 Part 6 短文填空）已出過的情境：IT系統更新email、辦公室裝修notice、麵包店展店article、報帳流程變更memo、面試邀約email（共5篇20題，id到p6-05）
 
 ---
 

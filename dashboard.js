@@ -271,9 +271,10 @@ async function render() {
     const accuracyPct = s.attempts > 0 ? Math.round((s.correct / s.attempts) * 100) : null;
     const trackPracticeDays = s.dayCounts.size;
     const trackStreak = computeStreak(s.dayCounts).count;
+    const practicePage = track.type === "part6" ? "part6.html" : "track.html";
     return `
       <div class="dashboard-track-card">
-        <a class="dashboard-track-link" href="track.html?t=${track.id}">
+        <a class="dashboard-track-link" href="${practicePage}?t=${track.id}">
           <div class="track-name">${track.label}</div>
           <div class="meter-track"><div class="meter-fill" style="width:${pct}%"></div></div>
           <div class="dashboard-track-row">

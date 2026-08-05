@@ -258,6 +258,45 @@ main {
   background: var(--wrong);
 }
 
+/* Part 6 文章全文固定顯示在題目卡片上方，4個空格用 blank-marker 標記位置，
+   正在作答的那一格用 active 醒目樣式，答過的格子依對錯上色，方便對照全文脈絡。 */
+.passage-box {
+  background: var(--card-bg);
+  border-radius: 16px;
+  padding: 20px 22px;
+  margin-bottom: 14px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+  font-size: 1.05rem;
+  line-height: 1.9;
+  white-space: pre-wrap;
+}
+
+.blank-marker {
+  display: inline-block;
+  min-width: 22px;
+  padding: 1px 6px;
+  border-radius: 6px;
+  font-weight: 700;
+  text-align: center;
+  background: #edf1f7;
+  color: var(--muted);
+}
+
+.blank-marker.active {
+  background: var(--primary);
+  color: #fff;
+}
+
+.blank-marker.answered.correct {
+  background: #ebfbee;
+  color: var(--correct);
+}
+
+.blank-marker.answered.wrong {
+  background: #fff0f0;
+  color: var(--wrong);
+}
+
 .done-card {
   background: var(--card-bg);
   border-radius: 16px;

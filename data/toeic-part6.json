@@ -1,0 +1,232 @@
+[
+  {
+    "id": "p6-01",
+    "passageType": "email",
+    "passage": "Subject: Upcoming Software Update\n\nDear Staff,\nThis email is to inform you that the IT department will ______(1)______ a major software update this coming weekend. The system will be down from Saturday 10:00 PM to Sunday 6:00 AM. We apologize for any inconvenience this may cause. If you have any urgent matters, please ensure you complete them ______(2)______ the downtime. Thank you for your ______(3)______. ______(4)______.\n\nBest regards,\nIT Department",
+    "chinese": "主旨：即將進行的軟體更新\n\n各位員工，\n這封電子郵件旨在通知您，資訊部門將在本週末進行重大軟體更新。系統將從週六晚上 10:00 關閉至週日早上 6:00。對於這可能造成的任何不便，我們深表歉意。如果您有任何緊急事務，請確保在停機時間之前完成。感謝您的配合。請記得在週五離開前儲存所有工作。\n\n最好的問候，\n資訊部門",
+    "questions": [
+      {
+        "blankType": "詞性判斷",
+        "options": ["perform", "performed", "performing", "performance"],
+        "answerIndex": 0,
+        "explanation": "助動詞 will 後方需接原形動詞，故選 perform。",
+        "optionNotes": ["動詞原形・執行", "動詞過去式/過去分詞・執行", "動名詞/現在分詞・執行", "名詞・表現/執行"]
+      },
+      {
+        "blankType": "介系詞",
+        "options": ["during", "before", "while", "until"],
+        "answerIndex": 1,
+        "explanation": "語意為「在停機時間『之前』完成」，before 符合語意。during 雖然文法對，但不能在系統停機期間完成工作；while 後面需接子句；until (直到) 不合語意。",
+        "optionNotes": ["介系詞・在...期間", "介系詞・在...之前", "連接詞・當...時候", "介系詞・直到..."]
+      },
+      {
+        "blankType": "名詞 (字彙)",
+        "options": ["competition", "cooperation", "comparison", "calculation"],
+        "answerIndex": 1,
+        "explanation": "感謝大家的「配合」(cooperation) 是常見的商務信件結尾用語。competition(競爭)、comparison(比較)、calculation(計算) 皆不合語意。",
+        "optionNotes": ["名詞・競爭", "名詞・合作/配合", "名詞・比較", "名詞・計算"]
+      },
+      {
+        "blankType": "段落邏輯",
+        "options": [
+          "The new software will cost the company a lot of money.",
+          "We are looking for a new IT manager.",
+          "The cafeteria will remain open during the weekend.",
+          "Please remember to save all your work before leaving on Friday."
+        ],
+        "answerIndex": 3,
+        "explanation": "線索為「詞彙關聯性」：根據前文「系統將在週末停機更新」的邏輯關聯性，提醒員工「週五離開前儲存工作」最符合上下文邏輯。",
+        "optionNotes": [
+          "新的軟體將花費公司很多錢。",
+          "我們正在尋找新的IT經理。",
+          "員工餐廳週末將保持開放。",
+          "請記得在週五離開前儲存所有工作。"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p6-02",
+    "passageType": "notice",
+    "passage": "Notice of Office Renovation\n\nPlease be advised that the main lobby of our building will undergo renovations starting next Monday. The construction crew will be working daily from 8:00 AM to 5:00 PM. ______(1)______ this period, employees and visitors should use the side entrance located on Elm Street. The renovations are expected to be ______(2)______ by the end of the month. We appreciate your patience as we work to ______(3)______ our facilities. ______(4)______.",
+    "chinese": "辦公室裝修公告\n\n請注意，我們大樓的主大廳將從下週一開始進行裝修。施工人員將每天早上 8:00 到下午 5:00 工作。在此期間，員工和訪客應使用位於 Elm Street 的側門。裝修工程預計將在本月底前完成。在我們致力於升級設施的同時，感謝您的耐心等待。本公告附有替代路線地圖。",
+    "questions": [
+      {
+        "blankType": "介系詞",
+        "options": ["During", "While", "Among", "Between"],
+        "answerIndex": 0,
+        "explanation": "句意為「在此期間」，this period 是名詞片語，前面須用介系詞 During。While 必須接子句；Among 和 Between 皆不合語意。",
+        "optionNotes": ["介系詞・在...期間", "連接詞・在...期間", "介系詞・在(三者以上)之中", "介系詞・在...之間"]
+      },
+      {
+        "blankType": "時態/語態",
+        "options": ["complete", "completing", "completion", "completed"],
+        "answerIndex": 3,
+        "explanation": "are expected to be 後方須接過去分詞表示被動語態，故選 completed (被完成)。",
+        "optionNotes": ["動詞/形容詞・完成/完整的", "動名詞/現在分詞・完成", "名詞・完成", "動詞過去分詞・被完成"]
+      },
+      {
+        "blankType": "動詞 (字彙)",
+        "options": ["upgrade", "downgrade", "ignore", "destroy"],
+        "answerIndex": 0,
+        "explanation": "裝修 (renovations) 的目的是為了「升級/改善」(upgrade) 設施，符合邏輯。",
+        "optionNotes": ["動詞・升級/改善", "動詞・降級", "動詞・忽略", "動詞・破壞"]
+      },
+      {
+        "blankType": "段落邏輯",
+        "options": [
+          "The CEO will announce the annual profits next week.",
+          "A map of the alternative routes is attached to this notice.",
+          "Employees must wear formal attire on Fridays.",
+          "The side entrance has been closed permanently."
+        ],
+        "answerIndex": 1,
+        "explanation": "線索為「詞彙關聯性」：前文提到「請使用 Elm Street 的側門」，因此後文補充「本公告附有替代路線地圖」符合邏輯連貫性。",
+        "optionNotes": [
+          "執行長下週將宣布年度利潤。",
+          "本公告附有替代路線地圖。",
+          "員工週五必須穿著正式服裝。",
+          "側門已經永久關閉。"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p6-03",
+    "passageType": "article",
+    "passage": "Sunnyside Bakery to Open Second Location\n\nSunnyside Bakery, known for its delicious pastries, has announced plans to open a second store in the downtown area. The owner, Sarah Jenkins, stated that the new location ______(1)______ in early September. The expansion comes after three years of steady sales growth at their original shop on Main Street. \"We are thrilled to bring our baked goods to more customers,\" Jenkins said. The new store will feature a larger seating area and ______(2)______ a wider variety of coffee drinks. To celebrate the grand opening, the bakery will be giving away free cookies to the first 50 ______(3)______. ______(4)______.",
+    "chinese": "Sunnyside 麵包店將開設第二家分店\n\n以美味糕點聞名的 Sunnyside 麵包店已宣布計畫在市中心區開設第二家分店。老闆 Sarah Jenkins 表示，新地點將於九月初開幕。這次擴張是在他們位於主街的創始店經歷了三年穩定銷售成長後進行的。Jenkins 說：「我們很高興能將我們的烘焙食品帶給更多顧客。」新店面將設有更大的座位區，並提供更多種類的咖啡飲品。為了慶祝盛大開幕，麵包店將向前 50 名顧客發放免費餅乾。目前正在為新分店招募額外員工。",
+    "questions": [
+      {
+        "blankType": "時態",
+        "options": ["opened", "has opened", "opening", "will open"],
+        "answerIndex": 3,
+        "explanation": "in early September 配合前文的 has announced plans to open，指的是未來的時間（九月初），因此時態需使用未來式 will open。",
+        "optionNotes": ["動詞過去式・開啟", "現在完成式・已經開啟", "現在分詞・開啟", "助動詞+原形動詞・將會開啟"]
+      },
+      {
+        "blankType": "詞性判斷",
+        "options": ["offer", "offered", "offering", "offers"],
+        "answerIndex": 0,
+        "explanation": "連接詞 and 連接兩個對等的動詞片語：feature a larger seating area 和 offer a wider variety。由於都在助動詞 will 之後，兩者皆須使用原形動詞，故選 offer。",
+        "optionNotes": ["動詞原形・提供", "動詞過去式・提供", "現在分詞・提供", "動詞第三人稱單數・提供"]
+      },
+      {
+        "blankType": "名詞 (字彙)",
+        "options": ["ingredients", "competitors", "customers", "recipes"],
+        "answerIndex": 2,
+        "explanation": "麵包店開幕送免費餅乾，對象當然是「顧客」(customers)。ingredients(原料)、competitors(對手)、recipes(食譜) 皆不合語境。",
+        "optionNotes": ["名詞・成分/原料", "名詞・競爭對手", "名詞・顧客", "名詞・食譜"]
+      },
+      {
+        "blankType": "段落邏輯",
+        "options": [
+          "Jenkins plans to retire at the end of the year.",
+          "The downtown area has seen a decrease in foot traffic.",
+          "Additional staff are currently being hired for the new branch.",
+          "The bakery will close its original shop next month."
+        ],
+        "answerIndex": 2,
+        "explanation": "線索為「詞彙關聯性」：文章談論開設新分店 (second location) 與慶祝活動，提及「正在為新分店招募額外員工」與文章主題符合邏輯關聯性。",
+        "optionNotes": [
+          "Jenkins 打算在年底退休。",
+          "市區的行人流量已經減少。",
+          "目前正在為新分店招募額外員工。",
+          "麵包店下個月將關閉原來的店面。"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p6-04",
+    "passageType": "memo",
+    "passage": "MEMO\n\nTo: All Sales Staff\nFrom: Accounting Department\nDate: August 5\nSubject: Changes to Expense Reporting\n\nStarting next month, the Accounting Department will implement a new procedure for submitting travel expenses. All receipts must now be scanned and uploaded to the company's internal portal. Paper receipts will no longer be ______(1)______. In addition, please note that the deadline for submissions has been ______(2)______ from the 15th to the 10th of each month. This change will allow us to process reimbursements more ______(3)______. ______(4)______.",
+    "chinese": "備忘錄\n\n致：全體業務人員\n來自：會計部門\n日期：8月5日\n主旨：報帳程序的變更\n\n從下個月開始，會計部門將實施提交差旅費用的新程序。所有收據現在都必須掃描並上傳到公司的內部入口網站。紙本收據將不再被接受。此外，請注意，提交的截止日期已從每個月的 15 號提前到 10 號。這項變更將使我們能夠更快速地處理退款。未能在此期限前提交可能會導致付款延遲。",
+    "questions": [
+      {
+        "blankType": "詞性判斷",
+        "options": ["accept", "accepted", "accepting", "acceptable"],
+        "answerIndex": 1,
+        "explanation": "句式為 will be + 過去分詞 構成被動語態，「紙本收據將不再被接受」，故選 accepted。雖然 acceptable (形容詞) 文法也通，但商務情境中「不收紙本」通常直接用被動語態。",
+        "optionNotes": ["動詞原形・接受", "動詞過去分詞・被接受", "現在分詞・接受", "形容詞・可接受的"]
+      },
+      {
+        "blankType": "動詞 (字彙)",
+        "options": ["extended", "postponed", "advanced", "delayed"],
+        "answerIndex": 2,
+        "explanation": "從每個月的 15 號改到 10 號，代表期限被「提前」(advanced)。extended、postponed、delayed 皆為延後或延長之意。",
+        "optionNotes": ["動詞過去分詞・延長", "動詞過去分詞・延後", "動詞過去分詞・提前", "動詞過去分詞・延遲"]
+      },
+      {
+        "blankType": "副詞 (字彙)",
+        "options": ["quick", "quicken", "quickness", "quickly"],
+        "answerIndex": 3,
+        "explanation": "這裡需要使用副詞 quickly 來修飾動詞 process (處理)，形成「更快速地處理報帳」的語意。",
+        "optionNotes": ["形容詞・快速的", "動詞・使...加快", "名詞・迅速", "副詞・快速地"]
+      },
+      {
+        "blankType": "段落邏輯",
+        "options": [
+          "Failure to meet this deadline may result in a delayed payment.",
+          "The sales team will receive new laptops next week.",
+          "Our office will be closed on national holidays.",
+          "Please contact the HR department if you want to change your address."
+        ],
+        "answerIndex": 0,
+        "explanation": "線索為「指示代名詞」：前文提到「報帳期限提前到10號」，接續警告「未能在此期限前提交可能會導致付款延遲」(指示代名詞 this deadline 對應前文的 deadline) 邏輯最為連貫。",
+        "optionNotes": [
+          "未能在此期限前提交可能會導致付款延遲。",
+          "業務團隊下週將收到新筆電。",
+          "我們辦公室在國定假日將關閉。",
+          "如果您想更改地址，請聯繫人資部門。"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "p6-05",
+    "passageType": "email",
+    "passage": "Dear Mr. Thompson,\n\nThank you for submitting your application for the Marketing Analyst position at Global Trends Inc. We were very impressed with your resume and ______(1)______. We would like to invite you to an online interview with our hiring manager next Thursday, August 12, at 10:00 AM. The interview will last for ______(2)______ 45 minutes. ______(3)______ you are unable to make this time, please let us know as soon as possible so we can reschedule. ______(4)______. We look forward to speaking with you.\n\nSincerely,\nAmanda Miller\nHR Coordinator",
+    "chinese": "親愛的 Thompson 先生，\n\n感謝您投遞 Global Trends Inc. 行銷分析師職位的申請。我們對您的履歷和資歷印象深刻。我們想邀請您在下週四，8月12日上午 10:00 與我們的招募經理進行線上網路面試。面試將持續大約 45 分鐘。如果您無法在這個時間參加，請盡快讓我們知道以便我們重新安排。視訊會議的連結將在面試前一天發送給您。我們期待與您談話。\n\n誠摯地，\nAmanda Miller\n人資協調員",
+    "questions": [
+      {
+        "blankType": "名詞 (字彙)",
+        "options": ["destinations", "reservations", "qualifications", "subscriptions"],
+        "answerIndex": 2,
+        "explanation": "在應徵工作的語境中，公司會對求職者的履歷 (resume) 和「資歷」(qualifications) 印象深刻。其他選項皆與求職無關。",
+        "optionNotes": ["名詞・目的地", "名詞・預約", "名詞・資歷/資格", "名詞・訂閱"]
+      },
+      {
+        "blankType": "副詞 (字彙)",
+        "options": ["severely", "abruptly", "fluently", "approximately"],
+        "answerIndex": 3,
+        "explanation": "approximately (大約) 常在此類情境中用來修飾時間長度「大約45分鐘」。其他選項語意完全不合。",
+        "optionNotes": ["副詞・嚴重地", "副詞・突然地", "副詞・流利地", "副詞・大約"]
+      },
+      {
+        "blankType": "連接詞/假設語氣",
+        "options": ["Unless", "Because", "If", "Despite"],
+        "answerIndex": 2,
+        "explanation": "語意為「如果你無法在這個時間參加，請盡快讓我們知道」，If (如果) 符合條件子句邏輯。Unless(除非)不合邏輯；Despite是介系詞，後面不能接完整子句(you are...)。",
+        "optionNotes": ["連接詞・除非", "連接詞・因為", "連接詞・如果", "介系詞・儘管"]
+      },
+      {
+        "blankType": "段落邏輯",
+        "options": [
+          "Our marketing department is currently experiencing a decrease in sales.",
+          "A link to the video conference will be sent to you the day before the interview.",
+          "The position requires a high level of physical fitness.",
+          "We have already hired someone for this role."
+        ],
+        "answerIndex": 1,
+        "explanation": "線索為「詞彙關聯性」：前文提到邀請參加「線上網路面試」(online interview)，因此補充「視訊會議的連結將在面試前一天發送給您」最符合情境關聯性。",
+        "optionNotes": [
+          "我們的行銷部門目前正經歷銷售下滑。",
+          "視訊會議的連結將在面試前一天發送給您。",
+          "該職位需要高度的體能。",
+          "我們已經雇用了某人來擔任這個角色。"
+        ]
+      }
+    ]
+  }
+]

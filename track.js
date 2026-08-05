@@ -33,23 +33,7 @@ function dayRef() {
   return db.collection("self_grammar").doc(track.id).collection("days").doc(toLocalDateKey(new Date()));
 }
 
-// 間隔重複排程（SM-2簡化版，因為只有對/錯二元結果，沒有 Anki 那種5級自評）：
-// 第1次答對＝1天後，第2次連續答對＝6天後，之後每次答對＝上次間隔×難易度係數；
-// 答錯就把 repetition 歸零、間隔打回1天、難易度係數降0.2（下限1.3）。
-// repetition 是「連續答對幾次」的計數器，跟 attempts（歷來總作答次數，含答錯）是不同的數字。
-function nextSchedule(prev, correct) {
-  const repetition = prev.repetition || 0;
-  const easeFactor = prev.easeFactor || 2.5;
-  if (!correct) {
-    return { repetition: 0, interval: 1, easeFactor: Math.max(1.3, easeFactor - 0.2) };
-  }
-  const nextRepetition = repetition + 1;
-  let interval;
-  if (nextRepetition === 1) interval = 1;
-  else if (nextRepetition === 2) interval = 6;
-  else interval = Math.round((prev.interval || 1) * easeFactor);
-  return { repetition: nextRepetition, interval, easeFactor };
-}
+// nextSchedule() 已搬到 tracks.js 共用（part6.js 也要用同一套排程邏輯）。
 
 async function recordAnswer(questionId, correct) {
   const ref = itemRef(questionId);
