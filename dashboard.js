@@ -324,10 +324,17 @@ async function render() {
 
   // 卡片下半部（熱力圖/統計數字）點擊展開細節，不是連結——跟上半部的練習連結是兩個獨立的可點擊區，
   // 中間用CSS分隔線區隔（見style.css），避免同一張卡片裡有兩種點擊行為卻長得一樣。
+  // 手風琴行為：同一時間只開一個細節面板，點開新的會先把其他已展開的收起來，
+  // 不然好幾個題庫的細節都攤開，畫面會越滾越長。
   appEl.querySelectorAll(".track-detail-toggle").forEach((el) => {
     el.addEventListener("click", () => {
       const target = document.getElementById(el.dataset.target);
-      if (target) target.classList.toggle("show");
+      if (!target) return;
+      const willOpen = !target.classList.contains("show");
+      appEl.querySelectorAll(".track-detail.show").forEach((open) => {
+        if (open !== target) open.classList.remove("show");
+      });
+      target.classList.toggle("show", willOpen);
     });
   });
 
