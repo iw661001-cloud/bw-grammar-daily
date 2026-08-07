@@ -700,5 +700,1005 @@
       "形容詞・有名的",
       "形容詞・新鮮的"
     ]
+  },
+  {
+    "id": "jv-36",
+    "category": "形容詞",
+    "question": "I don't think I am ______ to finish all this work by tomorrow.",
+    "chinese": "我認為我無法在明天之前完成所有這些工作。",
+    "options": [
+      "ready",
+      "able",
+      "possible",
+      "lucky"
+    ],
+    "answerIndex": 1,
+    "explanation": "be able to (能夠) 是固定用法；ready (準備好的)、possible (可能的)、lucky (幸運的) 皆不符合此處語意。",
+    "optionNotes": [
+      "形容詞・準備好的",
+      "形容詞・能夠的",
+      "形容詞・可能的",
+      "形容詞・幸運的"
+    ]
+  },
+  {
+    "id": "jv-37",
+    "category": "介系詞",
+    "question": "What is this book ______? Is it a story of a magic school?",
+    "chinese": "這本書是關於什麼的？這是一個魔法學校的故事嗎？",
+    "options": [
+      "about",
+      "above",
+      "around",
+      "after"
+    ],
+    "answerIndex": 0,
+    "explanation": "about (關於) 符合語意「這本書是關於什麼」；above (在...之上)、around (在...周圍)、after (在...之後) 皆不合適。",
+    "optionNotes": [
+      "介系詞・關於",
+      "介系詞・在...之上",
+      "介系詞・在...周圍",
+      "介系詞・在...之後"
+    ]
+  },
+  {
+    "id": "jv-38",
+    "category": "介系詞",
+    "question": "The birds are flying high ______ the clouds.",
+    "chinese": "鳥兒在雲層上方高飛。",
+    "options": [
+      "above",
+      "about",
+      "along",
+      "across"
+    ],
+    "answerIndex": 0,
+    "explanation": "above (在...之上) 用於表達位置比某物高；about (關於)、along (沿著)、across (越過) 皆不合語意。",
+    "optionNotes": [
+      "介系詞・在...之上",
+      "介系詞・關於",
+      "介系詞・沿著",
+      "介系詞・越過"
+    ]
+  },
+  {
+    "id": "jv-39",
+    "category": "副詞",
+    "question": "My brother wants to study ______ next year, probably in the UK or the USA.",
+    "chinese": "我哥哥明年想出國留學，可能去英國或美國。",
+    "options": [
+      "abroad",
+      "aboard",
+      "around",
+      "ahead"
+    ],
+    "answerIndex": 0,
+    "explanation": "study abroad (出國留學) 為常見搭配；aboard (在船/飛機上)、around (周圍)、ahead (在前方) 語意皆不通順。",
+    "optionNotes": [
+      "副詞・在國外、出國",
+      "副詞・在船(或飛機)上",
+      "副詞・在周圍",
+      "副詞・在前方"
+    ]
+  },
+  {
+    "id": "jv-40",
+    "category": "介系詞",
+    "question": "Be careful when you walk ______ the street.",
+    "chinese": "過馬路時要小心。",
+    "options": [
+      "across",
+      "along",
+      "above",
+      "after"
+    ],
+    "answerIndex": 0,
+    "explanation": "walk across the street (越過街道 / 過馬路) 是正確搭配；along 是沿著，不適合用在過馬路的語境。",
+    "optionNotes": [
+      "介系詞・越過、穿過",
+      "介系詞・沿著",
+      "介系詞・在...之上",
+      "介系詞・在...之後"
+    ]
+  },
+  {
+    "id": "jv-41",
+    "category": "動詞",
+    "question": "Please ______ like a grown-up and stop crying over small things.",
+    "chinese": "請表現得像個成年人，不要再為小事哭泣了。",
+    "options": [
+      "show",
+      "play",
+      "make",
+      "act"
+    ],
+    "answerIndex": 3,
+    "explanation": "act (表現、行為) 在此指表現得像某種樣子；show (展示)、play (玩)、make (製作) 無此語意。",
+    "optionNotes": [
+      "動詞・展示",
+      "動詞・玩、扮演",
+      "動詞・製造",
+      "動詞・表現、行動"
+    ]
+  },
+  {
+    "id": "jv-42",
+    "category": "名詞",
+    "question": "We need to take ______ right now before the problem gets worse.",
+    "chinese": "我們必須立刻採取行動，以免問題變得更糟。",
+    "options": [
+      "action",
+      "chance",
+      "care",
+      "answer"
+    ],
+    "answerIndex": 0,
+    "explanation": "take action (採取行動) 為固定搭配詞；take care (照顧)、take a chance (冒險) 在此句意不通順。",
+    "optionNotes": [
+      "名詞・行動",
+      "名詞・機會",
+      "名詞・照顧、關心",
+      "名詞・答案"
+    ]
+  },
+  {
+    "id": "jv-43",
+    "category": "名詞",
+    "question": "Leonardo DiCaprio is my favorite ______ because his movies are always great.",
+    "chinese": "李奧納多·狄卡皮歐是我最喜歡的男演員，因為他的電影總是很棒。",
+    "options": [
+      "actor",
+      "clerk",
+      "boss",
+      "doctor"
+    ],
+    "answerIndex": 0,
+    "explanation": "actor (男演員) 符合後文提到的「電影 (movies)」；clerk (店員)、boss (老闆)、doctor (醫生) 皆不合邏輯。",
+    "optionNotes": [
+      "名詞・男演員",
+      "名詞・店員",
+      "名詞・老闆",
+      "名詞・醫生"
+    ]
+  },
+  {
+    "id": "jv-44",
+    "category": "名詞",
+    "question": "The leading ______ in this movie won an award for her excellent performance.",
+    "chinese": "這部電影的女主角因其出色的表現獲得了獎項。",
+    "options": [
+      "waitress",
+      "aunt",
+      "queen",
+      "actress"
+    ],
+    "answerIndex": 3,
+    "explanation": "actress (女演員) 與電影 (movie)、演出 (performance) 相關；waitress (女服務生) 不合語意。",
+    "optionNotes": [
+      "名詞・女服務生",
+      "名詞・阿姨、姑姑",
+      "名詞・女王",
+      "名詞・女演員"
+    ]
+  },
+  {
+    "id": "jv-45",
+    "category": "副詞",
+    "question": "I thought the test would be hard, but it was ______ quite easy.",
+    "chinese": "我以為考試會很難，但實際上相當簡單。",
+    "options": [
+      "almost",
+      "already",
+      "always",
+      "actually"
+    ],
+    "answerIndex": 3,
+    "explanation": "actually (實際上) 用來帶出與預期相反的事實；almost (幾乎)、already (已經)、always (總是) 語意不合。",
+    "optionNotes": [
+      "副詞・幾乎",
+      "副詞・已經",
+      "副詞・總是",
+      "副詞・實際上"
+    ]
+  },
+  {
+    "id": "jv-46",
+    "category": "形容詞",
+    "question": "Don't be ______ of making mistakes when you speak English.",
+    "chinese": "說英文時不要害怕犯錯。",
+    "options": [
+      "angry",
+      "bored",
+      "blind",
+      "afraid"
+    ],
+    "answerIndex": 3,
+    "explanation": "be afraid of (害怕...) 是固定片語；angry (生氣的)、bored (無聊的) 皆不符合鼓勵人開口的語境。",
+    "optionNotes": [
+      "形容詞・生氣的",
+      "形容詞・無聊的",
+      "形容詞・盲目的",
+      "形容詞・害怕的"
+    ]
+  },
+  {
+    "id": "jv-47",
+    "category": "連接詞",
+    "question": "Let's go grab some food ______ the movie ends.",
+    "chinese": "電影結束後我們去吃點東西吧。",
+    "options": [
+      "after",
+      "before",
+      "about",
+      "along"
+    ],
+    "answerIndex": 0,
+    "explanation": "after (在...之後) 合乎邏輯，指看完電影去吃東西；before (在...之前) 通常不會搭配 movie ends 使用。",
+    "optionNotes": [
+      "連接詞・在...之後",
+      "連接詞・在...之前",
+      "介系詞・關於",
+      "介系詞・沿著"
+    ]
+  },
+  {
+    "id": "jv-48",
+    "category": "名詞",
+    "question": "I usually take a short nap in the ______.",
+    "chinese": "我通常在下午睡個短覺。",
+    "options": [
+      "afternoon",
+      "morning",
+      "evening",
+      "night"
+    ],
+    "answerIndex": 0,
+    "explanation": "afternoon (下午) 是最常搭配午睡 (nap) 的時間段，in the afternoon 是固定用法。",
+    "optionNotes": [
+      "名詞・下午",
+      "名詞・早晨",
+      "名詞・傍晚",
+      "名詞・夜晚"
+    ]
+  },
+  {
+    "id": "jv-49",
+    "category": "副詞",
+    "question": "I didn't hear what you said. Can you say it ______?",
+    "chinese": "我沒聽清楚你說什麼。你能再說一次嗎？",
+    "options": [
+      "already",
+      "almost",
+      "also",
+      "again"
+    ],
+    "answerIndex": 3,
+    "explanation": "again (再一次) 表示重複動作；already (已經)、almost (幾乎) 都不適合此語境。",
+    "optionNotes": [
+      "副詞・已經",
+      "副詞・幾乎",
+      "副詞・也",
+      "副詞・再一次"
+    ]
+  },
+  {
+    "id": "jv-50",
+    "category": "名詞",
+    "question": "At the ______ of ten, he could already play the piano very well.",
+    "chinese": "在十歲時，他已經能把鋼琴彈得很好了。",
+    "options": [
+      "area",
+      "art",
+      "arm",
+      "age"
+    ],
+    "answerIndex": 3,
+    "explanation": "at the age of... (在...的年紀) 是表示歲數的固定用法。",
+    "optionNotes": [
+      "名詞・區域",
+      "名詞・藝術",
+      "名詞・手臂",
+      "名詞・年紀"
+    ]
+  },
+  {
+    "id": "jv-51",
+    "category": "副詞",
+    "question": "They moved to Taipei three years ______.",
+    "chinese": "他們三年前搬到了台北。",
+    "options": [
+      "ago",
+      "after",
+      "away",
+      "ahead"
+    ],
+    "answerIndex": 0,
+    "explanation": "一段時間 + ago 表示「...之前」，用於過去式句子中；after 不可直接接在時間段後作此用法。",
+    "optionNotes": [
+      "副詞・...之前",
+      "副詞・之後",
+      "副詞・離開",
+      "副詞・在前方"
+    ]
+  },
+  {
+    "id": "jv-52",
+    "category": "動詞",
+    "question": "I completely ______ with you on this point.",
+    "chinese": "在這一點上，我完全同意你。",
+    "options": [
+      "allow",
+      "appear",
+      "arrive",
+      "agree"
+    ],
+    "answerIndex": 3,
+    "explanation": "agree with someone (同意某人) 為固定搭配；allow (允許)、appear (出現) 皆不搭配 with someone。",
+    "optionNotes": [
+      "動詞・允許",
+      "動詞・出現",
+      "動詞・到達",
+      "動詞・同意"
+    ]
+  },
+  {
+    "id": "jv-53",
+    "category": "副詞",
+    "question": "The road ______ is blocked, so we have to turn left here.",
+    "chinese": "前面的路被堵住了，所以我們必須在這裡左轉。",
+    "options": [
+      "ahead",
+      "abroad",
+      "around",
+      "above"
+    ],
+    "answerIndex": 0,
+    "explanation": "ahead (在前方) 指路的前方；abroad (在國外)、around (周圍) 不合語意。",
+    "optionNotes": [
+      "副詞・在前方",
+      "副詞・在國外",
+      "副詞・在周圍",
+      "副詞・在上方"
+    ]
+  },
+  {
+    "id": "jv-54",
+    "category": "名詞",
+    "question": "Let's open the window to get some fresh ______.",
+    "chinese": "我們把窗戶打開，呼吸一些新鮮空氣吧。",
+    "options": [
+      "air",
+      "art",
+      "area",
+      "ant"
+    ],
+    "answerIndex": 0,
+    "explanation": "fresh air (新鮮空氣) 為固定搭配詞；art (藝術)、area (區域) 皆不合邏輯。",
+    "optionNotes": [
+      "名詞・空氣",
+      "名詞・藝術",
+      "名詞・區域",
+      "名詞・螞蟻"
+    ]
+  },
+  {
+    "id": "jv-55",
+    "category": "名詞",
+    "question": "It takes about twelve hours to fly to London by ______.",
+    "chinese": "搭飛機到倫敦大約需要十二個小時。",
+    "options": [
+      "airport",
+      "bus",
+      "boat",
+      "airplane"
+    ],
+    "answerIndex": 3,
+    "explanation": "搭配 fly (飛行)，交通工具應為 airplane (飛機)。",
+    "optionNotes": [
+      "名詞・機場",
+      "名詞・公車",
+      "名詞・船",
+      "名詞・飛機"
+    ]
+  },
+  {
+    "id": "jv-56",
+    "category": "名詞",
+    "question": "We need to arrive at the ______ two hours before our flight.",
+    "chinese": "我們必須在班機起飛前兩個小時抵達機場。",
+    "options": [
+      "airport",
+      "apartment",
+      "castle",
+      "church"
+    ],
+    "answerIndex": 0,
+    "explanation": "搭乘班機 (flight) 必須去 airport (機場)；apartment (公寓)、castle (城堡) 不合語意。",
+    "optionNotes": [
+      "名詞・機場",
+      "名詞・公寓",
+      "名詞・城堡",
+      "名詞・教堂"
+    ]
+  },
+  {
+    "id": "jv-57",
+    "category": "代名詞",
+    "question": "Thank you ______ for coming to my graduation party.",
+    "chinese": "謝謝大家來參加我的畢業派對。",
+    "options": [
+      "both",
+      "any",
+      "all",
+      "some"
+    ],
+    "answerIndex": 2,
+    "explanation": "thank you all (謝謝大家) 是常用的招呼語；both 僅限兩人，此處通常指眾多賓客。",
+    "optionNotes": [
+      "代名詞・兩者皆",
+      "代名詞・任何",
+      "代名詞・全部",
+      "代名詞・一些"
+    ]
+  },
+  {
+    "id": "jv-58",
+    "category": "動詞",
+    "question": "My parents don't ______ me to play video games on weekdays.",
+    "chinese": "我父母不允許我在平日玩電動遊戲。",
+    "options": [
+      "agree",
+      "answer",
+      "appear",
+      "allow"
+    ],
+    "answerIndex": 3,
+    "explanation": "allow sb to do sth (允許某人做某事) 為固定用法；agree 通常接 with 或 to。",
+    "optionNotes": [
+      "動詞・同意",
+      "動詞・回答",
+      "動詞・出現",
+      "動詞・允許"
+    ]
+  },
+  {
+    "id": "jv-59",
+    "category": "副詞",
+    "question": "Hurry up! The train is ______ leaving.",
+    "chinese": "快點！火車幾乎要開了。",
+    "options": [
+      "already",
+      "always",
+      "almost",
+      "also"
+    ],
+    "answerIndex": 2,
+    "explanation": "almost leaving (幾乎要離開了) 表示快要發生；already (已經) 若搭配現在進行式語氣稍嫌不順。",
+    "optionNotes": [
+      "副詞・已經",
+      "副詞・總是",
+      "副詞・幾乎",
+      "副詞・也"
+    ]
+  },
+  {
+    "id": "jv-60",
+    "category": "介系詞",
+    "question": "We took a romantic walk ______ the beach at sunset.",
+    "chinese": "日落時我們沿著海灘散了一場浪漫的步。",
+    "options": [
+      "across",
+      "about",
+      "along",
+      "above"
+    ],
+    "answerIndex": 2,
+    "explanation": "walk along the beach (沿著海灘散步) 是最合理的搭配；across (穿越) 通常不搭配海灘。",
+    "optionNotes": [
+      "介系詞・越過",
+      "介系詞・關於",
+      "介系詞・沿著",
+      "介系詞・在...上方"
+    ]
+  },
+  {
+    "id": "jv-61",
+    "category": "副詞",
+    "question": "Have you finished your homework ______? That was fast!",
+    "chinese": "你已經完成功課了嗎？真快！",
+    "options": [
+      "almost",
+      "always",
+      "already",
+      "again"
+    ],
+    "answerIndex": 2,
+    "explanation": "already 用於疑問句時，帶有驚訝「已經...了嗎」的語氣，符合後文「真快！」。",
+    "optionNotes": [
+      "副詞・幾乎",
+      "副詞・總是",
+      "副詞・已經",
+      "副詞・再一次"
+    ]
+  },
+  {
+    "id": "jv-62",
+    "category": "副詞",
+    "question": "She speaks English fluently, and she can ______ speak a little French.",
+    "chinese": "她英文說得很流利，而且她也能說一點法文。",
+    "options": [
+      "almost",
+      "already",
+      "always",
+      "also"
+    ],
+    "answerIndex": 3,
+    "explanation": "also (也) 用來補充說明的資訊，符合句意；其他選項不合邏輯。",
+    "optionNotes": [
+      "副詞・幾乎",
+      "副詞・已經",
+      "副詞・總是",
+      "副詞・也"
+    ]
+  },
+  {
+    "id": "jv-63",
+    "category": "副詞",
+    "question": "He ______ wakes up at 6 a.m., even on weekends.",
+    "chinese": "他總是早上六點起床，即使在週末也是一樣。",
+    "options": [
+      "also",
+      "almost",
+      "always",
+      "already"
+    ],
+    "answerIndex": 2,
+    "explanation": "always (總是) 強調頻率，與後文的 even on weekends (即使週末) 形成對比與強調。",
+    "optionNotes": [
+      "副詞・也",
+      "副詞・幾乎",
+      "副詞・總是",
+      "副詞・已經"
+    ]
+  },
+  {
+    "id": "jv-64",
+    "category": "名詞",
+    "question": "Washington, D.C. is the capital of ______.",
+    "chinese": "華盛頓特區是美國的首都。",
+    "options": [
+      "China",
+      "America",
+      "Japan",
+      "Taiwan"
+    ],
+    "answerIndex": 1,
+    "explanation": "依據常識，華盛頓特區是美國 (America) 的首都。",
+    "optionNotes": [
+      "名詞・中國",
+      "名詞・美國",
+      "名詞・日本",
+      "名詞・台灣"
+    ]
+  },
+  {
+    "id": "jv-65",
+    "category": "形容詞",
+    "question": "I love eating ______ food like hamburgers and hot dogs.",
+    "chinese": "我喜歡吃漢堡和熱狗等美國食物。",
+    "options": [
+      "American",
+      "America",
+      "Chinese",
+      "China"
+    ],
+    "answerIndex": 0,
+    "explanation": "空格需填入形容詞修飾 food，且漢堡和熱狗為美式食物，故選 American。",
+    "optionNotes": [
+      "形容詞・美國的",
+      "名詞・美國",
+      "形容詞・中國的",
+      "名詞・中國"
+    ]
+  },
+  {
+    "id": "jv-66",
+    "category": "連接詞",
+    "question": "My favorite subjects are math ______ science.",
+    "chinese": "我最喜歡的科目是數學和自然科學。",
+    "options": [
+      "but",
+      "or",
+      "so",
+      "and"
+    ],
+    "answerIndex": 3,
+    "explanation": "and (和) 用來連接兩個對等的名詞；but (但是) 語意不通順。",
+    "optionNotes": [
+      "連接詞・但是",
+      "連接詞・或者",
+      "連接詞・所以",
+      "連接詞・和"
+    ]
+  },
+  {
+    "id": "jv-67",
+    "category": "名詞",
+    "question": "A triangle has three sides and three ______s.",
+    "chinese": "三角形有三個邊和三個角。",
+    "options": [
+      "apples",
+      "ants",
+      "angles",
+      "arms"
+    ],
+    "answerIndex": 2,
+    "explanation": "triangle (三角形) 的定義包含三個角 (angles)。",
+    "optionNotes": [
+      "名詞・蘋果",
+      "名詞・螞蟻",
+      "名詞・角",
+      "名詞・手臂"
+    ]
+  },
+  {
+    "id": "jv-68",
+    "category": "形容詞",
+    "question": "The teacher was ______ because the students were making too much noise.",
+    "chinese": "老師很生氣，因為學生們太吵了。",
+    "options": [
+      "afraid",
+      "angry",
+      "blind",
+      "bored"
+    ],
+    "answerIndex": 1,
+    "explanation": "學生太吵通常會導致老師生氣 (angry)；afraid (害怕) 不合邏輯。",
+    "optionNotes": [
+      "形容詞・害怕的",
+      "形容詞・生氣的",
+      "形容詞・盲目的",
+      "形容詞・無聊的"
+    ]
+  },
+  {
+    "id": "jv-69",
+    "category": "名詞",
+    "question": "The lion is a wild ______ that lives in Africa.",
+    "chinese": "獅子是生活在非洲的野生動物。",
+    "options": [
+      "ant",
+      "apple",
+      "animal",
+      "actor"
+    ],
+    "answerIndex": 2,
+    "explanation": "獅子屬於動物 (animal)；ant (螞蟻) 雖是生物但非獅子。",
+    "optionNotes": [
+      "名詞・螞蟻",
+      "名詞・蘋果",
+      "名詞・動物",
+      "名詞・男演員"
+    ]
+  },
+  {
+    "id": "jv-70",
+    "category": "形容詞",
+    "question": "This shirt is too small. Do you have ______ one in a larger size?",
+    "chinese": "這件襯衫太小了。你們有另一件大一點尺寸的嗎？",
+    "options": [
+      "other",
+      "others",
+      "another",
+      "any"
+    ],
+    "answerIndex": 2,
+    "explanation": "another (另一個) 用於代替單數可數名詞；other 後面需加複數名詞，others 本身即為代名詞不接名詞。",
+    "optionNotes": [
+      "形容詞・其他的",
+      "代名詞・其他的人事物",
+      "形容詞/代名詞・另一個",
+      "形容詞・任何的"
+    ]
+  },
+  {
+    "id": "jv-71",
+    "category": "名詞",
+    "question": "If you know the ______, please raise your hand.",
+    "chinese": "如果你知道答案，請舉手。",
+    "options": [
+      "action",
+      "answer",
+      "age",
+      "area"
+    ],
+    "answerIndex": 1,
+    "explanation": "在課堂情境中，知道答案 (answer) 要舉手是常理搭配。",
+    "optionNotes": [
+      "名詞・行動",
+      "名詞・答案",
+      "名詞・年紀",
+      "名詞・區域"
+    ]
+  },
+  {
+    "id": "jv-72",
+    "category": "名詞",
+    "question": "There is an ______ crawling on your arm.",
+    "chinese": "有一隻螞蟻在你的手臂上爬。",
+    "options": [
+      "art",
+      "ant",
+      "aunt",
+      "apple"
+    ],
+    "answerIndex": 1,
+    "explanation": "crawling (爬行) 通常描述昆蟲，故 ant (螞蟻) 最合適。",
+    "optionNotes": [
+      "名詞・藝術",
+      "名詞・螞蟻",
+      "名詞・阿姨",
+      "名詞・蘋果"
+    ]
+  },
+  {
+    "id": "jv-73",
+    "category": "形容詞",
+    "question": "Do you have ______ questions about the homework?",
+    "chinese": "關於這份作業，你有任何問題嗎？",
+    "options": [
+      "some",
+      "any",
+      "all",
+      "much"
+    ],
+    "answerIndex": 1,
+    "explanation": "any (任何) 通常用於疑問句或否定句中修飾名詞；some 多用於肯定句。",
+    "optionNotes": [
+      "形容詞・一些",
+      "形容詞・任何",
+      "形容詞・全部",
+      "形容詞・許多 (接不可數)"
+    ]
+  },
+  {
+    "id": "jv-74",
+    "category": "代名詞",
+    "question": "Is there ______ in the room? I heard a noise.",
+    "chinese": "房間裡有人嗎？我聽到一個聲音。",
+    "options": [
+      "anyone",
+      "anything",
+      "everyone",
+      "everything"
+    ],
+    "answerIndex": 0,
+    "explanation": "詢問「有沒有人」用 anyone；anything (任何事物) 在此不符合預期問人的語境。",
+    "optionNotes": [
+      "代名詞・任何人",
+      "代名詞・任何事物",
+      "代名詞・每個人",
+      "代名詞・每件事物"
+    ]
+  },
+  {
+    "id": "jv-75",
+    "category": "代名詞",
+    "question": "I am so hungry. I would eat ______ right now.",
+    "chinese": "我太餓了。我現在什麼都吃得下。",
+    "options": [
+      "anyone",
+      "anything",
+      "nothing",
+      "something"
+    ],
+    "answerIndex": 1,
+    "explanation": "在肯定句中使用 anything 表示「任何事物皆可」的強烈語氣。",
+    "optionNotes": [
+      "代名詞・任何人",
+      "代名詞・任何事物",
+      "代名詞・沒有東西",
+      "代名詞・某事物"
+    ]
+  },
+  {
+    "id": "jv-76",
+    "category": "名詞",
+    "question": "They live in a small ______ on the fifth floor of that building.",
+    "chinese": "他們住在那棟大樓五樓的一間小公寓裡。",
+    "options": [
+      "airport",
+      "airplane",
+      "apartment",
+      "area"
+    ],
+    "answerIndex": 2,
+    "explanation": "live in an apartment (住在公寓) 為合理情境。",
+    "optionNotes": [
+      "名詞・機場",
+      "名詞・飛機",
+      "名詞・公寓",
+      "名詞・區域"
+    ]
+  },
+  {
+    "id": "jv-77",
+    "category": "動詞",
+    "question": "The sun began to ______ from behind the clouds.",
+    "chinese": "太陽開始從雲層後方露出來。",
+    "options": [
+      "agree",
+      "allow",
+      "arrive",
+      "appear"
+    ],
+    "answerIndex": 3,
+    "explanation": "appear (出現、露面) 用來描述太陽露臉；arrive (到達) 通常用於目的地。",
+    "optionNotes": [
+      "動詞・同意",
+      "動詞・允許",
+      "動詞・到達",
+      "動詞・出現"
+    ]
+  },
+  {
+    "id": "jv-78",
+    "category": "名詞",
+    "question": "An ______ a day keeps the doctor away.",
+    "chinese": "一天一蘋果，醫生遠離我。",
+    "options": [
+      "ant",
+      "apple",
+      "animal",
+      "angle"
+    ],
+    "answerIndex": 1,
+    "explanation": "這是一句著名的英文諺語，固定填入 apple。",
+    "optionNotes": [
+      "名詞・螞蟻",
+      "名詞・蘋果",
+      "名詞・動物",
+      "名詞・角"
+    ]
+  },
+  {
+    "id": "jv-79",
+    "category": "名詞",
+    "question": "______ is the fourth month of the year.",
+    "chinese": "四月是一年中的第四個月。",
+    "options": [
+      "August",
+      "April",
+      "Autumn",
+      "America"
+    ],
+    "answerIndex": 1,
+    "explanation": "一年中的第四個月是 April (四月)；August 是八月。",
+    "optionNotes": [
+      "名詞・八月",
+      "名詞・四月",
+      "名詞・秋天",
+      "名詞・美國"
+    ]
+  },
+  {
+    "id": "jv-80",
+    "category": "名詞",
+    "question": "This ______ is known for its beautiful beaches and warm weather.",
+    "chinese": "這個地區以其美麗的海灘和溫暖的天氣而聞名。",
+    "options": [
+      "art",
+      "air",
+      "area",
+      "age"
+    ],
+    "answerIndex": 2,
+    "explanation": "area (區域) 可用來描述包含海灘的地理範圍。",
+    "optionNotes": [
+      "名詞・藝術",
+      "名詞・空氣",
+      "名詞・區域",
+      "名詞・年紀"
+    ]
+  },
+  {
+    "id": "jv-81",
+    "category": "名詞",
+    "question": "He broke his ______ while playing basketball yesterday.",
+    "chinese": "他昨天打籃球時摔斷了手臂。",
+    "options": [
+      "art",
+      "ant",
+      "arm",
+      "air"
+    ],
+    "answerIndex": 2,
+    "explanation": "broke his arm (摔斷手臂) 為合理的生活情境；打籃球不會摔斷 air (空氣)。",
+    "optionNotes": [
+      "名詞・藝術",
+      "名詞・螞蟻",
+      "名詞・手臂",
+      "名詞・空氣"
+    ]
+  },
+  {
+    "id": "jv-82",
+    "category": "介系詞",
+    "question": "The Earth travels ______ the sun.",
+    "chinese": "地球繞著太陽運行。",
+    "options": [
+      "above",
+      "across",
+      "about",
+      "around"
+    ],
+    "answerIndex": 3,
+    "explanation": "travel around (環繞...運行) 描述行星的公轉。",
+    "optionNotes": [
+      "介系詞・在...上方",
+      "介系詞・越過",
+      "介系詞・關於",
+      "介系詞・環繞、在...周圍"
+    ]
+  },
+  {
+    "id": "jv-83",
+    "category": "動詞",
+    "question": "What time will the train ______ at the station?",
+    "chinese": "火車什麼時候會抵達車站？",
+    "options": [
+      "agree",
+      "allow",
+      "appear",
+      "arrive"
+    ],
+    "answerIndex": 3,
+    "explanation": "arrive at (抵達...) 是描述交通工具到站的固定搭配。",
+    "optionNotes": [
+      "動詞・同意",
+      "動詞・允許",
+      "動詞・出現",
+      "動詞・到達"
+    ]
+  },
+  {
+    "id": "jv-84",
+    "category": "名詞",
+    "question": "My sister is very good at drawing, so she wants to study ______.",
+    "chinese": "我妹妹很擅長畫畫，所以她想學藝術。",
+    "options": [
+      "air",
+      "art",
+      "arm",
+      "age"
+    ],
+    "answerIndex": 1,
+    "explanation": "drawing (畫畫) 屬於 art (藝術) 的範疇。",
+    "optionNotes": [
+      "名詞・空氣",
+      "名詞・藝術",
+      "名詞・手臂",
+      "名詞・年紀"
+    ]
+  },
+  {
+    "id": "jv-85",
+    "category": "介系詞",
+    "question": "He works ______ a doctor in a big hospital.",
+    "chinese": "他在一家大醫院裡擔任醫生。",
+    "options": [
+      "about",
+      "above",
+      "as",
+      "at"
+    ],
+    "answerIndex": 2,
+    "explanation": "work as + 職業 (擔任...職位) 為固定用法。",
+    "optionNotes": [
+      "介系詞・關於",
+      "介系詞・在...上方",
+      "介系詞・作為",
+      "介系詞・在...地點"
+    ]
   }
 ]
