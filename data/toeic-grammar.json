@@ -25,7 +25,7 @@
     "chinese": "如果您能在本週結束前告知您的決定，我們會非常感激。",
     "options": ["let", "would let", "will let", "letting"],
     "answerIndex": 0,
-    "explanation": "I would appreciate it if you + 過去式動詞 是委婉客氣的請求句型（虛擬語氣的禮貌用法），子句動詞用過去式表委婉，let 本身就是原形也是過去式（let 的過去式與原形同形），符合句型。"
+    "explanation": "這句話的結構是：<br>・主要子句：We would appreciate it<br>・從屬子句（if子句）：if you ______ us know your decision by the end of this week<br><br>I would appreciate it if you + 過去式動詞 是委婉客氣的請求句型（虛擬語氣的禮貌用法），字面意思接近「如果你...，我會很感激」，用過去式讓語氣顯得客氣、不直接。這裡空格要填的動詞其實就是 let，只是 let 這個字剛好原形和過去式長得一樣（let-let-let，不規則變化），所以看起來像是選了原形，但文法上它同時也符合「過去式」的要求。"
   },
   {
     "id": "tg-04",
