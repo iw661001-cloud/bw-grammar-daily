@@ -1,22 +1,6 @@
 const appEl = document.getElementById("app");
 
-// 複習佇列：不再是「只顯示答錯的題目」，改成「間隔重複排程到期的題目」（不分當初對錯）。
-// 一律整批讀該題庫的 items（題數還小，直接讀比另外組複合查詢簡單，也順便相容沒有 dueDate 的舊資料）。
-async function loadDueItems() {
-  const now = new Date();
-  const results = [];
-  for (const track of TRACKS) {
-    const snap = await db.collection("self_grammar").doc(track.id).collection("items").get();
-    snap.forEach((doc) => {
-      const data = doc.data();
-      if (!isDueForReview(data, now)) return;
-      const dueDate = data.dueDate ? data.dueDate.toDate() : now;
-      results.push({ track, questionId: doc.id, ...data, dueDate });
-    });
-  }
-  results.sort((a, b) => a.dueDate - b.dueDate);
-  return results;
-}
+// loadDueItems() 已搬到 tracks.js 共用（track.js／part6.js 的複習模式自動接續也要用）。
 
 async function render() {
   const items = await loadDueItems();

@@ -122,14 +122,20 @@
 
 | 題庫代碼 | 名稱 | 類型 | 程度 | 這次要加幾題 | id流水號從幾號接續 |
 |---|---|---|---|---|---|
-| （填入） | （填入） | mc / translate | （填入） | （填入） | （填入） |
+| junior-vocab | 國中單字 | mc | 國中（依教育部官方2000字參考詞彙表） | 200（小規模試行，先確認品質穩定再擴大批次） | jv-36 開始 |
+
+**這次額外要求**：
+- 目標字**不用自己挑**，直接依序使用 `_drafts\junior-vocab-batch2-words.txt` 裡列好的200個字，一個字一題，不用擔心重複（這份清單已經跟官方2000字表＋現有題庫比對過，保證沒出過）
+- 官方字表原始資料在 `junior-2000-wordlist.json`（含 `content_words`／`skipped_function_words` 兩份清單，後者是代名詞/助動詞這類不適合單字選擇題的功能詞，已經排除，不用管）；來源與判斷邏輯見知識庫筆記 [[官方詞彙表PDF擷取與單字出題判斷]]
+- 這次規模較大，**先出前50題存檔回報**，確認品質穩定後再繼續剩下150題，不要一次生完200題才回報（降低整批出問題才發現的風險）
+- 其餘規則（片語可以有、etymology選填、延伸同義字反義字搭配詞、國高中可重複用字）仍適用，見第一、二節
 
 **已有內容清單（避免重複，貼上對應題庫的清單）**：
 
 - `junior-grammar`（國中文法）已用文法點：時態×5、主詞動詞一致×1、比較級×2、連接詞×2、助動詞×1、介系詞×2、不定詞/動名詞×2、附加問句×1、代名詞×1、數量詞×1、關係子句×1、感官動詞×1、使役/被動×1、祈使句×1、連綴動詞×1、疑問詞×1、花費動詞×1（共25題，id到jg-25）
 - `senior-grammar`（高中/學測文法）已用文法點：假設語氣×4、倒裝句×4、分詞構句×3、關係子句×4、使役/被動×1、強調句×1、助動詞×1、轉折語氣×1、雙重否定×1、代名詞×1、不定詞/動名詞×2、時態×1、比較級×1（共25題，id到sg-25）
 - `toeic-grammar`（多益 Part 5，文法+字彙混合）已用：分詞構句×1、詞性判斷×3、假設語氣×3、介系詞×2、連接詞×3、比較級×1、代名詞×1、時態×1、關係子句×1、動詞(字彙)×3、形容詞(字彙)×3、使役/被動×1、不定詞/動名詞×1（共25題，id到tg-25）
-- `junior-vocab`（國中單字）已用目標字：borrow, nervous, improve, polite, expect, environment, honest, achieve, crowded, prepare, traditional, celebrate, expensive, language, protect, serious, modern, surprise, promised, discover, patient, generous, delicious, comfortable, knowledge, accident, suddenly, temperature, give up(片語), successful, encourage, restaurant, information, look forward to(片語), foreign（共35題，id到jv-35）
+- `junior-vocab`（國中單字）已用字改對照 `data/junior-vocab.json` 實際內容＋`junior-2000-wordlist.json`（官方字表全清單），不再逐字列出 prose 清單（200題等級的清單塞在這裡不利閱讀）；每次要出下一批前，由 Claude Code 執行比對算出「官方字表裡還沒出過的字」，直接提供目標字清單檔案（例如這次的 `_drafts\junior-vocab-batch2-words.txt`），委託時不用再手動核對「已有內容清單」
 - `senior-vocab`（高中單字）已用目標字：significant, reluctant, consequence, accomplish, efficient, genuine, controversial, diverse, aware, essential, ambiguous, compromise, inevitable, substantial, equivalent, interpret, vulnerable, superficial, manipulate, comprehensive, accumulate, subtle, relevant, compulsory, persistent, obstacle, deliberately, deteriorate, take...for granted(片語), indispensable, incorporate, perspective, profitable, come up with(片語), spontaneous（共35題，id到sv-35）
 - `toeic-vocab`（多益單字）已用目標字：reimburse, negotiate, postponed, invoice, colleague, deadline, inventory, candidates, reliable, budget, implement, complimentary, accommodate, tentative, itinerary, eligible, feedback, compensation, allocate, mandatory, previous, seminar, launch, verify, confidential（共25題，id到tv-25）
 - `ielts-vocab`（雅思單字）已用目標字：sustainable, phenomenon, assumption, statistics, contribute, adequate, perspective, exposure, inevitable, outweigh, fundamental, contradictory, fluctuate, empirical, paradigm, correlation, mitigate, underlying, subsequent, comprehensive, prominent, facilitate, consensus, intrinsic, hypothesis（共25題，id到iv-25）

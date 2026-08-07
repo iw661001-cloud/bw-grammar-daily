@@ -34,6 +34,31 @@ function isDueForReview(itemData, now) {
   return due <= now;
 }
 
+// 複習佇列：不再是「只顯示答錯的題目」，改成「間隔重複排程到期的題目」（不分當初對錯）。
+// 一律整批讀該題庫的 items（題數還小，直接讀比另外組複合查詢簡單，也順便相容沒有 dueDate 的舊資料）。
+// wrong.js（列表頁）跟 track.js／part6.js（複習模式的自動接續）共用同一份清單邏輯。
+async function loadDueItems() {
+  const now = new Date();
+  const results = [];
+  for (const track of TRACKS) {
+    const snap = await db.collection("self_grammar").doc(track.id).collection("items").get();
+    snap.forEach((doc) => {
+      const data = doc.data();
+      if (!isDueForReview(data, now)) return;
+      const dueDate = data.dueDate ? data.dueDate.toDate() : now;
+      results.push({ track, questionId: doc.id, ...data, dueDate });
+    });
+  }
+  results.sort((a, b) => a.dueDate - b.dueDate);
+  return results;
+}
+
+// 複習模式的剩餘題數計數器，黃底黑框硬邊陰影（不用模糊/發光效果），
+// track.js／part6.js 共用同一份樣式，插入 header 的 #reviewCounterSlot。
+function renderReviewCounterHtml(count) {
+  return `<span class="review-counter">剩餘 ${count} 題</span>`;
+}
+
 // 兩個地方都要用同一套日期字串規則（練習頁記錄用、儀表板讀取用），
 // 放共用檔案避免各自實作出現時區/格式落差。
 function toLocalDateKey(date) {

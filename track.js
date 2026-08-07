@@ -7,6 +7,7 @@ let questions = [];
 let pos = 0;
 let isReviewMode = false;
 let results = []; // 每一題目前的狀態：null=還沒作答，true=答對，false=答錯（均一平台式燈泡進度）
+let dueQueue = []; // 複習模式進頁面當下查到的完整待複習清單（含自己這一題），答完這題後用來決定跳去哪一項
 
 function progressKey() {
   return `bw-grammar-progress-${track.id}`;
@@ -86,12 +87,21 @@ function currentQuestionSummary() {
 
 function renderDone() {
   if (isReviewMode) {
+    // 從進頁面時查到的待複習清單裡移除這一題，還有剩的話直接跳到到期日最早的下一項，
+    // 不管是不是同一個題庫；跨到 part6 的話換頁面（part6.html），其餘留在 track.html。
+    const remaining = dueQueue.filter((item) => !(item.track.id === track.id && item.questionId === reviewQuestionId));
+    if (remaining.length > 0) {
+      const next = remaining[0];
+      const nextPage = next.track.type === "part6" ? "part6.html" : "track.html";
+      location.href = `${nextPage}?t=${next.track.id}&q=${next.questionId}`;
+      return;
+    }
     appEl.innerHTML = `
       <div class="done-card">
-        <div>複習完成！</div>
+        <div>今天的複習都做完了！</div>
         <div class="nav-row">
           <a class="nav-btn secondary" href="wrong.html" style="text-decoration:none;text-align:center;line-height:2.6;">回複習佇列</a>
-          <a class="nav-btn" href="track.html?t=${track.id}" style="text-decoration:none;text-align:center;line-height:2.6;">做整個題庫</a>
+          <a class="nav-btn" href="dashboard.html" style="text-decoration:none;text-align:center;line-height:2.6;">回儀表板</a>
         </div>
       </div>
     `;
@@ -226,21 +236,28 @@ function init() {
     return;
   }
   document.getElementById("trackTitle").textContent = track.label;
-  fetch(track.file)
-    .then((res) => res.json())
-    .then((data) => {
-      if (reviewQuestionId) {
-        const target = data.find((q) => q.id === reviewQuestionId);
-        questions = target ? [target] : [];
-        isReviewMode = true;
-        pos = 0;
-      } else {
-        questions = data;
-        pos = Math.min(loadProgress(), questions.length);
-      }
+  const fetchQuestions = fetch(track.file).then((res) => res.json());
+
+  if (reviewQuestionId) {
+    Promise.all([fetchQuestions, loadDueItems()]).then(([data, due]) => {
+      const target = data.find((q) => q.id === reviewQuestionId);
+      questions = target ? [target] : [];
+      isReviewMode = true;
+      pos = 0;
+      dueQueue = due;
+      document.getElementById("reviewCounterSlot").innerHTML = renderReviewCounterHtml(dueQueue.length);
       results = new Array(questions.length).fill(null);
       renderQuestion();
     });
+    return;
+  }
+
+  fetchQuestions.then((data) => {
+    questions = data;
+    pos = Math.min(loadProgress(), questions.length);
+    results = new Array(questions.length).fill(null);
+    renderQuestion();
+  });
 }
 
 init();
