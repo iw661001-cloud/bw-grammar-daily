@@ -4,7 +4,12 @@
     "category": "分詞構句",
     "question": "Please find the ______ report for your review before Friday's meeting.",
     "chinese": "請查收附上的報告，並在星期五的會議前審閱。",
-    "options": ["attach", "attached", "attaching", "attachment"],
+    "options": [
+      "attach",
+      "attached",
+      "attaching",
+      "attachment"
+    ],
     "answerIndex": 1,
     "explanation": "attached 是過去分詞當形容詞，修飾 report（「附上的」報告），是商業email固定用語 please find the attached...。"
   },
@@ -13,17 +18,32 @@
     "category": "詞性判斷",
     "question": "The board of directors was impressed by the ______ of the new marketing strategy.",
     "chinese": "董事會對新行銷策略的成效印象深刻。",
-    "options": ["effective", "effect", "effectiveness", "effectively"],
+    "options": [
+      "effective",
+      "effect",
+      "effectiveness",
+      "effectively"
+    ],
     "answerIndex": 2,
     "explanation": "空格前面是 the，後面接介系詞 of，需要名詞當 impressed by 的受詞，effectiveness（有效性）是名詞；effect 雖然也是名詞，但語意是「效果/影響」，不如 effectiveness（有效程度）精確符合「對策略的有效性印象深刻」。",
-    "optionNotes": ["形容詞・有效的", "名詞・效果；影響", "名詞・有效性；效力", "副詞・有效地"]
+    "optionNotes": [
+      "形容詞・有效的",
+      "名詞・效果；影響",
+      "名詞・有效性；效力",
+      "副詞・有效地"
+    ]
   },
   {
     "id": "tg-03",
     "category": "假設語氣",
     "question": "We would appreciate it if you ______ us know your decision by the end of this week.",
     "chinese": "如果您能在本週結束前告知您的決定，我們會非常感激。",
-    "options": ["let", "would let", "will let", "letting"],
+    "options": [
+      "let",
+      "would let",
+      "will let",
+      "letting"
+    ],
     "answerIndex": 0,
     "explanation": "這句話的結構是：<br>・主要子句：We would appreciate it<br>・從屬子句（if子句）：if you ______ us know your decision by the end of this week<br><br>I would appreciate it if you + 過去式動詞 是委婉客氣的請求句型（虛擬語氣的禮貌用法），字面意思接近「如果你...，我會很感激」，用過去式讓語氣顯得客氣、不直接。這裡空格要填的動詞其實就是 let，只是 let 這個字剛好原形和過去式長得一樣（let-let-let，不規則變化），所以看起來像是選了原形，但文法上它同時也符合「過去式」的要求。"
   },
@@ -32,27 +52,52 @@
     "category": "介系詞",
     "question": "All employees are required to submit their expense reports ______ the 5th of each month.",
     "chinese": "所有員工都必須在每月5號之前繳交費用報告。",
-    "options": ["until", "by", "since", "during"],
+    "options": [
+      "until",
+      "by",
+      "since",
+      "during"
+    ],
     "answerIndex": 1,
     "explanation": "by + 時間點表示「在...之前」的截止期限，符合「每月5號之前要交」的語意；until 強調「持續到...為止」，語意不合截止期限的情境。",
-    "optionNotes": ["介系詞・直到...為止", "介系詞・在...之前（截止時間）", "介系詞/連接詞・自從", "介系詞・在...期間"]
+    "optionNotes": [
+      "介系詞・直到...為止",
+      "介系詞・在...之前（截止時間）",
+      "介系詞/連接詞・自從",
+      "介系詞・在...期間"
+    ]
   },
   {
     "id": "tg-05",
     "category": "連接詞",
     "question": "The new policy will affect ______ full-time ______ part-time employees.",
     "chinese": "這項新政策將會影響全職與兼職員工。",
-    "options": ["either / or", "neither / nor", "both / and", "not only / but"],
+    "options": [
+      "either / or",
+      "neither / nor",
+      "both / and",
+      "not only / but"
+    ],
     "answerIndex": 2,
     "explanation": "both A and B（A和B兩者都）符合句意「全職和兼職員工都會受影響」；其餘選項的搭配詞都不對（neither...nor 缺 nor，not only...but 少了 also 也不影響語意但另外幾個選項邏輯不合句意）。",
-    "optionNotes": ["相關連接詞・兩者擇一", "相關連接詞・兩者都不", "相關連接詞・兩者都", "相關連接詞・不僅...而且"]
+    "optionNotes": [
+      "相關連接詞・兩者擇一",
+      "相關連接詞・兩者都不",
+      "相關連接詞・兩者都",
+      "相關連接詞・不僅...而且"
+    ]
   },
   {
     "id": "tg-06",
     "category": "比較級",
     "question": "Compared with last quarter, this quarter's sales figures are significantly ______ .",
     "chinese": "跟上一季相比，這一季的銷售數字明顯高出許多。",
-    "options": ["high", "higher", "highest", "more high"],
+    "options": [
+      "high",
+      "higher",
+      "highest",
+      "more high"
+    ],
     "answerIndex": 1,
     "explanation": "compared with（與...相比）暗示比較句型，用形容詞比較級 higher，形容詞已經是單音節，比較級直接加 -er，不能寫成 more high。"
   },
@@ -61,7 +106,12 @@
     "category": "假設語氣",
     "question": "The manager insisted that the report ______ before the deadline.",
     "chinese": "經理堅持這份報告必須在截止期限前送出。",
-    "options": ["is submitted", "was submitted", "be submitted", "will be submitted"],
+    "options": [
+      "is submitted",
+      "was submitted",
+      "be submitted",
+      "will be submitted"
+    ],
     "answerIndex": 2,
     "explanation": "insist that 表示「堅持要求」時，子句動詞要用「(should) + 原形動詞」的假設語氣形式（should 常省略只留原形），這裡是被動語態，原形是 be submitted。"
   },
@@ -70,27 +120,52 @@
     "category": "連接詞",
     "question": "The client was ______ satisfied with the revised proposal that she signed the contract immediately.",
     "chinese": "客戶對修訂後的提案非常滿意，當場就簽了合約。",
-    "options": ["very", "too", "such", "so"],
+    "options": [
+      "very",
+      "too",
+      "such",
+      "so"
+    ],
     "answerIndex": 3,
     "explanation": "so + 形容詞 + that...（如此...以致於...）固定句型，用 so 修飾形容詞 satisfied；such 則要接名詞（such a satisfied client），這裡後面是形容詞不是名詞，所以不能選 such。",
-    "optionNotes": ["副詞・非常（修飾形容詞，不接that子句）", "副詞・太過（too...to句型，不接that子句表結果）", "形容詞・如此的（後面要接名詞）", "副詞・如此（so...that句型，修飾形容詞/副詞）"]
+    "optionNotes": [
+      "副詞・非常（修飾形容詞，不接that子句）",
+      "副詞・太過（too...to句型，不接that子句表結果）",
+      "形容詞・如此的（後面要接名詞）",
+      "副詞・如此（so...that句型，修飾形容詞/副詞）"
+    ]
   },
   {
     "id": "tg-09",
     "category": "詞性判斷",
     "question": "Our department has been ______ understaffed since two colleagues resigned last month.",
     "chinese": "自從上個月兩位同事離職後，我們部門一直嚴重人力不足。",
-    "options": ["serious", "seriously", "seriousness", "more serious"],
+    "options": [
+      "serious",
+      "seriously",
+      "seriousness",
+      "more serious"
+    ],
     "answerIndex": 1,
     "explanation": "understaffed 是形容詞（人力不足的），前面要用副詞修飾形容詞，seriously（嚴重地）符合。",
-    "optionNotes": ["形容詞・嚴重的；認真的", "副詞・嚴重地；認真地", "名詞・嚴重性；認真", "形容詞比較級・更嚴重的"]
+    "optionNotes": [
+      "形容詞・嚴重的；認真的",
+      "副詞・嚴重地；認真地",
+      "名詞・嚴重性；認真",
+      "形容詞比較級・更嚴重的"
+    ]
   },
   {
     "id": "tg-10",
     "category": "假設語氣",
     "question": "It is essential that every team member ______ aware of the project timeline.",
     "chinese": "每位團隊成員都必須清楚了解專案的時程，這點非常重要。",
-    "options": ["is", "was", "be", "being"],
+    "options": [
+      "is",
+      "was",
+      "be",
+      "being"
+    ],
     "answerIndex": 2,
     "explanation": "It is essential/important/necessary that + 主詞 + (should) 原形動詞 也是假設語氣的固定句型（跟 Q7 的 insist 同一套邏輯），子句動詞用原形 be，不隨主詞單複數變化。"
   },
@@ -99,149 +174,479 @@
     "category": "代名詞",
     "question": "The manager reminded the staff that they must clean the equipment ______ after using the laboratory.",
     "chinese": "經理提醒員工，在使用實驗室後必須親自清潔設備。",
-    "options": ["their", "theirs", "they", "themselves"],
+    "options": [
+      "their",
+      "theirs",
+      "they",
+      "themselves"
+    ],
     "answerIndex": 3,
     "explanation": "空格處需要一個反身代名詞來強調主詞 they (the staff) 自己親自執行這個動作；their 是所有格，後面需接名詞；theirs 是所有格代名詞；they 是主格代名詞。",
-    "optionNotes": ["所有格・他們的", "所有格代名詞・他們的(東西)", "主詞代名詞・他們", "反身代名詞・他們自己"]
+    "optionNotes": [
+      "所有格・他們的",
+      "所有格代名詞・他們的(東西)",
+      "主詞代名詞・他們",
+      "反身代名詞・他們自己"
+    ]
   },
   {
     "id": "tg-12",
     "category": "時態",
     "question": "Over the past five years, the marketing team ______ several successful campaigns across Asia.",
     "chinese": "在過去五年中，行銷團隊在亞洲各地發起了數個成功的活動。",
-    "options": ["launched", "has launched", "will launch", "is launching"],
+    "options": [
+      "launched",
+      "has launched",
+      "will launch",
+      "is launching"
+    ],
     "answerIndex": 1,
     "explanation": "Over the past five years（過去五年來）暗示動作從過去持續到現在或影響至今，常與現在完成式連用；launched 為過去簡單式，不搭配 over the past...；will launch 為未來式；is launching 為現在進行式。",
-    "optionNotes": ["動詞・過去簡單式", "動詞・現在完成式", "動詞・未來簡單式", "動詞・現在進行式"]
+    "optionNotes": [
+      "動詞・過去簡單式",
+      "動詞・現在完成式",
+      "動詞・未來簡單式",
+      "動詞・現在進行式"
+    ]
   },
   {
     "id": "tg-13",
     "category": "關係子句",
     "question": "Applicants ______ resumes do not meet the minimum requirements will not be considered for the position.",
     "chinese": "履歷未達最低要求的申請者將不被考慮錄用此職位。",
-    "options": ["who", "which", "whose", "whom"],
+    "options": [
+      "who",
+      "which",
+      "whose",
+      "whom"
+    ],
     "answerIndex": 2,
     "explanation": "空格後有名詞 resumes，且與前面的先行詞 Applicants 有所屬關係（申請者的履歷），因此需要使用所有格關係代名詞 whose；who 為主格；which 先行詞為事物；whom 為受格。",
-    "optionNotes": ["關係代名詞・誰(主格)", "關係代名詞・哪個(事物)", "關係代名詞・誰的(所有格)", "關係代名詞・誰(受格)"]
+    "optionNotes": [
+      "關係代名詞・誰(主格)",
+      "關係代名詞・哪個(事物)",
+      "關係代名詞・誰的(所有格)",
+      "關係代名詞・誰(受格)"
+    ]
   },
   {
     "id": "tg-14",
     "category": "動詞",
     "question": "The new software is designed to ______ the existing network infrastructure without causing any disruptions.",
     "chinese": "新軟體的設計旨在與現有網路基礎架構互補，且不會造成任何中斷。",
-    "options": ["complement", "compliment", "compromise", "complicate"],
+    "options": [
+      "complement",
+      "compliment",
+      "compromise",
+      "complicate"
+    ],
     "answerIndex": 0,
     "explanation": "complement 意為「互補、與...相配」，符合句意；compliment 是「讚美」，拼字相似極易混淆；compromise 是「妥協、危及」；complicate 是「使複雜化」。",
-    "optionNotes": ["動詞・互補、使完善", "動詞・讚美", "動詞・妥協、危及", "動詞・使複雜化"]
+    "optionNotes": [
+      "動詞・互補、使完善",
+      "動詞・讚美",
+      "動詞・妥協、危及",
+      "動詞・使複雜化"
+    ]
   },
   {
     "id": "tg-15",
     "category": "詞性判斷",
     "question": "The board of directors is ______ reviewing the proposed merger before making a final decision.",
     "chinese": "董事會在做出最終決定前，正在仔細審查擬議的合併案。",
-    "options": ["care", "careful", "carefulness", "carefully"],
+    "options": [
+      "care",
+      "careful",
+      "carefulness",
+      "carefully"
+    ],
     "answerIndex": 3,
     "explanation": "空格位於 be 動詞 (is) 和現在分詞 (reviewing) 之間，需要使用副詞來修飾動詞 reviewing；care 是名詞或動詞；careful 是形容詞；carefulness 是名詞。",
-    "optionNotes": ["名詞/動詞・小心、關心", "形容詞・仔細的", "名詞・仔細、謹慎", "副詞・仔細地"]
+    "optionNotes": [
+      "名詞/動詞・小心、關心",
+      "形容詞・仔細的",
+      "名詞・仔細、謹慎",
+      "副詞・仔細地"
+    ]
   },
   {
     "id": "tg-16",
     "category": "動詞",
     "question": "Management plans to ______ a new policy regarding remote work starting next month.",
     "chinese": "管理層計畫從下個月開始實施一項關於遠距工作的新政策。",
-    "options": ["implicate", "impose", "implement", "impress"],
+    "options": [
+      "implicate",
+      "impose",
+      "implement",
+      "impress"
+    ],
     "answerIndex": 2,
     "explanation": "implement a policy 是多益常見搭配詞，意為「實施政策」；implicate 意為「牽連」；impose 通常接稅或懲罰（強加於）；impress 意為「使留下深刻印象」。",
-    "optionNotes": ["動詞・牽連、暗示", "動詞・強加、徵(稅)", "動詞・實施、執行", "動詞・使印象深刻"]
+    "optionNotes": [
+      "動詞・牽連、暗示",
+      "動詞・強加、徵(稅)",
+      "動詞・實施、執行",
+      "動詞・使印象深刻"
+    ]
   },
   {
     "id": "tg-17",
     "category": "介系詞",
     "question": "______ the heavy rain, the outdoor charity event attracted more than 500 participants.",
     "chinese": "儘管下大雨，這場戶外慈善活動還是吸引了超過 500 名參與者。",
-    "options": ["Although", "Despite", "Even if", "Because of"],
+    "options": [
+      "Although",
+      "Despite",
+      "Even if",
+      "Because of"
+    ],
     "answerIndex": 1,
     "explanation": "空格後接的是名詞片語 the heavy rain，因此必須填入介系詞 Despite（儘管）；Although 和 Even if 是連接詞，後面必須接完整的子句；Because of 語意不合（因為大雨所以吸引人，不合邏輯）。",
-    "optionNotes": ["連接詞・雖然", "介系詞・儘管", "連接詞・即使", "介系詞・因為"]
+    "optionNotes": [
+      "連接詞・雖然",
+      "介系詞・儘管",
+      "連接詞・即使",
+      "介系詞・因為"
+    ]
   },
   {
     "id": "tg-18",
     "category": "形容詞",
     "question": "We have reached a ______ agreement, but the final contract still needs to be reviewed by the legal department.",
     "chinese": "我們已達成初步協議，但最終合約仍需由法務部門審核。",
-    "options": ["tentative", "lucrative", "sensitive", "defective"],
+    "options": [
+      "tentative",
+      "lucrative",
+      "sensitive",
+      "defective"
+    ],
     "answerIndex": 0,
     "explanation": "tentative agreement 意為「初步/暫定的協議」，與後文的 final contract（最終合約）形成對比；lucrative 是「獲利豐厚的」；sensitive 是「敏感的」；defective 是「有缺陷的」。",
-    "optionNotes": ["形容詞・暫定的、初步的", "形容詞・賺錢的、獲利的", "形容詞・敏感的", "形容詞・有缺陷的"]
+    "optionNotes": [
+      "形容詞・暫定的、初步的",
+      "形容詞・賺錢的、獲利的",
+      "形容詞・敏感的",
+      "形容詞・有缺陷的"
+    ]
   },
   {
     "id": "tg-19",
     "category": "使役/被動",
     "question": "Please ensure that you have your parking ticket ______ by the receptionist before leaving the building.",
     "chinese": "離開大樓前，請確保您的停車票卡已交由櫃檯人員蓋章確認。",
-    "options": ["stamp", "stamping", "to stamp", "stamped"],
+    "options": [
+      "stamp",
+      "stamping",
+      "to stamp",
+      "stamped"
+    ],
     "answerIndex": 3,
     "explanation": "句型為 have + 受詞 (your parking ticket) + 過去分詞 (V-p.p.)，表示「讓（某物）被...」。停車票卡是被蓋章的，因此用過去分詞 stamped。",
-    "optionNotes": ["動詞・原形", "動詞・現在分詞", "動詞・不定詞", "動詞・過去分詞"]
+    "optionNotes": [
+      "動詞・原形",
+      "動詞・現在分詞",
+      "動詞・不定詞",
+      "動詞・過去分詞"
+    ]
   },
   {
     "id": "tg-20",
     "category": "形容詞",
     "question": "Attendance at the annual safety training workshop is ______ for all factory employees.",
     "chinese": "所有工廠員工都必須強制參加年度安全培訓研討會。",
-    "options": ["optional", "mandatory", "prominent", "hesitant"],
+    "options": [
+      "optional",
+      "mandatory",
+      "prominent",
+      "hesitant"
+    ],
     "answerIndex": 1,
     "explanation": "mandatory 意為「強制的、必須的」，符合安全培訓通常為要求全體參加的語境；optional 是「可選擇的」，與常理不合；prominent 是「卓越的、顯著的」；hesitant 是「猶豫的」。",
-    "optionNotes": ["形容詞・可選擇的", "形容詞・強制的、必須的", "形容詞・顯著的、重要的", "形容詞・猶豫的"]
+    "optionNotes": [
+      "形容詞・可選擇的",
+      "形容詞・強制的、必須的",
+      "形容詞・顯著的、重要的",
+      "形容詞・猶豫的"
+    ]
   },
   {
     "id": "tg-21",
     "category": "連接詞",
     "question": "______ the renovations are completed, the store will reopen with a special discount event.",
     "chinese": "一旦整修完成，商店將重新開幕並舉辦特價活動。",
-    "options": ["Unless", "Whereas", "Once", "Therefore"],
+    "options": [
+      "Unless",
+      "Whereas",
+      "Once",
+      "Therefore"
+    ],
     "answerIndex": 2,
     "explanation": "Once 作為連接詞表「一旦...就...」，符合邏輯；Unless 表「除非」；Whereas 表「然而、反之」；Therefore 是副詞，不能用來連接兩個子句。",
-    "optionNotes": ["連接詞・除非", "連接詞・然而", "連接詞・一旦", "副詞・因此"]
+    "optionNotes": [
+      "連接詞・除非",
+      "連接詞・然而",
+      "連接詞・一旦",
+      "副詞・因此"
+    ]
   },
   {
     "id": "tg-22",
     "category": "形容詞",
     "question": "The introduction of smartphones made many traditional digital cameras nearly ______.",
     "chinese": "智慧型手機的普及讓許多傳統數位相機變得幾乎過時。",
-    "options": ["obsolete", "absolute", "resolute", "obscure"],
+    "options": [
+      "obsolete",
+      "absolute",
+      "resolute",
+      "obscure"
+    ],
     "answerIndex": 0,
     "explanation": "obsolete 意為「過時的、被淘汰的」，常用來指科技產品被新事物取代；absolute 是「絕對的」；resolute 是「堅決的」；obscure 是「模糊的、默默無聞的」。",
-    "optionNotes": ["形容詞・過時的、淘汰的", "形容詞・絕對的", "形容詞・堅決的", "形容詞・模糊的、無名的"]
+    "optionNotes": [
+      "形容詞・過時的、淘汰的",
+      "形容詞・絕對的",
+      "形容詞・堅決的",
+      "形容詞・模糊的、無名的"
+    ]
   },
   {
     "id": "tg-23",
     "category": "詞性判斷",
     "question": "The architect presented her ______ for the new community center to the city council yesterday.",
     "chinese": "建築師昨天向市議會提出了新社區中心的提案。",
-    "options": ["propose", "proposal", "proposed", "proposing"],
+    "options": [
+      "propose",
+      "proposal",
+      "proposed",
+      "proposing"
+    ],
     "answerIndex": 1,
     "explanation": "所有格 her 後方需要接名詞作為 presented 的受詞，proposal 為名詞「提案」；propose 是動詞；proposed 是過去式或過去分詞；proposing 是現在分詞。",
-    "optionNotes": ["動詞・提議", "名詞・提案", "動詞・提議(過去式/分詞)", "動詞・提議(現在分詞)"]
+    "optionNotes": [
+      "動詞・提議",
+      "名詞・提案",
+      "動詞・提議(過去式/分詞)",
+      "動詞・提議(現在分詞)"
+    ]
   },
   {
     "id": "tg-24",
     "category": "不定詞/動名詞",
     "question": "We are looking forward to ______ with your firm on the upcoming construction project.",
     "chinese": "我們期待在即將到來的建設專案中與貴公司合作。",
-    "options": ["collaborate", "collaborated", "collaboration", "collaborating"],
+    "options": [
+      "collaborate",
+      "collaborated",
+      "collaboration",
+      "collaborating"
+    ],
     "answerIndex": 3,
     "explanation": "look forward to 中的 to 是介系詞，後面必須接名詞或動名詞 (V-ing)，且因為後面還有介系詞片語 with your firm，所以要用動名詞 collaborating；collaboration 是名詞，但後面不直接接 with。",
-    "optionNotes": ["動詞・原形", "動詞・過去式/分詞", "名詞・合作", "動名詞・合作"]
+    "optionNotes": [
+      "動詞・原形",
+      "動詞・過去式/分詞",
+      "名詞・合作",
+      "動名詞・合作"
+    ]
   },
   {
     "id": "tg-25",
     "category": "動詞",
     "question": "All vendors must strictly ______ with the health and safety regulations outlined in the contract.",
     "chinese": "所有供應商必須嚴格遵守合約中規定的健康與安全法規。",
-    "options": ["adhere", "observe", "comply", "follow"],
+    "options": [
+      "adhere",
+      "observe",
+      "comply",
+      "follow"
+    ],
     "answerIndex": 2,
     "explanation": "空格後接了介系詞 with，comply with 意為「遵守」，是固定搭配；adhere 後面需接 to (adhere to)；observe 和 follow 是及物動詞，後面直接接名詞，不加 with。",
-    "optionNotes": ["動詞・堅持、遵守 (接to)", "動詞・觀察、遵守", "動詞・遵守 (接with)", "動詞・跟隨、遵守"]
+    "optionNotes": [
+      "動詞・堅持、遵守 (接to)",
+      "動詞・觀察、遵守",
+      "動詞・遵守 (接with)",
+      "動詞・跟隨、遵守"
+    ]
+  },
+  {
+    "id": "tg-26",
+    "category": "句子結構",
+    "question": "The rumor <u>that the CEO will resign next month</u> caused the company's stock price to drop.<br><br>畫底線的名詞子句，在這句話中扮演什麼角色？",
+    "chinese": "執行長下個月將辭職的謠言導致公司股價下跌。",
+    "options": [
+      "關係子句修飾 CEO",
+      "The rumor 的同位語",
+      "caused 的受詞",
+      "主詞補語"
+    ],
+    "answerIndex": 1,
+    "explanation": "名詞子句 \"that the CEO will resign next month\" 緊接在名詞 The rumor 後面，用來完整說明「謠言的內容是什麼」，這種結構稱為「同位語」。",
+    "optionNotes": [
+      "錯誤・that 引導的是名詞子句，不是形容詞子句",
+      "名詞子句補充說明前面的抽象名詞",
+      "caused 的受詞是 the company's stock price",
+      "通常在 be 動詞後面，本句無"
+    ]
+  },
+  {
+    "id": "tg-27",
+    "category": "句子結構",
+    "question": "The revised contract, which was sent to you yesterday, needs to be signed by Friday.<br><br>哪個片段是用來補充說明的「形容詞子句（關係子句）」？",
+    "chinese": "昨天寄給您的修訂版合約，必須在星期五前簽署。",
+    "options": [
+      "The revised contract",
+      "needs to be signed",
+      "which was sent to you yesterday",
+      "by Friday"
+    ],
+    "answerIndex": 2,
+    "explanation": "由關係代名詞 \"which\" 引導的子句 (which was sent to you yesterday) 用來補充說明先行詞 \"The revised contract\"，這是一個非限定用法的「形容詞子句」。",
+    "optionNotes": [
+      "句子主詞",
+      "主要子句動詞",
+      "形容詞子句（關係子句）",
+      "介系詞片語"
+    ]
+  },
+  {
+    "id": "tg-28",
+    "category": "句子結構",
+    "question": "Although the marketing campaign was expensive, it successfully boosted our sales in the fourth quarter.<br><br>哪個片段是表達讓步關係的副詞子句？",
+    "chinese": "雖然行銷活動很昂貴，但它成功地提升了我們第四季的銷售額。",
+    "options": [
+      "Although the marketing campaign was expensive",
+      "it successfully boosted",
+      "our sales",
+      "in the fourth quarter"
+    ],
+    "answerIndex": 0,
+    "explanation": "由從屬連接詞 \"Although\"（雖然）引導的子句，用來表達與主要子句相對比的條件，屬於「副詞子句」。",
+    "optionNotes": [
+      "表達讓步關係的副詞子句",
+      "主要子句的主詞與動詞",
+      "受詞",
+      "介系詞片語（時間）"
+    ]
+  },
+  {
+    "id": "tg-29",
+    "category": "時態",
+    "question": "Mr. Jenkins will have worked for this corporation for twenty years by the end of next month.<br><br>是句中的哪一個時間線索，決定了必須使用「未來完成式」？",
+    "chinese": "到下個月底，Jenkins 先生將會為這家公司工作滿二十年。",
+    "options": [
+      "will have worked",
+      "for this corporation",
+      "for twenty years",
+      "by the end of next month"
+    ],
+    "answerIndex": 3,
+    "explanation": "時間片語 \"by the end of next month\" (到下個月底為止) 設定了一個未來的截止點，這暗示某個動作到那個時間點將累積完成，是決定使用「未來完成式」(will have worked) 的關鍵線索。",
+    "optionNotes": [
+      "未來完成式動詞",
+      "介系詞片語（地點/對象）",
+      "持續時間",
+      "時間線索詞・未來完成式標誌"
+    ]
+  },
+  {
+    "id": "tg-30",
+    "category": "時態",
+    "question": "Since the new management software was installed last week, productivity has increased significantly.<br><br>哪個片段決定了主要子句必須使用「現在完成式」？",
+    "chinese": "自從上週安裝了新的管理軟體後，生產力已顯著提升。",
+    "options": [
+      "Since the new management software was installed",
+      "last week",
+      "productivity has increased",
+      "significantly"
+    ],
+    "answerIndex": 0,
+    "explanation": "\"Since\" (自從) 搭配過去時間發生的一件事，表達「從過去那時一直持續到現在」的狀態，這是主要子句必須使用「現在完成式」(has increased) 的關鍵線索。",
+    "optionNotes": [
+      "時間線索詞・現在完成式的標誌",
+      "單純過去時間，修飾 installed",
+      "主要子句",
+      "副詞"
+    ]
+  },
+  {
+    "id": "tg-31",
+    "category": "時態",
+    "question": "The technician is currently repairing the copy machine on the second floor.<br><br>這句話使用的是哪一種時態？",
+    "chinese": "技術人員目前正在修理二樓的影印機。",
+    "options": [
+      "簡單現在式",
+      "現在進行式",
+      "現在完成式",
+      "未來進行式"
+    ],
+    "answerIndex": 1,
+    "explanation": "句中使用了 is + V-ing (repairing)，且搭配時間副詞 \"currently\" (目前、現在)，用以表示當下正在持續進行的動作，因此是「現在進行式」。",
+    "optionNotes": [
+      "V 或 V-s/es",
+      "be 動詞 + V-ing",
+      "have/has + Vpp",
+      "will be + V-ing"
+    ]
+  },
+  {
+    "id": "tg-32",
+    "category": "假設語氣",
+    "question": "Had the flight not been delayed, the executives would have attended the opening ceremony.<br><br>這句話暗示的「實際客觀事實」是什麼？",
+    "chinese": "要不是班機延誤，高階主管們本來是可以參加開幕典禮的。",
+    "options": [
+      "班機沒有延誤，主管參加了典禮",
+      "班機現在延誤了，主管無法參加典禮",
+      "班機未來會延誤，主管將不會參加典禮",
+      "班機當時延誤了，主管沒參加典禮"
+    ],
+    "answerIndex": 3,
+    "explanation": "這是「與過去事實相反」假設語氣的倒裝句型（省略 If，將 Had 移至句首）。這表示句子裡的假設（沒延誤、能參加）和當時實際發生的事完全相反，暗示「當時延誤了且沒參加」。(順便複習：倒裝句)",
+    "optionNotes": [
+      "與句意完全相反",
+      "這是與現在事實相反的情況",
+      "這預測未來",
+      "正確的反推實際事實"
+    ]
+  },
+  {
+    "id": "tg-33",
+    "category": "假設語氣",
+    "question": "If the company provided a shuttle service, employees would commute more easily.<br><br>這句話暗示的實際情況是什麼？",
+    "chinese": "如果公司有提供接駁車服務，員工通勤就會更輕鬆。",
+    "options": [
+      "公司當時有提供接駁車",
+      "公司當時沒提供接駁車",
+      "公司現在有提供接駁車",
+      "公司現在沒提供接駁車"
+    ],
+    "answerIndex": 3,
+    "explanation": "使用了 If + 過去式 (provided), 主詞 + would + 原形動詞 (commute)，這是標準的「與現在事實相反」的假設語氣。這暗示公司「現在」實際上並沒有提供接駁車。",
+    "optionNotes": [
+      "過去事實相反需用 had Vpp",
+      "過去事實相反需用 had Vpp",
+      "若為真實條件句會用現在式 provides",
+      "正確的現在實際事實"
+    ]
+  },
+  {
+    "id": "tg-34",
+    "category": "假設語氣",
+    "question": "Should you have any further questions, please do not hesitate to contact our customer support team.<br><br>這是商用書信常見的倒裝句型，它原本是屬於哪一種類型的假設語氣？",
+    "chinese": "萬一您有任何進一步的問題，請隨時聯繫我們的客服團隊。",
+    "options": [
+      "與現在事實相反",
+      "與過去事實相反",
+      "與未來事實相反",
+      "真實條件句"
+    ],
+    "answerIndex": 2,
+    "explanation": "這個倒裝句還原為 \"If you should have any further questions...\"。在多益商務信件中，Should 加原形動詞用來表示發生機率較小的「與未來事實相反」的假設，通常翻譯為「萬一...的話」。",
+    "optionNotes": [
+      "用過去式",
+      "用過去完成式",
+      "If + 主詞 + should/were to + 原形動詞",
+      "不會用 should 引導"
+    ]
   }
 ]

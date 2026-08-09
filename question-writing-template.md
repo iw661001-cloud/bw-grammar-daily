@@ -128,7 +128,7 @@
    {
      "id": "sg-XX",
      "category": "句子結構",
-     "question": "The manager who arrived late apologized to the client for the delay.",
+     "question": "The manager who arrived late apologized to the client for the delay.<br><br>【這裡必須補上這題在問什麼，例如：哪個片段是...】",
      "chinese": "遲到的經理向客戶為延誤道歉。",
      "options": ["The manager", "who arrived late", "apologized to the client for the delay", "for the delay"],
      "answerIndex": 2,
@@ -156,6 +156,8 @@
    **深化變化**：也可以反問「這句話暗示的實際客觀事實是什麼」（例如上例反推：考試當時沒通過），確保理解語意而非死背句型公式。
 
 **這個格式的專屬規則**：
+- **必須加上指示文字**：因為沒有空格，`question` 欄位必須在句子後面加上 `<br><br>` 以及「這題在問什麼」的具體提問（例如：哪個片段是副詞子句？／這句話是什麼時態？），不然使用者會不知道要回答什麼。
+- **問功能時須標記目標**：如果是問特定子句的「功能」（例如：這個子句扮演什麼角色？），必須在句子裡用 `<u>標的物</u>` 將該子句畫底線，讓使用者明確知道在問哪一部分。
 - **分類歸屬要對**：只有「句子結構（子句判斷）」是全新分類；「時態」「假設語氣」判斷題**沿用既有分類名稱**，不要另開新分類，否則會讓文法錯誤類型統計把同一個知識點拆成兩條
 - 句子結構（子句判斷）子句嵌套對國中生偏難，只用在`senior-grammar`／`toeic-grammar`；時態/假設語氣判斷題三個文法題庫都可以用
 - `options`是句子片段時字數會比單字選項長，不用特別縮短，但避免整句過長（建議一句不超過25個字），避免手機小螢幕排版問題

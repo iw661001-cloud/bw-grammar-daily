@@ -462,5 +462,125 @@
       "副詞・太(修飾原級)",
       "副詞・非常(修飾原級)"
     ]
+  },
+  {
+    "id": "sg-26",
+    "category": "句子結構",
+    "question": "That the climate is changing rapidly is now accepted by most scientists.<br><br>哪個片段是作為主詞的名詞子句？",
+    "chinese": "氣候正在快速變遷這件事，現在已被多數科學家接受。",
+    "options": [
+      "That the climate is changing rapidly",
+      "is changing rapidly",
+      "is now accepted",
+      "by most scientists"
+    ],
+    "answerIndex": 0,
+    "explanation": "這個句子由「That」引導一個名詞子句（That the climate is changing rapidly）來擔任整句話的「主詞」，後面的 is now accepted 才是句子的主要動詞。",
+    "optionNotes": [
+      "名詞子句・擔任主詞",
+      "名詞子句內的動詞",
+      "主要子句的動詞",
+      "介系詞片語"
+    ]
+  },
+  {
+    "id": "sg-27",
+    "category": "句子結構",
+    "question": "The scientist explained <u>how the new vaccine could prevent the spread of the virus</u>.<br><br>畫底線的名詞子句，在句中扮演什麼角色？",
+    "chinese": "科學家解釋了新疫苗如何能防止病毒傳播。",
+    "options": [
+      "句子主詞",
+      "動詞的受詞",
+      "主詞補語",
+      "同位語"
+    ],
+    "answerIndex": 1,
+    "explanation": "名詞子句 \"how the new vaccine could prevent the spread of the virus\" 放在及物動詞 explained 的後面，作為它說明的內容，因此扮演「受詞」的角色。",
+    "optionNotes": [
+      "名詞子句可當主詞，但本句主詞為 The scientist",
+      "及物動詞 explained 的接受者",
+      "通常位於 be 動詞後方補充說明主詞",
+      "用來補充說明前面的名詞，本句無此結構"
+    ]
+  },
+  {
+    "id": "sg-28",
+    "category": "時態",
+    "question": "The researchers had already concluded their experiment by the time the funding was approved.<br><br>是哪一個片段決定了這句話的前半部必須使用「過去完成式」？",
+    "chinese": "在經費被批准時，研究人員已經結束了他們的實驗。",
+    "options": [
+      "The researchers",
+      "had already",
+      "by the time",
+      "was approved"
+    ],
+    "answerIndex": 2,
+    "explanation": "\"by the time\"（到...的時候）引導了一個過去時間點（經費被批准），這暗示研究結束的動作發生在「過去的過去」，因此前半句必須使用過去完成式 (had concluded)。",
+    "optionNotes": [
+      "句子主詞",
+      "副詞片語",
+      "時間線索詞・決定過去完成式的關鍵",
+      "過去簡單式被動語態"
+    ]
+  },
+  {
+    "id": "sg-29",
+    "category": "時態",
+    "question": "Environmentalists have been warning us about the dangers of plastic pollution for decades.<br><br>這句話使用的是哪一種時態？",
+    "chinese": "幾十年來，環保人士一直在警告我們塑膠污染的危險。",
+    "options": [
+      "現在進行式",
+      "過去完成進行式",
+      "過去進行式",
+      "現在完成進行式"
+    ],
+    "answerIndex": 3,
+    "explanation": "句型結構為 have/has + been + V-ing，且搭配時間線索 \"for decades\"，表示從過去持續到現在、且目前仍在進行的動作，因此是「現在完成進行式」。",
+    "optionNotes": [
+      "is/am/are + V-ing",
+      "had been + V-ing",
+      "was/were + V-ing",
+      "have/has been + V-ing"
+    ]
+  },
+  {
+    "id": "sg-30",
+    "category": "假設語氣",
+    "question": "If the driver had paid more attention to the road, the accident could have been avoided.<br><br>這句話暗示的「實際客觀事實」是什麼？",
+    "chinese": "如果司機當時多注意路況，這場意外本來是可以避免的。",
+    "options": [
+      "司機當時有注意路況，意外避免了",
+      "司機現在沒注意路況，意外發生了",
+      "司機當時沒注意路況，意外發生了",
+      "司機未來不注意路況，意外會發生"
+    ],
+    "answerIndex": 2,
+    "explanation": "句型使用 If + had Vpp, 主詞 + could have Vpp，這是「與過去事實相反」的假設語氣。這暗示實際發生的事情剛好相反：當時沒注意路況，且意外發生了。",
+    "optionNotes": [
+      "與句意完全相反",
+      "這是與現在事實相反的假設語氣的實際情況",
+      "正確的反推實際事實",
+      "這預測未來，非對過去的假設"
+    ]
+  },
+  {
+    "id": "sg-31",
+    "category": "假設語氣",
+    "question": "If I were in your shoes, I would apologize to him immediately.<br><br>這句話是屬於哪一種類型的假設語氣？",
+    "chinese": "如果我站在你的立場，我會立刻向他道歉。",
+    "options": [
+      "與過去事實相反",
+      "與現在事實相反",
+      "與未來事實相反",
+      "真實條件句"
+    ],
+    "answerIndex": 1,
+    "explanation": "句型 If + 主詞 + 過去式動詞(were), 主詞 + would/could/should/might + 原形動詞，這是用來表達不可能發生的現在狀況（我現在不可能是你），所以是「與現在事實相反」。",
+    "optionNotes": [
+      "需使用 past perfect (had Vpp)",
+      "If + 過去式, would + 原形動詞",
+      "通常搭配 should 或 were to",
+      "If + 現在式, will + 原形動詞"
+    ]
   }
 ]
