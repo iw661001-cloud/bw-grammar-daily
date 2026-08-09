@@ -1,4 +1,6 @@
-> **狀態（2026-08-06，Claude Code補註）**：此提案未採用。經確認使用者沒有 Gemini API Key、也不打算另外申請付費的 API 額度，改回 Antigravity IDE 對話委託方式（維持既有「Gemini出題、Claude Code審查」流程，見 `question-writing-template.md`）。國中2000字題庫的擴充改成：Claude Code 從官方課綱PDF擷取字表存成 `junior-2000-wordlist.json`，每次算出「還沒出過的字」交給 Gemini 對話出題，不透過API自動化腳本。
+> **狀態（2026-08-06，Claude Code補註）**：此提案未採用。經確認使用者沒有 Gemini API Key、也不打算另外申請付費的 API 額度，改回 Antigravity IDE 對話委託方式（維持既有「Gemini出題、Claude Code審查」流程，見 [[english-study/00-自學/bw-grammar-daily/question-writing-template|question-writing-template.md]]）。國中2000字題庫的擴充改成：Claude Code 從官方課綱PDF擷取字表存成 `junior-2000-wordlist.json`，每次算出「還沒出過的字」交給 Gemini 對話出題，不透過API自動化腳本。
+>
+> **wikilink查核備註（2026-08-07，使用者裁決）**：本檔連到 `question-writing-template.md` 的連結**不需要對方回連**——本檔是已作廢的提案，現行流程文件不該連到失效方案，避免以後查核（不論Claude Code或Gemini）重複提出「單向連結未回連」的意見。
 
 # bw-grammar-daily 擴充 2000 單字題庫：API 批次腳本自動化規格
 
@@ -16,7 +18,7 @@
    - 設定合適的批次大小，例如 `BATCH_SIZE = 50`。
 
 3. **Prompt 組合與 API 呼叫**
-   - 讀取既有的 `question-writing-template.md` 取得 JSON 格式規範。
+   - 讀取既有的 [[english-study/00-自學/bw-grammar-daily/question-writing-template|question-writing-template.md]] 取得 JSON 格式規範。
    - 將每批單字組合成 Prompt 傳送給 API，並要求回傳 JSON 陣列格式。
    - **防漏要求**：務必在 Prompt 中提醒模型，讓選項正確答案位置 `answerIndex` (0~3) 盡量平均分布。
 
