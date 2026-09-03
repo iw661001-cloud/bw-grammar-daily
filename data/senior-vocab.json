@@ -1705,5 +1705,1010 @@
       "名詞・樣本",
       "名詞・訊號；示意"
     ]
+  },
+  {
+    "id": "sv-86",
+    "category": "動詞",
+    "question": "The security guard tried to ______ the visitors not to enter the restricted area.",
+    "chinese": "警衛試圖警告訪客不要進入管制區。",
+    "options": [
+      "earn",
+      "warn",
+      "ward",
+      "warm"
+    ],
+    "answerIndex": 1,
+    "explanation": "空格處需要一個動詞，表示「警告」。warn (警告) 完全符合語意。warm 是形容詞或動詞「溫暖」，ward 指「病房」或「躲避」。",
+    "optionNotes": [
+      "動詞・賺取",
+      "動詞・警告",
+      "名詞・病房",
+      "形容詞/動詞・溫暖的；使溫暖"
+    ]
+  },
+  {
+    "id": "sv-87",
+    "category": "動詞",
+    "question": "From his facial expression, we could ______ that he was not satisfied with the final decision.",
+    "chinese": "從他的面部表情，我們可以推論他對最終決定不滿意。",
+    "options": [
+      "prefer",
+      "offer",
+      "infer",
+      "refer"
+    ],
+    "answerIndex": 2,
+    "explanation": "infer 意為「推論」，表示從觀察到的現象得出結論。refer 常接 to，意為「提及；參考」；offer 為「提供」。",
+    "optionNotes": [
+      "動詞・偏好",
+      "動詞・提供",
+      "動詞・推論",
+      "動詞・提及；參考"
+    ],
+    "etymology": "in- (進入) + fer (帶來) -> 帶入心思中思考 -> 推論"
+  },
+  {
+    "id": "sv-88",
+    "category": "名詞",
+    "question": "The child's aggressive ______ in school has become a major concern for the teachers.",
+    "chinese": "這名孩童在學校的攻擊性行為已成為老師們的主要隱憂。",
+    "options": [
+      "behavior",
+      "flavor",
+      "favor",
+      "savior"
+    ],
+    "answerIndex": 0,
+    "explanation": "behavior 表示「行為、舉止」。savior 是「救世主」，flavor 為「口味」。此處描述孩童在校的舉止，故選 behavior。",
+    "optionNotes": [
+      "名詞・行為",
+      "名詞・口味；風味",
+      "名詞・恩惠；偏好",
+      "名詞・救助者；救世主"
+    ]
+  },
+  {
+    "id": "sv-89",
+    "category": "動詞",
+    "question": "The defendant's lawyer plans to ______ to the Supreme Court after losing the initial trial.",
+    "chinese": "被告的律師計畫在初審敗訴後向最高法院提出上訴。",
+    "options": [
+      "appear",
+      "reveal",
+      "appeal",
+      "repeal"
+    ],
+    "answerIndex": 2,
+    "explanation": "appeal 在法律情境中指「上訴」，也可指「吸引」。appear 為「出現」，repeal 則是「廢除」。此處指向高階法院尋求翻案，故選 appeal。",
+    "optionNotes": [
+      "動詞・出現",
+      "動詞・揭露",
+      "動詞/名詞・上訴；吸引",
+      "動詞・廢止；撤銷"
+    ]
+  },
+  {
+    "id": "sv-90",
+    "category": "動詞",
+    "question": "She was chosen to ______ her country in the international conference on climate change.",
+    "chinese": "她被選中代表她的國家參加氣候變遷國際會議。",
+    "options": [
+      "represent",
+      "prevent",
+      "resent",
+      "present"
+    ],
+    "answerIndex": 0,
+    "explanation": "represent 指「代表」。present 作動詞時通常指「呈現；頒發」。prevent 為「預防」，resent 意為「怨恨」。",
+    "optionNotes": [
+      "動詞・代表",
+      "動詞・預防",
+      "動詞・怨恨",
+      "動詞・呈現；贈送"
+    ],
+    "etymology": "re- (再) + present (呈現) -> 再次呈現或替別人呈現 -> 代表"
+  },
+  {
+    "id": "sv-91",
+    "category": "名詞",
+    "question": "Make sure to keep a copy of every official ______ related to this real estate transaction.",
+    "chinese": "確保保留與這筆房地產交易相關的每份官方文件副本。",
+    "options": [
+      "instrument",
+      "element",
+      "document",
+      "monument"
+    ],
+    "answerIndex": 2,
+    "explanation": "document 指「文件；公文」。monument 是「紀念碑」，instrument 為「儀器；樂器」，element 指「元素」。交易相關的書面資料應為文件。",
+    "optionNotes": [
+      "名詞・儀器；樂器",
+      "名詞・元素",
+      "名詞・文件",
+      "名詞・紀念碑"
+    ]
+  },
+  {
+    "id": "sv-92",
+    "category": "名詞",
+    "question": "The total ______ of money needed to fix the bridge was much higher than expected.",
+    "chinese": "修復這座橋樑所需的總金額比預期高出許多。",
+    "options": [
+      "rum",
+      "sum",
+      "sun",
+      "gum"
+    ],
+    "answerIndex": 1,
+    "explanation": "sum 指「總數；總和」，常用於 a sum of money (一筆錢)。sun 指太陽，gum 為口香糖或牙齦。",
+    "optionNotes": [
+      "名詞・蘭姆酒",
+      "名詞・和；金額",
+      "名詞・太陽",
+      "名詞・樹脂；口香糖"
+    ]
+  },
+  {
+    "id": "sv-93",
+    "category": "名詞",
+    "question": "In order to reduce ocean pollution, many cities have banned the use of single-use ______ straws.",
+    "chinese": "為了減少海洋污染，許多城市已經禁止使用一次性塑膠吸管。",
+    "options": [
+      "drastic",
+      "elastic",
+      "classic",
+      "plastic"
+    ],
+    "answerIndex": 3,
+    "explanation": "plastic 意為「塑膠」。classic 是「經典的」，elastic 為「有彈性的」。描述會造成海洋污染的吸管材質，應為塑膠。",
+    "optionNotes": [
+      "形容詞・激烈的；猛烈的",
+      "形容詞・有彈性的",
+      "形容詞・經典的",
+      "名詞/形容詞・塑膠(的)"
+    ]
+  },
+  {
+    "id": "sv-94",
+    "category": "名詞",
+    "question": "Knowing a second language gives you a significant ______ when looking for a job in this global market.",
+    "chinese": "在現今的全球市場中找工作時，會說第二外語能帶給你顯著的優勢。",
+    "options": [
+      "damage",
+      "revenge",
+      "advantage",
+      "average"
+    ],
+    "answerIndex": 2,
+    "explanation": "advantage 指「優勢；有利條件」。damage 是「損害」，average 為「平均」。外語能力在求職時是一項優點，故選 advantage。",
+    "optionNotes": [
+      "名詞・損害",
+      "名詞・報復",
+      "名詞・優勢",
+      "名詞/形容詞・平均(的)"
+    ]
+  },
+  {
+    "id": "sv-95",
+    "category": "副詞",
+    "question": "The plan is too expensive; ______, it does not directly address our main problem.",
+    "chinese": "這個計畫太昂貴了；而且，它並沒有直接解決我們的主要問題。",
+    "options": [
+      "moreover",
+      "otherwise",
+      "however",
+      "therefore"
+    ],
+    "answerIndex": 0,
+    "explanation": "moreover 表「此外；而且」，用於補充說明另一個缺點或論點。however 表轉折，therefore 表因果。",
+    "optionNotes": [
+      "副詞・而且；此外",
+      "副詞・否則",
+      "副詞・然而",
+      "副詞・因此"
+    ]
+  },
+  {
+    "id": "sv-96",
+    "category": "名詞",
+    "question": "The manager noticed the new employee's ______ and decided to give him more responsibilities.",
+    "chinese": "經理注意到了這名新進員工的潛力，決定賦予他更多責任。",
+    "options": [
+      "sequential",
+      "potential",
+      "partial",
+      "essential"
+    ],
+    "answerIndex": 1,
+    "explanation": "potential 指「潛力；潛能」。essential 是「必要的」，partial 意為「部分的；偏袒的」。",
+    "optionNotes": [
+      "形容詞・連續的；隨之而來的",
+      "名詞/形容詞・潛力；潛在的",
+      "形容詞・部分的；偏心的",
+      "形容詞・必要的"
+    ]
+  },
+  {
+    "id": "sv-97",
+    "category": "動詞",
+    "question": "The band will ______ their latest hit song live at the stadium tomorrow night.",
+    "chinese": "這個樂團明晚將在體育場現場表演他們的最新熱門歌曲。",
+    "options": [
+      "inform",
+      "transform",
+      "perform",
+      "reform"
+    ],
+    "answerIndex": 2,
+    "explanation": "perform 可指「執行」或「表演」。此處的受詞是 hit song，故作「表演」解。reform 為「改革」，transform 為「改變」。",
+    "optionNotes": [
+      "動詞・通知",
+      "動詞・使變形；徹底改變",
+      "動詞・執行；表演",
+      "動詞・改革"
+    ]
+  },
+  {
+    "id": "sv-98",
+    "category": "動詞",
+    "question": "During the protest, students tried to ______ the main administration building.",
+    "chinese": "在抗議期間，學生們試圖佔據主要行政大樓。",
+    "options": [
+      "oppose",
+      "occupy",
+      "occur",
+      "obtain"
+    ],
+    "answerIndex": 1,
+    "explanation": "occupy 意為「佔領；佔據」。occur 為「發生」，obtain 為「獲得」，oppose 為「反對」。",
+    "optionNotes": [
+      "動詞・反對",
+      "動詞・佔據",
+      "動詞・發生",
+      "動詞・獲得"
+    ]
+  },
+  {
+    "id": "sv-99",
+    "category": "介系詞",
+    "question": "The museum ticket covers all the exhibitions, ______ the special seasonal gallery.",
+    "chinese": "博物館的門票涵蓋所有展覽，包括特別的季節性畫廊。",
+    "options": [
+      "including",
+      "precluding",
+      "excluding",
+      "concluding"
+    ],
+    "answerIndex": 0,
+    "explanation": "including 意為「包含在內」。excluding 是「排除在外」。語意為所有展區都能憑票參觀，故選 including。",
+    "optionNotes": [
+      "介系詞・包括",
+      "動詞・妨礙；排除 (現在分詞)",
+      "介系詞・不包括",
+      "動詞・結束 (現在分詞)"
+    ]
+  },
+  {
+    "id": "sv-100",
+    "category": "形容詞",
+    "question": "The movie is a remake, but the director kept the ______ ending from the 1980 version.",
+    "chinese": "這部電影是翻拍版，但導演保留了 1980 年版本的原版結局。",
+    "options": [
+      "criminal",
+      "marginal",
+      "aboriginal",
+      "original"
+    ],
+    "answerIndex": 3,
+    "explanation": "original 意為「原來的；最初的」。criminal 是「犯罪的」，marginal 指「邊緣的」。從「保留舊版本的結局」可推知是原版的。",
+    "optionNotes": [
+      "形容詞/名詞・犯罪的；罪犯",
+      "形容詞・邊緣的；微小的",
+      "形容詞・原住民的；土著的",
+      "形容詞・原來的；原創的"
+    ]
+  },
+  {
+    "id": "sv-101",
+    "category": "動詞",
+    "question": "It took the rescue team hours to ______ the missing hikers in the dense forest.",
+    "chinese": "搜救隊花了數小時才在茂密的森林中定位出失蹤登山客的位置。",
+    "options": [
+      "educate",
+      "allocate",
+      "relocate",
+      "locate"
+    ],
+    "answerIndex": 3,
+    "explanation": "locate 意為「找出...的位置；定位」。allocate 為「分配」，relocate 是「重新安置」。找尋失蹤者的位置應用 locate。",
+    "optionNotes": [
+      "動詞・教育",
+      "動詞・分配",
+      "動詞・搬遷",
+      "動詞・定位；位於"
+    ]
+  },
+  {
+    "id": "sv-102",
+    "category": "名詞",
+    "question": "The local library serves as a central hub for our ______, hosting events for residents of all ages.",
+    "chinese": "當地圖書館作為我們社區的中心樞紐，為各年齡層的居民舉辦活動。",
+    "options": [
+      "humanity",
+      "community",
+      "commodity",
+      "immunity"
+    ],
+    "answerIndex": 1,
+    "explanation": "community 指「社區；社群」。immunity 為「免疫力」，commodity 為「商品」。圖書館服務的是在地居民所組成的社區。",
+    "optionNotes": [
+      "名詞・人性；人類",
+      "名詞・社區；社群",
+      "名詞・商品",
+      "名詞・免疫力"
+    ]
+  },
+  {
+    "id": "sv-103",
+    "category": "動詞",
+    "question": "He had changed so much over the years that I completely failed to ______ him at the reunion.",
+    "chinese": "這些年來他改變太多了，以至於在同學會上我完全沒認出他。",
+    "options": [
+      "recognize",
+      "apologize",
+      "organize",
+      "memorize"
+    ],
+    "answerIndex": 0,
+    "explanation": "recognize 意指「認出；辨識出」。organize 為「組織」，memorize 指「背誦」。此處描述容貌改變導致無法辨識。",
+    "optionNotes": [
+      "動詞・認出；承認",
+      "動詞・道歉",
+      "動詞・組織；安排",
+      "動詞・記住；背熟"
+    ],
+    "etymology": "re- (再) + cognize (知道) -> 再次識別出 -> 認出"
+  },
+  {
+    "id": "sv-104",
+    "category": "名詞",
+    "question": "The historical ______ where the famous battle took place is now a popular tourist attraction.",
+    "chinese": "那場著名戰役發生的歷史地點現在已成為熱門的旅遊景點。",
+    "options": [
+      "site",
+      "side",
+      "cite",
+      "sight"
+    ],
+    "answerIndex": 0,
+    "explanation": "site 指「地點；遺址」。sight 為「視力；視線」，cite 指「引用」。戰役發生的位置是 location 或 site。",
+    "optionNotes": [
+      "名詞・地點；遺址",
+      "名詞・側面；一邊",
+      "動詞・引用",
+      "名詞・視力；景觀"
+    ]
+  },
+  {
+    "id": "sv-105",
+    "category": "名詞",
+    "question": "The software engineer spent the entire night debugging the ______ to make sure the app works smoothly.",
+    "chinese": "這位軟體工程師花了一整晚除錯程式碼，以確保應用程式運作順暢。",
+    "options": [
+      "mode",
+      "node",
+      "code",
+      "core"
+    ],
+    "answerIndex": 2,
+    "explanation": "code 在電腦語境中指「程式碼」。mode 為「模式」，core 指「核心」。工程師除錯的對象自然是程式碼。",
+    "optionNotes": [
+      "名詞・模式",
+      "名詞・節點",
+      "名詞・程式碼；密碼",
+      "名詞・核心"
+    ]
+  },
+  {
+    "id": "sv-106",
+    "category": "動詞",
+    "question": "The tech company plans to ______ its highly anticipated new smartphone next month.",
+    "chinese": "這家科技公司計畫下個月發布備受期待的新款智慧型手機。",
+    "options": [
+      "decrease",
+      "cease",
+      "grease",
+      "release"
+    ],
+    "answerIndex": 3,
+    "explanation": "release 意為「發布；發行」。decrease 為「減少」，cease 是「停止」。推出新產品的動詞通常用 release。",
+    "optionNotes": [
+      "動詞・減少",
+      "動詞・停止",
+      "名詞・油脂",
+      "動詞・發布；釋放"
+    ]
+  },
+  {
+    "id": "sv-107",
+    "category": "名詞",
+    "question": "The comedian's jokes were so funny that the entire ______ burst into laughter.",
+    "chinese": "這位喜劇演員的笑話太好笑了，全場觀眾哄堂大笑。",
+    "options": [
+      "audience",
+      "convenience",
+      "obedience",
+      "patience"
+    ],
+    "answerIndex": 0,
+    "explanation": "audience 指「觀眾；聽眾」。patience 為「耐心」，obedience 為「服從」。在台下觀賞表演的人群即為 audience。",
+    "optionNotes": [
+      "名詞・觀眾；聽眾",
+      "名詞・便利",
+      "名詞・服從",
+      "名詞・耐心"
+    ]
+  },
+  {
+    "id": "sv-108",
+    "category": "名詞",
+    "question": "Doctors warn that excessive daily sugar ______ can lead to severe health issues like diabetes.",
+    "chinese": "醫生警告，每日過度攝取（消耗）糖分可能導致如糖尿病等嚴重的健康問題。",
+    "options": [
+      "resumption",
+      "presumption",
+      "consumption",
+      "assumption"
+    ],
+    "answerIndex": 2,
+    "explanation": "consumption 指「消耗；攝取量」。assumption 指「假設」。這裡描述吃下多少糖分，應用 consumption。",
+    "optionNotes": [
+      "名詞・恢復；重新開始",
+      "名詞・推測；冒昧",
+      "名詞・消耗；消費",
+      "名詞・假設"
+    ]
+  },
+  {
+    "id": "sv-109",
+    "category": "名詞",
+    "question": "The couple is looking for a suitable ______ to host their outdoor wedding reception.",
+    "chinese": "這對情侶正在尋找合適的地點來舉辦他們的戶外婚宴。",
+    "options": [
+      "location",
+      "donation",
+      "vocation",
+      "vacation"
+    ],
+    "answerIndex": 0,
+    "explanation": "location 意為「地點；位置」。vocation 是「職業；天職」，vacation 為「假期」。舉辦活動需要的是場所 (location)。",
+    "optionNotes": [
+      "名詞・地點；位置",
+      "名詞・捐款",
+      "名詞・職業；天職",
+      "名詞・假期"
+    ]
+  },
+  {
+    "id": "sv-110",
+    "category": "名詞",
+    "question": "Clear and honest ______ between team members is crucial for completing the project efficiently.",
+    "chinese": "團隊成員間清晰且誠實的溝通，對於有效率地完成專案至關重要。",
+    "options": [
+      "complication",
+      "application",
+      "communication",
+      "multiplication"
+    ],
+    "answerIndex": 2,
+    "explanation": "communication 意指「溝通；通訊」。application 為「申請；應用」，complication 是「併發症；複雜化」。人際間的交流為溝通。",
+    "optionNotes": [
+      "名詞・複雜；併發症",
+      "名詞・申請；應用程式",
+      "名詞・溝通；通訊",
+      "名詞・乘法；增加"
+    ]
+  },
+  {
+    "id": "sv-111",
+    "category": "動詞",
+    "question": "We need an adapter to ______ the projector to your laptop before the presentation starts.",
+    "chinese": "在簡報開始前，我們需要一個轉接器將投影機連接到你的筆電。",
+    "options": [
+      "correct",
+      "protect",
+      "collect",
+      "connect"
+    ],
+    "answerIndex": 3,
+    "explanation": "connect 指「連接」。collect 為「收集」，correct 指「糾正」。把兩個電子設備連在一起應使用 connect。",
+    "optionNotes": [
+      "動詞・糾正；正確的",
+      "動詞・保護",
+      "動詞・收集",
+      "動詞・連接"
+    ]
+  },
+  {
+    "id": "sv-112",
+    "category": "副詞",
+    "question": "The new car model is fuel-efficient; ______, it is equipped with the latest safety features.",
+    "chinese": "這款新車不僅省油；此外，它還配備了最新的安全功能。",
+    "options": [
+      "anyway",
+      "instead",
+      "nevertheless",
+      "furthermore"
+    ],
+    "answerIndex": 3,
+    "explanation": "furthermore 意為「此外；而且」，用於遞進語氣。nevertheless 表示「然而」，instead 表示「反而」。兩句皆是正面優點，故選 furthermore。",
+    "optionNotes": [
+      "副詞・無論如何",
+      "副詞・反而",
+      "副詞・然而；不過",
+      "副詞・此外；而且"
+    ]
+  },
+  {
+    "id": "sv-113",
+    "category": "名詞",
+    "question": "The magnetic compass needle always points toward the Earth's magnetic North ______.",
+    "chinese": "指南針的磁針總是會指向地球的地磁北極。",
+    "options": [
+      "pool",
+      "pore",
+      "poll",
+      "pole"
+    ],
+    "answerIndex": 3,
+    "explanation": "pole 指「極（如南極、北極）；柱子」。poll 是「民意調查」，pool 是「池子」。North Pole 為固定的專有名詞用法。",
+    "optionNotes": [
+      "名詞・水池",
+      "名詞・毛孔",
+      "名詞・民意調查",
+      "名詞・極點；柱子"
+    ]
+  },
+  {
+    "id": "sv-114",
+    "category": "形容詞",
+    "question": "The handwriting on this old letter looks incredibly ______ to me, though I can't recall whose it is.",
+    "chinese": "這封舊信上的筆跡對我來說看起來非常熟悉，儘管我想不起是誰的。",
+    "options": [
+      "popular",
+      "familiar",
+      "peculiar",
+      "similar"
+    ],
+    "answerIndex": 1,
+    "explanation": "familiar 意為「熟悉的」。peculiar 指「奇怪的」，similar 為「相似的」。句意中說「想不起來是誰的，但看過」，故表示「熟悉」。",
+    "optionNotes": [
+      "形容詞・受歡迎的",
+      "形容詞・熟悉的",
+      "形容詞・奇怪的；特有的",
+      "形容詞・相似的"
+    ]
+  },
+  {
+    "id": "sv-115",
+    "category": "名詞",
+    "question": "Studying abroad provides students with a great ______ to experience different cultures firsthand.",
+    "chinese": "出國留學為學生提供了一個親身體驗不同文化的絕佳機會。",
+    "options": [
+      "community",
+      "authority",
+      "opportunity",
+      "security"
+    ],
+    "answerIndex": 2,
+    "explanation": "opportunity 意為「機會」。authority 為「權威；當局」，security 是「安全」。提供管道去體驗文化，指的就是提供機會。",
+    "optionNotes": [
+      "名詞・社區",
+      "名詞・權威；當局",
+      "名詞・機會",
+      "名詞・安全"
+    ]
+  },
+  {
+    "id": "sv-116",
+    "category": "動詞",
+    "question": "After the storm passed, the sun began to ______ from behind the thick gray clouds.",
+    "chinese": "風暴過後，太陽開始從厚重的灰色雲層後面出現。",
+    "options": [
+      "urge",
+      "merge",
+      "surge",
+      "emerge"
+    ],
+    "answerIndex": 3,
+    "explanation": "emerge 指「出現；浮現」。merge 為「合併」，surge 指「激增」。太陽從雲後露臉，動作為 emerge。",
+    "optionNotes": [
+      "動詞・敦促",
+      "動詞・合併",
+      "名詞/動詞・激增",
+      "動詞・出現；浮出"
+    ],
+    "etymology": "e- (向外) + merge (沉浸) -> 從沉浸狀態出來 -> 出現"
+  },
+  {
+    "id": "sv-117",
+    "category": "名詞",
+    "question": "The architect designed a unique steel ______ that allows the building to withstand severe earthquakes.",
+    "chinese": "這位建築師設計了一種獨特的鋼鐵結構，讓這棟建築能承受強烈地震。",
+    "options": [
+      "stature",
+      "structure",
+      "feature",
+      "mixture"
+    ],
+    "answerIndex": 1,
+    "explanation": "structure 指「結構；建築物」。stature 為「身高；聲望」，feature 指「特色」。支撐建築物的框架即為結構。",
+    "optionNotes": [
+      "名詞・身高；地位",
+      "名詞・結構",
+      "名詞・特色",
+      "名詞・混合物"
+    ]
+  },
+  {
+    "id": "sv-118",
+    "category": "動詞",
+    "question": "The government launched a new campaign to ______ recycling and reduce household waste.",
+    "chinese": "政府發起了一項新活動來推動資源回收並減少家庭垃圾。",
+    "options": [
+      "promote",
+      "demote",
+      "devote",
+      "remote"
+    ],
+    "answerIndex": 0,
+    "explanation": "promote 在此指「推廣；推動」。demote 為「降級」，devote 指「奉獻」，remote 是形容詞「遙遠的」。",
+    "optionNotes": [
+      "動詞・推廣；晉升",
+      "動詞・降級",
+      "動詞・奉獻",
+      "形容詞・遙遠的"
+    ]
+  },
+  {
+    "id": "sv-119",
+    "category": "名詞",
+    "question": "It is illegal to sell ______ or tobacco products to teenagers under the legal age limit.",
+    "chinese": "向未達法定年齡的青少年販售酒精或菸草產品是違法的。",
+    "options": [
+      "alcohol",
+      "symbol",
+      "cholesterol",
+      "protocol"
+    ],
+    "answerIndex": 0,
+    "explanation": "alcohol 意指「酒精；酒類」。cholesterol 是「膽固醇」，protocol 指「協議」。常與菸草(tobacco)並列管制的為酒精。",
+    "optionNotes": [
+      "名詞・酒精；酒",
+      "名詞・象徵",
+      "名詞・膽固醇",
+      "名詞・禮節；協議"
+    ]
+  },
+  {
+    "id": "sv-120",
+    "category": "名詞",
+    "question": "The box looks large, but its ______ are quite light because it's only filled with styrofoam.",
+    "chinese": "這箱子看起來很大，但它的內容物很輕，因為裡面只裝了保麗龍。",
+    "options": [
+      "contests",
+      "contexts",
+      "contents",
+      "contacts"
+    ],
+    "answerIndex": 2,
+    "explanation": "contents 複數名詞指「內容物」。contests 為「競賽」，contexts 指「上下文」，contacts 為「聯絡人」。箱子裡裝的東西稱為 contents。",
+    "optionNotes": [
+      "名詞・競賽",
+      "名詞・背景；上下文",
+      "名詞・內容物",
+      "名詞・聯絡人"
+    ]
+  },
+  {
+    "id": "sv-121",
+    "category": "名詞",
+    "question": "The computer system experienced a sudden ______ yesterday, causing us to lose all unsaved data.",
+    "chinese": "電腦系統昨天經歷了突然的當機，導致我們遺失了所有未存檔的資料。",
+    "options": [
+      "crush",
+      "crash",
+      "cash",
+      "clash"
+    ],
+    "answerIndex": 1,
+    "explanation": "crash 指「當機；墜毀」。clash 為「衝突」，crush 意指「壓碎」。系統壞掉失去資料，應使用 crash。",
+    "optionNotes": [
+      "動詞/名詞・壓碎；迷戀",
+      "名詞/動詞・當機；墜毀",
+      "名詞・現金",
+      "名詞/動詞・衝突"
+    ]
+  },
+  {
+    "id": "sv-122",
+    "category": "名詞",
+    "question": "The detectives found crucial DNA ______ at the crime scene that helped identify the suspect.",
+    "chinese": "警探在犯罪現場找到了關鍵的 DNA 證據，幫助確認了嫌犯身分。",
+    "options": [
+      "residence",
+      "confidence",
+      "evidence",
+      "incidence"
+    ],
+    "answerIndex": 2,
+    "explanation": "evidence 意指「證據」。confidence 是「信心」，residence 指「住宅」。DNA 在破案中是確鑿的 evidence。",
+    "optionNotes": [
+      "名詞・住宅",
+      "名詞・信心",
+      "名詞・證據",
+      "名詞・發生率"
+    ]
+  },
+  {
+    "id": "sv-123",
+    "category": "名詞",
+    "question": "Every ______ in the marathon will receive a commemorative medal upon crossing the finish line.",
+    "chinese": "每位馬拉松參與者在跨越終點線時都會獲得一枚紀念獎牌。",
+    "options": [
+      "participant",
+      "consultant",
+      "inhabitant",
+      "assistant"
+    ],
+    "answerIndex": 0,
+    "explanation": "participant 指「參加者」。inhabitant 為「居民」，consultant 指「顧問」。參加比賽的人稱為 participant。",
+    "optionNotes": [
+      "名詞・參與者",
+      "名詞・顧問",
+      "名詞・居民",
+      "名詞・助理"
+    ]
+  },
+  {
+    "id": "sv-124",
+    "category": "形容詞",
+    "question": "Living next to the busy highway means dealing with the ______ noise of heavy traffic day and night.",
+    "chinese": "住在繁忙的公路旁意味著日夜都要忍受繁忙交通持續不斷的噪音。",
+    "options": [
+      "distant",
+      "instant",
+      "hesitant",
+      "constant"
+    ],
+    "answerIndex": 3,
+    "explanation": "constant 意為「持續不斷的」。instant 為「立刻的」，distant 指「遙遠的」。用來形容不間斷的噪音，應選 constant。",
+    "optionNotes": [
+      "形容詞・遙遠的",
+      "形容詞・立即的",
+      "形容詞・猶豫的",
+      "形容詞・持續的；不變的"
+    ]
+  },
+  {
+    "id": "sv-125",
+    "category": "名詞",
+    "question": "The two smartphone brands are engaged in fierce ______ to win over younger consumers.",
+    "chinese": "這兩家智慧型手機品牌正參與激烈的競爭，以贏得年輕消費者的青睞。",
+    "options": [
+      "petition",
+      "competition",
+      "expedition",
+      "repetition"
+    ],
+    "answerIndex": 1,
+    "explanation": "competition 意指「競爭；比賽」。repetition 為「重複」，expedition 是「遠征」。商場上爭奪市占率的行為屬於 competition。",
+    "optionNotes": [
+      "名詞・請願書",
+      "名詞・競爭；比賽",
+      "名詞・探險；遠征",
+      "名詞・重複"
+    ]
+  },
+  {
+    "id": "sv-126",
+    "category": "動詞",
+    "question": "The organization works to ______ traditional farming methods that have been passed down for generations.",
+    "chinese": "該組織致力於保存代代相傳的傳統農耕方法。",
+    "options": [
+      "preserve",
+      "observe",
+      "deserve",
+      "reserve"
+    ],
+    "answerIndex": 0,
+    "explanation": "preserve 指「保存；維護」。observe 是「觀察」，reserve 是「預訂；保留」。保護傳統文化或方法免於失傳用 preserve。",
+    "optionNotes": [
+      "動詞・保存；防腐",
+      "動詞・觀察；遵守",
+      "動詞・應受；值得",
+      "動詞・預訂；保留"
+    ]
+  },
+  {
+    "id": "sv-127",
+    "category": "名詞",
+    "question": "My grandfather usually takes a short ______ in his rocking chair right after lunch.",
+    "chinese": "我爺爺通常在午餐後會在搖椅上打個小盹。",
+    "options": [
+      "nap",
+      "map",
+      "lap",
+      "tap"
+    ],
+    "answerIndex": 0,
+    "explanation": "nap 指「小睡；打盹」。lap 是一圈或大腿，tap 輕拍。飯後短暫的睡眠即為 take a nap。",
+    "optionNotes": [
+      "名詞・打盹",
+      "名詞・地圖",
+      "名詞・膝部；(跑道的)一圈",
+      "動詞・輕拍；水龍頭"
+    ]
+  },
+  {
+    "id": "sv-128",
+    "category": "名詞",
+    "question": "Wearing sunscreen provides essential ______ against the sun's harmful ultraviolet rays.",
+    "chinese": "塗抹防曬霜能提供必要的保護，免受陽光中有害紫外線的傷害。",
+    "options": [
+      "direction",
+      "infection",
+      "protection",
+      "objection"
+    ],
+    "answerIndex": 2,
+    "explanation": "protection 意指「保護」。objection 為「反對」，infection 是「感染」。防曬霜的作用就是保護皮膚。",
+    "optionNotes": [
+      "名詞・方向",
+      "名詞・感染",
+      "名詞・保護",
+      "名詞・反對"
+    ]
+  },
+  {
+    "id": "sv-129",
+    "category": "動詞",
+    "question": "It's hard to predict how the stock market will ______ to the unexpected rise in interest rates.",
+    "chinese": "很難預測股市將如何對意外的利率上升做出反應。",
+    "options": [
+      "attract",
+      "react",
+      "exact",
+      "enact"
+    ],
+    "answerIndex": 1,
+    "explanation": "react 指「反應」，常搭配 to。enact 為「制定（法律）」，exact 意為「精確的」。股市對消息產生的波動稱為反應。",
+    "optionNotes": [
+      "動詞・吸引",
+      "動詞・反應",
+      "形容詞・精確的",
+      "動詞・制定(法律)"
+    ]
+  },
+  {
+    "id": "sv-130",
+    "category": "動詞",
+    "question": "The coach gave a powerful speech to ______ the players before the championship game.",
+    "chinese": "教練在冠軍賽前發表了強而有力的演說來啟發球員們。",
+    "options": [
+      "inspire",
+      "expire",
+      "perspire",
+      "conspire"
+    ],
+    "answerIndex": 0,
+    "explanation": "inspire 意指「激勵；啟發」。expire 為「到期」，perspire 是「流汗」。教練在賽前的演講是為了激勵士氣。",
+    "optionNotes": [
+      "動詞・激勵；啟發",
+      "動詞・到期；死亡",
+      "動詞・流汗",
+      "動詞・共謀"
+    ]
+  },
+  {
+    "id": "sv-131",
+    "category": "動詞",
+    "question": "The manager decided to ______ the new employee from the marketing department to sales.",
+    "chinese": "經理決定將這名新進員工從行銷部門轉移到業務部門。",
+    "options": [
+      "differ",
+      "transfer",
+      "prefer",
+      "suffer"
+    ],
+    "answerIndex": 1,
+    "explanation": "transfer 指「調動；轉移」。suffer 是「受苦」，differ 是「不同」。把員工從一個部門調到另一個部門用 transfer。",
+    "optionNotes": [
+      "動詞・不同",
+      "動詞/名詞・轉移；調動",
+      "動詞・偏好",
+      "動詞・受苦；遭受"
+    ]
+  },
+  {
+    "id": "sv-132",
+    "category": "名詞",
+    "question": "She decided to pursue a ______ in medicine because she always wanted to help sick people.",
+    "chinese": "她決定追求醫學領域的職業，因為她一直想幫助生病的人。",
+    "options": [
+      "corner",
+      "career",
+      "cancer",
+      "carrier"
+    ],
+    "answerIndex": 1,
+    "explanation": "career 意指「職業；生涯」。carrier 是「帶原者；運輸公司」，cancer 為「癌症」。追求某個專業的工作領域即為 career。",
+    "optionNotes": [
+      "名詞・角落",
+      "名詞・職業；生涯",
+      "名詞・癌症",
+      "名詞・運輸工具；帶原者"
+    ]
+  },
+  {
+    "id": "sv-133",
+    "category": "形容詞",
+    "question": "After weeks of unusual cold, the temperature finally returned to a ______ level for this time of year.",
+    "chinese": "經過數週的異常寒冷後，氣溫終於回到了每年這個時候的正常水準。",
+    "options": [
+      "normal",
+      "moral",
+      "formal",
+      "mortal"
+    ],
+    "answerIndex": 0,
+    "explanation": "normal 指「正常的；普通的」。formal 為「正式的」，moral 是「道德的」。氣溫恢復以往的常態應選 normal。",
+    "optionNotes": [
+      "形容詞・正常的；普通的",
+      "形容詞・道德的",
+      "形容詞・正式的",
+      "形容詞・終將一死的；致命的"
+    ]
+  },
+  {
+    "id": "sv-134",
+    "category": "名詞",
+    "question": "The ______ of the new subway line caused heavy traffic jams in the downtown area for months.",
+    "chinese": "新地鐵線的建造導致市中心區域連續數月嚴重塞車。",
+    "options": [
+      "restriction",
+      "instruction",
+      "destruction",
+      "construction"
+    ],
+    "answerIndex": 3,
+    "explanation": "construction 指「建造；施工」。instruction 為「指示」，destruction 為「破壞」。地鐵路線的工程稱為 construction。",
+    "optionNotes": [
+      "名詞・限制",
+      "名詞・指示；教學",
+      "名詞・破壞",
+      "名詞・建造；施工"
+    ]
+  },
+  {
+    "id": "sv-135",
+    "category": "動詞",
+    "question": "If you want to eat at that popular restaurant on Friday night, you better ______ a table in advance.",
+    "chinese": "如果你想在週五晚上去那家受歡迎的餐廳吃飯，你最好事先預訂位子。",
+    "options": [
+      "preserve",
+      "observe",
+      "reserve",
+      "deserve"
+    ],
+    "answerIndex": 2,
+    "explanation": "reserve 意為「預訂；保留」。deserve 是「應得」，preserve 為「保存」。事前先訂位為 reserve a table。",
+    "optionNotes": [
+      "動詞・保存；維護",
+      "動詞・觀察；遵守",
+      "動詞・預訂；保留",
+      "動詞・應受；值得"
+    ],
+    "etymology": "re- (往回/再) + serve (保持) -> 保持下來留給某人 -> 預訂"
   }
 ]
