@@ -6,7 +6,7 @@
   // （目前只有fire-engineer-exam放了；推廣到bw-grammar-daily時要把engineer.png、linguistics.png
   // 也複製一份過去，不能只複製這支.js卻沒有圖檔，圖片會顯示不出來）。
   var APPS = [
-    { id: "fire-engineer-exam", label: "設備師", icon: "icons/engineer.png", url: "https://iw661001-cloud.github.io/fire-engineer-exam/dashboard.html" },
+    { id: "fire-engineer-exam", label: "設備師", icon: "icons/engineer.png", url: "https://iw661001-cloud.github.io/fire-engineer-exam/" },
     { id: "bw-grammar-daily", label: "English", icon: "icons/linguistics.png", url: "https://iw661001-cloud.github.io/bw-grammar-daily/dashboard.html" },
   ];
 
