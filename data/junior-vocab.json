@@ -1700,5 +1700,3005 @@
       "介系詞・作為",
       "介系詞・在...地點"
     ]
+  },
+  {
+    "id": "jv-86",
+    "category": "動詞",
+    "question": "If you don't know the way to the station, you can ______ that police officer for help.",
+    "chinese": "如果你不知道去車站的路，你可以向那位警察詢問尋求協助。",
+    "options": [
+      "answer",
+      "ask",
+      "agree",
+      "allow"
+    ],
+    "answerIndex": 1,
+    "explanation": "ask sb. for help 為固定搭配，表示「向某人尋求協助」。answer(回答)、agree(同意)、allow(允許) 語意皆不符。",
+    "optionNotes": [
+      "動詞・回答",
+      "動詞・詢問/要求",
+      "動詞・同意",
+      "動詞・允許"
+    ]
+  },
+  {
+    "id": "jv-87",
+    "category": "片語",
+    "question": "You should drink ______ eight glasses of water every day to stay healthy.",
+    "chinese": "為了保持健康，你每天至少應該喝八杯水。",
+    "options": [
+      "at least",
+      "at first",
+      "at once",
+      "at last"
+    ],
+    "answerIndex": 0,
+    "explanation": "at least 表示「至少」，符合修飾數量「八杯水」的語境。at first(起初)、at once(立刻)、at last(終於) 均不符合句意。",
+    "optionNotes": [
+      "片語・至少",
+      "片語・起初",
+      "片語・立刻/馬上",
+      "片語・終於/最後"
+    ]
+  },
+  {
+    "id": "jv-88",
+    "category": "動詞",
+    "question": "The stray dog will not ______ people unless it feels threatened.",
+    "chinese": "這隻流浪狗除非感到受威脅，否則不會攻擊人。",
+    "options": [
+      "attract",
+      "attend",
+      "attack",
+      "accept"
+    ],
+    "answerIndex": 2,
+    "explanation": "attack 表示「攻擊」，符合狗因受到威脅而咬人/攻擊人的情境。attract(吸引)、attend(參加)、accept(接受) 語意不合。",
+    "optionNotes": [
+      "動詞・吸引",
+      "動詞・參加/出席",
+      "動詞・攻擊",
+      "動詞・接受"
+    ]
+  },
+  {
+    "id": "jv-89",
+    "category": "名詞",
+    "question": "In Taiwan, ______ is usually the hottest month of the year.",
+    "chinese": "在台灣，八月通常是一年中最熱的月份。",
+    "options": [
+      "April",
+      "Autumn",
+      "Autumn",
+      "August"
+    ],
+    "answerIndex": 3,
+    "explanation": "August 為「八月」，是夏季月份。April(四月) 不是最熱月份；Autumn(秋季) 為季節名詞非月份。故選 August。",
+    "optionNotes": [
+      "名詞・四月",
+      "名詞・秋天",
+      "名詞・一月",
+      "名詞・八月"
+    ]
+  },
+  {
+    "id": "jv-90",
+    "category": "名詞",
+    "question": "My father's sister is my ______, and she often buys gifts for me.",
+    "chinese": "我父親的姊妹是我的姑姑，她常買禮物給我。",
+    "options": [
+      "aunt",
+      "uncle",
+      "cousin",
+      "niece"
+    ],
+    "answerIndex": 0,
+    "explanation": "父親的姊妹稱作姑姑，英文為 aunt。uncle(叔伯/姑丈)、cousin(堂表兄弟姊妹)、niece(姪女/外甥女) 親屬稱謂不合。",
+    "optionNotes": [
+      "名詞・姑姑/阿姨/嬸嬸",
+      "名詞・叔叔/伯伯/舅舅",
+      "名詞・堂表兄弟姊妹",
+      "名詞・姪女/外甥女"
+    ]
+  },
+  {
+    "id": "jv-91",
+    "category": "名詞",
+    "question": "The leaves on the trees turn yellow and red in ______.",
+    "chinese": "樹上的葉子在秋天會變黃變紅。",
+    "options": [
+      "spring",
+      "summer",
+      "autumn",
+      "winter"
+    ],
+    "answerIndex": 2,
+    "explanation": "autumn (或 fall) 表示「秋天」，是樹葉變色落下的季節。spring(春天)、summer(夏天)、winter(冬天) 季節特徵不同。",
+    "optionNotes": [
+      "名詞・春天",
+      "名詞・夏天",
+      "名詞・秋天",
+      "名詞・冬天"
+    ]
+  },
+  {
+    "id": "jv-92",
+    "category": "副詞",
+    "question": "Please don't run ______; stay close to your parents in the crowded night market.",
+    "chinese": "在擁擠的夜市裡請不要跑開，待在父母身邊。",
+    "options": [
+      "away",
+      "along",
+      "ahead",
+      "around"
+    ],
+    "answerIndex": 0,
+    "explanation": "run away 表示「跑開/走遠」，與後面 stay close（待在身邊）形成對比。along(沿著)、ahead(在前方)、around(在周圍) 語意不恰當。",
+    "optionNotes": [
+      "副詞・離開/遠離",
+      "副詞・沿著",
+      "副詞・向前/在前面",
+      "副詞・在周圍/到處"
+    ]
+  },
+  {
+    "id": "jv-93",
+    "category": "名詞",
+    "question": "Please speak quietly because the little ______ is sleeping in the crib.",
+    "chinese": "請小聲說話，因為小嬰兒正在嬰兒床裡睡覺。",
+    "options": [
+      "boss",
+      "baby",
+      "baker",
+      "beggar"
+    ],
+    "answerIndex": 1,
+    "explanation": "baby 表示「嬰兒」，在 crib（嬰兒床）中睡覺。boss(老闆)、baker(麵包師傅)、beggar(乞丐) 不符合情境。",
+    "optionNotes": [
+      "名詞・老闆",
+      "名詞・嬰兒",
+      "名詞・麵包師傅",
+      "名詞・乞丐"
+    ]
+  },
+  {
+    "id": "jv-94",
+    "category": "副詞",
+    "question": "When will you come ______ from your business trip to Japan?",
+    "chinese": "你什麼時候會從日本出差回來？",
+    "options": [
+      "down",
+      "out",
+      "back",
+      "off"
+    ],
+    "answerIndex": 2,
+    "explanation": "come back 表示「回來/返回」。come down(下來/倒塌)、come out(出來/出版)、come off(脫落) 均不符合句意。",
+    "optionNotes": [
+      "副詞・向下",
+      "副詞・向外",
+      "副詞・返回/向後",
+      "副詞・離開/脫落"
+    ]
+  },
+  {
+    "id": "jv-95",
+    "category": "形容詞",
+    "question": "Eating too much junk food and sleeping late is ______ for your health.",
+    "chinese": "吃太多垃圾食物和熬夜對你的健康有害。",
+    "options": [
+      "bad",
+      "busy",
+      "brave",
+      "bright"
+    ],
+    "answerIndex": 0,
+    "explanation": "be bad for 表示「對...有害/不好」。busy(忙碌的)、brave(勇敢的)、bright(明亮的/聰明的) 皆無法與 for your health 搭配表示有害。",
+    "optionNotes": [
+      "形容詞・不好的/壞的",
+      "形容詞・忙碌的",
+      "形容詞・勇敢的",
+      "形容詞・明亮的/聰明的"
+    ]
+  },
+  {
+    "id": "jv-96",
+    "category": "名詞",
+    "question": "Tai Tzu-ying is a world-famous ______ player from Taiwan.",
+    "chinese": "戴資穎是來自台灣聞名世界的羽球選手。",
+    "options": [
+      "baseball",
+      "basketball",
+      "badminton",
+      "volleyball"
+    ],
+    "answerIndex": 2,
+    "explanation": "badminton 指「羽毛球」。baseball(棒球)、basketball(籃球)、volleyball(排球) 為其他球類運動。",
+    "optionNotes": [
+      "名詞・棒球",
+      "名詞・籃球",
+      "名詞・羽毛球",
+      "名詞・排球"
+    ]
+  },
+  {
+    "id": "jv-97",
+    "category": "名詞",
+    "question": "Remember to bring your own shopping ______ when going to the supermarket.",
+    "chinese": "去超市時記得帶自己的購物袋。",
+    "options": [
+      "bag",
+      "box",
+      "bed",
+      "bat"
+    ],
+    "answerIndex": 0,
+    "explanation": "shopping bag 表示「購物袋」。box(箱子)、bed(床)、bat(球棒/蝙蝠) 均非一般隨身攜帶的購物袋詞彙。",
+    "optionNotes": [
+      "名詞・袋子/包包",
+      "名詞・盒子/箱子",
+      "名詞・床",
+      "名詞・球棒/蝙蝠"
+    ]
+  },
+  {
+    "id": "jv-98",
+    "category": "動詞",
+    "question": "My mother loves to ______ fresh bread and cookies on weekends.",
+    "chinese": "我母親喜歡在週末烘烤新鮮的麵包和餅乾。",
+    "options": [
+      "boil",
+      "burn",
+      "bite",
+      "bake"
+    ],
+    "answerIndex": 3,
+    "explanation": "bake 指「烘烤（麵包、糕點）」。boil(煮沸)、burn(燃燒/燒焦)、bite(咬) 均不符合製作麵包點心的動詞用法。",
+    "optionNotes": [
+      "動詞・煮沸",
+      "動詞・燃燒/燙傷",
+      "動詞・咬",
+      "動詞・烘烤"
+    ]
+  },
+  {
+    "id": "jv-99",
+    "category": "名詞",
+    "question": "The sweet smell of fresh bread led us straight to the ______.",
+    "chinese": "新鮮麵包的香甜氣味引導我們直接走向麵包店。",
+    "options": [
+      "bank",
+      "bakery",
+      "balcony",
+      "barbershop"
+    ],
+    "answerIndex": 1,
+    "explanation": "bakery 為「麵包店」，符合新鮮麵包香氣來源。bank(銀行)、balcony(陽台)、barbershop(理髮店) 均無關。",
+    "optionNotes": [
+      "名詞・銀行",
+      "名詞・麵包店",
+      "名詞・陽台",
+      "名詞・理髮店"
+    ]
+  },
+  {
+    "id": "jv-100",
+    "category": "名詞",
+    "question": "We like to stand on the ______ to enjoy the cool breeze and view the sunset.",
+    "chinese": "我們喜歡站在陽台上享受涼爽的微風並欣賞日落。",
+    "options": [
+      "balcony",
+      "basement",
+      "bathroom",
+      "bedroom"
+    ],
+    "answerIndex": 0,
+    "explanation": "balcony 指「陽台」，適合站著吹風看夕陽。basement(地下室)、bathroom(浴室)、bedroom(臥室) 不符合戶外看景情境。",
+    "optionNotes": [
+      "名詞・陽台",
+      "名詞・地下室",
+      "名詞・浴室",
+      "名詞・臥室"
+    ]
+  },
+  {
+    "id": "jv-101",
+    "category": "名詞",
+    "question": "Monkeys love to eat yellow fruits like the ______.",
+    "chinese": "猴子喜歡吃像香蕉這樣的黃色水果。",
+    "options": [
+      "apple",
+      "grape",
+      "banana",
+      "tomato"
+    ],
+    "answerIndex": 2,
+    "explanation": "banana 指「香蕉」，為猴子喜愛且成熟時呈黃色的水果。apple(蘋果)、grape(葡萄)、tomato(番茄) 一般非典型黃色猴子代表食物。",
+    "optionNotes": [
+      "名詞・蘋果",
+      "名詞・葡萄",
+      "名詞・香蕉",
+      "名詞・番茄"
+    ]
+  },
+  {
+    "id": "jv-102",
+    "category": "名詞",
+    "question": "He plays the guitar in a famous rock ______ with his high school friends.",
+    "chinese": "他和高中朋友在一個著名的搖滾樂團裡彈吉他。",
+    "options": [
+      "bank",
+      "bond",
+      "boat",
+      "band"
+    ],
+    "answerIndex": 3,
+    "explanation": "rock band 為「搖滾樂團」。bank(銀行)、bond(債券/連結)、boat(船) 均不符合彈吉他的組織形式。",
+    "optionNotes": [
+      "名詞・銀行",
+      "名詞・連結/債券",
+      "名詞・小船",
+      "名詞・樂團/樂隊"
+    ]
+  },
+  {
+    "id": "jv-103",
+    "category": "名詞",
+    "question": "I need to go to the ______ to withdraw some cash before the trip.",
+    "chinese": "出門旅行前我需要去銀行提領一些現金。",
+    "options": [
+      "bank",
+      "beach",
+      "block",
+      "barn"
+    ],
+    "answerIndex": 0,
+    "explanation": "bank（銀行）是領取現金 (withdraw cash) 的場所。beach(海灘)、block(街區/積木)、barn(穀倉) 皆不能提款。",
+    "optionNotes": [
+      "名詞・銀行",
+      "名詞・海灘",
+      "名詞・街區/積木",
+      "名詞・穀倉"
+    ]
+  },
+  {
+    "id": "jv-104",
+    "category": "名詞",
+    "question": "In Taiwan, many people gather to watch professional ______ games on TV.",
+    "chinese": "在台灣，許多人聚在一起收看電視上的職業棒球賽。",
+    "options": [
+      "badminton",
+      "baseball",
+      "basketball",
+      "bowling"
+    ],
+    "answerIndex": 1,
+    "explanation": "baseball（棒球）在台灣是極具代表性的職業運動（中職 CPBL）。badminton(羽球)、basketball(籃球)、bowling(保齡球) 雖也是運動但選項中 baseball 語意最符合台灣國球特色。",
+    "optionNotes": [
+      "名詞・羽球",
+      "名詞・棒球",
+      "名詞・籃球",
+      "名詞・保齡球"
+    ]
+  },
+  {
+    "id": "jv-105",
+    "category": "名詞",
+    "question": "She put all the freshly picked apples into a large wooden ______.",
+    "chinese": "她把所有現摘的蘋果放進一個大木籃裡。",
+    "options": [
+      "bottle",
+      "blanket",
+      "basket",
+      "bridge"
+    ],
+    "answerIndex": 2,
+    "explanation": "basket 指「籃子」，wooden basket 為木籃。bottle(瓶子)、blanket(毛毯)、bridge(橋) 均不適合裝現摘蘋果。",
+    "optionNotes": [
+      "名詞・瓶子",
+      "名詞・毛毯",
+      "名詞・籃子",
+      "名詞・橋樑"
+    ]
+  },
+  {
+    "id": "jv-106",
+    "category": "名詞",
+    "question": "He is very tall, so he is very good at playing ______.",
+    "chinese": "他長得很高，所以非常擅長打籃球。",
+    "options": [
+      "tennis",
+      "baseball",
+      "badminton",
+      "basketball"
+    ],
+    "answerIndex": 3,
+    "explanation": "basketball（籃球）這項運動特別看重身高優勢。tennis(網球)、baseball(棒球)、badminton(羽球) 對身高的直接關聯度不如籃球強烈。",
+    "optionNotes": [
+      "名詞・網球",
+      "名詞・棒球",
+      "名詞・羽毛球",
+      "名詞・籃球"
+    ]
+  },
+  {
+    "id": "jv-107",
+    "category": "名詞",
+    "question": "The baseball player swung the wooden ______ with all his strength.",
+    "chinese": "那位棒球選手用盡全力揮動木棒。",
+    "options": [
+      "bat",
+      "bed",
+      "bag",
+      "box"
+    ],
+    "answerIndex": 0,
+    "explanation": "bat 在棒球中指「球棒」，swung the bat 表揮棒。bed(床)、bag(提袋)、box(箱子) 均不能揮動打棒球。",
+    "optionNotes": [
+      "名詞・球棒/蝙蝠",
+      "名詞・床",
+      "名詞・提袋",
+      "名詞・箱子"
+    ]
+  },
+  {
+    "id": "jv-108",
+    "category": "名詞",
+    "question": "After a long day of work, taking a warm ______ helps you relax.",
+    "chinese": "工作一整天後，泡個溫水澡有助於放鬆身心。",
+    "options": [
+      "meal",
+      "bath",
+      "walk",
+      "seat"
+    ],
+    "answerIndex": 1,
+    "explanation": "take a bath 為固定搭配，表示「洗澡/泡澡」。take a meal(用餐)、take a walk(散步)、take a seat(坐下) 搭配 warm 與 relax 時以 warm bath 最貼切。",
+    "optionNotes": [
+      "名詞・餐點",
+      "名詞・沐浴/泡澡",
+      "名詞・散步",
+      "名詞・座位"
+    ]
+  },
+  {
+    "id": "jv-109",
+    "category": "名詞",
+    "question": "Excuse me, where is the ______? I need to wash my hands.",
+    "chinese": "不好意思，洗手間在哪裡？我需要洗手。",
+    "options": [
+      "bedroom",
+      "balcony",
+      "bathroom",
+      "basement"
+    ],
+    "answerIndex": 2,
+    "explanation": "bathroom 指「浴室/洗手間」，是洗手 (wash hands) 的地方。bedroom(臥室)、balcony(陽台)、basement(地下室) 均非洗手處。",
+    "optionNotes": [
+      "名詞・臥室",
+      "名詞・陽台",
+      "名詞・浴室/洗手間",
+      "名詞・地下室"
+    ]
+  },
+  {
+    "id": "jv-110",
+    "category": "名詞",
+    "question": "Children love building sandcastles when they play on the ______.",
+    "chinese": "小孩子在海灘上玩耍時很喜歡堆沙堡。",
+    "options": [
+      "bench",
+      "beach",
+      "bridge",
+      "block"
+    ],
+    "answerIndex": 1,
+    "explanation": "beach 表示「海灘」，是堆沙堡 (sandcastles) 的地點。bench(長凳)、bridge(橋)、block(街區) 皆無沙灘環境。",
+    "optionNotes": [
+      "名詞・長凳",
+      "名詞・海灘",
+      "名詞・橋樑",
+      "名詞・街區/積木"
+    ]
+  },
+  {
+    "id": "jv-111",
+    "category": "名詞",
+    "question": "Soy milk is made from the soy ______, which is rich in protein.",
+    "chinese": "豆漿是由黃豆製成的，富含蛋白質。",
+    "options": [
+      "bean",
+      "beef",
+      "beer",
+      "bread"
+    ],
+    "answerIndex": 0,
+    "explanation": "soybean (或 soy bean) 指「黃豆/大豆」。beef(牛肉)、beer(啤酒)、bread(麵包) 均無法用來製作豆漿 (soy milk)。",
+    "optionNotes": [
+      "名詞・豆子",
+      "名詞・牛肉",
+      "名詞・啤酒",
+      "名詞・麵包"
+    ]
+  },
+  {
+    "id": "jv-112",
+    "category": "動詞",
+    "question": "The pain was so terrible that he could hardly ______ it.",
+    "chinese": "那疼痛太劇烈了，以至於他幾乎無法忍受。",
+    "options": [
+      "break",
+      "build",
+      "bring",
+      "bear"
+    ],
+    "answerIndex": 3,
+    "explanation": "bear 當動詞可表示「忍受/承受」。break(打破)、build(建造)、bring(帶來) 搭配 pain 皆不合文意。（順便複習：bear 作名詞是熊，作動詞是忍受）",
+    "optionNotes": [
+      "動詞・打破/折斷",
+      "動詞・建造",
+      "動詞・帶來",
+      "動詞・忍受/承受"
+    ]
+  },
+  {
+    "id": "jv-113",
+    "category": "形容詞",
+    "question": "The sunset over the ocean looks so ______ tonight.",
+    "chinese": "今晚海面上的日落看起來真是太美了。",
+    "options": [
+      "bored",
+      "blind",
+      "beautiful",
+      "busy"
+    ],
+    "answerIndex": 2,
+    "explanation": "beautiful 表示「美麗的」，用來形容夕陽美景。bored(感到無聊的)、blind(盲的)、busy(忙碌的) 均不適用於形容自然美景。",
+    "optionNotes": [
+      "形容詞・感到無聊的",
+      "形容詞・盲的",
+      "形容詞・美麗的",
+      "形容詞・忙碌的"
+    ]
+  },
+  {
+    "id": "jv-114",
+    "category": "連接詞",
+    "question": "We stayed at home all day ______ it rained heavily outside.",
+    "chinese": "我們整天待在家裡，因為外面雨下得很大。",
+    "options": [
+      "although",
+      "because",
+      "before",
+      "besides"
+    ],
+    "answerIndex": 1,
+    "explanation": "because 為表原因的連接詞，引導「下大雨」作為「待在家裡」的原因。although(雖然)、before(在...之前)、besides(此外) 邏輯皆不通。",
+    "optionNotes": [
+      "連接詞・雖然",
+      "連接詞・因為",
+      "連接詞・在...之前",
+      "副詞/介系詞・此外"
+    ]
+  },
+  {
+    "id": "jv-115",
+    "category": "動詞",
+    "question": "If you study hard and practice every day, you will ______ a great musician.",
+    "chinese": "如果你每天努力學習並練習，你將會成為一名優秀的音樂家。",
+    "options": [
+      "belong",
+      "begin",
+      "believe",
+      "become"
+    ],
+    "answerIndex": 3,
+    "explanation": "become 表示「變成/成為」，後接名詞 a great musician。belong(屬於)、begin(開始)、believe(相信) 均無法接職業身分表達「成為」。",
+    "optionNotes": [
+      "動詞・屬於",
+      "動詞・開始",
+      "動詞・相信",
+      "動詞・變成/成為"
+    ]
+  },
+  {
+    "id": "jv-116",
+    "category": "名詞",
+    "question": "He was so tired that he fell asleep as soon as he lay down on the ______.",
+    "chinese": "他太累了，一躺到床上就睡著了。",
+    "options": [
+      "bed",
+      "bag",
+      "box",
+      "bus"
+    ],
+    "answerIndex": 0,
+    "explanation": "bed 指「床」，lay down on the bed 表示躺在床上。bag(袋子)、box(盒子)、bus(公車) 不如 bed 適合直接表示躺下就寢。",
+    "optionNotes": [
+      "名詞・床",
+      "名詞・袋子",
+      "名詞・箱子",
+      "名詞・公車"
+    ]
+  },
+  {
+    "id": "jv-117",
+    "category": "名詞",
+    "question": "My sister and I share a large ______ with two separate beds.",
+    "chinese": "我和我姊姊共用一間有兩張分開床鋪的大臥室。",
+    "options": [
+      "bakery",
+      "bedroom",
+      "balcony",
+      "bathroom"
+    ],
+    "answerIndex": 1,
+    "explanation": "bedroom 為「臥室/房間」，有放置床鋪供睡覺的空間。bakery(麵包店)、balcony(陽台)、bathroom(浴室) 均不符合睡覺與放兩張床的語境。",
+    "optionNotes": [
+      "名詞・麵包店",
+      "名詞・臥室",
+      "名詞・陽台",
+      "名詞・浴室"
+    ]
+  },
+  {
+    "id": "jv-118",
+    "category": "名詞",
+    "question": "A busy little ______ flew from flower to flower to collect sweet honey.",
+    "chinese": "一隻忙碌的小蜜蜂在花朵間飛來飛去採集甜甜的蜂蜜。",
+    "options": [
+      "bat",
+      "bird",
+      "bee",
+      "bug"
+    ],
+    "answerIndex": 2,
+    "explanation": "bee 指「蜜蜂」，負責採集花蜜製造蜂蜜 (honey)。bat(蝙蝠)、bird(鳥)、bug(小蟲) 均不製造蜂蜜。（順便複習：as busy as a bee 是形容人非常忙碌的常用成語）",
+    "optionNotes": [
+      "名詞・蝙蝠",
+      "名詞・鳥",
+      "名詞・蜜蜂",
+      "名詞・小蟲"
+    ]
+  },
+  {
+    "id": "jv-119",
+    "category": "名詞",
+    "question": "My grandfather does not eat ______ because of his religious beliefs.",
+    "chinese": "我祖父因為宗教信仰的緣故不吃牛肉。",
+    "options": [
+      "beer",
+      "beef",
+      "bean",
+      "bread"
+    ],
+    "answerIndex": 1,
+    "explanation": "beef 指「牛肉」，在台灣民間信仰中常有不吃牛肉的習慣。beer(啤酒)、bean(豆類)、bread(麵包) 語意不如牛肉貼近宗教禁忌飲食習俗。",
+    "optionNotes": [
+      "名詞・啤酒",
+      "名詞・牛肉",
+      "名詞・豆子",
+      "名詞・麵包"
+    ]
+  },
+  {
+    "id": "jv-120",
+    "category": "介系詞",
+    "question": "You must wash your hands ______ eating dinner.",
+    "chinese": "在吃晚餐之前你必須洗手。",
+    "options": [
+      "behind",
+      "below",
+      "beside",
+      "before"
+    ],
+    "answerIndex": 3,
+    "explanation": "before 表示「在...之前」，指用餐前洗手。behind(在...後面)、below(在...下方)、beside(在...旁邊) 均為空間方位介系詞，非時間先後。",
+    "optionNotes": [
+      "介系詞・在...後方",
+      "介系詞・在...下方",
+      "介系詞・在...旁邊",
+      "介系詞/連接詞・在...之前"
+    ]
+  },
+  {
+    "id": "jv-121",
+    "category": "動詞",
+    "question": "The movie will ______ at seven o'clock, so don't be late.",
+    "chinese": "電影將在七點鐘開始，所以別遲到了。",
+    "options": [
+      "begin",
+      "belong",
+      "believe",
+      "become"
+    ],
+    "answerIndex": 0,
+    "explanation": "begin 表示「開始」，指電影放映開始。belong(屬於)、believe(相信)、become(成為) 語意皆不合。同義詞：start。",
+    "optionNotes": [
+      "動詞・開始",
+      "動詞・屬於",
+      "動詞・相信",
+      "動詞・成為"
+    ]
+  },
+  {
+    "id": "jv-122",
+    "category": "介系詞",
+    "question": "The shy boy hid ______ the door so nobody could see him.",
+    "chinese": "那個害羞的男孩躲在門後，這樣就沒人看得到他。",
+    "options": [
+      "between",
+      "behind",
+      "beside",
+      "below"
+    ],
+    "answerIndex": 1,
+    "explanation": "behind 表示「在...後方」，hide behind sth. 為躲在某物後方。between(在兩者之間)、beside(在旁邊)、below(在下方) 無法表達藏在門後不讓人看見。",
+    "optionNotes": [
+      "介系詞・在...之間",
+      "介系詞・在...後方",
+      "介系詞・在...旁邊",
+      "介系詞・在...下方"
+    ]
+  },
+  {
+    "id": "jv-123",
+    "category": "動詞",
+    "question": "Do you really ______ that aliens exist in outer space?",
+    "chinese": "你真的相信外太空存在外星人嗎？",
+    "options": [
+      "belong",
+      "borrow",
+      "believe",
+      "breathe"
+    ],
+    "answerIndex": 2,
+    "explanation": "believe 表示「相信」，後接 that 子句表達信念。belong(屬於)、borrow(借入)、breathe(呼吸) 均不符合句意。",
+    "optionNotes": [
+      "動詞・屬於",
+      "動詞・借入",
+      "動詞・相信",
+      "動詞・呼吸"
+    ]
+  },
+  {
+    "id": "jv-124",
+    "category": "名詞",
+    "question": "The school ______ rang loudly to signal the end of class.",
+    "chinese": "學校的鐘聲大聲響起，示意下課了。",
+    "options": [
+      "belt",
+      "ball",
+      "bank",
+      "bell"
+    ],
+    "answerIndex": 3,
+    "explanation": "bell 指「鐘/鈴」，the school bell rang 表示學校鐘聲響起。belt(腰帶)、ball(球)、bank(銀行) 不會發出下課鐘聲。",
+    "optionNotes": [
+      "名詞・腰帶",
+      "名詞・球",
+      "名詞・銀行",
+      "名詞・鐘/鈴"
+    ]
+  },
+  {
+    "id": "jv-125",
+    "category": "動詞",
+    "question": "This umbrella does not ______ to me; it is Mary's.",
+    "chinese": "這把雨傘不屬於我；它是瑪莉的。",
+    "options": [
+      "belong",
+      "believe",
+      "become",
+      "begin"
+    ],
+    "answerIndex": 0,
+    "explanation": "belong to 為固定片語，表示「屬於...」。believe(相信)、become(變成)、begin(開始) 均不與 to 連用表示歸屬。",
+    "optionNotes": [
+      "動詞・屬於",
+      "動詞・相信",
+      "動詞・成為",
+      "動詞・開始"
+    ]
+  },
+  {
+    "id": "jv-126",
+    "category": "介系詞",
+    "question": "The temperature in the mountains dropped ______ freezing point last night.",
+    "chinese": "昨晚山上的氣溫降到了冰點以下。",
+    "options": [
+      "between",
+      "below",
+      "beside",
+      "behind"
+    ],
+    "answerIndex": 1,
+    "explanation": "below 表示「在...之下/低於」，below freezing point 表低於冰點（零度以下）。between(在兩者間)、beside(在旁邊)、behind(在後方) 均不能表示溫度低於某標準。",
+    "optionNotes": [
+      "介系詞・在...之間",
+      "介系詞・在...下方/低於",
+      "介系詞・在...旁邊",
+      "介系詞・在...後方"
+    ]
+  },
+  {
+    "id": "jv-127",
+    "category": "名詞",
+    "question": "His pants were too loose, so he had to wear a leather ______.",
+    "chinese": "他的褲子太鬆了，所以他必須繫上一條皮帶。",
+    "options": [
+      "bell",
+      "bench",
+      "belt",
+      "boat"
+    ],
+    "answerIndex": 2,
+    "explanation": "belt 指「腰帶/皮帶」，用來固定褲子。bell(鈴鐺)、bench(長凳)、boat(船) 均與固定褲子無關。",
+    "optionNotes": [
+      "名詞・鐘/鈴",
+      "名詞・長凳",
+      "名詞・腰帶/皮帶",
+      "名詞・小船"
+    ]
+  },
+  {
+    "id": "jv-128",
+    "category": "名詞",
+    "question": "An old man was sitting on the park ______ reading a newspaper.",
+    "chinese": "一位老人坐在公園的長凳上讀報紙。",
+    "options": [
+      "beach",
+      "block",
+      "branch",
+      "bench"
+    ],
+    "answerIndex": 3,
+    "explanation": "bench 指公園裡的「長凳」。beach(海灘)、block(街區)、branch(樹枝) 均不如 park bench 常見且貼切。",
+    "optionNotes": [
+      "名詞・海灘",
+      "名詞・街區",
+      "名詞・樹枝/分行",
+      "名詞・長凳"
+    ]
+  },
+  {
+    "id": "jv-129",
+    "category": "介系詞",
+    "question": "She came and sat ______ me on the bus so we could chat.",
+    "chinese": "她在公車上走過來坐在我身旁，這樣我們就可以聊天。",
+    "options": [
+      "beside",
+      "below",
+      "between",
+      "beyond"
+    ],
+    "answerIndex": 0,
+    "explanation": "beside 表示「在...旁邊」，指坐在旁邊。below(在下方)、between(在兩者之間，通常接兩者)、beyond(超出) 語意不合。同義詞：next to。",
+    "optionNotes": [
+      "介系詞・在...旁邊",
+      "介系詞・在...下方",
+      "介系詞・在...之間",
+      "介系詞・超出/在更遠處"
+    ]
+  },
+  {
+    "id": "jv-130",
+    "category": "介系詞",
+    "question": "The convenience store is located ______ the bank and the post office.",
+    "chinese": "這家便利商店位於銀行和郵局之間。",
+    "options": [
+      "behind",
+      "between",
+      "beside",
+      "below"
+    ],
+    "answerIndex": 1,
+    "explanation": "between A and B 為固定結構，表示「在 A 與 B 之間」。behind(在後方)、beside(在旁邊)、below(在下方) 均不接 A and B 結構。",
+    "optionNotes": [
+      "介系詞・在...後方",
+      "介系詞・在...之間",
+      "介系詞・在...旁邊",
+      "介系詞・在...下方"
+    ]
+  },
+  {
+    "id": "jv-131",
+    "category": "名詞",
+    "question": "Riding a ______ to work is good for both your health and the environment.",
+    "chinese": "騎腳踏車上班對你的健康和環境都很有好處。",
+    "options": [
+      "bus",
+      "boat",
+      "bicycle",
+      "bridge"
+    ],
+    "answerIndex": 2,
+    "explanation": "bicycle (或 bike) 指「自行車/腳踏車」，搭配動詞 riding。bus(公車)、boat(船) 通常搭配 taking 或 riding in，且自行車具運動健康效果。bridge(橋) 為名詞非交通工具。",
+    "optionNotes": [
+      "名詞・公車",
+      "名詞・小船",
+      "名詞・自行車/腳踏車",
+      "名詞・橋樑"
+    ]
+  },
+  {
+    "id": "jv-132",
+    "category": "形容詞",
+    "question": "Elephants are very ______ animals with huge ears and long trunks.",
+    "chinese": "大象是非常龐大的動物，有著巨大的耳朵和長長的鼻子。",
+    "options": [
+      "brave",
+      "bright",
+      "blind",
+      "big"
+    ],
+    "answerIndex": 3,
+    "explanation": "big 表示「巨大的/龐大的」，符合大象的體型特徵。brave(勇敢的)、bright(明亮的)、blind(盲的) 非大象普遍特徵。反義詞：small。",
+    "optionNotes": [
+      "形容詞・勇敢的",
+      "形容詞・明亮的",
+      "形容詞・盲的",
+      "形容詞・巨大的/大的"
+    ]
+  },
+  {
+    "id": "jv-133",
+    "category": "名詞",
+    "question": "Look! There is a colorful ______ singing sweet songs in the tree.",
+    "chinese": "看！有一隻色彩繽紛的鳥正在樹上唱著悅耳的歌。",
+    "options": [
+      "bird",
+      "bat",
+      "bee",
+      "bug"
+    ],
+    "answerIndex": 0,
+    "explanation": "bird（鳥）會 singing in the tree（在樹上唱歌）。bat(蝙蝠)、bee(蜜蜂)、bug(小蟲) 不會鳴唱悅耳歌曲。",
+    "optionNotes": [
+      "名詞・鳥",
+      "名詞・蝙蝠",
+      "名詞・蜜蜂",
+      "名詞・蟲子"
+    ]
+  },
+  {
+    "id": "jv-134",
+    "category": "名詞",
+    "question": "We threw a surprise party to celebrate Jenny's fifteenth ______.",
+    "chinese": "我們辦了一個驚喜派對來慶祝珍妮的十五歲生日。",
+    "options": [
+      "holiday",
+      "birthday",
+      "vacation",
+      "weekend"
+    ],
+    "answerIndex": 1,
+    "explanation": "birthday 指「生日」，搭配序數 fifteenth（十五歲生日）。holiday(假日)、vacation(假期)、weekend(週末) 均不接年齡序數搭配慶生派對。",
+    "optionNotes": [
+      "名詞・假日",
+      "名詞・生日",
+      "名詞・假期",
+      "名詞・週末"
+    ]
+  },
+  {
+    "id": "jv-135",
+    "category": "動詞",
+    "question": "Be careful around that angry dog, or it might ______ you.",
+    "chinese": "在那隻生氣的狗身邊要小心，否則牠可能會咬你。",
+    "options": [
+      "burn",
+      "boil",
+      "bite",
+      "bake"
+    ],
+    "answerIndex": 2,
+    "explanation": "bite 表示「咬」，符合生氣狗攻擊人的動作。burn(燃燒/燙傷)、boil(煮沸)、bake(烘烤) 均非狗的行為。（三態：bite - bit - bitten）",
+    "optionNotes": [
+      "動詞・燃燒/燙傷",
+      "動詞・煮沸",
+      "動詞・咬",
+      "動詞・烘烤"
+    ]
+  },
+  {
+    "id": "jv-136",
+    "category": "形容詞",
+    "question": "She wore a classic ______ dress to the formal dinner party.",
+    "chinese": "她穿了一件經典的黑色洋裝去參加正式晚宴。",
+    "options": [
+      "blue",
+      "brown",
+      "black",
+      "bright"
+    ],
+    "answerIndex": 2,
+    "explanation": "black dress (黑色洋裝/小黑裙) 是正式宴會中經典穿著。blue(藍色)、brown(棕色)、bright(明亮的) 在晚宴搭配中以 black 最具經典正式意象。",
+    "optionNotes": [
+      "形容詞・藍色的",
+      "形容詞・棕色的",
+      "形容詞・黑色的",
+      "形容詞・明亮的"
+    ]
+  },
+  {
+    "id": "jv-137",
+    "category": "名詞",
+    "question": "The teacher used white chalk to write new vocabulary on the ______.",
+    "chinese": "老師用白色粉筆在黑板上寫下新生字。",
+    "options": [
+      "blackboard",
+      "blanket",
+      "bookshelf",
+      "balcony"
+    ],
+    "answerIndex": 0,
+    "explanation": "blackboard 指「黑板」，搭配 white chalk（白粉筆）書寫。blanket(毛毯)、bookshelf(書架)、balcony(陽台) 均非粉筆書寫載體。",
+    "optionNotes": [
+      "名詞・黑板",
+      "名詞・毛毯",
+      "名詞・書架",
+      "名詞・陽台"
+    ]
+  },
+  {
+    "id": "jv-138",
+    "category": "形容詞",
+    "question": "Please fill in the ______ space on the test paper with the correct answer.",
+    "chinese": "請在試卷上的空格處填入正確答案。",
+    "options": [
+      "blind",
+      "bored",
+      "brave",
+      "blank"
+    ],
+    "answerIndex": 3,
+    "explanation": "blank space 指「空白處/空格」。blind(盲的)、bored(感到無聊的)、brave(勇敢的) 語意不合。（順便複習：fill in the blank 是填空的常見指示）",
+    "optionNotes": [
+      "形容詞・盲的",
+      "形容詞・感到無聊的",
+      "形容詞・勇敢的",
+      "形容詞・空白的"
+    ]
+  },
+  {
+    "id": "jv-139",
+    "category": "名詞",
+    "question": "It's chilly tonight, so remember to cover yourself with a warm ______.",
+    "chinese": "今晚天氣微涼，所以記得蓋上一條溫暖的毛毯。",
+    "options": [
+      "basket",
+      "bottle",
+      "blanket",
+      "bottom"
+    ],
+    "answerIndex": 2,
+    "explanation": "blanket 指「毛毯/毯子」，用於天冷保暖。basket(籃子)、bottle(瓶子)、bottom(底部) 均無法用來保暖覆蓋。",
+    "optionNotes": [
+      "名詞・籃子",
+      "名詞・瓶子",
+      "名詞・毛毯/毯子",
+      "名詞・底部"
+    ]
+  },
+  {
+    "id": "jv-140",
+    "category": "形容詞",
+    "question": "A guide dog helps ______ people walk safely along busy city streets.",
+    "chinese": "導盲犬幫助視障人士在繁忙的城市街道上安全行走。",
+    "options": [
+      "busy",
+      "blind",
+      "brave",
+      "bored"
+    ],
+    "answerIndex": 1,
+    "explanation": "guide dog（導盲犬）專門引導 blind people（視障人士）。busy(忙碌的)、brave(勇敢的)、bored(無聊的) 均非導盲犬主要服務對象。",
+    "optionNotes": [
+      "形容詞・忙碌的",
+      "形容詞・瞎的/盲的",
+      "形容詞・勇敢的",
+      "形容詞・感到無聊的"
+    ]
+  },
+  {
+    "id": "jv-141",
+    "category": "名詞",
+    "question": "Walk straight ahead for one ______ and you will see the post office on your left.",
+    "chinese": "往前直走一個街區，你就會在左手邊看到郵局。",
+    "options": [
+      "beach",
+      "bridge",
+      "branch",
+      "block"
+    ],
+    "answerIndex": 3,
+    "explanation": "block 在指路時表示「街區」，walk for one block 表走一個街區。beach(海灘)、bridge(橋)、branch(分行/樹枝) 均非標準街道長度單位。",
+    "optionNotes": [
+      "名詞・海灘",
+      "名詞・橋樑",
+      "名詞・分行/樹枝",
+      "名詞・街區/積木"
+    ]
+  },
+  {
+    "id": "jv-142",
+    "category": "動詞",
+    "question": "Close your eyes, make a wish, and ______ out the candles on your birthday cake.",
+    "chinese": "閉上眼睛許個願，然後吹熄生日蛋糕上的蠟燭。",
+    "options": [
+      "blow",
+      "burn",
+      "boil",
+      "bake"
+    ],
+    "answerIndex": 0,
+    "explanation": "blow out 表示「吹熄（蠟燭）」。burn(燃燒)、boil(煮沸)、bake(烘烤) 均不符合吹熄蠟燭動作。（三態：blow - blew - blown）",
+    "optionNotes": [
+      "動詞・吹",
+      "動詞・燃燒",
+      "動詞・煮沸",
+      "動詞・烘烤"
+    ]
+  },
+  {
+    "id": "jv-143",
+    "category": "形容詞",
+    "question": "On a sunny afternoon, the clear sky looked bright ______ without any clouds.",
+    "chinese": "在一個晴朗的下午，晴朗的天空看起來一片蔚藍，沒有任何雲朵。",
+    "options": [
+      "black",
+      "brown",
+      "blue",
+      "blind"
+    ],
+    "answerIndex": 2,
+    "explanation": "blue（藍色）是晴朗天空 (clear sky) 的典型顏色。black(黑色)、brown(棕色)、blind(盲的) 不符合晴空意象。",
+    "optionNotes": [
+      "形容詞・黑色的",
+      "形容詞・棕色的",
+      "形容詞・藍色的",
+      "形容詞・盲的"
+    ]
+  },
+  {
+    "id": "jv-144",
+    "category": "名詞",
+    "question": "We rented a small wooden ______ and rowed across the quiet lake.",
+    "chinese": "我們租了一艘小木船，划過寧靜的湖面。",
+    "options": [
+      "bus",
+      "bike",
+      "bed",
+      "boat"
+    ],
+    "answerIndex": 3,
+    "explanation": "boat 指「小船」，搭配 row across the lake（划船渡湖）。bus(公車)、bike(腳踏車)、bed(床) 均無法在湖面上划行。",
+    "optionNotes": [
+      "名詞・公車",
+      "名詞・腳踏車",
+      "名詞・床",
+      "名詞・小船"
+    ]
+  },
+  {
+    "id": "jv-145",
+    "category": "名詞",
+    "question": "Regular exercise and enough sleep keep your ______ healthy and strong.",
+    "chinese": "規律運動和充足睡眠能讓你的身體保持健康強壯。",
+    "options": [
+      "body",
+      "box",
+      "bowl",
+      "boss"
+    ],
+    "answerIndex": 0,
+    "explanation": "body 指人的「身體」，keep your body healthy 表示維持身體健康。box(箱子)、bowl(碗)、boss(老闆) 語意不通。",
+    "optionNotes": [
+      "名詞・身體",
+      "名詞・盒子",
+      "名詞・碗",
+      "名詞・老闆"
+    ]
+  },
+  {
+    "id": "jv-146",
+    "category": "動詞",
+    "question": "You need to ______ the water before putting the noodles into the pot.",
+    "chinese": "在把麵條放進鍋子前，你需要先把水煮沸。",
+    "options": [
+      "bake",
+      "boil",
+      "burn",
+      "bite"
+    ],
+    "answerIndex": 1,
+    "explanation": "boil the water 表示「把水煮沸/燒開水」。bake(烘烤)、burn(燒焦)、bite(咬) 均不符合煮麵前的燒水程序。",
+    "optionNotes": [
+      "動詞・烘烤",
+      "動詞・煮沸",
+      "動詞・燒焦/燃燒",
+      "動詞・咬"
+    ]
+  },
+  {
+    "id": "jv-147",
+    "category": "動詞",
+    "question": "It is wise to ______ your train tickets online before the holiday rush.",
+    "chinese": "在連假人潮湧現前，先在網路上預訂火車票是明智的。",
+    "options": [
+      "bring",
+      "build",
+      "book",
+      "break"
+    ],
+    "answerIndex": 2,
+    "explanation": "book 作動詞表示「預訂/預約」，book tickets 指訂票。bring(帶來)、build(建造)、break(打破) 均無預約之意。（同義詞：reserve）",
+    "optionNotes": [
+      "動詞・帶來",
+      "動詞・建造",
+      "動詞・預訂",
+      "動詞・打破"
+    ]
+  },
+  {
+    "id": "jv-148",
+    "category": "名詞",
+    "question": "He loves reading novels, so he visits the local ______ every weekend.",
+    "chinese": "他熱愛讀小說，所以每個週末都會去當地的書店。",
+    "options": [
+      "bakery",
+      "bank",
+      "beach",
+      "bookstore"
+    ],
+    "answerIndex": 3,
+    "explanation": "bookstore 指「書店」，是購買小說書籍之場所。bakery(麵包店)、bank(銀行)、beach(海灘) 與熱愛小說無直接關聯。",
+    "optionNotes": [
+      "名詞・麵包店",
+      "名詞・銀行",
+      "名詞・海灘",
+      "名詞・書店"
+    ]
+  },
+  {
+    "id": "jv-149",
+    "category": "形容詞",
+    "question": "The children felt ______ because there was no internet and nothing to play with.",
+    "chinese": "孩子們感到很無聊，因為沒有網路也沒有東西可以玩。",
+    "options": [
+      "bored",
+      "brave",
+      "bright",
+      "busy"
+    ],
+    "answerIndex": 0,
+    "explanation": "bored 指人「感到無聊的/厭煩的」。brave(勇敢的)、bright(聰明的/明亮的)、busy(忙碌的) 無法表達因無聊而產生的情緒。（順便複習：人感到無聊用 bored，事物令人無聊用 boring）",
+    "optionNotes": [
+      "形容詞・感到無聊的",
+      "形容詞・勇敢的",
+      "形容詞・明亮的/聰明的",
+      "形容詞・忙碌的"
+    ]
+  },
+  {
+    "id": "jv-150",
+    "category": "形容詞",
+    "question": "The lecture was so ______ that many students fell asleep in class.",
+    "chinese": "這場講座太無聊了，以至於許多學生在課堂上睡著了。",
+    "options": [
+      "brave",
+      "boring",
+      "blind",
+      "bright"
+    ],
+    "answerIndex": 1,
+    "explanation": "boring 修飾事物（the lecture），表示「令人無聊的」。brave(勇敢的)、blind(盲的)、bright(明亮的) 語意皆不符。",
+    "optionNotes": [
+      "形容詞・勇敢的",
+      "形容詞・令人無聊的",
+      "形容詞・盲的",
+      "形容詞・明亮的"
+    ]
+  },
+  {
+    "id": "jv-151",
+    "category": "形容詞",
+    "question": "She was ______ in a small village and moved to Taipei when she was ten.",
+    "chinese": "她出生在一個小村莊，十歲時搬到了台北。",
+    "options": [
+      "built",
+      "bought",
+      "born",
+      "brought"
+    ],
+    "answerIndex": 2,
+    "explanation": "be born 表示「出生」。built(被建造)、bought(被購買)、brought(被帶來) 均不符合人的誕生表達。",
+    "optionNotes": [
+      "動詞過去分詞・被建造",
+      "動詞過去分詞・被購買",
+      "動詞過去分詞・出生/天生的",
+      "動詞過去分詞・被帶來"
+    ]
+  },
+  {
+    "id": "jv-152",
+    "category": "名詞",
+    "question": "Our ______ praised the whole team for finishing the big project on time.",
+    "chinese": "我們的老闆稱讚整個團隊準時完成了這項大專案。",
+    "options": [
+      "baby",
+      "boy",
+      "beggar",
+      "boss"
+    ],
+    "answerIndex": 3,
+    "explanation": "boss 指「老闆/主管」，有權限讚許團隊工作表現。baby(嬰兒)、boy(男孩)、beggar(乞丐) 均非職場領導角色。",
+    "optionNotes": [
+      "名詞・嬰兒",
+      "名詞・男孩",
+      "名詞・乞丐",
+      "名詞・老闆/主管"
+    ]
+  },
+  {
+    "id": "jv-153",
+    "category": "代名詞",
+    "question": "______ of my parents are high school teachers, and they love teaching.",
+    "chinese": "我的父母兩位都是高中老師，而且他們熱愛教學。",
+    "options": [
+      "Both",
+      "Each",
+      "Every",
+      "All"
+    ],
+    "answerIndex": 0,
+    "explanation": "Both 指「兩者都」，因為 parents 固定指父母兩人。Each 後接單數名詞；Every 不能直接接 of my parents；All 通常用於三者以上。",
+    "optionNotes": [
+      "代名詞/形容詞・兩者都",
+      "代名詞・每一（後接單數）",
+      "形容詞・每一",
+      "代名詞・全部（三者以上）"
+    ]
+  },
+  {
+    "id": "jv-154",
+    "category": "名詞",
+    "question": "He drank a whole ______ of cold water right after running five kilometers.",
+    "chinese": "跑完五公里後，他立刻喝了一整瓶冰水。",
+    "options": [
+      "box",
+      "bottle",
+      "bowl",
+      "basket"
+    ],
+    "answerIndex": 1,
+    "explanation": "bottle 指「瓶子」，a bottle of water 表一瓶水。box(箱子)、bowl(碗)、basket(籃子) 均非裝水飲用的標準容器量詞。",
+    "optionNotes": [
+      "名詞・箱子",
+      "名詞・瓶子",
+      "名詞・碗",
+      "名詞・籃子"
+    ]
+  },
+  {
+    "id": "jv-155",
+    "category": "名詞",
+    "question": "The sunken ship was finally found lying at the ______ of the ocean.",
+    "chinese": "那艘沉船最終在海底深處被發現。",
+    "options": [
+      "bridge",
+      "beach",
+      "bottom",
+      "balcony"
+    ],
+    "answerIndex": 2,
+    "explanation": "bottom of the ocean 指「海底/海洋底部」。bridge(橋樑)、beach(海灘)、balcony(陽台) 均不符合沉船所在的深海底部語境。",
+    "optionNotes": [
+      "名詞・橋樑",
+      "名詞・海灘",
+      "名詞・底部",
+      "名詞・陽台"
+    ]
+  },
+  {
+    "id": "jv-156",
+    "category": "動詞",
+    "question": "In Japan, people usually ______ to each other when greeting someone politely.",
+    "chinese": "在日本，人們禮貌性向他人問候時通常會鞠躬。",
+    "options": [
+      "blow",
+      "bite",
+      "burn",
+      "bow"
+    ],
+    "answerIndex": 3,
+    "explanation": "bow 表示「鞠躬/鞠躬致敬」，是日本傳統禮節。blow(吹)、bite(咬)、burn(燃燒) 皆非禮貌問候動作。",
+    "optionNotes": [
+      "動詞・吹",
+      "動詞・咬",
+      "動詞・燃燒",
+      "動詞・鞠躬/彎腰"
+    ]
+  },
+  {
+    "id": "jv-157",
+    "category": "名詞",
+    "question": "On cold winter days, a hot ______ of chicken soup warms me up quickly.",
+    "chinese": "在寒冷的冬天裡，一熱碗雞湯能讓我迅速暖和起來。",
+    "options": [
+      "bowl",
+      "bottle",
+      "box",
+      "basket"
+    ],
+    "answerIndex": 0,
+    "explanation": "bowl 指「碗」，a bowl of soup 表示一碗湯。bottle(瓶子)、box(盒子)、basket(籃子) 均不合熱湯容器量詞搭配。",
+    "optionNotes": [
+      "名詞・碗",
+      "名詞・瓶子",
+      "名詞・盒子/箱子",
+      "名詞・籃子"
+    ]
+  },
+  {
+    "id": "jv-158",
+    "category": "名詞",
+    "question": "The delivery worker put a heavy cardboard ______ at our front door.",
+    "chinese": "外送員在我們前門放下了一個沉重的紙箱。",
+    "options": [
+      "bed",
+      "box",
+      "bat",
+      "bag"
+    ],
+    "answerIndex": 1,
+    "explanation": "cardboard box 指「紙箱/厚紙板箱」。bed(床)、bat(球棒)、bag(提袋) 與 cardboard 搭配以 box 最標準道地。",
+    "optionNotes": [
+      "名詞・床",
+      "名詞・盒子/紙箱",
+      "名詞・球棒",
+      "名詞・提袋"
+    ]
+  },
+  {
+    "id": "jv-159",
+    "category": "名詞",
+    "question": "The young ______ helped the elderly woman carry her heavy groceries.",
+    "chinese": "那個小男孩幫助年長的婦女提她沉重的雜貨。",
+    "options": [
+      "bug",
+      "baby",
+      "boy",
+      "boss"
+    ],
+    "answerIndex": 2,
+    "explanation": "boy 指「男孩」，young boy 符合幫助老婦人提重物的年齡角色。bug(小蟲)、baby(嬰兒無法提物)、boss(老闆) 語意不合。",
+    "optionNotes": [
+      "名詞・蟲子",
+      "名詞・嬰兒",
+      "名詞・男孩",
+      "名詞・老闆"
+    ]
+  },
+  {
+    "id": "jv-160",
+    "category": "形容詞",
+    "question": "The ______ firefighter rushed into the burning building to save the trapped cat.",
+    "chinese": "那位勇敢的消防員衝進著火的建築物中救出受困的貓。",
+    "options": [
+      "blind",
+      "busy",
+      "bored",
+      "brave"
+    ],
+    "answerIndex": 3,
+    "explanation": "brave 指「勇敢的」，符合消防員英勇救火救災形象。blind(盲的)、busy(忙碌的)、bored(無聊的) 均無法表達英勇特質。",
+    "optionNotes": [
+      "形容詞・盲的",
+      "形容詞・忙碌的",
+      "形容詞・感到無聊的",
+      "形容詞・勇敢的"
+    ]
+  },
+  {
+    "id": "jv-161",
+    "category": "名詞",
+    "question": "I usually have two slices of toasted ______ with butter for breakfast.",
+    "chinese": "我早餐通常吃兩片烤麵包塗奶油。",
+    "options": [
+      "bread",
+      "beef",
+      "bean",
+      "beer"
+    ],
+    "answerIndex": 0,
+    "explanation": "bread 指「麵包」，slices of bread 為麵包片/吐司。beef(牛肉)、bean(豆類)、beer(啤酒) 均不符合兩片塗奶油的西式早餐情境。",
+    "optionNotes": [
+      "名詞・麵包",
+      "名詞・牛肉",
+      "名詞・豆子",
+      "名詞・啤酒"
+    ]
+  },
+  {
+    "id": "jv-162",
+    "category": "動詞",
+    "question": "Be careful with that glass vase; if you drop it, it will ______ into pieces.",
+    "chinese": "小心那個玻璃花瓶；如果你把它掉在地上，它會摔成碎片。",
+    "options": [
+      "build",
+      "break",
+      "bring",
+      "burn"
+    ],
+    "answerIndex": 1,
+    "explanation": "break into pieces 為固定片語，表示「摔碎/碎成碎片」。build(建造)、bring(帶來)、burn(燃燒) 均不符合玻璃摔碎現象。（三態：break - broke - broken）",
+    "optionNotes": [
+      "動詞・建造",
+      "動詞・打破/折斷",
+      "動詞・帶來",
+      "動詞・燃燒"
+    ]
+  },
+  {
+    "id": "jv-163",
+    "category": "名詞",
+    "question": "Eating a balanced ______ gives you enough energy for the whole morning.",
+    "chinese": "吃一頓均衡的早餐能為你提供整個早晨充足的能量。",
+    "options": [
+      "dinner",
+      "lunch",
+      "breakfast",
+      "supper"
+    ],
+    "answerIndex": 2,
+    "explanation": "breakfast 指「早餐」，為整個早晨 (the whole morning) 提供能量。dinner(晚餐)、lunch(午餐)、supper(消夜/晚飯) 在時間邏輯上不合早晨需求。",
+    "optionNotes": [
+      "名詞・晚餐",
+      "名詞・午餐",
+      "名詞・早餐",
+      "名詞・消夜/晚餐"
+    ]
+  },
+  {
+    "id": "jv-164",
+    "category": "名詞",
+    "question": "A new steel ______ was built over the river to connect the two towns.",
+    "chinese": "河上建造了一座新的鋼橋，連接了這兩座城鎮。",
+    "options": [
+      "beach",
+      "balcony",
+      "bench",
+      "bridge"
+    ],
+    "answerIndex": 3,
+    "explanation": "bridge 指「橋樑」，built over the river（建於河流之上）用於連接兩岸。beach(海灘)、balcony(陽台)、bench(長凳) 均無法跨河連接城鎮。",
+    "optionNotes": [
+      "名詞・海灘",
+      "名詞・陽台",
+      "名詞・長凳",
+      "名詞・橋樑"
+    ]
+  },
+  {
+    "id": "jv-165",
+    "category": "形容詞",
+    "question": "The sun is so ______ today that you should put on sunglasses.",
+    "chinese": "今天的陽光如此耀眼，你應該戴上太陽眼鏡。",
+    "options": [
+      "bright",
+      "blind",
+      "brave",
+      "bored"
+    ],
+    "answerIndex": 0,
+    "explanation": "bright 表示「明亮的/耀眼的」，陽光耀眼時需配戴太陽眼鏡。blind(盲的)、brave(勇敢的)、bored(無聊的) 均無法形容陽光強度。",
+    "optionNotes": [
+      "形容詞・明亮的/耀眼的",
+      "形容詞・盲的",
+      "形容詞・勇敢的",
+      "形容詞・感到無聊的"
+    ]
+  },
+  {
+    "id": "jv-166",
+    "category": "動詞",
+    "question": "Don't forget to ______ an umbrella with you because it might rain later.",
+    "chinese": "別忘了隨身帶把雨傘，因為等一下可能會下雨。",
+    "options": [
+      "break",
+      "bring",
+      "build",
+      "burn"
+    ],
+    "answerIndex": 1,
+    "explanation": "bring sth. with sb. 表示「隨身帶來/攜帶某物」。break(打破)、build(建造)、burn(燃燒) 均不符合攜帶雨傘語意。（順便複習：bring 是帶來，take 是帶走）",
+    "optionNotes": [
+      "動詞・打破",
+      "動詞・帶來/攜帶",
+      "動詞・建造",
+      "動詞・燃燒"
+    ]
+  },
+  {
+    "id": "jv-167",
+    "category": "名詞",
+    "question": "My elder ______ is studying computer science at a university in Tainan.",
+    "chinese": "我的哥哥正在台南的一所大學攻讀資訊工程。",
+    "options": [
+      "baker",
+      "baby",
+      "brother",
+      "beggar"
+    ],
+    "answerIndex": 2,
+    "explanation": "brother 指「兄弟」，elder brother 表哥哥。baker(麵包師)、baby(嬰兒)、beggar(乞丐) 皆不合大學求學之手足親屬語意。",
+    "optionNotes": [
+      "名詞・麵包師傅",
+      "名詞・嬰兒",
+      "名詞・兄弟",
+      "名詞・乞丐"
+    ]
+  },
+  {
+    "id": "jv-168",
+    "category": "形容詞",
+    "question": "Chocolate and coffee beans are both naturally ______ in color.",
+    "chinese": "巧克力和咖啡豆在顏色上自然都是棕色的。",
+    "options": [
+      "blue",
+      "black",
+      "bright",
+      "brown"
+    ],
+    "answerIndex": 3,
+    "explanation": "brown 指「棕色/咖啡色」，為巧克力與咖啡豆的天然色澤。blue(藍色)、black(黑色，但咖啡豆通常為烘焙深棕)、bright(明亮的) 以 brown 最普遍貼切。",
+    "optionNotes": [
+      "形容詞・藍色的",
+      "形容詞・黑色的",
+      "形容詞・明亮的",
+      "形容詞・棕色的/褐色的"
+    ]
+  },
+  {
+    "id": "jv-169",
+    "category": "動詞",
+    "question": "Dentists recommend that we ______ our teeth at least twice a day.",
+    "chinese": "牙醫建議我們每天至少刷兩次牙。",
+    "options": [
+      "brush",
+      "bite",
+      "burn",
+      "boil"
+    ],
+    "answerIndex": 0,
+    "explanation": "brush our teeth 為固定搭配，表示「刷牙」。bite(咬)、burn(燙傷)、boil(煮沸) 均非牙醫建議的清潔牙齒動作。",
+    "optionNotes": [
+      "動詞・刷（牙/頭髮）",
+      "動詞・咬",
+      "動詞・燃燒",
+      "動詞・煮沸"
+    ]
+  },
+  {
+    "id": "jv-170",
+    "category": "名詞",
+    "question": "There is an annoying little ______ flying around the lamp in the room.",
+    "chinese": "房間裡的燈泡周圍有一隻惱人的小蟲飛來飛去。",
+    "options": [
+      "bat",
+      "bug",
+      "boy",
+      "bed"
+    ],
+    "answerIndex": 1,
+    "explanation": "bug 指「蟲子/小昆蟲」，常有趨光性環繞燈泡飛。bat(蝙蝠體積較大非小蟲)、boy(男孩)、bed(床) 語意不符。",
+    "optionNotes": [
+      "名詞・蝙蝠",
+      "名詞・蟲子/瑕疵",
+      "名詞・男孩",
+      "名詞・床"
+    ]
+  },
+  {
+    "id": "jv-171",
+    "category": "動詞",
+    "question": "The government plans to ______ a new public library in this neighborhood.",
+    "chinese": "政府計劃在這個社區建造一座新的公共圖書館。",
+    "options": [
+      "break",
+      "burn",
+      "build",
+      "bite"
+    ],
+    "answerIndex": 2,
+    "explanation": "build 表示「建造/興建」，符合建造圖書館建築。break(破壞)、burn(焚毀)、bite(咬) 語意相反或不符。（三態：build - built - built）",
+    "optionNotes": [
+      "動詞・打破/損壞",
+      "動詞・燃燒",
+      "動詞・建造/建築",
+      "動詞・咬"
+    ]
+  },
+  {
+    "id": "jv-172",
+    "category": "名詞",
+    "question": "Steamed pork ______ is a very popular traditional snack in Taiwan.",
+    "chinese": "清蒸肉包是台灣非常受歡迎的傳統小吃。",
+    "options": [
+      "bat",
+      "bed",
+      "bag",
+      "bun"
+    ],
+    "answerIndex": 3,
+    "explanation": "bun 指「圓形小麵包/包子」，steamed bun 表包子/饅頭。bat(球棒)、bed(床)、bag(袋子) 均非食品名詞。",
+    "optionNotes": [
+      "名詞・球棒",
+      "名詞・床",
+      "名詞・袋子",
+      "名詞・小圓麵包/包子"
+    ]
+  },
+  {
+    "id": "jv-173",
+    "category": "動詞",
+    "question": "Never play with matches, or you might ______ your fingers.",
+    "chinese": "絕不要玩火柴，否則你可能會燙傷/燒傷手指。",
+    "options": [
+      "burn",
+      "boil",
+      "bake",
+      "bite"
+    ],
+    "answerIndex": 0,
+    "explanation": "burn 指「燒傷/燙傷/燃燒」，玩火柴 (matches) 容易引起火災或燒燙傷。boil(煮沸)、bake(烘烤)、bite(咬) 皆非玩火柴直接造成的火傷動詞。",
+    "optionNotes": [
+      "動詞・燒傷/燃燒",
+      "動詞・煮沸",
+      "動詞・烘烤",
+      "動詞・咬"
+    ]
+  },
+  {
+    "id": "jv-174",
+    "category": "名詞",
+    "question": "Many students take the public ______ to school every morning.",
+    "chinese": "許多學生每天早晨搭乘公車去上學。",
+    "options": [
+      "boat",
+      "bus",
+      "bike",
+      "box"
+    ],
+    "answerIndex": 1,
+    "explanation": "public bus 為「公車/市區公車」，take the bus 表搭公車。boat(船)、bike(腳踏車一般用 ride)、box(箱子) 均不符合 take the public... 的常見大眾運輸搭配。",
+    "optionNotes": [
+      "名詞・小船",
+      "名詞・公車",
+      "名詞・自行車",
+      "名詞・箱子"
+    ]
+  },
+  {
+    "id": "jv-175",
+    "category": "名詞",
+    "question": "Due to the economic crisis, many small shops had to go out of ______.",
+    "chinese": "由於經濟危機，許多小店不得不歇業倒閉。",
+    "options": [
+      "bank",
+      "bridge",
+      "business",
+      "balance"
+    ],
+    "answerIndex": 2,
+    "explanation": "go out of business 為固定片語，表示「歇業/倒閉」。bank(銀行)、bridge(橋)、balance(平衡) 均無法與 go out of 連用表示倒閉。",
+    "optionNotes": [
+      "名詞・銀行",
+      "名詞・橋樑",
+      "名詞・商業/生意",
+      "名詞・平衡"
+    ]
+  },
+  {
+    "id": "jv-176",
+    "category": "名詞",
+    "question": "His uncle is a successful ______ who runs a big electronics company.",
+    "chinese": "他的叔叔是一位成功的商人，經營一家大型電子公司。",
+    "options": [
+      "beggar",
+      "baker",
+      "baby",
+      "businessman"
+    ],
+    "answerIndex": 3,
+    "explanation": "businessman 指「商人/企業家」，符合經營電子公司 (runs a company) 的職業。beggar(乞丐)、baker(麵包師)、baby(嬰兒) 語意皆不符。",
+    "optionNotes": [
+      "名詞・乞丐",
+      "名詞・麵包師傅",
+      "名詞・嬰兒",
+      "名詞・商人/企業家"
+    ]
+  },
+  {
+    "id": "jv-177",
+    "category": "形容詞",
+    "question": "He has been very ______ preparing for the final exam all week.",
+    "chinese": "他整個星期都非常忙於準備期末考。",
+    "options": [
+      "busy",
+      "brave",
+      "blind",
+      "bored"
+    ],
+    "answerIndex": 0,
+    "explanation": "be busy doing sth. 為固定句型，表示「忙於做某事」。brave(勇敢的)、blind(盲的)、bored(感到無聊的) 均無法搭配 V-ing 表示忙於準備。",
+    "optionNotes": [
+      "形容詞・忙碌的",
+      "形容詞・勇敢的",
+      "形容詞・盲的",
+      "形容詞・感到無聊的"
+    ]
+  },
+  {
+    "id": "jv-178",
+    "category": "連接詞",
+    "question": "He wanted to go to the concert, ______ the tickets were all sold out.",
+    "chinese": "他想去音樂會，但是票全部賣光了。",
+    "options": [
+      "and",
+      "but",
+      "so",
+      "or"
+    ],
+    "answerIndex": 1,
+    "explanation": "but 為對等連接詞，表示轉折語氣（想去，但票賣光）。and(而且)、so(所以)、or(或者) 邏輯關係不合。",
+    "optionNotes": [
+      "連接詞・而且/和",
+      "連接詞・但是/可是",
+      "連接詞・所以",
+      "連接詞・或者"
+    ]
+  },
+  {
+    "id": "jv-179",
+    "category": "名詞",
+    "question": "She spread some creamy ______ and strawberry jam on her toast.",
+    "chinese": "她在吐司上抹了一些濃郁的奶油和草莓果醬。",
+    "options": [
+      "beef",
+      "bean",
+      "butter",
+      "beer"
+    ],
+    "answerIndex": 2,
+    "explanation": "butter 指「奶油」，常與 jam（果醬）一起抹在吐司上。beef(牛肉)、bean(豆類)、beer(啤酒) 均非抹吐司的常見奶油抹醬。",
+    "optionNotes": [
+      "名詞・牛肉",
+      "名詞・豆子",
+      "名詞・奶油",
+      "名詞・啤酒"
+    ]
+  },
+  {
+    "id": "jv-180",
+    "category": "名詞",
+    "question": "A colorful ______ landed gently on the rose petal in the garden.",
+    "chinese": "一隻色彩繽紛的蝴蝶輕輕地停在花園裡的玫瑰花瓣上。",
+    "options": [
+      "bat",
+      "bug",
+      "bee",
+      "butterfly"
+    ],
+    "answerIndex": 3,
+    "explanation": "butterfly 指「蝴蝶」，具有繽紛雙翼並常停於花瓣上。bat(蝙蝠)、bug(甲蟲)、bee(蜜蜂) 中以 butterfly 最具代表性及色彩斑斕特徵。",
+    "optionNotes": [
+      "名詞・蝙蝠",
+      "名詞・小蟲",
+      "名詞・蜜蜂",
+      "名詞・蝴蝶"
+    ]
+  },
+  {
+    "id": "jv-181",
+    "category": "名詞",
+    "question": "Press this red ______ if you need emergency assistance.",
+    "chinese": "如果你需要緊急協助，請按下這個紅色按鈕。",
+    "options": [
+      "button",
+      "bottle",
+      "basket",
+      "bottom"
+    ],
+    "answerIndex": 0,
+    "explanation": "press the button 表示「按下按鈕」。bottle(瓶子)、basket(籃子)、bottom(底部) 皆不能作為緊急按鍵被按下。",
+    "optionNotes": [
+      "名詞・按鈕/鈕扣",
+      "名詞・瓶子",
+      "名詞・籃子",
+      "名詞・底部"
+    ]
+  },
+  {
+    "id": "jv-182",
+    "category": "動詞",
+    "question": "I don't have enough money to ______ such an expensive smartphone.",
+    "chinese": "我沒有足夠的錢去購買這麼昂貴的智慧型手機。",
+    "options": [
+      "sell",
+      "buy",
+      "borrow",
+      "bring"
+    ],
+    "answerIndex": 1,
+    "explanation": "buy 表示「購買」，符合花錢買手機語境。sell(販賣)、borrow(借入)、bring(帶來) 均不符合需要足夠金錢才能購買的語意。（反義詞：sell）",
+    "optionNotes": [
+      "動詞・賣/出售",
+      "動詞・買/購買",
+      "動詞・借入",
+      "動詞・帶來"
+    ]
+  },
+  {
+    "id": "jv-183",
+    "category": "介系詞",
+    "question": "My father always goes to his office ______ MRT every morning.",
+    "chinese": "我父親每天早晨總是搭乘捷運去辦公室上班。",
+    "options": [
+      "in",
+      "on",
+      "by",
+      "at"
+    ],
+    "answerIndex": 2,
+    "explanation": "by + 交通工具（零冠詞）表示「搭乘...交通方式」，如 by MRT, by bus。in/on 需要加冠詞或所有格 (如 on the MRT, in his car)；at 不用於交通工具搭乘。",
+    "optionNotes": [
+      "介系詞・在...裡面",
+      "介系詞・在...上面",
+      "介系詞・搭乘/藉由",
+      "介系詞・在（特定點）"
+    ]
+  },
+  {
+    "id": "jv-184",
+    "category": "名詞",
+    "question": "She blew out all the candles on her chocolate birthday ______.",
+    "chinese": "她吹熄了巧克力生日蛋糕上的所有蠟燭。",
+    "options": [
+      "bun",
+      "candy",
+      "cookie",
+      "cake"
+    ],
+    "answerIndex": 3,
+    "explanation": "birthday cake 指「生日蛋糕」，上面插蠟燭供壽星吹熄。bun(包子)、candy(糖果)、cookie(餅乾) 均非插蠟燭慶生的標準生日糕點。",
+    "optionNotes": [
+      "名詞・小圓麵包",
+      "名詞・糖果",
+      "名詞・餅乾",
+      "名詞・蛋糕"
+    ]
+  },
+  {
+    "id": "jv-185",
+    "category": "動詞",
+    "question": "Please ______ the police immediately if you see anything suspicious.",
+    "chinese": "如果你看到任何可疑事物，請立刻打電話報警。",
+    "options": [
+      "call",
+      "catch",
+      "carry",
+      "check"
+    ],
+    "answerIndex": 0,
+    "explanation": "call the police 表示「打電話給警察/報警」。catch(抓住)、carry(搬運)、check(檢查) 均非緊急通報警方的標準慣用語。（順便複習：call sb. 直接加受詞，不加 to）",
+    "optionNotes": [
+      "動詞・打電話/呼叫",
+      "動詞・抓住/趕上",
+      "動詞・攜帶/搬運",
+      "動詞・檢查/核對"
+    ]
+  },
+  {
+    "id": "jv-186",
+    "category": "名詞",
+    "question": "He used his digital ______ to take beautiful photos during the trip.",
+    "chinese": "他在旅途中用他的數位相機拍了許多美麗的照片。",
+    "options": [
+      "camera",
+      "candle",
+      "candy",
+      "card"
+    ],
+    "answerIndex": 0,
+    "explanation": "digital camera 指「數位相機」，搭配 take photos（拍照）。candle(蠟燭)、candy(糖果)、card(卡片) 均無法用來拍照。",
+    "optionNotes": [
+      "名詞・相機",
+      "名詞・蠟燭",
+      "名詞・糖果",
+      "名詞・卡片"
+    ]
+  },
+  {
+    "id": "jv-187",
+    "category": "動詞",
+    "question": "We plan to ______ by the river and set up our tents this weekend.",
+    "chinese": "我們計畫這個週末在河邊露營並搭起帳篷。",
+    "options": [
+      "climb",
+      "camp",
+      "clap",
+      "clean"
+    ],
+    "answerIndex": 1,
+    "explanation": "camp 表示「露營/紮營」，與 set up tents（搭帳篷）語意完全契合。climb(攀爬)、clap(拍手)、clean(打掃) 均不符合搭帳篷露營。",
+    "optionNotes": [
+      "動詞・攀爬",
+      "動詞・露營/紮營",
+      "動詞・拍手",
+      "動詞・打掃"
+    ]
+  },
+  {
+    "id": "jv-188",
+    "category": "助動詞",
+    "question": "Excuse me, ______ you tell me how to get to Taipei Main Station?",
+    "chinese": "不好意思，你能告訴我怎麼去台北車站嗎？",
+    "options": [
+      "must",
+      "should",
+      "can",
+      "need"
+    ],
+    "answerIndex": 2,
+    "explanation": "Can you...? 是常用於請求對方協助或詢問能力的問句（你能...嗎？）。must(必須)、should(應該)、need(需要) 用於禮貌問路不如 can 或 could 自然常用。",
+    "optionNotes": [
+      "助動詞・必須",
+      "助動詞・應該",
+      "助動詞・能夠/可以",
+      "助動詞/動詞・需要"
+    ]
+  },
+  {
+    "id": "jv-189",
+    "category": "助動詞",
+    "question": "When he was younger, he ______ run faster than anyone else in his school.",
+    "chinese": "當他年輕時，他跑得比全校任何人都快。",
+    "options": [
+      "will",
+      "must",
+      "shall",
+      "could"
+    ],
+    "answerIndex": 3,
+    "explanation": "could 是 can 的過去式，用於表達過去具有的能力 (When he was younger...)。will(將會)、must(必須)、shall(將/應) 均無法表達過去的能力。",
+    "optionNotes": [
+      "助動詞・將會",
+      "助動詞・必須",
+      "助動詞・將要",
+      "助動詞・過去能夠/可以"
+    ]
+  },
+  {
+    "id": "jv-190",
+    "category": "名詞",
+    "question": "When the power went out, we lit a ______ to light up the dark room.",
+    "chinese": "停電時，我們點了一支蠟燭來照亮黑暗的房間。",
+    "options": [
+      "candle",
+      "camera",
+      "candy",
+      "card"
+    ],
+    "answerIndex": 0,
+    "explanation": "lit a candle 表示「點蠟燭」，在停電時照亮房間。camera(相機)、candy(糖果)、card(卡片) 均不能點燃照明。",
+    "optionNotes": [
+      "名詞・蠟燭",
+      "名詞・相機",
+      "名詞・糖果",
+      "名詞・卡片"
+    ]
+  },
+  {
+    "id": "jv-191",
+    "category": "名詞",
+    "question": "Eating too much sweet ______ is bad for your teeth and causes cavities.",
+    "chinese": "吃太多甜糖果對牙齒不好而且會引起蛀牙。",
+    "options": [
+      "cheese",
+      "candy",
+      "chalk",
+      "chicken"
+    ],
+    "answerIndex": 1,
+    "explanation": "sweet candy 指「甜糖果」，吃多易引起蛀牙 (cavities)。cheese(起司)、chalk(粉筆)、chicken(雞肉) 均非引起蛀牙的甜食代表。",
+    "optionNotes": [
+      "名詞・起司",
+      "名詞・糖果",
+      "名詞・粉筆",
+      "名詞・雞肉"
+    ]
+  },
+  {
+    "id": "jv-192",
+    "category": "名詞",
+    "question": "He wore a baseball ______ to shield his eyes from the strong sunlight.",
+    "chinese": "他戴著一頂棒球帽來遮擋強烈的陽光。",
+    "options": [
+      "coat",
+      "belt",
+      "cap",
+      "case"
+    ],
+    "answerIndex": 2,
+    "explanation": "baseball cap 指「棒球帽（有帽簷）」，用於遮陽。coat(外套)、belt(皮帶)、case(箱子/盒子) 均非戴在頭上的遮陽帽子。",
+    "optionNotes": [
+      "名詞・大衣/外套",
+      "名詞・皮帶",
+      "名詞・便帽/棒球帽",
+      "名詞・盒子/案例"
+    ]
+  },
+  {
+    "id": "jv-193",
+    "category": "名詞",
+    "question": "He parked his new ______ in the garage after driving home from work.",
+    "chinese": "他下班開車回家後，把他的新車停在車庫裡。",
+    "options": [
+      "boat",
+      "bus",
+      "bike",
+      "car"
+    ],
+    "answerIndex": 3,
+    "explanation": "car（汽車）在開車回家 (driving home) 後停在 garage（車庫）裡。boat(船)、bus(公車)、bike(腳踏車一般用 ride 非 drive) 搭配語境以 car 最精確。",
+    "optionNotes": [
+      "名詞・小船",
+      "名詞・公車",
+      "名詞・自行車",
+      "名詞・汽車"
+    ]
+  },
+  {
+    "id": "jv-194",
+    "category": "名詞",
+    "question": "Don't forget to send a greeting ______ to your mother on Mother's Day.",
+    "chinese": "母親節那天別忘了寄一張賀卡給你媽媽。",
+    "options": [
+      "card",
+      "case",
+      "chalk",
+      "cent"
+    ],
+    "answerIndex": 0,
+    "explanation": "greeting card 指「賀卡/問候卡片」。case(案例/盒子)、chalk(粉筆)、cent(分) 均無法寄送祝賀節日。",
+    "optionNotes": [
+      "名詞・卡片",
+      "名詞・盒子/情況",
+      "名詞・粉筆",
+      "名詞・分（貨幣）"
+    ]
+  },
+  {
+    "id": "jv-195",
+    "category": "動詞",
+    "question": "Good parents deeply ______ about their children's happiness and health.",
+    "chinese": "優秀的父母深切在乎孩子的幸福與健康。",
+    "options": [
+      "cheat",
+      "care",
+      "check",
+      "cheer"
+    ],
+    "answerIndex": 1,
+    "explanation": "care about 為固定片語，表示「在乎/關心」。cheat(欺騙)、check(檢查)、cheer(歡呼) 搭配 about 語意不合。",
+    "optionNotes": [
+      "動詞・作弊/欺騙",
+      "動詞・關心/在乎",
+      "動詞・檢查/核對",
+      "動詞・歡呼/為...加油"
+    ]
+  },
+  {
+    "id": "jv-196",
+    "category": "形容詞",
+    "question": "Be ______ when you cross the street during rush hour.",
+    "chinese": "在尖峰時段過馬路時要小心。",
+    "options": [
+      "cheap",
+      "clear",
+      "careful",
+      "clean"
+    ],
+    "answerIndex": 2,
+    "explanation": "careful 表示「小心的/謹慎的」，be careful when crossing the street 表過馬路要小心。cheap(便宜的)、clear(清楚的)、clean(乾淨的) 均不符合警示安全語境。",
+    "optionNotes": [
+      "形容詞・便宜的",
+      "形容詞・清楚的",
+      "形容詞・小心的/謹慎的",
+      "形容詞・乾淨的"
+    ]
+  },
+  {
+    "id": "jv-197",
+    "category": "動詞",
+    "question": "The backpack was too heavy for the little boy to ______ on his back.",
+    "chinese": "那個背包太重了，小男孩無法背在背上搬運。",
+    "options": [
+      "climb",
+      "catch",
+      "choose",
+      "carry"
+    ],
+    "answerIndex": 3,
+    "explanation": "carry 表示「攜帶/背負/搬運」，符合背包過重難以背負。climb(爬)、catch(抓)、choose(選擇) 均不符合負重搬運動作。",
+    "optionNotes": [
+      "動詞・攀爬",
+      "動詞・捕捉/趕上",
+      "動詞・選擇",
+      "動詞・攜帶/背/搬運"
+    ]
+  },
+  {
+    "id": "jv-198",
+    "category": "名詞",
+    "question": "The detective worked day and night to solve this difficult murder ______.",
+    "chinese": "偵探日以繼夜地工作，以破解這起棘手的謀殺案件。",
+    "options": [
+      "case",
+      "card",
+      "cent",
+      "cap"
+    ],
+    "answerIndex": 0,
+    "explanation": "murder case 指「謀殺案件」，solve a case 表破案。card(卡片)、cent(分)、cap(帽子) 均非案件名詞。",
+    "optionNotes": [
+      "名詞・案件/盒子/實例",
+      "名詞・卡片",
+      "名詞・分（幣值）",
+      "名詞・帽子"
+    ]
+  },
+  {
+    "id": "jv-199",
+    "category": "名詞",
+    "question": "The royal king and queen lived in a magnificent stone ______ on top of the hill.",
+    "chinese": "國王與王后住在山頂上一座宏偉的石造城堡裡。",
+    "options": [
+      "church",
+      "castle",
+      "circle",
+      "city"
+    ],
+    "answerIndex": 1,
+    "explanation": "castle 指「城堡」，是國王與王室居住的居所。church(教堂)、circle(圓圈)、city(城市) 均非國王居住的專屬建築。",
+    "optionNotes": [
+      "名詞・教堂",
+      "名詞・城堡",
+      "名詞・圓圈",
+      "名詞・城市"
+    ]
+  },
+  {
+    "id": "jv-200",
+    "category": "名詞",
+    "question": "My pet ______ loves to lie in the sun and purr happily.",
+    "chinese": "我的寵物貓喜歡躺在陽光下發出開心的呼嚕聲。",
+    "options": [
+      "cent",
+      "cap",
+      "cat",
+      "car"
+    ],
+    "answerIndex": 2,
+    "explanation": "cat（貓）會發出 purr（呼嚕聲）。cent(分)、cap(帽子)、car(汽車) 皆非會發出呼嚕聲的寵物。",
+    "optionNotes": [
+      "名詞・分（硬幣）",
+      "名詞・帽子",
+      "名詞・貓",
+      "名詞・汽車"
+    ]
+  },
+  {
+    "id": "jv-201",
+    "category": "動詞",
+    "question": "Hurry up, or we won't be able to ______ the last train home!",
+    "chinese": "快一點，否則我們會趕不上回家的末班火車！",
+    "options": [
+      "carry",
+      "climb",
+      "clean",
+      "catch"
+    ],
+    "answerIndex": 3,
+    "explanation": "catch the train 表示「趕上火車」。carry(搬運)、climb(攀爬)、clean(打掃) 均無法與 the last train 搭配表示趕搭班車。（反義詞：miss 錯過）",
+    "optionNotes": [
+      "動詞・搬運",
+      "動詞・攀爬",
+      "動詞・打掃",
+      "動詞・趕上/抓住"
+    ]
+  },
+  {
+    "id": "jv-202",
+    "category": "名詞",
+    "question": "Please turn off your ______ or switch it to silent mode during the movie.",
+    "chinese": "看電影時請關閉手機或將其切換為靜音模式。",
+    "options": [
+      "cellphone",
+      "camera",
+      "clock",
+      "chalk"
+    ],
+    "answerIndex": 0,
+    "explanation": "cellphone (或 mobile phone) 指「手機」，在電影院中需切換為靜音模式 (silent mode)。camera(相機)、clock(鬧鐘)、chalk(粉筆) 均無 silent mode 設定選項情境。",
+    "optionNotes": [
+      "名詞・手機",
+      "名詞・相機",
+      "名詞・時鐘",
+      "名詞・粉筆"
+    ]
+  },
+  {
+    "id": "jv-203",
+    "category": "名詞",
+    "question": "In the United States, a penny is equal to one ______ in value.",
+    "chinese": "在美國，一便士硬幣的價值等於一美分。",
+    "options": [
+      "card",
+      "cent",
+      "center",
+      "case"
+    ],
+    "answerIndex": 1,
+    "explanation": "cent 為美元輔幣單位「分」（1 dollar = 100 cents；1 penny = 1 cent）。card(卡片)、center(中心)、case(案例) 均非貨幣面額單位。",
+    "optionNotes": [
+      "名詞・卡片",
+      "名詞・分（貨幣）",
+      "名詞・中心",
+      "名詞・案件/盒子"
+    ]
+  },
+  {
+    "id": "jv-204",
+    "category": "名詞",
+    "question": "Our hotel is located right in the shopping ______ of the city.",
+    "chinese": "我們的飯店就位於這座城市的購物中心地帶。",
+    "options": [
+      "church",
+      "circle",
+      "center",
+      "castle"
+    ],
+    "answerIndex": 2,
+    "explanation": "shopping center 指「購物中心/商業鬧區中心」。church(教堂)、circle(圓圈)、castle(城堡) 均不與 shopping 連用表示商場或鬧區核心。",
+    "optionNotes": [
+      "名詞・教堂",
+      "名詞・圓圈",
+      "名詞・中心",
+      "名詞・城堡"
+    ]
+  },
+  {
+    "id": "jv-205",
+    "category": "名詞",
+    "question": "The newborn baby was fifty-two ______ long at birth.",
+    "chinese": "這個新生兒出生時身長為五十二公分。",
+    "options": [
+      "candies",
+      "cents",
+      "centers",
+      "centimeters"
+    ],
+    "answerIndex": 3,
+    "explanation": "centimeter (cm) 指「公分/厘米」，為測量身長/長度的長度單位。candies(糖果)、cents(美分)、centers(中心) 均非長度度量衡。",
+    "optionNotes": [
+      "名詞・糖果",
+      "名詞・美分",
+      "名詞・中心",
+      "名詞・公分/厘米"
+    ]
+  },
+  {
+    "id": "jv-206",
+    "category": "名詞",
+    "question": "Please have a seat on the ______ while you wait for the doctor.",
+    "chinese": "等候醫生時請在椅子上坐一下。",
+    "options": [
+      "chair",
+      "chalk",
+      "church",
+      "circle"
+    ],
+    "answerIndex": 0,
+    "explanation": "chair 指「椅子」，have a seat on the chair 表示在椅子上就座。chalk(粉筆)、church(教堂)、circle(圓圈) 均非供人坐下的單件家具。",
+    "optionNotes": [
+      "名詞・椅子",
+      "名詞・粉筆",
+      "名詞・教堂",
+      "名詞・圓圈"
+    ]
+  },
+  {
+    "id": "jv-207",
+    "category": "名詞",
+    "question": "The teacher picked up a piece of yellow ______ and wrote on the board.",
+    "chinese": "老師拿了一支黃色粉筆並在黑板上寫字。",
+    "options": [
+      "cheese",
+      "chalk",
+      "chicken",
+      "chocolate"
+    ],
+    "answerIndex": 1,
+    "explanation": "chalk 指「粉筆」，a piece of chalk 為一支粉筆，用在黑板寫字。cheese(起司)、chicken(雞肉)、chocolate(巧克力) 皆為食品，無法在黑板書寫。",
+    "optionNotes": [
+      "名詞・起司",
+      "名詞・粉筆",
+      "名詞・雞肉",
+      "名詞・巧克力"
+    ]
+  },
+  {
+    "id": "jv-208",
+    "category": "名詞",
+    "question": "Don't miss this rare ______ to study abroad in Canada next semester.",
+    "chinese": "別錯過下學期去加拿大留學的這個難得機會。",
+    "options": [
+      "choice",
+      "change",
+      "chance",
+      "check"
+    ],
+    "answerIndex": 2,
+    "explanation": "chance 表示「機會」，a rare chance 表難得的機會。choice(選擇)、change(改變/零錢)、check(支票/檢查) 語意不如 chance 貼合留學機會。",
+    "optionNotes": [
+      "名詞・選擇",
+      "名詞・改變/零錢",
+      "名詞・機會",
+      "名詞・支票/檢查"
+    ]
+  },
+  {
+    "id": "jv-209",
+    "category": "動詞",
+    "question": "Caterpillars will eventually ______ into beautiful butterflies.",
+    "chinese": "毛毛蟲最終會變成美麗的蝴蝶。",
+    "options": [
+      "choose",
+      "cheat",
+      "check",
+      "change"
+    ],
+    "answerIndex": 3,
+    "explanation": "change into 表示「轉變/變成...」。choose(選擇)、cheat(作弊)、check(檢查) 均無轉化蛻變之意。（同義詞：turn into）",
+    "optionNotes": [
+      "動詞・選擇",
+      "動詞・欺騙/作弊",
+      "動詞・檢查",
+      "動詞・改變/變成"
+    ]
+  },
+  {
+    "id": "jv-210",
+    "category": "形容詞",
+    "question": "The street food here is not only delicious but also very ______.",
+    "chinese": "這裡的街頭小吃不僅美味，而且價格非常便宜。",
+    "options": [
+      "cheap",
+      "clear",
+      "clean",
+      "careful"
+    ],
+    "answerIndex": 0,
+    "explanation": "cheap 表示「便宜的/划算的」，符合街頭小吃物美價廉的特點。clear(清楚的)、clean(乾淨的)、careful(小心的) 對應 delicious 的經濟實惠描述以 cheap 最典型。（反義詞：expensive）",
+    "optionNotes": [
+      "形容詞・便宜的",
+      "形容詞・清楚的",
+      "形容詞・乾淨的",
+      "形容詞・小心的"
+    ]
+  },
+  {
+    "id": "jv-211",
+    "category": "動詞",
+    "question": "It is totally wrong to ______ on school exams by looking at other students' papers.",
+    "chinese": "在學校考試中看別人的考卷作弊是完全錯誤的。",
+    "options": [
+      "check",
+      "cheat",
+      "cheer",
+      "choose"
+    ],
+    "answerIndex": 1,
+    "explanation": "cheat on exams 表示「考試作弊」。check(檢查)、cheer(歡呼)、choose(選擇) 均無法表達窺看他人考卷的不誠實作弊行為。",
+    "optionNotes": [
+      "動詞・檢查",
+      "動詞・作弊/欺騙",
+      "動詞・歡呼",
+      "動詞・選擇"
+    ]
+  },
+  {
+    "id": "jv-212",
+    "category": "動詞",
+    "question": "You should always ______ your answers carefully before handing in the test paper.",
+    "chinese": "交卷前你應該總是仔細檢查你的答案。",
+    "options": [
+      "choose",
+      "cheer",
+      "check",
+      "cheat"
+    ],
+    "answerIndex": 2,
+    "explanation": "check your answers 表示「檢查/核對你的答案」。choose(選擇)、cheer(歡呼)、cheat(作弊) 均不符合交卷前檢查防錯的要求。",
+    "optionNotes": [
+      "動詞・選擇",
+      "動詞・歡呼",
+      "動詞・檢查/核對",
+      "動詞・作弊"
+    ]
+  },
+  {
+    "id": "jv-213",
+    "category": "動詞",
+    "question": "The excited fans gathered at the stadium to ______ for their home team.",
+    "chinese": "興奮的球迷聚集在體育場為他們的主隊加油歡呼。",
+    "options": [
+      "clap",
+      "climb",
+      "clean",
+      "cheer"
+    ],
+    "answerIndex": 3,
+    "explanation": "cheer for sb. 為固定片語，表示「為某人加油/喝采」。clap(拍手，通常接 clap one's hands)、climb(攀爬)、clean(打掃) 搭配 for their home team 以 cheer 最貼切。",
+    "optionNotes": [
+      "動詞・拍手",
+      "動詞・攀爬",
+      "動詞・打掃",
+      "動詞・歡呼/為...喝采"
+    ]
+  },
+  {
+    "id": "jv-214",
+    "category": "名詞",
+    "question": "Mice in cartoons are often shown carrying a big yellow piece of ______.",
+    "chinese": "卡通裡的老鼠常被描繪成帶著一大塊黃色起司。",
+    "options": [
+      "cheese",
+      "chicken",
+      "chalk",
+      "chocolate"
+    ],
+    "answerIndex": 0,
+    "explanation": "cheese 指「起司/乳酪」，卡通中老鼠熱愛黃色起司是經典形象。chicken(雞肉)、chalk(粉筆)、chocolate(巧克力) 均非老鼠卡通經典黃色食物標誌。",
+    "optionNotes": [
+      "名詞・起司/乳酪",
+      "名詞・雞肉",
+      "名詞・粉筆",
+      "名詞・巧克力"
+    ]
+  },
+  {
+    "id": "jv-215",
+    "category": "名詞",
+    "question": "Fried ______ with crispy skin is one of the most popular fast foods in Taiwan.",
+    "chinese": "外皮酥脆的炸雞是台灣最受歡迎的速食之一。",
+    "options": [
+      "cheese",
+      "chicken",
+      "chalk",
+      "chocolate"
+    ],
+    "answerIndex": 1,
+    "explanation": "fried chicken 指「炸雞」，是台灣極受歡迎的美食。cheese(炸起司較少作為速食代表)、chalk(粉筆不可食用)、chocolate(巧克力) 語意不符。",
+    "optionNotes": [
+      "名詞・起司",
+      "名詞・雞/雞肉",
+      "名詞・粉筆",
+      "名詞・巧克力"
+    ]
+  },
+  {
+    "id": "jv-216",
+    "category": "名詞",
+    "question": "Every ______ has the basic right to receive free basic education.",
+    "chinese": "每個兒童都擁有接受免費基礎教育的基本權利。",
+    "options": [
+      "clerk",
+      "church",
+      "child",
+      "classmate"
+    ],
+    "answerIndex": 2,
+    "explanation": "child 指「兒童/孩子」（單數；複數為 children）。clerk(店員)、church(教堂)、classmate(同班同學) 語意不如 child 貼切法律上的普遍兒童權益。",
+    "optionNotes": [
+      "名詞・店員",
+      "名詞・教堂",
+      "名詞・兒童/孩子",
+      "名詞・同班同學"
+    ]
+  },
+  {
+    "id": "jv-217",
+    "category": "專有名詞",
+    "question": "The Great Wall is a famous historical landmark located in ______.",
+    "chinese": "長城是一處位於中國的著名歷史地標。",
+    "options": [
+      "Canada",
+      "Chile",
+      "Cuba",
+      "China"
+    ],
+    "answerIndex": 3,
+    "explanation": "China 指「中國」，萬里長城 (The Great Wall) 位於中國境內。Canada(加拿大)、Chile(智利)、Cuba(古巴) 均無萬里長城。",
+    "optionNotes": [
+      "專有名詞・加拿大",
+      "專有名詞・智利",
+      "專有名詞・古巴",
+      "專有名詞・中國"
+    ]
+  },
+  {
+    "id": "jv-218",
+    "category": "名詞",
+    "question": "Many foreigners find learning ______ characters quite challenging.",
+    "chinese": "許多外國人覺得學習中文字相當具有挑戰性。",
+    "options": [
+      "Chinese",
+      "Canadian",
+      "Cuban",
+      "Chilean"
+    ],
+    "answerIndex": 0,
+    "explanation": "Chinese characters 指「漢字/中文字」。Canadian(加拿大的)、Cuban(古巴的)、Chilean(智利的) 均不與 characters 連用指漢字系統。",
+    "optionNotes": [
+      "名詞/形容詞・中文/中國的",
+      "形容詞・加拿大的",
+      "形容詞・古巴的",
+      "形容詞・智利的"
+    ]
+  },
+  {
+    "id": "jv-219",
+    "category": "名詞",
+    "question": "Eating a small piece of dark ______ can boost your mood and energy.",
+    "chinese": "吃一小塊黑巧克力可以提升你的心情與能量。",
+    "options": [
+      "cheese",
+      "chocolate",
+      "chicken",
+      "chalk"
+    ],
+    "answerIndex": 1,
+    "explanation": "dark chocolate 指「黑巧克力」。cheese(起司)、chicken(雞肉)、chalk(粉筆) 均不符合 dark chocolate 提升心情的特點。",
+    "optionNotes": [
+      "名詞・起司",
+      "名詞・巧克力",
+      "名詞・雞肉",
+      "名詞・粉筆"
+    ]
+  },
+  {
+    "id": "jv-220",
+    "category": "名詞",
+    "question": "You have to make a ______ between studying abroad and finding a job immediately.",
+    "chinese": "你必須在出國留學和立刻找工作之間做出選擇。",
+    "options": [
+      "chance",
+      "change",
+      "choice",
+      "check"
+    ],
+    "answerIndex": 2,
+    "explanation": "make a choice 表示「做出選擇」，符合在兩者之間抉擇 (between A and B)。chance(機會)、change(改變)、check(支票/檢查) 均不與 make a choice 同等表達抉擇行為。",
+    "optionNotes": [
+      "名詞・機會",
+      "名詞・改變",
+      "名詞・選擇/抉擇",
+      "名詞・支票/檢查"
+    ]
+  },
+  {
+    "id": "jv-221",
+    "category": "動詞",
+    "question": "Customers can ______ their favorite flavor from over twenty kinds of ice cream.",
+    "chinese": "顧客可以從二十多種冰淇淋中挑選自己喜歡的口味。",
+    "options": [
+      "cheat",
+      "check",
+      "cheer",
+      "choose"
+    ],
+    "answerIndex": 3,
+    "explanation": "choose 表示「挑選/選擇」，choose from 表從...中挑選。cheat(作弊)、check(檢查)、cheer(歡呼) 語意皆不符。（三態：choose - chose - chosen）",
+    "optionNotes": [
+      "動詞・作弊",
+      "動詞・檢查",
+      "動詞・歡呼",
+      "動詞・挑選/選擇"
+    ]
+  },
+  {
+    "id": "jv-222",
+    "category": "名詞",
+    "question": "In East Asian cultures, people usually eat noodles using a pair of wooden ______.",
+    "chinese": "在東亞文化中，人們通常使用一雙木筷子吃麵。",
+    "options": [
+      "chopsticks",
+      "candies",
+      "cards",
+      "caps"
+    ],
+    "answerIndex": 0,
+    "explanation": "a pair of chopsticks 指「一雙筷子」，是東亞吃麵的傳統餐具。candies(糖果)、cards(卡片)、caps(帽子) 均非用餐餐具。",
+    "optionNotes": [
+      "名詞・筷子（常用複數）",
+      "名詞・糖果",
+      "名詞・卡片",
+      "名詞・帽子"
+    ]
+  },
+  {
+    "id": "jv-223",
+    "category": "名詞",
+    "question": "Children look forward to opening gifts under the decorated tree on ______ Eve.",
+    "chinese": "孩子們期待在平安夜打開裝飾樹下的禮物。",
+    "options": [
+      "Easter",
+      "Christmas",
+      "Halloween",
+      "Thanksgiving"
+    ],
+    "answerIndex": 1,
+    "explanation": "Christmas Eve 指「聖誕夜/平安夜」，搭配聖誕樹 (decorated tree) 與拆禮物習俗。Easter(復活節)、Halloween(萬聖節)、Thanksgiving(感恩節) 均無聖誕樹與平安夜。",
+    "optionNotes": [
+      "名詞・復活節",
+      "名詞・聖誕節",
+      "名詞・萬聖節",
+      "名詞・感恩節"
+    ]
+  },
+  {
+    "id": "jv-224",
+    "category": "名詞",
+    "question": "Many Christians gather at the local ______ every Sunday morning to pray.",
+    "chinese": "許多基督徒每個週日早晨聚集在當地的教堂祈禱。",
+    "options": [
+      "castle",
+      "center",
+      "church",
+      "circle"
+    ],
+    "answerIndex": 2,
+    "explanation": "church 指「教堂」，是基督徒週日聚集禮拜與祈禱 (pray) 之處。castle(城堡)、center(中心)、circle(圓圈) 均非宗教聚會專用場所。",
+    "optionNotes": [
+      "名詞・城堡",
+      "名詞・中心",
+      "名詞・教堂",
+      "名詞・圓圈"
+    ]
+  },
+  {
+    "id": "jv-225",
+    "category": "名詞",
+    "question": "Please draw a perfect round ______ on the paper with a compass.",
+    "chinese": "請用圓規在紙上畫一個完美的圓形。",
+    "options": [
+      "church",
+      "castle",
+      "city",
+      "circle"
+    ],
+    "answerIndex": 3,
+    "explanation": "circle 指「圓形/圓圈」，用 compass（圓規）畫出。church(教堂)、castle(城堡)、city(城市) 均非幾何圖形。",
+    "optionNotes": [
+      "名詞・教堂",
+      "名詞・城堡",
+      "名詞・城市",
+      "名詞・圓形/圓圈"
+    ]
+  },
+  {
+    "id": "jv-226",
+    "category": "名詞",
+    "question": "Taipei is a bustling modern ______ with convenient public transportation.",
+    "chinese": "台北是一座擁有便利大眾運輸的繁華現代城市。",
+    "options": [
+      "city",
+      "circle",
+      "church",
+      "castle"
+    ],
+    "answerIndex": 0,
+    "explanation": "city 指「城市」，符合台北現代化都會的描述。circle(圓圈)、church(教堂)、castle(城堡) 均不符合台北行政區地位。",
+    "optionNotes": [
+      "名詞・城市",
+      "名詞・圓圈",
+      "名詞・教堂",
+      "名詞・城堡"
+    ]
+  },
+  {
+    "id": "jv-227",
+    "category": "動詞",
+    "question": "The audience started to ______ their hands enthusiastically after the performance ended.",
+    "chinese": "表演結束後，觀眾開始熱情地鼓掌拍手。",
+    "options": [
+      "climb",
+      "clap",
+      "clean",
+      "clear"
+    ],
+    "answerIndex": 1,
+    "explanation": "clap their hands 表示「拍手/鼓掌」。climb(攀爬)、clean(打掃)、clear(清除) 均無法與 hands 連用表示觀眾鼓掌。",
+    "optionNotes": [
+      "動詞・攀爬",
+      "動詞・拍（手）/鼓掌",
+      "動詞・打掃",
+      "動詞・清除/弄清楚"
+    ]
+  },
+  {
+    "id": "jv-228",
+    "category": "名詞",
+    "question": "He was late for English ______ because of the heavy traffic this morning.",
+    "chinese": "因為今天早上的交通擁塞，他的英文課遲到了。",
+    "options": [
+      "case",
+      "card",
+      "class",
+      "cent"
+    ],
+    "answerIndex": 2,
+    "explanation": "English class 指「英文課」，be late for class 表上課遲到。case(案例)、card(卡片)、cent(分) 均非學校課程名詞。",
+    "optionNotes": [
+      "名詞・案例/盒子",
+      "名詞・卡片",
+      "名詞・班級/課程",
+      "名詞・分"
+    ]
+  },
+  {
+    "id": "jv-229",
+    "category": "名詞",
+    "question": "Tom is my ______; we study together in the same Grade 8 class.",
+    "chinese": "湯姆是我的同班同學；我們一起在同一個八年級班級讀書。",
+    "options": [
+      "clerk",
+      "cook",
+      "cousin",
+      "classmate"
+    ],
+    "answerIndex": 3,
+    "explanation": "classmate 指「同班同學」，符合 in the same class 的關係。clerk(店員)、cook(廚師)、cousin(堂表兄弟姊妹) 均無同班學習之必然關聯。",
+    "optionNotes": [
+      "名詞・店員",
+      "名詞・廚師",
+      "名詞・堂表親",
+      "名詞・同班同學"
+    ]
+  },
+  {
+    "id": "jv-230",
+    "category": "名詞",
+    "question": "Students must keep their ______ tidy and quiet during self-study periods.",
+    "chinese": "自習期間學生必須保持教室整潔與安靜。",
+    "options": [
+      "classroom",
+      "castle",
+      "church",
+      "center"
+    ],
+    "answerIndex": 0,
+    "explanation": "classroom 指「教室」，為學生自習與上課的場所。castle(城堡)、church(教堂)、center(中心) 非學生自習之主要場所。",
+    "optionNotes": [
+      "名詞・教室",
+      "名詞・城堡",
+      "名詞・教堂",
+      "名詞・中心"
+    ]
+  },
+  {
+    "id": "jv-231",
+    "category": "形容詞",
+    "question": "Please make sure your hands are completely ______ before touching the food.",
+    "chinese": "在碰食物之前，請確保你的雙手是完全乾淨的。",
+    "options": [
+      "cheap",
+      "clean",
+      "clear",
+      "careful"
+    ],
+    "answerIndex": 1,
+    "explanation": "clean 表示「乾淨的/清潔的」，接觸食物前雙手應保持乾淨。cheap(便宜的)、clear(清楚的)、careful(小心的) 中以 clean 最精確形容雙手衛生。（反義詞：dirty）",
+    "optionNotes": [
+      "形容詞・便宜的",
+      "形容詞・乾淨的",
+      "形容詞・清楚的",
+      "形容詞・小心的"
+    ]
+  },
+  {
+    "id": "jv-232",
+    "category": "形容詞",
+    "question": "The teacher gave us very ______ instructions, so everyone understood what to do.",
+    "chinese": "老師給了我們非常清楚的指示，所以每個人都明白該怎麼做。",
+    "options": [
+      "cheap",
+      "clean",
+      "clear",
+      "careful"
+    ],
+    "answerIndex": 2,
+    "explanation": "clear instructions 指「清楚明確的指示」，使大家都能理解。cheap(便宜的)、clean(乾淨的)、careful(小心的) 均不符合修飾指示令大家理解的語意。",
+    "optionNotes": [
+      "形容詞・便宜的",
+      "形容詞・乾淨的",
+      "形容詞・清楚的/晴朗的",
+      "形容詞・小心的"
+    ]
+  },
+  {
+    "id": "jv-233",
+    "category": "名詞",
+    "question": "The friendly store ______ helped me find the right size of shoes.",
+    "chinese": "那位親切的店員幫我找到了合適尺寸的鞋子。",
+    "options": [
+      "child",
+      "cook",
+      "clerk",
+      "coach"
+    ],
+    "answerIndex": 2,
+    "explanation": "store clerk 指「店員/售貨員」，在商店協助顧客選購商品。child(小孩)、cook(廚師)、coach(教練) 均非服飾鞋店接待人員稱謂。",
+    "optionNotes": [
+      "名詞・兒童",
+      "名詞・廚師",
+      "名詞・店員/職員",
+      "名詞・教練"
+    ]
+  },
+  {
+    "id": "jv-234",
+    "category": "動詞",
+    "question": "They decided to ______ to the top of the mountain to see the sunrise.",
+    "chinese": "他們決定攀登到山頂看日出。",
+    "options": [
+      "clean",
+      "clear",
+      "clap",
+      "climb"
+    ],
+    "answerIndex": 3,
+    "explanation": "climb to the top of the mountain 表示「爬到山頂/攀登」。clean(打掃)、clear(清理)、clap(拍手) 均非登山登頂動作。（順便複習：climb 中的 b 不發音）",
+    "optionNotes": [
+      "動詞・打掃",
+      "動詞・清理",
+      "動詞・拍手",
+      "動詞・攀爬/登山"
+    ]
+  },
+  {
+    "id": "jv-235",
+    "category": "名詞",
+    "question": "The old ______ on the living room wall stopped ticking when its battery died.",
+    "chinese": "當電池沒電時，客廳牆上的老時鐘停止了滴答聲。",
+    "options": [
+      "clock",
+      "chalk",
+      "card",
+      "cap"
+    ],
+    "answerIndex": 0,
+    "explanation": "clock on the wall 指「壁鐘/時鐘」，有 ticking（滴答聲）。chalk(粉筆)、card(卡片)、cap(帽子) 均非掛在牆上發出滴答聲的計時工具。（順便複習：掛在牆上的是 clock，戴在手上的是 watch）",
+    "optionNotes": [
+      "名詞・時鐘/鬧鐘",
+      "名詞・粉筆",
+      "名詞・卡片",
+      "名詞・帽子"
+    ]
   }
 ]
