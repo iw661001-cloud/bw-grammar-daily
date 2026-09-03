@@ -703,5 +703,1007 @@
       "形容詞・表面的",
       "形容詞・自發的"
     ]
+  },
+  {
+    "id": "sv-36",
+    "category": "名詞",
+    "question": "The secret ______ behind the bookshelf leads to a hidden room in the basement.",
+    "chinese": "書架後面的秘密通道直接通往地下室的隱藏房間。",
+    "options": [
+      "paragraph",
+      "passion",
+      "passage",
+      "passport"
+    ],
+    "answerIndex": 2,
+    "explanation": "passage (通道) 符合語境。paragraph 是段落，passion 是熱情，passport 是護照，拼法相似但語意不合。",
+    "optionNotes": [
+      "名詞・段落",
+      "名詞・熱情",
+      "名詞・文章；段落；通道",
+      "名詞・護照"
+    ]
+  },
+  {
+    "id": "sv-37",
+    "category": "名詞",
+    "question": "Please read the second ______ of the article again and summarize its main idea.",
+    "chinese": "請再次閱讀文章的第二段，並總結其主旨。",
+    "options": [
+      "photograph",
+      "paragraph",
+      "parallel",
+      "parachute"
+    ],
+    "answerIndex": 1,
+    "explanation": "paragraph (段落) 最符合「文章的一部分」的語境。photograph 照片、parallel 平行、parachute 降落傘皆不合邏輯。",
+    "optionNotes": [
+      "名詞・照片",
+      "名詞・段落",
+      "名詞・平行",
+      "名詞・降落傘"
+    ],
+    "etymology": "para- (旁邊) + graph (寫) → 寫在正文旁邊的標記，引申為段落"
+  },
+  {
+    "id": "sv-38",
+    "category": "動詞",
+    "question": "His statements did not ______ with the evidence found at the crime scene.",
+    "chinese": "他的陳述與犯罪現場發現的證據不符。",
+    "options": [
+      "accord",
+      "account",
+      "accent",
+      "access"
+    ],
+    "answerIndex": 0,
+    "explanation": "accord (符合) 搭配 with，表示「與...一致」。account 帳戶、accent 口音、access 取得，語意皆不通順。",
+    "optionNotes": [
+      "動詞・符合；給予",
+      "名詞・帳戶",
+      "名詞・口音",
+      "名詞・接近；取得"
+    ]
+  },
+  {
+    "id": "sv-39",
+    "category": "名詞",
+    "question": "The ______ spent three years observing the behavior of wild chimpanzees in the jungle.",
+    "chinese": "這位研究人員花了三年時間在叢林中觀察野生黑猩猩的行為。",
+    "options": [
+      "reporter",
+      "reviewer",
+      "reminder",
+      "researcher"
+    ],
+    "answerIndex": 3,
+    "explanation": "researcher (研究人員) 符合觀察自然行為的語境。reporter 記者、reviewer 評論家、reminder 提醒物，皆不符合。",
+    "optionNotes": [
+      "名詞・記者",
+      "名詞・評論家",
+      "名詞・提醒物",
+      "名詞・研究人員"
+    ]
+  },
+  {
+    "id": "sv-40",
+    "category": "動詞",
+    "question": "When you write your essay, you should ______ to reliable sources to support your arguments.",
+    "chinese": "當你寫論文時，你應該參考可靠的來源來支持你的論點。",
+    "options": [
+      "prefer",
+      "refer",
+      "infer",
+      "defer"
+    ],
+    "answerIndex": 1,
+    "explanation": "refer (參考；提到) 搭配 to，符合查閱資料的語境。prefer 偏好、infer 推論、defer 延遲，不符合題意。",
+    "optionNotes": [
+      "動詞・偏好",
+      "動詞・提到；參考",
+      "動詞・推論",
+      "動詞・延遲"
+    ]
+  },
+  {
+    "id": "sv-41",
+    "category": "名詞",
+    "question": "Recent ______ shows that eating too much sugar can lead to various health problems.",
+    "chinese": "最近的研究顯示，吃太多糖會導致各種健康問題。",
+    "options": [
+      "resource",
+      "rescue",
+      "research",
+      "reserve"
+    ],
+    "answerIndex": 2,
+    "explanation": "research (研究) 符合提供科學證明的語境。resource 資源、rescue 救援、reserve 儲備，皆與題意不合。",
+    "optionNotes": [
+      "名詞・資源",
+      "名詞・救援",
+      "名詞・研究",
+      "名詞・儲備；保留"
+    ]
+  },
+  {
+    "id": "sv-42",
+    "category": "動詞",
+    "question": "The government is trying to ______ the unemployment rate by creating more job opportunities.",
+    "chinese": "政府正試圖透過創造更多就業機會來減少失業率。",
+    "options": [
+      "reduce",
+      "refuse",
+      "rescue",
+      "remind"
+    ],
+    "answerIndex": 0,
+    "explanation": "reduce (減少) 搭配 unemployment rate (失業率) 最為合理。refuse 拒絕、rescue 救援、remind 提醒，皆不合語意。",
+    "optionNotes": [
+      "動詞・減少",
+      "動詞・拒絕",
+      "動詞・救援",
+      "動詞・提醒"
+    ]
+  },
+  {
+    "id": "sv-43",
+    "category": "形容詞",
+    "question": "Regular exercise is essential for maintaining good ______ and mental health.",
+    "chinese": "規律的運動對於維持良好的身體和心理健康是不可或缺的。",
+    "options": [
+      "psychological",
+      "medical",
+      "typical",
+      "physical"
+    ],
+    "answerIndex": 3,
+    "explanation": "physical (身體的) 常與 mental (心理的) 相對稱出現。psychological 心理的 (重複語意)、medical 醫療的、typical 典型的，不符合。",
+    "optionNotes": [
+      "形容詞・心理的",
+      "形容詞・醫療的",
+      "形容詞・典型的",
+      "形容詞・身體的；物理的"
+    ]
+  },
+  {
+    "id": "sv-44",
+    "category": "名詞",
+    "question": "The brilliant ______ won a Nobel Prize for his groundbreaking discovery in physics.",
+    "chinese": "這位才華橫溢的科學家因其在物理學上的突破性發現而贏得了諾貝爾獎。",
+    "options": [
+      "specialist",
+      "scientist",
+      "student",
+      "servant"
+    ],
+    "answerIndex": 1,
+    "explanation": "scientist (科學家) 符合獲得諾貝爾物理學獎的語境。specialist 專家、student 學生、servant 僕人，皆非最佳選項。",
+    "optionNotes": [
+      "名詞・專家",
+      "名詞・科學家",
+      "名詞・學生",
+      "名詞・僕人"
+    ]
+  },
+  {
+    "id": "sv-45",
+    "category": "形容詞",
+    "question": "Each person has a ______ fingerprint that cannot be exactly duplicated by anyone else.",
+    "chinese": "每個人都有獨特的指紋，無法被其他人完全複製。",
+    "options": [
+      "usual",
+      "united",
+      "unique",
+      "universal"
+    ],
+    "answerIndex": 2,
+    "explanation": "unique (獨特的；唯一的) 呼應後文 cannot be exactly duplicated (無法複製)。usual 尋常的、united 聯合的、universal 普遍的，皆不符合。",
+    "optionNotes": [
+      "形容詞・尋常的",
+      "形容詞・聯合的",
+      "形容詞・獨特的；唯一的",
+      "形容詞・普遍的"
+    ],
+    "etymology": "uni- (單一) → 獨一無二的"
+  },
+  {
+    "id": "sv-46",
+    "category": "形容詞",
+    "question": "The festival features performances from ______ cultural groups around the world.",
+    "chinese": "這個節慶以來自世界各地各種不同文化團體的表演為特色。",
+    "options": [
+      "various",
+      "previous",
+      "obvious",
+      "curious"
+    ],
+    "answerIndex": 0,
+    "explanation": "various (各種不同的) 符合節慶多元文化的語境。previous 先前的、obvious 明顯的、curious 好奇的，皆不合理。",
+    "optionNotes": [
+      "形容詞・各種不同的",
+      "形容詞・先前的",
+      "形容詞・明顯的",
+      "形容詞・好奇的"
+    ]
+  },
+  {
+    "id": "sv-47",
+    "category": "名詞",
+    "question": "The company launched a new ______ that claims to clean floors faster than ever before.",
+    "chinese": "這家公司推出了一款新產品，聲稱能比以往更快地清潔地板。",
+    "options": [
+      "project",
+      "process",
+      "promise",
+      "product"
+    ],
+    "answerIndex": 3,
+    "explanation": "product (產品) 搭配 launched (推出) 最合理。project 計畫、process 過程、promise 承諾，皆非實體物品。",
+    "optionNotes": [
+      "名詞・計畫",
+      "名詞・過程",
+      "名詞・承諾",
+      "名詞・產品；產物"
+    ]
+  },
+  {
+    "id": "sv-48",
+    "category": "名詞",
+    "question": "Smoking increases the ______ of developing heart disease and lung cancer.",
+    "chinese": "抽菸會增加罹患心臟病和肺癌的風險。",
+    "options": [
+      "rise",
+      "risk",
+      "rush",
+      "rank"
+    ],
+    "answerIndex": 1,
+    "explanation": "risk (風險) 常與 increase 搭配，表示增加危險性。rise 上升、rush 匆忙、rank 等級，語意不合。",
+    "optionNotes": [
+      "名詞・上升",
+      "名詞・風險；冒險",
+      "名詞・匆忙",
+      "名詞・等級"
+    ]
+  },
+  {
+    "id": "sv-49",
+    "category": "名詞",
+    "question": "You can find more detailed ______ about the hotel on their official website.",
+    "chinese": "你可以在他們的官方網站上找到關於這家飯店更詳細的資訊。",
+    "options": [
+      "instruction",
+      "introduction",
+      "information",
+      "imagination"
+    ],
+    "answerIndex": 2,
+    "explanation": "information (資訊) 最符合在官網上查詢資料的情境。instruction 指示、introduction 介紹 (不如資訊全面)、imagination 想像力，非最佳解。",
+    "optionNotes": [
+      "名詞・指示",
+      "名詞・介紹",
+      "名詞・資訊",
+      "名詞・想像力"
+    ]
+  },
+  {
+    "id": "sv-50",
+    "category": "動詞",
+    "question": "The manager decided to ______ the old computers with faster, more efficient ones.",
+    "chinese": "經理決定用更快、更有效率的電腦替換舊電腦。",
+    "options": [
+      "replace",
+      "reply",
+      "repair",
+      "report"
+    ],
+    "answerIndex": 0,
+    "explanation": "replace A with B (用B替換A) 是固定用法。reply 回覆、repair 修理、report 報告，都不搭配 with 形成「替換」之意。",
+    "optionNotes": [
+      "動詞・取代；替換",
+      "動詞・回覆",
+      "動詞・修理",
+      "動詞・報告"
+    ]
+  },
+  {
+    "id": "sv-51",
+    "category": "名詞",
+    "question": "A healthy diet should include a wide ______ of fruits, vegetables, and whole grains.",
+    "chinese": "健康的飲食應該包含種類繁多的水果、蔬菜和全穀物。",
+    "options": [
+      "vanity",
+      "variety",
+      "value",
+      "victory"
+    ],
+    "answerIndex": 1,
+    "explanation": "a wide variety of (種類繁多的) 為固定搭配片語。vanity 虛榮、value 價值、victory 勝利，皆不合語意。",
+    "optionNotes": [
+      "名詞・虛榮",
+      "名詞・種類；多樣性",
+      "名詞・價值",
+      "名詞・勝利"
+    ]
+  },
+  {
+    "id": "sv-52",
+    "category": "動詞",
+    "question": "Many local businesses will ______ huge losses if the new highway is built.",
+    "chinese": "如果新公路建成，許多當地企業將遭受巨大的損失。",
+    "options": [
+      "suggest",
+      "survive",
+      "support",
+      "suffer"
+    ],
+    "answerIndex": 3,
+    "explanation": "suffer losses 意指遭受損失。suggest 建議、survive 存活、support 支持，皆不合題意。",
+    "optionNotes": [
+      "動詞・建議",
+      "動詞・存活",
+      "動詞・支持",
+      "動詞・遭受；受苦"
+    ]
+  },
+  {
+    "id": "sv-53",
+    "category": "名詞",
+    "question": "Learning a new language is a slow ______ that requires patience and practice.",
+    "chinese": "學習一門新語言是一個緩慢的過程，需要耐心和練習。",
+    "options": [
+      "progress",
+      "project",
+      "process",
+      "promise"
+    ],
+    "answerIndex": 2,
+    "explanation": "process (過程) 指隨時間進展的事物。progress 是不可數名詞不能接 a，project 計畫、promise 承諾，皆不符語意。",
+    "optionNotes": [
+      "名詞・進步 (不可數)",
+      "名詞・計畫",
+      "名詞・過程；處理",
+      "名詞・承諾"
+    ]
+  },
+  {
+    "id": "sv-54",
+    "category": "名詞",
+    "question": "The rescue team acted quickly to take control of the dangerous ______.",
+    "chinese": "救援隊迅速採取行動以控制這個危險的情況。",
+    "options": [
+      "situation",
+      "station",
+      "solution",
+      "selection"
+    ],
+    "answerIndex": 0,
+    "explanation": "situation (情況) 最符合救援隊要控制的「危險處境」。station 車站、solution 解決方案、selection 選擇，皆不符邏輯。",
+    "optionNotes": [
+      "名詞・情況；處境",
+      "名詞・車站",
+      "名詞・解決方案",
+      "名詞・選擇"
+    ]
+  },
+  {
+    "id": "sv-55",
+    "category": "名詞",
+    "question": "Climate change is a global ______ that requires cooperation from all countries.",
+    "chinese": "氣候變遷是一個需要所有國家合作的全球性議題。",
+    "options": [
+      "tissue",
+      "issue",
+      "image",
+      "item"
+    ],
+    "answerIndex": 1,
+    "explanation": "issue (議題) 符合探討氣候變遷的情境。tissue 衛生紙、image 影像、item 項目，不符語意。",
+    "optionNotes": [
+      "名詞・衛生紙；組織",
+      "名詞・議題；問題",
+      "名詞・影像",
+      "名詞・項目"
+    ]
+  },
+  {
+    "id": "sv-56",
+    "category": "動詞",
+    "question": "Putting on sunscreen can help ______ your skin from getting sunburned.",
+    "chinese": "塗抹防曬乳有助於防止你的皮膚曬傷。",
+    "options": [
+      "pretend",
+      "present",
+      "prevent",
+      "predict"
+    ],
+    "answerIndex": 2,
+    "explanation": "prevent...from (防止...) 為常見片語。pretend 假裝、present 呈現、predict 預測，皆不合邏輯。",
+    "optionNotes": [
+      "動詞・假裝",
+      "動詞・呈現",
+      "動詞・防止",
+      "動詞・預測"
+    ]
+  },
+  {
+    "id": "sv-57",
+    "category": "名詞",
+    "question": "Over seventy ______ of the Earth's surface is covered by water.",
+    "chinese": "地球表面有超過百分之七十被水覆蓋。",
+    "options": [
+      "perfect",
+      "perform",
+      "permit",
+      "percent"
+    ],
+    "answerIndex": 3,
+    "explanation": "percent (百分比) 接在數字後面表示比例。perfect 完美的、perform 表演、permit 允許，皆非名詞或語意不符。",
+    "optionNotes": [
+      "形容詞・完美的",
+      "動詞・表演",
+      "動詞・允許",
+      "名詞・百分比"
+    ]
+  },
+  {
+    "id": "sv-58",
+    "category": "動詞",
+    "question": "The university was ______ed in 1905 and has since become one of the top schools in the country.",
+    "chinese": "這所大學成立於1905年，自那時起便成為該國頂尖的學校之一。",
+    "options": [
+      "establish",
+      "estimate",
+      "escape",
+      "examine"
+    ],
+    "answerIndex": 0,
+    "explanation": "establish (建立) 加上 ed 形成被動語態，表示被成立。estimate 估計、escape 逃跑、examine 檢查，皆不合題意。",
+    "optionNotes": [
+      "動詞・建立；設立",
+      "動詞・估計",
+      "動詞・逃跑",
+      "動詞・檢查"
+    ]
+  },
+  {
+    "id": "sv-59",
+    "category": "動詞",
+    "question": "Even after the terrible earthquake, some of the ancient temples ______ intact.",
+    "chinese": "即使在可怕的地震之後，一些古老的寺廟仍然完好無損。",
+    "options": [
+      "remind",
+      "remain",
+      "repair",
+      "remove"
+    ],
+    "answerIndex": 1,
+    "explanation": "remain (保持；仍然是) 後面接形容詞 intact (完好無損的) 是連綴動詞用法。remind 提醒、repair 修理、remove 移除，語意皆錯。",
+    "optionNotes": [
+      "動詞・提醒",
+      "動詞・維持；仍然是",
+      "動詞・修理",
+      "動詞・移除"
+    ]
+  },
+  {
+    "id": "sv-60",
+    "category": "名詞",
+    "question": "You can connect this wireless ______ to your phone to track your daily steps.",
+    "chinese": "你可以將這個無線裝置連接到手機來追蹤你每天的步數。",
+    "options": [
+      "advice",
+      "design",
+      "device",
+      "desire"
+    ],
+    "answerIndex": 2,
+    "explanation": "device (裝置) 符合連接手機的硬體設備語境。advice 建議、design 設計、desire 渴望，皆非實體物品。",
+    "optionNotes": [
+      "名詞・建議",
+      "名詞・設計",
+      "名詞・裝置；方法",
+      "名詞・渴望"
+    ]
+  },
+  {
+    "id": "sv-61",
+    "category": "動詞",
+    "question": "The magician's ability to make a bird disappear will surely ______ the audience.",
+    "chinese": "魔術師讓鳥消失的能力肯定會使觀眾感到驚訝。",
+    "options": [
+      "amuse",
+      "annoy",
+      "attack",
+      "amaze"
+    ],
+    "answerIndex": 3,
+    "explanation": "amaze (使驚訝) 最符合魔術表演帶來的震撼效果。amuse 逗樂、annoy 惹惱、attack 攻擊，不如 amaze 精確。",
+    "optionNotes": [
+      "動詞・逗樂",
+      "動詞・惹惱",
+      "動詞・攻擊",
+      "動詞・使驚訝"
+    ]
+  },
+  {
+    "id": "sv-62",
+    "category": "動詞",
+    "question": "The common goal of fighting the pandemic helped ______ the country.",
+    "chinese": "對抗疫情的共同目標有助於團結這個國家。",
+    "options": [
+      "unite",
+      "untie",
+      "unique",
+      "update"
+    ],
+    "answerIndex": 0,
+    "explanation": "unite (團結) 符合擁有共同目標而凝聚在一起的語境。untie 解開、unique 獨特的、update 更新，皆不合理。",
+    "optionNotes": [
+      "動詞・聯合；團結",
+      "動詞・解開",
+      "形容詞・獨特的",
+      "動詞・更新"
+    ]
+  },
+  {
+    "id": "sv-63",
+    "category": "形容詞",
+    "question": "Despite many failures early on, his ______ success proved that hard work pays off.",
+    "chinese": "儘管早期經歷了許多失敗，他最終的成功證明了努力是有回報的。",
+    "options": [
+      "essential",
+      "eventual",
+      "equal",
+      "exact"
+    ],
+    "answerIndex": 1,
+    "explanation": "eventual (最終的) 呼應前文的「早期失敗」(early on)。essential 必要的、equal 平等的、exact 確切的，皆不符合語境。",
+    "optionNotes": [
+      "形容詞・必要的",
+      "形容詞・最終的",
+      "形容詞・平等的",
+      "形容詞・確切的"
+    ]
+  },
+  {
+    "id": "sv-64",
+    "category": "名詞",
+    "question": "The soccer player suffered a severe knee ______ and had to miss the rest of the season.",
+    "chinese": "這名足球員膝蓋受到嚴重傷害，不得不缺席剩餘的賽季。",
+    "options": [
+      "industry",
+      "inquiry",
+      "injury",
+      "insect"
+    ],
+    "answerIndex": 2,
+    "explanation": "injury (受傷) 搭配 knee (膝蓋) 表示運動傷害。industry 工業、inquiry 詢問、insect 昆蟲，皆與醫學或受傷無關。",
+    "optionNotes": [
+      "名詞・工業",
+      "名詞・詢問",
+      "名詞・傷害；受傷",
+      "名詞・昆蟲"
+    ]
+  },
+  {
+    "id": "sv-65",
+    "category": "動詞",
+    "question": "People ______ to spend more time indoors when the weather gets cold.",
+    "chinese": "天氣變冷時，人們傾向於花更多時間在室內。",
+    "options": [
+      "tent",
+      "rent",
+      "send",
+      "tend"
+    ],
+    "answerIndex": 3,
+    "explanation": "tend to do something 表示「傾向於做某事」。tent 帳篷(名詞)、rent 租用、send 寄送，都不構成此片語。",
+    "optionNotes": [
+      "名詞・帳篷",
+      "動詞・租用",
+      "動詞・寄送",
+      "動詞・傾向；照料"
+    ]
+  },
+  {
+    "id": "sv-66",
+    "category": "動詞",
+    "question": "The beautiful scenery and friendly locals ______ thousands of tourists to the island every year.",
+    "chinese": "美麗的風景和友善的當地人每年吸引成千上萬的遊客來到這座島嶼。",
+    "options": [
+      "attract",
+      "attack",
+      "attach",
+      "attempt"
+    ],
+    "answerIndex": 0,
+    "explanation": "attract (吸引) 最符合帶來遊客的情境。attack 攻擊、attach 附加、attempt 嘗試，皆與觀光情境不合。",
+    "optionNotes": [
+      "動詞・吸引",
+      "動詞・攻擊",
+      "動詞・附加",
+      "動詞・嘗試"
+    ]
+  },
+  {
+    "id": "sv-67",
+    "category": "名詞",
+    "question": "The singer's sudden rise in ______ is mostly due to her viral video on social media.",
+    "chinese": "這位歌手人氣的突然飆升，主要歸功於她在社群媒體上爆紅的影片。",
+    "options": [
+      "population",
+      "popularity",
+      "possibility",
+      "pollution"
+    ],
+    "answerIndex": 1,
+    "explanation": "popularity (受歡迎；人氣) 符合藝人知名度提升的語境。population 人口、possibility 可能性、pollution 污染，均不合理。",
+    "optionNotes": [
+      "名詞・人口",
+      "名詞・受歡迎；人氣",
+      "名詞・可能性",
+      "名詞・污染"
+    ]
+  },
+  {
+    "id": "sv-68",
+    "category": "形容詞",
+    "question": "My ______ reaction was to say no, but I changed my mind after thinking about it.",
+    "chinese": "我最初的反應是拒絕，但在思考之後我改變了主意。",
+    "options": [
+      "internal",
+      "international",
+      "initial",
+      "individual"
+    ],
+    "answerIndex": 2,
+    "explanation": "initial (最初的) 呼應後文的 changed my mind (改變主意)。internal 內部的、international 國際的、individual 個別的，不合邏輯。",
+    "optionNotes": [
+      "形容詞・內部的",
+      "形容詞・國際的",
+      "形容詞・最初的；首字母",
+      "形容詞・個別的"
+    ]
+  },
+  {
+    "id": "sv-69",
+    "category": "形容詞",
+    "question": "The patient experienced ______ pain in his chest and was immediately sent to the hospital.",
+    "chinese": "這位病人胸口經歷了嚴重的疼痛，並被立刻送往醫院。",
+    "options": [
+      "several",
+      "secret",
+      "secure",
+      "severe"
+    ],
+    "answerIndex": 3,
+    "explanation": "severe (嚴重的) 常用來形容疼痛或天氣。several 幾個的、secret 秘密的、secure 安全的，皆非正確修飾語。",
+    "optionNotes": [
+      "形容詞・幾個的",
+      "形容詞・秘密的",
+      "形容詞・安全的",
+      "形容詞・嚴重的；嚴厲的"
+    ]
+  },
+  {
+    "id": "sv-70",
+    "category": "名詞",
+    "question": "The bus driver had to take an alternative ______ because the main road was closed for construction.",
+    "chinese": "因為主要道路封閉施工，公車司機不得不走替代路線。",
+    "options": [
+      "route",
+      "routine",
+      "root",
+      "round"
+    ],
+    "answerIndex": 0,
+    "explanation": "route (路線) 指行駛的路徑。routine 慣例、root 根部、round 圓的，與交通道路無關。",
+    "optionNotes": [
+      "名詞・路線；途徑",
+      "名詞・慣例",
+      "名詞・根部",
+      "形容詞・圓的"
+    ]
+  },
+  {
+    "id": "sv-71",
+    "category": "名詞",
+    "question": "The new policy will have a significant ______ on how small businesses operate.",
+    "chinese": "這項新政策將對小型企業的運作方式產生重大影響。",
+    "options": [
+      "import",
+      "impact",
+      "impress",
+      "improve"
+    ],
+    "answerIndex": 1,
+    "explanation": "impact (影響) 搭配 on 表示對...造成影響。import 進口、impress 留下印象、improve 改善，皆非名詞或片語不合。",
+    "optionNotes": [
+      "動詞・進口",
+      "名詞・影響；衝擊",
+      "動詞・使印象深刻",
+      "動詞・改善"
+    ]
+  },
+  {
+    "id": "sv-72",
+    "category": "動詞",
+    "question": "Many people ______ rainy weather with feeling sad or lazy.",
+    "chinese": "許多人將下雨天與感到悲傷或慵懶聯想在一起。",
+    "options": [
+      "appreciate",
+      "assume",
+      "associate",
+      "assign"
+    ],
+    "answerIndex": 2,
+    "explanation": "associate A with B (將A與B聯想在一起) 是常見片語。appreciate 欣賞、assume 假設、assign 指派，不合邏輯。",
+    "optionNotes": [
+      "動詞・感激；欣賞",
+      "動詞・假設",
+      "動詞・聯想；使有關聯",
+      "動詞・指派"
+    ]
+  },
+  {
+    "id": "sv-73",
+    "category": "名詞",
+    "question": "Because of the cold winter, there is a high ______ for heating equipment.",
+    "chinese": "因為寒冷的冬天，對供暖設備有很高的需求。",
+    "options": [
+      "depend",
+      "defend",
+      "damage",
+      "demand"
+    ],
+    "answerIndex": 3,
+    "explanation": "demand (需求) 搭配 for 表示對某物的需要。depend 依賴、defend 防禦、damage 損害，皆不合語意。",
+    "optionNotes": [
+      "動詞・依賴",
+      "動詞・防禦",
+      "名詞・損害",
+      "名詞・需求；要求"
+    ]
+  },
+  {
+    "id": "sv-74",
+    "category": "動詞",
+    "question": "Astronauts were sent to ______ the unknown regions of the moon.",
+    "chinese": "太空人被派去探索月球未知的區域。",
+    "options": [
+      "explore",
+      "explode",
+      "express",
+      "expect"
+    ],
+    "answerIndex": 0,
+    "explanation": "explore (探索) 搭配未知領域 (unknown regions) 最合適。explode 爆炸、express 表達、expect 期待，均不符合太空任務性質。",
+    "optionNotes": [
+      "動詞・探索",
+      "動詞・爆炸",
+      "動詞・表達",
+      "動詞・期待"
+    ]
+  },
+  {
+    "id": "sv-75",
+    "category": "名詞",
+    "question": "The ______ of the smartphone has completely changed the way people communicate.",
+    "chinese": "智慧型手機的發明完全改變了人們溝通的方式。",
+    "options": [
+      "invitation",
+      "invention",
+      "intention",
+      "inflation"
+    ],
+    "answerIndex": 1,
+    "explanation": "invention (發明) 指新科技或物品的問世。invitation 邀請、intention 意圖、inflation 通貨膨脹，皆無關。",
+    "optionNotes": [
+      "名詞・邀請",
+      "名詞・發明；發明物",
+      "名詞・意圖",
+      "名詞・通貨膨脹"
+    ]
+  },
+  {
+    "id": "sv-76",
+    "category": "動詞",
+    "question": "Students will greatly ______ from reading a wide range of books.",
+    "chinese": "廣泛閱讀書籍將使學生大大受益。",
+    "options": [
+      "belief",
+      "behavior",
+      "benefit",
+      "belong"
+    ],
+    "answerIndex": 2,
+    "explanation": "benefit from (從...中受益) 為固定搭配。belief 信仰、behavior 行為、belong 屬於，語意及用法皆不合。",
+    "optionNotes": [
+      "名詞・信仰",
+      "名詞・行為",
+      "動詞・受益；好處",
+      "動詞・屬於"
+    ]
+  },
+  {
+    "id": "sv-77",
+    "category": "介系詞",
+    "question": "______ the heavy rain, the outdoor concert went on as scheduled.",
+    "chinese": "儘管下大雨，戶外演唱會仍如期舉行。",
+    "options": [
+      "despise",
+      "display",
+      "dispute",
+      "despite"
+    ],
+    "answerIndex": 3,
+    "explanation": "despite (儘管) 是介系詞，後接名詞，表示讓步關係。despise 鄙視、display 展示、dispute 爭議，詞性及語意皆錯。",
+    "optionNotes": [
+      "動詞・鄙視",
+      "動詞・展示",
+      "名詞・爭議",
+      "介系詞・儘管"
+    ]
+  },
+  {
+    "id": "sv-78",
+    "category": "動詞",
+    "question": "Thomas Edison is famous for helping to ______ the practical electric light bulb.",
+    "chinese": "湯瑪斯·愛迪生因協助發明實用的電燈泡而聞名。",
+    "options": [
+      "invent",
+      "invest",
+      "invite",
+      "involve"
+    ],
+    "answerIndex": 0,
+    "explanation": "invent (發明) 搭配燈泡等物品。invest 投資、invite 邀請、involve 牽涉，字形相似但不合邏輯。",
+    "optionNotes": [
+      "動詞・發明；虛構",
+      "動詞・投資",
+      "動詞・邀請",
+      "動詞・牽涉"
+    ]
+  },
+  {
+    "id": "sv-79",
+    "category": "動詞",
+    "question": "It is important to wear a helmet when riding a bike so you don't ______ your head in a crash.",
+    "chinese": "騎自行車時戴安全帽很重要，這樣才不會在撞車時弄傷頭部。",
+    "options": [
+      "ignore",
+      "injure",
+      "inject",
+      "include"
+    ],
+    "answerIndex": 1,
+    "explanation": "injure (受傷) 搭配 body parts (head) 表示造成傷害。ignore 忽略、inject 注射、include 包含，皆不合題意。",
+    "optionNotes": [
+      "動詞・忽略",
+      "動詞・使受傷；損害",
+      "動詞・注射",
+      "動詞・包含"
+    ]
+  },
+  {
+    "id": "sv-80",
+    "category": "動詞",
+    "question": "The school decided to ______ every classroom with a smartboard to improve teaching.",
+    "chinese": "學校決定為每間教室配備智慧白板以改善教學。",
+    "options": [
+      "equal",
+      "escape",
+      "equip",
+      "empty"
+    ],
+    "answerIndex": 2,
+    "explanation": "equip A with B (以B裝備A) 是常見用法。equal 等於、escape 逃跑、empty 清空，皆無此用法。",
+    "optionNotes": [
+      "形容詞・平等的",
+      "動詞・逃跑",
+      "動詞・配備；裝備",
+      "動詞・清空"
+    ]
+  },
+  {
+    "id": "sv-81",
+    "category": "形容詞",
+    "question": "You should seek ______ advice if you are not sure how to handle this legal issue.",
+    "chinese": "如果你不確定如何處理這個法律問題，你應該尋求專業的建議。",
+    "options": [
+      "personal",
+      "traditional",
+      "emotional",
+      "professional"
+    ],
+    "answerIndex": 3,
+    "explanation": "professional (專業的) 搭配 advice 表示尋求專家意見。personal 個人的、traditional 傳統的、emotional 情緒的，皆不如 professional 適合法律情境。",
+    "optionNotes": [
+      "形容詞・個人的",
+      "形容詞・傳統的",
+      "形容詞・情緒的",
+      "形容詞・專業的；專業人士"
+    ]
+  },
+  {
+    "id": "sv-82",
+    "category": "形容詞",
+    "question": "Pollution is a ______ problem that affects every living creature on Earth.",
+    "chinese": "污染是一個影響地球上每一種生物的全球性問題。",
+    "options": [
+      "global",
+      "local",
+      "normal",
+      "total"
+    ],
+    "answerIndex": 0,
+    "explanation": "global (全球的) 呼應句末的 on Earth (在地球上)。local 當地的、normal 正常的、total 總計的，皆不符合語境。",
+    "optionNotes": [
+      "形容詞・全球的",
+      "形容詞・當地的",
+      "形容詞・正常的",
+      "形容詞・總計的"
+    ]
+  },
+  {
+    "id": "sv-83",
+    "category": "動詞",
+    "question": "The couple decided to ______ a child from the orphanage because they couldn't have one of their own.",
+    "chinese": "這對夫婦決定從孤兒院收養一個孩子，因為他們無法擁有自己的孩子。",
+    "options": [
+      "adapt",
+      "adopt",
+      "admit",
+      "adjust"
+    ],
+    "answerIndex": 1,
+    "explanation": "adopt (收養；採用) 符合從孤兒院領養孩子的情境。adapt 適應、admit 承認、adjust 調整，常與 adopt 混淆但語意完全不同。",
+    "optionNotes": [
+      "動詞・適應",
+      "動詞・採用；收養",
+      "動詞・承認",
+      "動詞・調整"
+    ]
+  },
+  {
+    "id": "sv-84",
+    "category": "名詞",
+    "question": "Water is a precious natural ______ that we must preserve for future generations.",
+    "chinese": "水是我們必須為後代保存的珍貴自然資源。",
+    "options": [
+      "rescue",
+      "research",
+      "resource",
+      "result"
+    ],
+    "answerIndex": 2,
+    "explanation": "natural resource (自然資源) 是固定搭配。rescue 救援、research 研究、result 結果，皆不符合邏輯。",
+    "optionNotes": [
+      "名詞・救援",
+      "名詞・研究",
+      "名詞・資源",
+      "名詞・結果"
+    ]
+  },
+  {
+    "id": "sv-85",
+    "category": "名詞",
+    "question": "The referee blew his whistle as a ______ that the basketball game had officially ended.",
+    "chinese": "裁判吹響哨子，作為籃球比賽正式結束的訊號。",
+    "options": [
+      "single",
+      "symbol",
+      "sample",
+      "signal"
+    ],
+    "answerIndex": 3,
+    "explanation": "signal (訊號) 表示傳達某種訊息。single 單一的、symbol 象徵 (多指具體事物的代表意義)、sample 樣本，不合題意。",
+    "optionNotes": [
+      "形容詞・單一的",
+      "名詞・象徵",
+      "名詞・樣本",
+      "名詞・訊號；示意"
+    ]
   }
 ]
