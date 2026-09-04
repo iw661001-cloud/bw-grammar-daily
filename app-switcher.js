@@ -1,4 +1,4 @@
-// 共用元件：跨網站App切換選單（試點：先只加在dashboard.html，確認可行再推廣到其他頁面／其他專案）。
+// 共用元件：跨網站App切換選單（試點：先只加在首頁index.html，確認可行再推廣到其他頁面／其他專案）。
 // 純drop-in設計：不依賴各網站既有的header結構，用position:fixed浮動按鈕＋自己的<style>，
 // 貼一行<script src="app-switcher.js">就能用，不用改任何HTML/CSS。
 (function () {
@@ -7,7 +7,7 @@
   // 也複製一份過去，不能只複製這支.js卻沒有圖檔，圖片會顯示不出來）。
   var APPS = [
     { id: "fire-engineer-exam", label: "設備師", icon: "icons/engineer.png", url: "https://iw661001-cloud.github.io/fire-engineer-exam/" },
-    { id: "bw-grammar-daily", label: "English", icon: "icons/linguistics.png", url: "https://iw661001-cloud.github.io/bw-grammar-daily/dashboard.html" },
+    { id: "bw-grammar-daily", label: "English", icon: "icons/linguistics.png", url: "https://iw661001-cloud.github.io/bw-grammar-daily/" },
   ];
 
   // 用網址判斷目前在哪個App，本機測試（localhost）時比對路徑關鍵字判斷。

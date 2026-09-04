@@ -101,7 +101,7 @@ function renderDone() {
         <div>今天的複習都做完了！</div>
         <div class="nav-row">
           <a class="nav-btn secondary" href="wrong.html" style="text-decoration:none;text-align:center;line-height:2.6;">回複習佇列</a>
-          <a class="nav-btn" href="dashboard.html" style="text-decoration:none;text-align:center;line-height:2.6;">回儀表板</a>
+          <a class="nav-btn" href="index.html" style="text-decoration:none;text-align:center;line-height:2.6;">回儀表板</a>
         </div>
       </div>
     `;
@@ -112,7 +112,7 @@ function renderDone() {
     <div class="done-card">
       <div>這個題庫做完一輪了！</div>
       <div class="nav-row">
-        <a class="nav-btn secondary" href="dashboard.html" style="text-decoration:none;text-align:center;line-height:2.6;">回儀表板</a>
+        <a class="nav-btn secondary" href="index.html" style="text-decoration:none;text-align:center;line-height:2.6;">回儀表板</a>
         <button class="nav-btn" id="restartBtn">重新做一次</button>
       </div>
     </div>
