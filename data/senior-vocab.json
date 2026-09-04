@@ -4711,5 +4711,945 @@
       "副詞・僅僅",
       "副詞・確實、必定"
     ]
+  },
+  {
+    "id": "sv-239",
+    "category": "動詞",
+    "question": "The detective wore a fake beard and glasses to ______ himself while following the suspect in the crowded market.",
+    "chinese": "這名偵探戴上假鬍子和眼鏡來偽裝自己，以便在擁擠的市場中跟蹤嫌犯。",
+    "options": [
+      "disgust",
+      "dismiss",
+      "distinguish",
+      "disguise"
+    ],
+    "answerIndex": 3,
+    "explanation": "disguise（偽裝）符合戴假鬍子掩飾身分的情境；disgust（使作嘔）、dismiss（解散/屏除）、distinguish（分辨）皆不合語意。",
+    "optionNotes": [
+      "動詞・使作嘔",
+      "動詞・解散、屏除",
+      "動詞・分辨、區分",
+      "動詞・偽裝"
+    ]
+  },
+  {
+    "id": "sv-240",
+    "category": "動詞",
+    "question": "Volunteers were asked to ______ free bottles of water to the exhausted runners at the marathon finish line.",
+    "chinese": "志工們被要求在馬拉松終點線分發免費的瓶裝水給筋疲力盡的跑者。",
+    "options": [
+      "distribute",
+      "contribute",
+      "attribute",
+      "substitute"
+    ],
+    "answerIndex": 0,
+    "explanation": "distribute（分發）符合志工發放物資的情境；contribute（貢獻）、attribute（歸因於）、substitute（替代）是大考常考的 -tribute 字根混淆字組。",
+    "optionNotes": [
+      "動詞・分發、分配",
+      "動詞・貢獻",
+      "動詞・歸因於",
+      "動詞・替代"
+    ]
+  },
+  {
+    "id": "sv-241",
+    "category": "名詞",
+    "question": "The city council decided to build a grand ______ in the central plaza to honor the soldiers who died in the war.",
+    "chinese": "市議會決定在中央廣場建立一座宏偉的紀念碑，以紀念在戰爭中陣亡的士兵。",
+    "options": [
+      "movement",
+      "monument",
+      "moment",
+      "document"
+    ],
+    "answerIndex": 1,
+    "explanation": "monument（紀念碑）符合紀念陣亡士兵的建築物；movement（運動/移動）、moment（片刻）、document（文件）皆為 -ment 結尾的字，但不符語境。",
+    "optionNotes": [
+      "名詞・運動、移動",
+      "名詞・紀念碑",
+      "名詞・片刻",
+      "名詞・文件"
+    ]
+  },
+  {
+    "id": "sv-242",
+    "category": "形容詞",
+    "question": "The recent election has sparked intense ______ debates among citizens regarding the country's economic future.",
+    "chinese": "最近的選舉在公民之間引發了關於國家經濟未來的激烈政治辯論。",
+    "options": [
+      "practical",
+      "physical",
+      "political",
+      "psychological"
+    ],
+    "answerIndex": 2,
+    "explanation": "political（政治的）符合選舉引發的辯論性質；practical（實際的）、physical（身體的/物理的）、psychological（心理的）皆不搭配 election（選舉）的情境。",
+    "optionNotes": [
+      "形容詞・實際的、實用的",
+      "形容詞・身體的、物理的",
+      "形容詞・政治的",
+      "形容詞・心理的"
+    ]
+  },
+  {
+    "id": "sv-243",
+    "category": "動詞",
+    "question": "The auto company had to ______ thousands of vehicles due to a dangerous defect in the braking system.",
+    "chinese": "由於煞車系統有危險的瑕疵，這家汽車公司不得不召回數千輛汽車。",
+    "options": [
+      "rebel",
+      "reflect",
+      "reform",
+      "recall"
+    ],
+    "answerIndex": 3,
+    "explanation": "recall（召回）符合汽車公司發現產品瑕疵時的處置動作；rebel（反叛）、reflect（反映/反射）、reform（改革）皆不合語意。recall 亦有「回想起」之意。",
+    "optionNotes": [
+      "動詞・反叛",
+      "動詞・反映、反射",
+      "動詞・改革",
+      "動詞・召回、回想起"
+    ]
+  },
+  {
+    "id": "sv-244",
+    "category": "動詞",
+    "question": "To reduce environmental waste, the community center encourages all residents to ______ their plastic bottles and newspapers.",
+    "chinese": "為了減少環境廢棄物，社區中心鼓勵所有居民回收他們的塑膠瓶與報紙。",
+    "options": [
+      "recycle",
+      "replace",
+      "rescue",
+      "reverse"
+    ],
+    "answerIndex": 0,
+    "explanation": "recycle（回收）符合減少廢棄物與處理塑膠瓶的環保情境；replace（替換）、rescue（救援）、reverse（反轉）皆不符。",
+    "optionNotes": [
+      "動詞・回收",
+      "動詞・取代、替換",
+      "動詞・救援",
+      "動詞・反轉"
+    ]
+  },
+  {
+    "id": "sv-245",
+    "category": "副詞",
+    "question": "The construction of the new underground subway system will take ______ five years to complete.",
+    "chinese": "新的地下鐵系統工程大約需要五年才能完成。",
+    "options": [
+      "strictly",
+      "roughly",
+      "smoothly",
+      "passively"
+    ],
+    "answerIndex": 1,
+    "explanation": "roughly（大約地）常接數字，表示估計的時間；strictly（嚴格地）、smoothly（順利地）、passively（被動地）無法用來修飾五年的時間長度。",
+    "optionNotes": [
+      "副詞・嚴格地",
+      "副詞・大致上、大約",
+      "副詞・順利地",
+      "副詞・被動地"
+    ]
+  },
+  {
+    "id": "sv-246",
+    "category": "動詞",
+    "question": "The doctor advised the patient with the highly contagious disease to ______ himself to his room to avoid infecting others.",
+    "chinese": "醫生建議患有高傳染性疾病的病患將自己侷限在房間內，以避免傳染給他人。",
+    "options": [
+      "confirm",
+      "confess",
+      "confine",
+      "confront"
+    ],
+    "answerIndex": 2,
+    "explanation": "confine（侷限、限制）符合將病患隔離在房內的情境，常與 to 連用（confine sb to a place）；confirm（確認）、confess（坦白）、confront（面對）皆為 con- 開頭的易混淆字。",
+    "optionNotes": [
+      "動詞・確認",
+      "動詞・坦白、承認",
+      "動詞・侷限、限制",
+      "動詞・面對、對抗"
+    ]
+  },
+  {
+    "id": "sv-247",
+    "category": "名詞",
+    "question": "The primary ______ of the spacecraft is to collect soil samples from the surface of Mars and return them to Earth.",
+    "chinese": "該太空船的主要任務是從火星表面收集土壤樣本並帶回地球。",
+    "options": [
+      "passion",
+      "pension",
+      "mansion",
+      "mission"
+    ],
+    "answerIndex": 3,
+    "explanation": "mission（任務、使命）符合太空船出航的目的；passion（熱情）、pension（退休金）、mansion（豪宅）皆為字尾 -ssion/-sion 的形近字。",
+    "optionNotes": [
+      "名詞・熱情",
+      "名詞・退休金",
+      "名詞・豪宅",
+      "名詞・任務、使命"
+    ]
+  },
+  {
+    "id": "sv-248",
+    "category": "動詞",
+    "question": "Medical staff must wear protective clothing to ensure that they do not ______ themselves or others with the deadly virus.",
+    "chinese": "醫療人員必須穿著防護衣，以確保他們不會讓自己或他人感染這種致命病毒。",
+    "options": [
+      "infect",
+      "inspect",
+      "inject",
+      "invest"
+    ],
+    "answerIndex": 0,
+    "explanation": "infect（感染）符合醫療防護的情境；inspect（檢查）、inject（注射）、invest（投資）皆不合語意，儘管 inject 在醫療上也常用，但這裡是指染病。",
+    "optionNotes": [
+      "動詞・感染",
+      "動詞・檢查",
+      "動詞・注射",
+      "動詞・投資"
+    ]
+  },
+  {
+    "id": "sv-249",
+    "category": "名詞",
+    "question": "The hotel manager politely declined the guest's ______ for a late checkout because the room had been booked by another customer.",
+    "chinese": "飯店經理禮貌地拒絕了客人延遲退房的要求，因為該房間已被另一位顧客預訂。",
+    "options": [
+      "rescue",
+      "request",
+      "regret",
+      "reward"
+    ],
+    "answerIndex": 1,
+    "explanation": "request（要求）符合向飯店提出的請求；rescue（救援）、regret（後悔）、reward（獎賞）皆為 re- 開頭的字，但不符語境。",
+    "optionNotes": [
+      "名詞・救援",
+      "名詞・要求、請求",
+      "名詞・後悔、遺憾",
+      "名詞・獎賞"
+    ]
+  },
+  {
+    "id": "sv-250",
+    "category": "名詞",
+    "question": "The ancient town, with its narrow cobblestone streets and historical buildings, has a unique ______ that attracts many tourists.",
+    "chinese": "這座古鎮，有著狹窄的鵝卵石街道與歷史建築，具有吸引許多遊客的獨特魅力。",
+    "options": [
+      "chart",
+      "charge",
+      "charm",
+      "chase"
+    ],
+    "answerIndex": 2,
+    "explanation": "charm（魅力）符合吸引遊客的特質描述；chart（圖表）、charge（收費/指控）、chase（追逐）皆不合適。",
+    "optionNotes": [
+      "名詞・圖表",
+      "名詞・收費、指控",
+      "名詞・魅力",
+      "名詞・追逐"
+    ]
+  },
+  {
+    "id": "sv-251",
+    "category": "名詞",
+    "question": "The company is committed to promoting ______ equality by ensuring equal pay for both male and female employees.",
+    "chinese": "這家公司致力於藉由確保男女員工同工同酬來促進性別平權。",
+    "options": [
+      "gesture",
+      "genius",
+      "genre",
+      "gender"
+    ],
+    "answerIndex": 3,
+    "explanation": "gender（性別）搭配 equality 構成 gender equality（性別平等）；gesture（手勢）、genius（天才）、genre（類型）皆為 ge- 開頭的字，但語意不合。",
+    "optionNotes": [
+      "名詞・手勢",
+      "名詞・天才",
+      "名詞・(藝術的) 類型、流派",
+      "名詞・性別"
+    ]
+  },
+  {
+    "id": "sv-252",
+    "category": "名詞",
+    "question": "The computer ______ spread rapidly through the company's network, destroying many important files.",
+    "chinese": "電腦病毒在公司的網路中迅速傳播，破壞了許多重要的檔案。",
+    "options": [
+      "virus",
+      "virtue",
+      "vision",
+      "victim"
+    ],
+    "answerIndex": 0,
+    "explanation": "virus（病毒）符合破壞電腦檔案的程式（computer virus）；virtue（美德）、vision（視力/願景）、victim（受害者）皆為 vi- 開頭的單字但語意不符。",
+    "optionNotes": [
+      "名詞・病毒",
+      "名詞・美德",
+      "名詞・視力、願景",
+      "名詞・受害者"
+    ]
+  },
+  {
+    "id": "sv-253",
+    "category": "名詞",
+    "question": "The professor emphasized that language ______ is a lifelong process that requires continuous practice and exposure.",
+    "chinese": "教授強調，語言學習是一個需要持續練習與接觸的終身過程。",
+    "options": [
+      "leaning",
+      "learning",
+      "leaping",
+      "leading"
+    ],
+    "answerIndex": 1,
+    "explanation": "learning（學習）構成 language learning（語言學習）；leaning（傾斜/傾向）、leaping（跳躍）、leading（領導）皆不符合教育的情境。",
+    "optionNotes": [
+      "名詞・傾斜、傾向",
+      "名詞・學習",
+      "動詞・跳躍 (V-ing)",
+      "形容詞・主要的、領導的"
+    ]
+  },
+  {
+    "id": "sv-254",
+    "category": "形容詞",
+    "question": "Passengers traveling with oversized luggage will be charged an ______ fee at the airport check-in counter.",
+    "chinese": "攜帶超大件行李旅行的乘客，將在機場報到櫃台被收取額外的費用。",
+    "options": [
+      "conditional",
+      "intentional",
+      "additional",
+      "traditional"
+    ],
+    "answerIndex": 2,
+    "explanation": "additional（額外的）搭配 fee 指「額外費用」；conditional（有條件的）、intentional（故意的）、traditional（傳統的）皆無法合理修飾費用。",
+    "optionNotes": [
+      "形容詞・有條件的",
+      "形容詞・故意的",
+      "形容詞・額外的",
+      "形容詞・傳統的"
+    ]
+  },
+  {
+    "id": "sv-255",
+    "category": "動詞",
+    "question": "The teacher decided to ______ a challenging research project to the students over the winter vacation.",
+    "chinese": "老師決定在寒假期間分派一項具挑戰性的研究專案給學生。",
+    "options": [
+      "assist",
+      "assure",
+      "assess",
+      "assign"
+    ],
+    "answerIndex": 3,
+    "explanation": "assign（分派）符合指派作業或任務給學生的情境；assist（協助）、assure（保證）、assess（評估）皆不合語法（assign A to B）。",
+    "optionNotes": [
+      "動詞・協助",
+      "動詞・保證",
+      "動詞・評估",
+      "動詞・分派、指派"
+    ]
+  },
+  {
+    "id": "sv-256",
+    "category": "形容詞",
+    "question": "The famous author has made a ______ amount of money from the sales of his best-selling novels.",
+    "chinese": "這位著名作家從他暢銷小說的銷售中賺取了相當可觀的財富。",
+    "options": [
+      "considerable",
+      "considerate",
+      "conservative",
+      "consistent"
+    ],
+    "answerIndex": 0,
+    "explanation": "considerable（相當大的、可觀的）用來修飾 amount of money（金額）；considerate（體貼的）、conservative（保守的）、consistent（一致的）為大考極常出現的 con- 混淆字組。",
+    "optionNotes": [
+      "形容詞・相當大的、可觀的",
+      "形容詞・體貼的",
+      "形容詞・保守的",
+      "形容詞・一致的"
+    ]
+  },
+  {
+    "id": "sv-257",
+    "category": "動詞",
+    "question": "After retiring from the tech industry, Mr. Anderson decided to ______ his time and energy to charity work.",
+    "chinese": "從科技業退休後，安德森先生決定將他的時間和精力奉獻給慈善工作。",
+    "options": [
+      "defeat",
+      "devote",
+      "deserve",
+      "detect"
+    ],
+    "answerIndex": 1,
+    "explanation": "devote（奉獻）常搭配 to 構成 devote oneself/time to N.，符合投入慈善工作的情境；defeat（擊敗）、deserve（應得）、detect（偵測）皆不符。",
+    "optionNotes": [
+      "動詞・擊敗",
+      "動詞・奉獻、投入",
+      "動詞・應得",
+      "動詞・偵測、察覺"
+    ]
+  },
+  {
+    "id": "sv-258",
+    "category": "動詞",
+    "question": "The student council is planning to ______ a charity concert to raise funds for the local orphanage.",
+    "chinese": "學生會正計畫組織一場慈善演唱會，以為當地的孤兒院募款。",
+    "options": [
+      "originate",
+      "overcome",
+      "organize",
+      "overlook"
+    ],
+    "answerIndex": 2,
+    "explanation": "organize（組織、籌辦）符合籌辦活動（concert）的情境；originate（發源）、overcome（克服）、overlook（忽略/俯瞰）皆不合語意。",
+    "optionNotes": [
+      "動詞・發源、來自",
+      "動詞・克服",
+      "動詞・組織、籌辦",
+      "動詞・忽略、俯瞰"
+    ]
+  },
+  {
+    "id": "sv-259",
+    "category": "形容詞",
+    "question": "To bake a perfect cake, you must follow the recipe and use ______ measurements for all the ingredients.",
+    "chinese": "為了烤出完美的蛋糕，你必須遵循食譜，並對所有材料使用精確的測量。",
+    "options": [
+      "precious",
+      "previous",
+      "primary",
+      "precise"
+    ],
+    "answerIndex": 3,
+    "explanation": "precise（精確的）符合烘焙需要測量分毫不差的情境；precious（珍貴的）、previous（先前的）、primary（主要的）皆為 pre-/pri- 開頭的易混淆字。",
+    "optionNotes": [
+      "形容詞・珍貴的",
+      "形容詞・先前的",
+      "形容詞・首要的、主要的",
+      "形容詞・精確的"
+    ]
+  },
+  {
+    "id": "sv-260",
+    "category": "形容詞",
+    "question": "Music is often considered a ______ language because it can convey emotions to people regardless of their cultural backgrounds.",
+    "chinese": "音樂常被認為是一種共通語言，因為無論人們的文化背景為何，它都能傳達情感。",
+    "options": [
+      "universal",
+      "visual",
+      "virtual",
+      "usual"
+    ],
+    "answerIndex": 0,
+    "explanation": "universal（普遍的、共通的）符合不受文化限制的特性；visual（視覺的）、virtual（虛擬的）、usual（平常的）皆不符合「共通語言」的概念。",
+    "optionNotes": [
+      "形容詞・普遍的、共通的",
+      "形容詞・視覺的",
+      "形容詞・虛擬的",
+      "形容詞・平常的"
+    ]
+  },
+  {
+    "id": "sv-261",
+    "category": "名詞",
+    "question": "After a twelve-hour flight, the exhausted travelers finally arrived at their holiday ______.",
+    "chinese": "經過十二小時的飛行，筋疲力盡的旅客終於抵達了他們的度假目的地。",
+    "options": [
+      "destruction",
+      "destination",
+      "declaration",
+      "definition"
+    ],
+    "answerIndex": 1,
+    "explanation": "destination（目的地）符合旅行抵達終點的語境；destruction（破壞）、declaration（宣言）、definition（定義）皆為 de- 開頭的名詞，但語意不合。",
+    "optionNotes": [
+      "名詞・破壞",
+      "名詞・目的地",
+      "名詞・宣言、聲明",
+      "名詞・定義"
+    ]
+  },
+  {
+    "id": "sv-262",
+    "category": "名詞",
+    "question": "The movie is rated R because it contains scenes of intense ______ and strong language.",
+    "chinese": "這部電影被評為限制級，因為它包含強烈的暴力與粗俗語言的場景。",
+    "options": [
+      "violation",
+      "volume",
+      "violence",
+      "vision"
+    ],
+    "answerIndex": 2,
+    "explanation": "violence（暴力）符合電影分級（限制級）的原因；violation（違反）、volume（音量/體積）、vision（視力）皆不合適。",
+    "optionNotes": [
+      "名詞・違反",
+      "名詞・音量、體積",
+      "名詞・暴力",
+      "名詞・視力、願景"
+    ]
+  },
+  {
+    "id": "sv-263",
+    "category": "動詞",
+    "question": "The clown was hired to ______ the children at the birthday party with magic tricks and balloon animals.",
+    "chinese": "這名小丑被雇來用魔術和氣球動物在生日派對上娛樂孩子們。",
+    "options": [
+      "enter",
+      "encounter",
+      "encourage",
+      "entertain"
+    ],
+    "answerIndex": 3,
+    "explanation": "entertain（娛樂、使快樂）符合小丑表演取悅孩童的情境；enter（進入）、encounter（遭遇）、encourage（鼓勵）皆為 en- 開頭的動詞，但語境不符。",
+    "optionNotes": [
+      "動詞・進入",
+      "動詞・遭遇",
+      "動詞・鼓勵",
+      "動詞・娛樂、招待"
+    ]
+  },
+  {
+    "id": "sv-264",
+    "category": "名詞",
+    "question": "The local supermarket imports a variety of canned ______ and fresh produce from neighboring countries.",
+    "chinese": "當地的超市從鄰國進口各種罐頭食品（貨物）與新鮮農產品。",
+    "options": [
+      "goods",
+      "goals",
+      "guests",
+      "guides"
+    ],
+    "answerIndex": 0,
+    "explanation": "goods（貨物、商品）搭配 canned 構成 canned goods（罐頭食品）；goals（目標）、guests（客人）、guides（指南/導遊）皆不合語意。注意 good 加上 s 才轉為商品之意。",
+    "optionNotes": [
+      "名詞・商品、貨物 (恆用複數)",
+      "名詞・目標",
+      "名詞・客人",
+      "名詞・指南、導遊"
+    ]
+  },
+  {
+    "id": "sv-265",
+    "category": "形容詞",
+    "question": "The doctor gave the patient ______ instructions on how and when to take the prescribed medication.",
+    "chinese": "醫生給予該病患關於如何以及何時服用處方藥的具體指示。",
+    "options": [
+      "scientific",
+      "specific",
+      "sympathetic",
+      "synthetic"
+    ],
+    "answerIndex": 1,
+    "explanation": "specific（具體的、特定的）符合給予詳細明確指示的情境；scientific（科學的）、sympathetic（有同情心的）、synthetic（合成的）皆不搭配 instructions（指示）。",
+    "optionNotes": [
+      "形容詞・科學的",
+      "形容詞・特定的、具體的",
+      "形容詞・有同情心的",
+      "形容詞・合成的"
+    ]
+  },
+  {
+    "id": "sv-266",
+    "category": "名詞",
+    "question": "Scientists have discovered a ______ that may be responsible for the rare hereditary disease in the family.",
+    "chinese": "科學家發現了一種可能導致該家族罕見遺傳疾病的基因。",
+    "options": [
+      "gem",
+      "gear",
+      "gene",
+      "germ"
+    ],
+    "answerIndex": 2,
+    "explanation": "gene（基因）符合遺傳疾病（hereditary disease）的科學研究情境；gem（寶石）、gear（裝備）、germ（細菌）為發音或拼寫相近的字，但基因才與遺傳直接相關。",
+    "optionNotes": [
+      "名詞・寶石",
+      "名詞・裝備、齒輪",
+      "名詞・基因",
+      "名詞・細菌"
+    ]
+  },
+  {
+    "id": "sv-267",
+    "category": "形容詞",
+    "question": "The tourists were amazed by the well-preserved ______ castle, which was built in the 12th century.",
+    "chinese": "遊客們對那座建於 12 世紀、保存完好的中世紀城堡感到驚嘆。",
+    "options": [
+      "medical",
+      "mental",
+      "manual",
+      "medieval"
+    ],
+    "answerIndex": 3,
+    "explanation": "medieval（中世紀的）符合 12 世紀城堡的歷史背景；medical（醫療的）、mental（心理的）、manual（手工的）皆不符合修飾城堡。",
+    "optionNotes": [
+      "形容詞・醫療的",
+      "形容詞・心理的",
+      "形容詞・手工的；名詞・手冊",
+      "形容詞・中世紀的"
+    ]
+  },
+  {
+    "id": "sv-268",
+    "category": "名詞",
+    "question": "The police discovered a hidden ______ in the suspect's car, which matched the description of the item used in the robbery.",
+    "chinese": "警方在嫌犯車內發現了一把隱藏的武器，與搶劫案中使用的物品描述相符。",
+    "options": [
+      "weapon",
+      "warning",
+      "wealth",
+      "wisdom"
+    ],
+    "answerIndex": 0,
+    "explanation": "weapon（武器）符合搶劫案（robbery）中使用的犯罪工具；warning（警告）、wealth（財富）、wisdom（智慧）皆不合語意。",
+    "optionNotes": [
+      "名詞・武器",
+      "名詞・警告",
+      "名詞・財富",
+      "名詞・智慧"
+    ]
+  },
+  {
+    "id": "sv-269",
+    "category": "名詞",
+    "question": "The tropical rainforest is home to thousands of rare plant and animal ______, many of which are not found anywhere else.",
+    "chinese": "熱帶雨林是數以千計的稀有動植物物種的棲息地，其中許多在其他任何地方都找不到。",
+    "options": [
+      "spices",
+      "species",
+      "spaces",
+      "speeches"
+    ],
+    "answerIndex": 1,
+    "explanation": "species（物種，單複數同形）符合描述動植物種類；spices（香料）、spaces（空間）、speeches（演說）皆為形近字但語意不通。",
+    "optionNotes": [
+      "名詞・香料 (複數)",
+      "名詞・物種 (單複數同形)",
+      "名詞・空間 (複數)",
+      "名詞・演講 (複數)"
+    ]
+  },
+  {
+    "id": "sv-270",
+    "category": "名詞",
+    "question": "The graduation ______ was held in the school auditorium, where students received their diplomas from the principal.",
+    "chinese": "畢業典禮在學校禮堂舉行，學生們在那裡從校長手中接過畢業證書。",
+    "options": [
+      "chemistry",
+      "century",
+      "ceremony",
+      "celebrity"
+    ],
+    "answerIndex": 2,
+    "explanation": "ceremony（典禮、儀式）構成 graduation ceremony（畢業典禮）；chemistry（化學）、century（世紀）、celebrity（名人）皆為 ce- 或 ch- 開頭的形近字。",
+    "optionNotes": [
+      "名詞・化學",
+      "名詞・世紀",
+      "名詞・典禮、儀式",
+      "名詞・名人"
+    ]
+  },
+  {
+    "id": "sv-271",
+    "category": "動詞",
+    "question": "Before signing the complicated business contract, it is highly recommended that you ______ a professional lawyer.",
+    "chinese": "在簽署這份複雜的商業合約之前，強烈建議您諮詢專業律師。",
+    "options": [
+      "insult",
+      "result",
+      "consume",
+      "consult"
+    ],
+    "answerIndex": 3,
+    "explanation": "consult（諮詢、請教）符合找律師提供專業意見的情境；insult（侮辱）、result（導致/結果）、consume（消耗）皆不合適。",
+    "optionNotes": [
+      "動詞・侮辱",
+      "動詞・導致；名詞・結果",
+      "動詞・消耗、消費",
+      "動詞・諮詢、請教"
+    ]
+  },
+  {
+    "id": "sv-272",
+    "category": "動詞",
+    "question": "Your academic performance and extracurricular activities will help the committee ______ whether you are eligible for the scholarship.",
+    "chinese": "你的學業表現與課外活動將幫助委員會決定你是否有資格獲得該獎學金。",
+    "options": [
+      "determine",
+      "decline",
+      "describe",
+      "defend"
+    ],
+    "answerIndex": 0,
+    "explanation": "determine（決定、確定）符合審查資格的動作；decline（拒絕/衰退）、describe（描述）、defend（防禦）皆為 de- 開頭但語意不合。",
+    "optionNotes": [
+      "動詞・決定、確定",
+      "動詞・拒絕、衰弱",
+      "動詞・描述",
+      "動詞・防禦、辯護"
+    ]
+  },
+  {
+    "id": "sv-273",
+    "category": "名詞",
+    "question": "With the global push for environmental protection, many car manufacturers are developing vehicles that run on alternative ______.",
+    "chinese": "隨著全球推動環境保護，許多汽車製造商正在開發使用替代燃料運行的車輛。",
+    "options": [
+      "fund",
+      "fuel",
+      "fault",
+      "fate"
+    ],
+    "answerIndex": 1,
+    "explanation": "fuel（燃料）搭配 alternative 構成 alternative fuels（替代燃料）；fund（資金）、fault（過錯）、fate（命運）皆不符合車輛運行的能源。",
+    "optionNotes": [
+      "名詞・資金",
+      "名詞・燃料",
+      "名詞・過錯、缺點",
+      "名詞・命運"
+    ]
+  },
+  {
+    "id": "sv-274",
+    "category": "動詞",
+    "question": "The government has decided to ______ a new public health campaign to encourage citizens to get vaccinated.",
+    "chinese": "政府決定發起一項新的公共衛生倡議活動，以鼓勵公民接種疫苗。",
+    "options": [
+      "imitate",
+      "isolate",
+      "initiate",
+      "illustrate"
+    ],
+    "answerIndex": 2,
+    "explanation": "initiate（發起、開始）符合推動新政策或活動的情境；imitate（模仿）、isolate（隔離）、illustrate（說明）皆為 i- 開頭的易混淆動詞。",
+    "optionNotes": [
+      "動詞・模仿",
+      "動詞・隔離",
+      "動詞・發起、開始",
+      "動詞・(用圖表/例子) 說明"
+    ]
+  },
+  {
+    "id": "sv-275",
+    "category": "動詞",
+    "question": "It took the city government months of effort to get ______ of the rat problem in the underground subway stations.",
+    "chinese": "市政府花了幾個月的努力才擺脫地下鐵車站的鼠患問題。",
+    "options": [
+      "rob",
+      "rip",
+      "rot",
+      "rid"
+    ],
+    "answerIndex": 3,
+    "explanation": "rid（免除、擺脫）構成固定片語 get rid of（擺脫、消除）；rob（搶劫）、rip（撕裂）、rot（腐爛）皆不符合該片語結構。",
+    "optionNotes": [
+      "動詞・搶劫",
+      "動詞・撕裂",
+      "動詞・腐爛",
+      "動詞・免除、擺脫 (get rid of)"
+    ]
+  },
+  {
+    "id": "sv-276",
+    "category": "動詞",
+    "question": "Be careful when walking on the icy pavement, or you might easily ______ your ankle.",
+    "chinese": "走在結冰的人行道上要小心，否則你很容易會扭傷腳踝。",
+    "options": [
+      "twist",
+      "toss",
+      "tear",
+      "trip"
+    ],
+    "answerIndex": 0,
+    "explanation": "twist（扭傷）搭配 ankle 表示扭傷腳踝；toss（拋/擲）、tear（撕裂）、trip（絆倒）雖然 trip 也有跌倒之意，但不會說 trip your ankle。",
+    "optionNotes": [
+      "動詞・扭傷、扭轉",
+      "動詞・拋、擲",
+      "動詞・撕裂",
+      "動詞・絆倒；名詞・旅行"
+    ]
+  },
+  {
+    "id": "sv-277",
+    "category": "名詞",
+    "question": "Electric ______s are becoming increasingly popular due to their environmental benefits and lower running costs.",
+    "chinese": "電動車輛因為其環保效益與較低的運行成本而變得越來越受歡迎。",
+    "options": [
+      "valleys",
+      "vehicles",
+      "vessels",
+      "victims"
+    ],
+    "answerIndex": 1,
+    "explanation": "vehicles（車輛）構成 Electric vehicles（電動車）；valleys（山谷）、vessels（船隻/血管）、victims（受害者）皆為 v- 開頭，但不符語境。",
+    "optionNotes": [
+      "名詞・山谷 (複數)",
+      "名詞・車輛 (複數)",
+      "名詞・船隻、血管 (複數)",
+      "名詞・受害者 (複數)"
+    ]
+  },
+  {
+    "id": "sv-278",
+    "category": "形容詞",
+    "question": "After spending all his savings on a luxury sports car, John found himself completely ______ by the end of the month.",
+    "chinese": "在把所有的存款都花在一輛豪華跑車上之後，約翰發覺自己到了月底完全破產了。",
+    "options": [
+      "blind",
+      "blank",
+      "broke",
+      "broad"
+    ],
+    "answerIndex": 2,
+    "explanation": "broke（破產的、身無分文的）形容詞，符合花光存款的結果；blind（盲目的）、blank（空白的）、broad（寬廣的）皆不合語意。",
+    "optionNotes": [
+      "形容詞・盲目的",
+      "形容詞・空白的",
+      "形容詞・破產的、身無分文的",
+      "形容詞・寬廣的"
+    ]
+  },
+  {
+    "id": "sv-279",
+    "category": "動詞",
+    "question": "Adding some fresh herbs to the soup will greatly ______ its flavor and make it much more delicious.",
+    "chinese": "在湯裡加一些新鮮的香草會大大提升它的風味，讓它變得更美味。",
+    "options": [
+      "enforce",
+      "enlarge",
+      "engage",
+      "enhance"
+    ],
+    "answerIndex": 3,
+    "explanation": "enhance（提升、增強）符合提升食物風味的情境；enforce（執行）、enlarge（擴大）、engage（參與）皆為 en- 開頭的動詞，但語意不搭配。",
+    "optionNotes": [
+      "動詞・執行 (法律)",
+      "動詞・擴大",
+      "動詞・參與、吸引",
+      "動詞・提升、增強"
+    ]
+  },
+  {
+    "id": "sv-280",
+    "category": "名詞",
+    "question": "The villagers placed fruits and flowers on the altar as an ______ to the gods for a good harvest.",
+    "chinese": "村民們將水果和花卉放在祭壇上作為給神明的祭品，以祈求豐收。",
+    "options": [
+      "offering",
+      "offending",
+      "opposing",
+      "operating"
+    ],
+    "answerIndex": 0,
+    "explanation": "offering（祭品、提供物）符合供奉神明的情境；offending（冒犯，動名詞）、opposing（反對，動名詞）、operating（操作，動名詞）皆不合語法與語意。",
+    "optionNotes": [
+      "名詞・祭品、提供物",
+      "動詞・冒犯 (V-ing)",
+      "動詞・反對 (V-ing)",
+      "動詞・操作 (V-ing)"
+    ]
+  },
+  {
+    "id": "sv-281",
+    "category": "動詞",
+    "question": "Many popular words in the English language actually ______ from Latin or Greek roots.",
+    "chinese": "英語中許多受歡迎的單字實際上源自拉丁語或希臘語的字根。",
+    "options": [
+      "organize",
+      "originate",
+      "operate",
+      "occupy"
+    ],
+    "answerIndex": 1,
+    "explanation": "originate（發源、來自）搭配 from 說明單字的詞源；organize（組織）、operate（操作）、occupy（佔領）皆不合適。",
+    "optionNotes": [
+      "動詞・組織",
+      "動詞・發源、來自",
+      "動詞・操作",
+      "動詞・佔據"
+    ]
+  },
+  {
+    "id": "sv-282",
+    "category": "名詞",
+    "question": "The university ______ published a groundbreaking paper on quantum physics that attracted worldwide attention.",
+    "chinese": "這位大學教授發表了一篇關於量子物理的突破性論文，吸引了全世界的關注。",
+    "options": [
+      "profession",
+      "profit",
+      "professor",
+      "proposal"
+    ],
+    "answerIndex": 2,
+    "explanation": "professor（教授）符合在大學裡發表學術論文的身分；profession（職業）、profit（利潤）、proposal（提案）皆為 pro- 開頭的名詞，但語境不通。",
+    "optionNotes": [
+      "名詞・職業",
+      "名詞・利潤",
+      "名詞・教授",
+      "名詞・提案"
+    ]
+  },
+  {
+    "id": "sv-283",
+    "category": "名詞",
+    "question": "In ancient times, black pepper was an expensive ______ that was highly valued for its ability to preserve meat.",
+    "chinese": "在古代，黑胡椒是一種昂貴的香料，因其保存肉類的能力而受到高度重視。",
+    "options": [
+      "space",
+      "slice",
+      "spirit",
+      "spice"
+    ],
+    "answerIndex": 3,
+    "explanation": "spice（香料）符合黑胡椒（black pepper）的分類；space（空間）、slice（薄片）、spirit（精神）皆不合邏輯。",
+    "optionNotes": [
+      "名詞・空間、太空",
+      "名詞・薄片",
+      "名詞・精神、靈魂",
+      "名詞・香料"
+    ]
+  },
+  {
+    "id": "sv-284",
+    "category": "名詞",
+    "question": "Thousands of ______ fled across the border to escape the ongoing civil war in their home country.",
+    "chinese": "數以千計的難民逃越邊境，以躲避他們祖國持續發生的內戰。",
+    "options": [
+      "refugees",
+      "referees",
+      "representatives",
+      "relatives"
+    ],
+    "answerIndex": 0,
+    "explanation": "refugees（難民）符合逃避戰爭而越境的人；referees（裁判）、representatives（代表）、relatives（親戚）皆為 re- 開頭指稱「人」的名詞，但不符語境。",
+    "optionNotes": [
+      "名詞・難民 (複數)",
+      "名詞・裁判 (複數)",
+      "名詞・代表 (複數)",
+      "名詞・親戚 (複數)"
+    ]
+  },
+  {
+    "id": "sv-285",
+    "category": "動詞",
+    "question": "If you leave the colorful painting in direct sunlight for too long, the bright colors will eventually ______.",
+    "chinese": "如果你把這幅色彩鮮豔的畫作放在陽光直射下太久，明亮的顏色最終會褪色。",
+    "options": [
+      "fold",
+      "fade",
+      "fire",
+      "fail"
+    ],
+    "answerIndex": 1,
+    "explanation": "fade（褪色、消退）符合陽光照射導致顏色消失的情境；fold（折疊）、fire（開火/解雇）、fail（失敗）皆為 f- 開頭動詞但語意不通。",
+    "optionNotes": [
+      "動詞・折疊",
+      "動詞・褪色、消退",
+      "動詞・開火、解雇",
+      "動詞・失敗"
+    ]
   }
 ]
