@@ -5477,6 +5477,7 @@
   },
   {
     "id": "sv-277",
+    "wordGroup": "vehicle",
     "category": "名詞",
     "question": "Electric ______s are becoming increasingly popular due to their environmental benefits and lower running costs.",
     "chinese": "電動車輛因為其環保效益與較低的運行成本而變得越來越受歡迎。",
@@ -5617,6 +5618,7 @@
   },
   {
     "id": "sv-284",
+    "wordGroup": "refugee",
     "category": "名詞",
     "question": "Thousands of ______ fled across the border to escape the ongoing civil war in their home country.",
     "chinese": "數以千計的難民逃越邊境，以躲避他們祖國持續發生的內戰。",
@@ -5716,6 +5718,1010 @@
       "動詞・容納、提供住宿",
       "動詞・陪伴、伴隨",
       "形容詞・習慣的"
+    ]
+  },
+  {
+    "id": "sv-286",
+    "category": "名詞",
+    "question": "The zebra is famous for its distinctive black and white ______.",
+    "chinese": "斑馬以其獨特的黑白條紋而聞名。",
+    "options": [
+      "stripes",
+      "streams",
+      "strings",
+      "strokes"
+    ],
+    "answerIndex": 0,
+    "explanation": "stripes（條紋）符合斑馬身上的花紋特徵；streams（溪流）、strings（細繩）、strokes（筆觸/中風）皆不合語意。",
+    "optionNotes": [
+      "名詞・條紋 (複數)",
+      "名詞・溪流 (複數)",
+      "名詞・細繩、弦 (複數)",
+      "名詞・筆觸、中風 (複數)"
+    ],
+    "wordGroup": "stripe"
+  },
+  {
+    "id": "sv-287",
+    "category": "動詞",
+    "question": "The famous singer was ______ by a live orchestra during her spectacular performance.",
+    "chinese": "這位著名歌手在她精彩的表演中，由現場管弦樂團伴奏（陪伴）。",
+    "options": [
+      "accustomed",
+      "accompanied",
+      "accomplished",
+      "accommodated"
+    ],
+    "answerIndex": 1,
+    "explanation": "accompanied（陪伴、伴奏）常與 by 連用，符合音樂表演中由樂團伴奏的情境；accustomed（習慣的）、accomplished（完成的/有才華的）、accommodated（容納）為易混淆字。",
+    "optionNotes": [
+      "形容詞・習慣的",
+      "動詞・陪伴、伴奏 (過去分詞)",
+      "動詞・完成；形容詞・有才華的",
+      "動詞・容納、提供住宿 (過去分詞)"
+    ],
+    "wordGroup": "accompany"
+  },
+  {
+    "id": "sv-288",
+    "category": "名詞",
+    "question": "No motor ______s are allowed in the park to ensure the safety of pedestrians and cyclists.",
+    "chinese": "為了確保行人和自行車騎士的安全，公園內禁止任何機動車輛進入。",
+    "options": [
+      "victims",
+      "vessels",
+      "vehicles",
+      "valleys"
+    ],
+    "answerIndex": 2,
+    "explanation": "vehicles（車輛）搭配 motor 構成 motor vehicles（機動車輛）；victims（受害者）、vessels（船隻/血管）、valleys（山谷）皆不合語意。",
+    "optionNotes": [
+      "名詞・受害者 (複數)",
+      "名詞・船隻、血管 (複數)",
+      "名詞・車輛 (複數)",
+      "名詞・山谷 (複數)"
+    ],
+    "wordGroup": "vehicle"
+  },
+  {
+    "id": "sv-289",
+    "category": "名詞",
+    "question": "The international organization provided food and shelter for the ______s escaping the war zone.",
+    "chinese": "該國際組織為逃離戰區的難民提供食物和住所。",
+    "options": [
+      "relatives",
+      "representatives",
+      "referees",
+      "refugees"
+    ],
+    "answerIndex": 3,
+    "explanation": "refugees（難民）符合逃離戰區並需要庇護的人；relatives（親戚）、representatives（代表）、referees（裁判）皆為 re- 開頭指稱人的名詞，但語意不通。",
+    "optionNotes": [
+      "名詞・親戚 (複數)",
+      "名詞・代表 (複數)",
+      "名詞・裁判 (複數)",
+      "名詞・難民 (複數)"
+    ],
+    "wordGroup": "refugee"
+  },
+  {
+    "id": "sv-290",
+    "category": "名詞",
+    "question": "The main ______ of this educational program is to help teenagers develop better communication skills.",
+    "chinese": "這個教育計畫的主要目標是幫助青少年發展更好的溝通技巧。",
+    "options": [
+      "objective",
+      "objection",
+      "obligation",
+      "observation"
+    ],
+    "answerIndex": 0,
+    "explanation": "objective（目標）符合計畫要達成的事項；objection（反對）、obligation（義務）、observation（觀察）皆為 ob- 開頭的名詞，但語境不符。",
+    "optionNotes": [
+      "名詞・目標；形容詞・客觀的",
+      "名詞・反對",
+      "名詞・義務、責任",
+      "名詞・觀察"
+    ]
+  },
+  {
+    "id": "sv-291",
+    "category": "動詞",
+    "question": "Taking a warm bath before bed can help ______ stress and relax your tight muscles.",
+    "chinese": "睡前泡個熱水澡可以幫助緩解壓力，並放鬆緊繃的肌肉。",
+    "options": [
+      "recover",
+      "relieve",
+      "require",
+      "replace"
+    ],
+    "answerIndex": 1,
+    "explanation": "relieve（緩解、減輕）常搭配 stress（壓力）或 pain（疼痛）；recover（恢復）通常接 from，require（要求）、replace（取代）皆不合語意。",
+    "optionNotes": [
+      "動詞・恢復",
+      "動詞・緩解、減輕",
+      "動詞・要求",
+      "動詞・取代、替換"
+    ]
+  },
+  {
+    "id": "sv-292",
+    "category": "名詞",
+    "question": "The professor used several daily-life examples to explain the complex ______ of quantum physics.",
+    "chinese": "教授用了幾個日常生活的例子來解釋量子物理這個複雜的概念。",
+    "options": [
+      "concert",
+      "context",
+      "concept",
+      "conflict"
+    ],
+    "answerIndex": 2,
+    "explanation": "concept（概念）符合解釋學術理論的情境；concert（音樂會）、context（上下文/脈絡）、conflict（衝突）皆為 con- 開頭名詞，但不符語意。",
+    "optionNotes": [
+      "名詞・音樂會",
+      "名詞・上下文、脈絡",
+      "名詞・概念",
+      "名詞・衝突"
+    ]
+  },
+  {
+    "id": "sv-293",
+    "category": "名詞",
+    "question": "You should pay your ______ card bill on time every month to maintain a good financial reputation.",
+    "chinese": "你應該每個月按時繳納信用卡帳單，以維持良好的財務信譽。",
+    "options": [
+      "crisis",
+      "custom",
+      "clinic",
+      "credit"
+    ],
+    "answerIndex": 3,
+    "explanation": "credit（信用）搭配 card 構成 credit card（信用卡）；crisis（危機）、custom（習俗）、clinic（診所）皆無法與 card 搭配出合理的金融詞彙。",
+    "optionNotes": [
+      "名詞・危機",
+      "名詞・習俗、海關",
+      "名詞・診所",
+      "名詞・信用"
+    ]
+  },
+  {
+    "id": "sv-294",
+    "category": "名詞",
+    "question": "A large ______ of birds flew across the sky, heading south for the approaching winter.",
+    "chinese": "一大群鳥飛越天空，朝南飛去以迎接即將到來的冬天。",
+    "options": [
+      "flock",
+      "flash",
+      "fleet",
+      "frame"
+    ],
+    "answerIndex": 0,
+    "explanation": "flock（群）是專門用來形容鳥類或羊群的集合名詞（a flock of birds）；flash（閃光）、fleet（艦隊）、frame（框架）皆不合用法。",
+    "optionNotes": [
+      "名詞・(鳥/羊) 群",
+      "名詞・閃光",
+      "名詞・艦隊",
+      "名詞・框架"
+    ]
+  },
+  {
+    "id": "sv-295",
+    "category": "名詞",
+    "question": "Customers have the ______ to pay for their purchases either in cash or by credit card.",
+    "chinese": "顧客可以選擇用現金或信用卡支付購買的商品。",
+    "options": [
+      "opinion",
+      "option",
+      "origin",
+      "operation"
+    ],
+    "answerIndex": 1,
+    "explanation": "option（選擇、選項）搭配 have the option to V 表示「有選擇的權利/方式」；opinion（意見）、origin（起源）、operation（操作/手術）皆不合語意。",
+    "optionNotes": [
+      "名詞・意見",
+      "名詞・選項、選擇",
+      "名詞・起源",
+      "名詞・操作、手術"
+    ]
+  },
+  {
+    "id": "sv-296",
+    "category": "動詞",
+    "question": "The newly discovered insect species ______ a dry leaf, which helps it hide from predators.",
+    "chinese": "這種新發現的昆蟲物種外表類似枯葉，這有助於牠躲避掠食者。",
+    "options": [
+      "remembers",
+      "replaces",
+      "resembles",
+      "restores"
+    ],
+    "answerIndex": 2,
+    "explanation": "resembles（類似、像）符合昆蟲擬態枯葉的情境；remembers（記得）、replaces（取代）、restores（修復）皆不合邏輯。",
+    "optionNotes": [
+      "動詞・記得",
+      "動詞・取代",
+      "動詞・類似、像",
+      "動詞・修復、恢復"
+    ]
+  },
+  {
+    "id": "sv-297",
+    "category": "名詞",
+    "question": "The police are currently looking for anyone who might have been a ______ to the car accident.",
+    "chinese": "警方目前正在尋找任何可能是這起車禍目擊證人的人。",
+    "options": [
+      "wizard",
+      "winner",
+      "widow",
+      "witness"
+    ],
+    "answerIndex": 3,
+    "explanation": "witness（目擊者、證人）符合警方辦理車禍案件尋找對象的情境；wizard（巫師）、winner（贏家）、widow（寡婦）皆為 wi- 開頭名詞，但語境不通。",
+    "optionNotes": [
+      "名詞・巫師",
+      "名詞・贏家",
+      "名詞・寡婦",
+      "名詞・目擊者、證人"
+    ]
+  },
+  {
+    "id": "sv-298",
+    "category": "名詞",
+    "question": "The king wore a magnificent ______ decorated with precious diamonds and rubies during the ceremony.",
+    "chinese": "國王在典禮上戴著一頂裝飾著珍貴鑽石與紅寶石的華麗王冠。",
+    "options": [
+      "crown",
+      "crowd",
+      "crash",
+      "crawl"
+    ],
+    "answerIndex": 0,
+    "explanation": "crown（王冠）符合國王佩戴且裝飾寶石的物品；crowd（群眾）、crash（撞擊）、crawl（爬行，作名詞用）皆不合語意。",
+    "optionNotes": [
+      "名詞・王冠",
+      "名詞・群眾",
+      "名詞・撞擊",
+      "名詞・爬行"
+    ]
+  },
+  {
+    "id": "sv-299",
+    "category": "名詞",
+    "question": "It takes years of rigorous physical and mental training to become a qualified ______ capable of exploring space.",
+    "chinese": "要成為一名能夠探索太空的合格太空人，需要多年的嚴格身心訓練。",
+    "options": [
+      "astronomer",
+      "astronaut",
+      "architect",
+      "ancestor"
+    ],
+    "answerIndex": 1,
+    "explanation": "astronaut（太空人）符合前往太空探索的職業；astronomer（天文學家）在地球上研究天文，不去太空；architect（建築師）、ancestor（祖先）皆不符。",
+    "optionNotes": [
+      "名詞・天文學家",
+      "名詞・太空人",
+      "名詞・建築師",
+      "名詞・祖先"
+    ]
+  },
+  {
+    "id": "sv-300",
+    "category": "名詞",
+    "question": "Due to global warming, the massive ______ in the polar region is melting at an alarming rate.",
+    "chinese": "由於全球暖化，極地地區的巨大冰河正以驚人的速度融化。",
+    "options": [
+      "grocery",
+      "grammar",
+      "glacier",
+      "gesture"
+    ],
+    "answerIndex": 2,
+    "explanation": "glacier（冰河）符合極地融化的自然現象；grocery（食品雜貨）、grammar（文法）、gesture（手勢）皆為 g- 開頭名詞，但與暖化無關。",
+    "optionNotes": [
+      "名詞・食品雜貨",
+      "名詞・文法",
+      "名詞・冰河",
+      "名詞・手勢"
+    ]
+  },
+  {
+    "id": "sv-301",
+    "category": "名詞",
+    "question": "The experienced ______ skillfully landed the airplane despite the severe thunderstorm and strong winds.",
+    "chinese": "儘管有嚴重的雷雨和強風，經驗豐富的飛行員仍熟練地降落了飛機。",
+    "options": [
+      "pirate",
+      "parrot",
+      "patriot",
+      "pilot"
+    ],
+    "answerIndex": 3,
+    "explanation": "pilot（飛行員）符合駕駛飛機的身分；pirate（海盜）、parrot（鸚鵡）、patriot（愛國者）皆為 p- 開頭名詞，但語意不通。",
+    "optionNotes": [
+      "名詞・海盜",
+      "名詞・鸚鵡",
+      "名詞・愛國者",
+      "名詞・飛行員"
+    ]
+  },
+  {
+    "id": "sv-302",
+    "category": "動詞",
+    "question": "The principal gathered all the students in the hall to ______ the winner of the national science competition.",
+    "chinese": "校長將所有學生聚集在禮堂，以宣布全國科學競賽的獲勝者。",
+    "options": [
+      "announce",
+      "apologize",
+      "appreciate",
+      "assign"
+    ],
+    "answerIndex": 0,
+    "explanation": "announce（宣布、公告）符合公開告知比賽結果的情境；apologize（道歉）、appreciate（欣賞/感激）、assign（指派）皆不合語意。",
+    "optionNotes": [
+      "動詞・宣布、公告",
+      "動詞・道歉",
+      "動詞・感激、欣賞",
+      "動詞・分派、指派"
+    ]
+  },
+  {
+    "id": "sv-303",
+    "category": "形容詞",
+    "question": "The loud noise from the construction site kept me ______ all night.",
+    "chinese": "建築工地的巨大噪音讓我整晚都醒著。",
+    "options": [
+      "aware",
+      "awake",
+      "ashamed",
+      "asleep"
+    ],
+    "answerIndex": 1,
+    "explanation": "awake（醒著的）搭配 keep sb awake 表示讓人無法入睡；aware（意識到的）、ashamed（感到羞恥的）、asleep（睡著的）皆為 a- 開頭形容詞，其中 asleep 意思相反。",
+    "optionNotes": [
+      "形容詞・意識到的",
+      "形容詞・醒著的",
+      "形容詞・感到羞愧的",
+      "形容詞・睡著的"
+    ]
+  },
+  {
+    "id": "sv-304",
+    "category": "動詞",
+    "question": "Eating a healthy breakfast every morning can significantly ______ your energy levels for the whole day.",
+    "chinese": "每天早上吃健康的早餐可以顯著提升你一整天的活力。",
+    "options": [
+      "boast",
+      "boot",
+      "boost",
+      "bloom"
+    ],
+    "answerIndex": 2,
+    "explanation": "boost（促進、提升）符合提升能量（energy levels）的情境；boast（吹噓）、boot（長靴/開機）、bloom（開花）皆為形近字。",
+    "optionNotes": [
+      "動詞・吹噓、自誇",
+      "動詞・開機；名詞・長靴",
+      "動詞・促進、提升",
+      "動詞・開花"
+    ]
+  },
+  {
+    "id": "sv-305",
+    "category": "名詞",
+    "question": "The whole town held a grand ______ to mark the 100th anniversary of its founding.",
+    "chinese": "全鎮舉行了一場盛大的慶典來紀念建鎮一百週年。",
+    "options": [
+      "combination",
+      "calculation",
+      "concentration",
+      "celebration"
+    ],
+    "answerIndex": 3,
+    "explanation": "celebration（慶典、慶祝）符合紀念週年（anniversary）的活動；combination（結合）、calculation（計算）、concentration（專心/集中）皆為 -tion 結尾名詞但不符。",
+    "optionNotes": [
+      "名詞・結合",
+      "名詞・計算",
+      "名詞・專心、集中",
+      "名詞・慶典、慶祝"
+    ]
+  },
+  {
+    "id": "sv-306",
+    "category": "名詞",
+    "question": "The invention of the internet marked the beginning of a new ______ in human communication and information sharing.",
+    "chinese": "網際網路的發明標誌著人類通訊與資訊分享新時代的開始。",
+    "options": [
+      "era",
+      "error",
+      "echo",
+      "edge"
+    ],
+    "answerIndex": 0,
+    "explanation": "era（時代）常與 a new 連用（a new era），表示劃時代的轉變；error（錯誤）、echo（回音）、edge（邊緣）皆為 e- 開頭名詞，但不合語境。",
+    "optionNotes": [
+      "名詞・時代",
+      "名詞・錯誤",
+      "名詞・回音",
+      "名詞・邊緣、優勢"
+    ]
+  },
+  {
+    "id": "sv-307",
+    "category": "形容詞",
+    "question": "The doctor advised the patient to engage in ______ exercise, such as walking or swimming, for thirty minutes a day.",
+    "chinese": "醫生建議病患每天進行適度的運動，例如散步或游泳，持續三十分鐘。",
+    "options": [
+      "modern",
+      "moderate",
+      "modest",
+      "moral"
+    ],
+    "answerIndex": 1,
+    "explanation": "moderate（適度的、溫和的）用來修飾運動，表示強度適中；modern（現代的）、modest（謙虛的）、moral（道德的）皆為 mod- / mor- 易混淆字。",
+    "optionNotes": [
+      "形容詞・現代的",
+      "形容詞・適度的、溫和的",
+      "形容詞・謙虛的",
+      "形容詞・道德的"
+    ]
+  },
+  {
+    "id": "sv-308",
+    "category": "名詞",
+    "question": "The flight attendant politely asked the ______s to fasten their seatbelts before takeoff.",
+    "chinese": "空服員禮貌地請乘客們在起飛前繫好安全帶。",
+    "options": [
+      "messengers",
+      "pioneers",
+      "passengers",
+      "partners"
+    ],
+    "answerIndex": 2,
+    "explanation": "passengers（乘客）符合飛機機艙內接受空服員指示的對象；messengers（信差）、pioneers（先鋒）、partners（夥伴）皆不合語意。",
+    "optionNotes": [
+      "名詞・信差、使者 (複數)",
+      "名詞・先鋒 (複數)",
+      "名詞・乘客 (複數)",
+      "名詞・夥伴 (複數)"
+    ]
+  },
+  {
+    "id": "sv-309",
+    "category": "名詞",
+    "question": "If you don't have honey for the recipe, you can use maple syrup as a ______.",
+    "chinese": "如果你沒有食譜上的蜂蜜，你可以使用楓糖漿作為替代品。",
+    "options": [
+      "substance",
+      "structure",
+      "signature",
+      "substitute"
+    ],
+    "answerIndex": 3,
+    "explanation": "substitute（替代品）符合在食譜中用另一種食材替換的情境；substance（物質）、structure（結構）、signature（簽名）皆不合適。",
+    "optionNotes": [
+      "名詞・物質",
+      "名詞・結構",
+      "名詞・簽名",
+      "名詞・替代品；動詞・替代"
+    ]
+  },
+  {
+    "id": "sv-310",
+    "category": "形容詞",
+    "question": "The shoes were so ______ that they caused painful blisters on my heels after just one hour of walking.",
+    "chinese": "這雙鞋太緊了，我才走了一個小時腳跟就磨出了疼痛的水泡。",
+    "options": [
+      "tight",
+      "tough",
+      "tender",
+      "typical"
+    ],
+    "answerIndex": 0,
+    "explanation": "tight（緊的）修飾鞋子，符合導致起水泡（blisters）的原因；tough（艱難的/堅韌的）、tender（溫柔的/柔軟的）、typical（典型的）皆為 t- 開頭的形容詞但語意不合。",
+    "optionNotes": [
+      "形容詞・緊的",
+      "形容詞・艱難的、堅韌的",
+      "形容詞・溫柔的、柔軟的",
+      "形容詞・典型的"
+    ]
+  },
+  {
+    "id": "sv-311",
+    "category": "形容詞",
+    "question": "The author's ______ description of the enchanted forest made the readers feel as if they were actually there.",
+    "chinese": "作者對魔法森林生動的描述讓讀者感覺彷彿身歷其境。",
+    "options": [
+      "valid",
+      "vivid",
+      "visual",
+      "verbal"
+    ],
+    "answerIndex": 1,
+    "explanation": "vivid（生動的）修飾 description（描述），表示描寫得栩栩如生；valid（有效的）、visual（視覺的）、verbal（口頭的）皆為 v- 開頭的大考核心字，但不符此語境。",
+    "optionNotes": [
+      "形容詞・有效的、合理的",
+      "形容詞・生動的",
+      "形容詞・視覺的",
+      "形容詞・口頭的"
+    ]
+  },
+  {
+    "id": "sv-312",
+    "category": "名詞",
+    "question": "After working in the busy city for a decade, she decided to move back to her quiet ______ in the countryside.",
+    "chinese": "在繁忙的城市工作了十年後，她決定搬回位於鄉下的寧靜家鄉。",
+    "options": [
+      "homework",
+      "household",
+      "hometown",
+      "honeymoon"
+    ],
+    "answerIndex": 2,
+    "explanation": "hometown（家鄉）符合搬離城市回歸鄉野的情境；homework（回家作業）、household（家庭）、honeymoon（蜜月）皆為 home-/house- 相關複合字。",
+    "optionNotes": [
+      "名詞・回家作業",
+      "名詞・家庭、一戶",
+      "名詞・家鄉",
+      "名詞・蜜月"
+    ]
+  },
+  {
+    "id": "sv-313",
+    "category": "名詞",
+    "question": "When you slice a fresh ______, it releases a chemical that often makes your eyes water.",
+    "chinese": "當你切新鮮洋蔥時，它會釋放出一種常讓人流眼淚的化學物質。",
+    "options": [
+      "oven",
+      "origin",
+      "organ",
+      "onion"
+    ],
+    "answerIndex": 3,
+    "explanation": "onion（洋蔥）符合切開時會讓人流淚的特徵；oven（烤箱）、origin（起源）、organ（器官）皆不合語意。",
+    "optionNotes": [
+      "名詞・烤箱",
+      "名詞・起源",
+      "名詞・器官",
+      "名詞・洋蔥"
+    ]
+  },
+  {
+    "id": "sv-314",
+    "category": "名詞",
+    "question": "The new shopping mall has ramps and elevators designed specifically for customers in ______.",
+    "chinese": "新的購物中心設有專門為乘坐輪椅的顧客設計的坡道和電梯。",
+    "options": [
+      "wheelchairs",
+      "waterfalls",
+      "windshields",
+      "warehouses"
+    ],
+    "answerIndex": 0,
+    "explanation": "wheelchairs（輪椅）搭配 ramps（坡道）和 elevators，符合無障礙設施的服務對象；waterfalls（瀑布）、windshields（擋風玻璃）、warehouses（倉庫）皆不合邏輯。",
+    "optionNotes": [
+      "名詞・輪椅 (複數)",
+      "名詞・瀑布 (複數)",
+      "名詞・擋風玻璃 (複數)",
+      "名詞・倉庫 (複數)"
+    ]
+  },
+  {
+    "id": "sv-315",
+    "category": "名詞",
+    "question": "Excessive exposure to the sun's ultraviolet rays can cause serious ______ to your skin.",
+    "chinese": "過度暴露在太陽的紫外線下會對你的皮膚造成嚴重的傷害。",
+    "options": [
+      "harvest",
+      "harm",
+      "haste",
+      "hatred"
+    ],
+    "answerIndex": 1,
+    "explanation": "harm（傷害）符合紫外線對皮膚的負面影響，常搭配 do/cause harm to；harvest（收成）、haste（匆忙）、hatred（仇恨）皆為 h- 開頭名詞，但語意不通。",
+    "optionNotes": [
+      "名詞・收成",
+      "名詞・傷害",
+      "名詞・匆忙",
+      "名詞・仇恨"
+    ]
+  },
+  {
+    "id": "sv-316",
+    "category": "動詞",
+    "question": "The famous author plans to ______ her new science fiction novel by the end of next month.",
+    "chinese": "這位著名作家計畫在下個月底前出版她的新科幻小說。",
+    "options": [
+      "punish",
+      "polish",
+      "publish",
+      "purchase"
+    ],
+    "answerIndex": 2,
+    "explanation": "publish（出版、發行）符合作家發行小說的動作；punish（懲罰）、polish（擦亮/潤飾）、purchase（購買）皆為 p- 結尾 -sh 或形近動詞。",
+    "optionNotes": [
+      "動詞・懲罰",
+      "動詞・擦亮、潤飾",
+      "動詞・出版、發布",
+      "動詞・購買"
+    ]
+  },
+  {
+    "id": "sv-317",
+    "category": "名詞",
+    "question": "The artist uses a special painting ______ that involves mixing sand with oil colors to create texture.",
+    "chinese": "這位藝術家使用一種特殊的繪畫技巧，將沙子與油彩混合以創造出紋理。",
+    "options": [
+      "technology",
+      "telescope",
+      "territory",
+      "technique"
+    ],
+    "answerIndex": 3,
+    "explanation": "technique（技巧、技術）在此指藝術創作的手法（painting technique）；technology（科技）通常指工業技術，不適合形容畫圖手法；telescope（望遠鏡）、territory（領土）語意不合。",
+    "optionNotes": [
+      "名詞・科技",
+      "名詞・望遠鏡",
+      "名詞・領土",
+      "名詞・技巧、技術"
+    ]
+  },
+  {
+    "id": "sv-318",
+    "category": "名詞",
+    "question": "The school ______ voted unanimously to ban the use of smartphones during classes.",
+    "chinese": "學校委員會一致投票通過禁止在上課期間使用智慧型手機。",
+    "options": [
+      "committee",
+      "community",
+      "command",
+      "commerce"
+    ],
+    "answerIndex": 0,
+    "explanation": "committee（委員會）符合進行投票決策的組織實體；community（社區）通常不會統一投票，command（命令）、commerce（商業）皆為 com- 開頭易混淆字。",
+    "optionNotes": [
+      "名詞・委員會",
+      "名詞・社區",
+      "名詞・命令",
+      "名詞・商業"
+    ]
+  },
+  {
+    "id": "sv-319",
+    "category": "動詞",
+    "question": "It is a tradition in our family to ______ Christmas presents in bright red and green paper.",
+    "chinese": "用鮮紅和綠色的紙包裝聖誕禮物是我們家的傳統。",
+    "options": [
+      "wipe",
+      "wrap",
+      "wreck",
+      "weave"
+    ],
+    "answerIndex": 1,
+    "explanation": "wrap（包裝、包裹）符合用包裝紙處理禮物的情境；wipe（擦拭）、wreck（破壞）、weave（編織）皆為 w- 開頭的動詞，但語境不符。",
+    "optionNotes": [
+      "動詞・擦拭",
+      "動詞・包裝、包裹",
+      "動詞・破壞",
+      "動詞・編織"
+    ]
+  },
+  {
+    "id": "sv-320",
+    "category": "名詞",
+    "question": "If your eye problem persists, you should consult a ______ rather than just buying drops from the pharmacy.",
+    "chinese": "如果你的眼睛問題持續存在，你應該諮詢專科醫師，而不是只在藥局買眼藥水。",
+    "options": [
+      "scientist",
+      "socialist",
+      "specialist",
+      "sponsor"
+    ],
+    "answerIndex": 2,
+    "explanation": "specialist（專家、專科醫師）符合針對特定疾病求醫的對象；scientist（科學家）、socialist（社會主義者）、sponsor（贊助商）皆不合適。",
+    "optionNotes": [
+      "名詞・科學家",
+      "名詞・社會主義者",
+      "名詞・專家、專科醫師",
+      "名詞・贊助商"
+    ]
+  },
+  {
+    "id": "sv-321",
+    "category": "名詞",
+    "question": "The flight ______ warmly welcomed the passengers as they boarded the international flight to London.",
+    "chinese": "當乘客們登上飛往倫敦的國際航班時，機組人員熱烈地歡迎了他們。",
+    "options": [
+      "crowd",
+      "crop",
+      "crown",
+      "crew"
+    ],
+    "answerIndex": 3,
+    "explanation": "crew（全體工作人員）常指機組人員或船員（flight crew）；crowd（群眾）、crop（農作物）、crown（王冠）皆為 cr- 開頭字但不合語境。",
+    "optionNotes": [
+      "名詞・群眾",
+      "名詞・農作物",
+      "名詞・王冠",
+      "名詞・全體工作人員、機組員"
+    ]
+  },
+  {
+    "id": "sv-322",
+    "category": "動詞",
+    "question": "The search team was forced to ______ the rescue mission due to the extremely dangerous weather conditions.",
+    "chinese": "由於極端危險的天氣條件，搜救隊被迫放棄救援任務。",
+    "options": [
+      "abandon",
+      "absorb",
+      "abuse",
+      "absolute"
+    ],
+    "answerIndex": 0,
+    "explanation": "abandon（放棄）符合因外在因素停止任務的情境；absorb（吸收）、abuse（濫用）、absolute（絕對的，形容詞）皆為 ab- 開頭字，但語意與詞性不符。",
+    "optionNotes": [
+      "動詞・放棄",
+      "動詞・吸收",
+      "動詞・濫用",
+      "形容詞・絕對的"
+    ]
+  },
+  {
+    "id": "sv-323",
+    "category": "名詞",
+    "question": "Students in this university have free ______ to the online library database from anywhere in the world.",
+    "chinese": "這所大學的學生可以從世界各地免費存取線上圖書館資料庫。",
+    "options": [
+      "accent",
+      "access",
+      "account",
+      "accident"
+    ],
+    "answerIndex": 1,
+    "explanation": "access（使用權、存取管道）常搭配 have access to，表示有權限使用資源；accent（口音）、account（帳戶）、accident（意外）皆為 ac- 開頭名詞。",
+    "optionNotes": [
+      "名詞・口音",
+      "名詞・使用權、存取",
+      "名詞・帳戶",
+      "名詞・意外"
+    ]
+  },
+  {
+    "id": "sv-324",
+    "category": "副詞",
+    "question": "Please put your smartphones ______ and focus entirely on the lecture.",
+    "chinese": "請把智慧型手機放在一邊，全神貫注聽講。",
+    "options": [
+      "aboard",
+      "abroad",
+      "aside",
+      "aloud"
+    ],
+    "answerIndex": 2,
+    "explanation": "aside（在一旁）搭配 put 構成 put aside，表示放在旁邊不理會；aboard（在交通工具上）、abroad（在國外）、aloud（大聲地）皆為 a- 開頭副詞。",
+    "optionNotes": [
+      "副詞・在(船/飛機/車)上",
+      "副詞・在國外",
+      "副詞・在一旁",
+      "副詞・大聲地"
+    ]
+  },
+  {
+    "id": "sv-325",
+    "category": "名詞",
+    "question": "The deep ocean is home to many strange ______ that have never been seen by humans.",
+    "chinese": "深海是許多人類從未見過的奇特生物的棲息地。",
+    "options": [
+      "creators",
+      "features",
+      "cultures",
+      "creatures"
+    ],
+    "answerIndex": 3,
+    "explanation": "creatures（生物）符合深海裡居住的動物；creators（創作者）、features（特徵）、cultures（文化）皆不合語意。",
+    "optionNotes": [
+      "名詞・創作者 (複數)",
+      "名詞・特徵 (複數)",
+      "名詞・文化 (複數)",
+      "名詞・生物 (複數)"
+    ]
+  },
+  {
+    "id": "sv-326",
+    "category": "形容詞",
+    "question": "The country is currently facing a severe ______ crisis, resulting in high unemployment rates and inflation.",
+    "chinese": "該國目前正面臨嚴重的經濟危機，導致高失業率和通貨膨脹。",
+    "options": [
+      "economic",
+      "emotional",
+      "electrical",
+      "educational"
+    ],
+    "answerIndex": 0,
+    "explanation": "economic（經濟的）搭配 crisis 符合失業和通膨的背景；emotional（情緒的）、electrical（電的）、educational（教育的）皆為 e- 開頭形容詞。",
+    "optionNotes": [
+      "形容詞・經濟的",
+      "形容詞・情緒的",
+      "形容詞・電的",
+      "形容詞・教育的"
+    ]
+  },
+  {
+    "id": "sv-327",
+    "category": "形容詞",
+    "question": "The young model always wears ______ clothes that follow the latest trends in Paris.",
+    "chinese": "這位年輕模特兒總是穿著追隨巴黎最新潮流的時尚（時髦）服裝。",
+    "options": [
+      "favorable",
+      "fashionable",
+      "flexible",
+      "functional"
+    ],
+    "answerIndex": 1,
+    "explanation": "fashionable（時髦的、流行的）符合跟隨流行趨勢的衣著；favorable（有利的）、flexible（有彈性的）、functional（具功能的）皆不合語境。",
+    "optionNotes": [
+      "形容詞・有利的、贊同的",
+      "形容詞・時髦的",
+      "形容詞・有彈性的",
+      "形容詞・實用的、具功能的"
+    ]
+  },
+  {
+    "id": "sv-328",
+    "category": "名詞",
+    "question": "My grandmother's secret ______ for chocolate cake has been passed down through our family for generations.",
+    "chinese": "我奶奶做巧克力蛋糕的秘密食譜在我們家族中傳承了好幾代。",
+    "options": [
+      "receipt",
+      "rescue",
+      "recipe",
+      "routine"
+    ],
+    "answerIndex": 2,
+    "explanation": "recipe（食譜）符合製作蛋糕的配方；receipt（收據）、rescue（救援）、routine（慣例）皆為 r- 開頭名詞，其中 receipt 最常與 recipe 混淆。",
+    "optionNotes": [
+      "名詞・收據",
+      "名詞・救援",
+      "名詞・食譜",
+      "名詞・慣例、例行公事"
+    ]
+  },
+  {
+    "id": "sv-329",
+    "category": "名詞",
+    "question": "A butterfly's life ______ is usually quite short, ranging from just a few days to a couple of weeks.",
+    "chinese": "蝴蝶的壽命（生命跨度）通常很短，從幾天到幾週不等。",
+    "options": [
+      "spin",
+      "spot",
+      "spur",
+      "span"
+    ],
+    "answerIndex": 3,
+    "explanation": "span（跨距、一段時間）搭配 life 構成 life span（壽命）；spin（旋轉）、spot（斑點/地點）、spur（刺激）皆為 sp- 開頭單字但不合語意。",
+    "optionNotes": [
+      "動詞・旋轉",
+      "名詞・地點、斑點",
+      "名詞・刺激",
+      "名詞・一段時間、跨距"
+    ]
+  },
+  {
+    "id": "sv-330",
+    "category": "名詞",
+    "question": "Honesty is perhaps the most important character ______ a leader must possess to win people's trust.",
+    "chinese": "誠實或許是領導者要贏得人們信任所必須具備的最重要的性格特徵。",
+    "options": [
+      "trait",
+      "trail",
+      "trap",
+      "trace"
+    ],
+    "answerIndex": 0,
+    "explanation": "trait（特徵、特質）搭配 character 構成 character trait（性格特質）；trail（小徑）、trap（陷阱）、trace（蹤跡）皆為 tr- 開頭名詞。",
+    "optionNotes": [
+      "名詞・特徵、特質",
+      "名詞・小徑",
+      "名詞・陷阱",
+      "名詞・痕跡、蹤跡"
+    ]
+  },
+  {
+    "id": "sv-331",
+    "category": "名詞",
+    "question": "The artist spent hours painting the beautiful rural ______ of rolling hills and green pastures.",
+    "chinese": "藝術家花了數小時繪畫連綿起伏的丘陵和綠色牧場的美麗鄉村風景。",
+    "options": [
+      "landmark",
+      "landscape",
+      "landslide",
+      "landlord"
+    ],
+    "answerIndex": 1,
+    "explanation": "landscape（風景、景色）符合繪畫大自然的主題；landmark（地標）、landslide（山崩）、landlord（房東）皆為 land- 開頭複合字。",
+    "optionNotes": [
+      "名詞・地標",
+      "名詞・風景、景色",
+      "名詞・山崩",
+      "名詞・房東"
+    ]
+  },
+  {
+    "id": "sv-332",
+    "category": "名詞",
+    "question": "The bartender placed a tall wooden ______ at the counter for the newly arrived customer to sit on.",
+    "chinese": "酒保在吧檯旁放了一張高腳木凳，讓剛到的顧客坐下。",
+    "options": [
+      "steel",
+      "stamp",
+      "stool",
+      "steep"
+    ],
+    "answerIndex": 2,
+    "explanation": "stool（凳子）是指沒有靠背的椅子，符合吧檯旁的座位；steel（鋼鐵）、stamp（郵票）、steep（陡峭的，形容詞）皆不合語意或詞性。",
+    "optionNotes": [
+      "名詞・鋼鐵",
+      "名詞・郵票、印章",
+      "名詞・凳子",
+      "形容詞・陡峭的"
+    ]
+  },
+  {
+    "id": "sv-333",
+    "category": "名詞",
+    "question": "The tropical fruit salad contains chunks of fresh mango, papaya, and ______.",
+    "chinese": "這道熱帶水果沙拉包含新鮮的芒果塊、木瓜和鳳梨。",
+    "options": [
+      "principle",
+      "pavement",
+      "parachute",
+      "pineapple"
+    ],
+    "answerIndex": 3,
+    "explanation": "pineapple（鳳梨）符合熱帶水果的分類；principle（原則）、pavement（人行道）、parachute（降落傘）皆為 p- 開頭名詞，但不屬水果。",
+    "optionNotes": [
+      "名詞・原則",
+      "名詞・人行道",
+      "名詞・降落傘",
+      "名詞・鳳梨"
+    ]
+  },
+  {
+    "id": "sv-334",
+    "category": "動詞",
+    "question": "The heavy metal anchor caused the small wooden boat to ______ to the bottom of the lake.",
+    "chinese": "沉重的金屬錨導致小木船下沉到湖底。",
+    "options": [
+      "sink",
+      "shrink",
+      "slip",
+      "skip"
+    ],
+    "answerIndex": 0,
+    "explanation": "sink（下沉）符合重物拉扯船隻沒入水中的情境；shrink（縮水）、slip（滑倒）、skip（跳過）皆為 s- 開頭短動詞，但不符語意。",
+    "optionNotes": [
+      "動詞・下沉",
+      "動詞・縮水",
+      "動詞・滑倒",
+      "動詞・跳過"
+    ]
+  },
+  {
+    "id": "sv-335",
+    "category": "名詞",
+    "question": "The factory was fined heavily for illegally dumping a toxic ______ into the nearby river.",
+    "chinese": "這家工廠因為非法將有毒物質傾倒進附近的河裡而遭到重罰。",
+    "options": [
+      "substitute",
+      "substance",
+      "survival",
+      "suspect"
+    ],
+    "answerIndex": 1,
+    "explanation": "substance（物質）搭配 toxic 構成 toxic substance（有毒物質）；substitute（替代品）、survival（生存）、suspect（嫌疑犯）皆為 su- 開頭名詞。",
+    "optionNotes": [
+      "名詞・替代品",
+      "名詞・物質",
+      "名詞・生存",
+      "名詞・嫌疑犯"
     ]
   }
 ]
