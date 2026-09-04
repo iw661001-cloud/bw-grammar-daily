@@ -4314,6 +4314,7 @@
   },
   {
     "id": "sv-216",
+    "wordGroup": "ton",
     "category": "名詞",
     "question": "An adult blue whale is extremely heavy; it can weigh more than one hundred ______.",
     "chinese": "成年的藍鯨極度沉重；牠的體重可以超過一百噸。",
@@ -4594,6 +4595,7 @@
   },
   {
     "id": "sv-230",
+    "wordGroup": "stripe",
     "category": "名詞",
     "question": "Zebras are easily recognized by the unique black and white ______ on their bodies.",
     "chinese": "斑馬因為身上獨特的黑白條紋而很容易被認出來。",
@@ -4654,6 +4656,7 @@
   },
   {
     "id": "sv-233",
+    "wordGroup": "accompany",
     "category": "動詞",
     "question": "Children under the age of 12 must be ______ by an adult when swimming in the public pool.",
     "chinese": "12歲以下的兒童在公共泳池游泳時，必須有成年人陪伴。",
@@ -5650,6 +5653,69 @@
       "動詞・褪色、消退",
       "動詞・開火、解雇",
       "動詞・失敗"
+    ]
+  },
+  {
+    "id": "sv-236",
+    "wordGroup": "ton",
+    "category": "名詞",
+    "question": "The enormous cargo ship is capable of carrying several ______ of agricultural products across the ocean.",
+    "chinese": "這艘巨大的貨輪能夠橫跨海洋運載數噸的農產品。",
+    "options": [
+      "tons",
+      "tanks",
+      "tracks",
+      "traits"
+    ],
+    "answerIndex": 0,
+    "explanation": "tons（噸）是重量單位，用來衡量貨輪載運的大量農產品；tanks（坦克/水箱）、tracks（軌道）、traits（特徵）皆不合語意。",
+    "optionNotes": [
+      "名詞・噸 (複數)",
+      "名詞・坦克、水箱 (複數)",
+      "名詞・軌道、蹤跡 (複數)",
+      "名詞・特徵 (複數)"
+    ]
+  },
+  {
+    "id": "sv-237",
+    "wordGroup": "stripe",
+    "category": "名詞",
+    "question": "The escaped prisoner was easily spotted due to the bright orange and white ______ on his uniform.",
+    "chinese": "那名逃犯因為制服上亮橘色和白色的條紋而輕易地被認出來。",
+    "options": [
+      "strokes",
+      "stripes",
+      "strings",
+      "strikes"
+    ],
+    "answerIndex": 1,
+    "explanation": "stripes（條紋）符合囚犯制服的常見花紋；strokes（中風/筆觸）、strings（細繩）、strikes（罷工）皆為字首 str- 開頭的形近字，但語意不合。",
+    "optionNotes": [
+      "名詞・中風、筆觸",
+      "名詞・條紋",
+      "名詞・細繩、弦",
+      "名詞・罷工、打擊"
+    ]
+  },
+  {
+    "id": "sv-238",
+    "wordGroup": "accompany",
+    "category": "動詞",
+    "question": "Children under the age of twelve must be ______ by a parent or guardian when entering the public swimming pool.",
+    "chinese": "十二歲以下的兒童進入公共游泳池時，必須有家長或監護人陪伴。",
+    "options": [
+      "accomplished",
+      "accommodated",
+      "accompanied",
+      "accustomed"
+    ],
+    "answerIndex": 2,
+    "explanation": "accompanied（陪伴）符合兒童需要大人隨行的規定；accomplished（完成）、accommodated（提供住宿/容納）、accustomed（習慣的）皆為大考常見混淆字，但語境不符。",
+    "optionNotes": [
+      "動詞・完成",
+      "動詞・容納、提供住宿",
+      "動詞・陪伴、伴隨",
+      "形容詞・習慣的"
     ]
   }
 ]
