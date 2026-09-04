@@ -53,6 +53,12 @@
 
 **出題核心原則**：四個選項要「看起來都合理」，最好是字形相似、詞性相同、或意思相近容易混淆的字，不要出現一眼就能刪掉的無關選項（例如用「香蕉」當文法題的錯誤選項）。這樣才能真正測出理解程度，不是用消去法猜答案。
 
+**格式必須逐字照抄上面的schema，不要自己發揮變體**（2026-08-24發生過的實際錯誤，之後不要再犯）：
+- 空格一律用 `______`（6個底線），**不要**寫成`___`（3個底線）或其他數量——底線數量錯誤會讓網站的答案填空/標色功能失效
+- `category` 一律用**中文**詞性（動詞/名詞/形容詞/副詞/介系詞/連接詞/代名詞/片語...），**不要**寫英文的"Vocabulary"或其他英文分類
+- `optionNotes` 一律是**字串陣列**，跟`options`同順序一一對應（例如`["動詞・警告", "名詞・病房", ...]`），**不要**寫成`[{"option":"...", "note":"..."}]`這種物件陣列——網站程式碼直接用陣列索引對應，物件陣列會讀不到資料
+- 正確答案的位置（`answerIndex`）交回前自己算一次整批的0~3分布次數，確認沒有明顯集中在少數幾個數字（規則5已經有講，這裡再次強調因為2026-08-24這批集中在B/C選項）
+
 **一句裡有兩個空格時，答案要依實際情況用固定分隔符號寫，程式才能正確把答案填回空格**：
 - 兩個空格是**各自獨立**的答案（例如時態一致：「goes / is」）→ 用「 / 」分隔，前後各一個空格
 - 兩個空格是**同一個片語被隔開**（例如take...for granted中間夾了受詞，題目寫成「______ their health ______」）→ 用「 ... 」分隔（例如「take ... for granted」），前後各一個空格
@@ -168,21 +174,21 @@
 
 | 題庫代碼 | 名稱 | 類型 | 程度 | 這次要加幾題 | id流水號從幾號接續 |
 |---|---|---|---|---|---|
-| senior-vocab | 高中/學測單字 | mc | 高中/學測 | 50題（目標字見下方清單） | sv-36 開始 |
+| senior-vocab | 高中/學測單字 | mc | 高中/學測 | 50題（目標字見下方清單） | sv-136 開始 |
 
 **這次額外要求**：
-- 目標字清單：`D:\Users\bw5418\projects\english-study\00-自學\_drafts\senior-vocab-priority-batch1.json`，每個字附了`level`（大考中心官方級數）、`pos`（官方詞性）、`zh`（官方中文提示，僅供參考，不要直接照抄當作題目解析內容，解析要自己重新用教學語氣寫）
-- 這批字是依「100-115學年度學測英文歷屆試題真實出現頻率」排序選出的高優先度字（來源：`gsat-vocabulary-map`開源專案的詞頻統計資料，只取字詞層級統計，未使用任何實際考題原句）——這是`senior-vocab`第一次改用頻率資料驅動選字，取代原本純靠級數手動判斷的做法
-- **務必比照既有做法自己原創例句**，不可比照任何來源的例句或考題原文，只能拿`level`/`pos`/`zh`當「這個字該怎麼定位」的參考依據
-- 分批交回，每批50題（這批全出即可，共50字/50題），存到`_drafts\senior-vocab.json`
+- 目標字清單：`D:\Users\bw5418\projects\english-study\00-自學\_drafts\senior-vocab-priority-batch3.json`，欄位說明同前兩批（`level`/`pos`/`zh`僅供參考定位，不可照抄當解析內容）
+- 沿用前兩批規則：GSAT真題頻率排序選字，例句/選項/解析全部自己原創，不可比照任何來源例句或考題原文
+- **上一批交回的格式有錯，這批請務必照「二、JSON格式規範」開頭的schema逐字對照**（詳見該區塊新增的警告：底線數量、category要中文、optionNotes要字串陣列、answerIndex分布）
+- 存到`_drafts\senior-vocab.json`
 
 **國中單字擴充現況**：2026-08教育部2000字表第1~200字（`junior-vocab-batch2-words.txt`，含之前批次）已全數出完並上線，`junior-vocab`共235題（jv-01~235）。下次要繼續擴充時，重新比對`junior-2000-wordlist.json`（官方字表全清單，共1982字）算出剩餘可用字。
 
 **已有內容清單（避免重複，貼上對應題庫的清單）**：
 
 - `junior-grammar`（國中文法）已用文法點：時態×5、主詞動詞一致×1、比較級×2、連接詞×2、助動詞×1、介系詞×2、不定詞/動名詞×2、附加問句×1、代名詞×1、數量詞×1、關係子句×1、感官動詞×1、使役/被動×1、祈使句×1、連綴動詞×1、疑問詞×1、花費動詞×1（共25題，id到jg-25）
-- `senior-grammar`（高中/學測文法）已用文法點：假設語氣×4、倒裝句×4、分詞構句×3、關係子句×4、使役/被動×1、強調句×1、助動詞×1、轉折語氣×1、雙重否定×1、代名詞×1、不定詞/動名詞×2、時態×1、比較級×1（共25題，id到sg-25）
-- `toeic-grammar`（多益 Part 5，文法+字彙混合）已用：分詞構句×1、詞性判斷×3、假設語氣×3、介系詞×2、連接詞×3、比較級×1、代名詞×1、時態×1、關係子句×1、動詞(字彙)×3、形容詞(字彙)×3、使役/被動×1、不定詞/動名詞×1（共25題，id到tg-25）
+- `senior-grammar`（高中/學測文法）已用文法點：假設語氣×5（含判斷型×1）、倒裝句×4、分詞構句×3、關係子句×4、使役/被動×1、強調句×1、助動詞×1、轉折語氣×1、雙重否定×1、代名詞×1、不定詞/動名詞×2、時態×2（含判斷型×1）、比較級×1、句子結構(子句判斷)×2（共31題，id到sg-31）
+- `toeic-grammar`（多益 Part 5，文法+字彙混合）已用：分詞構句×1、詞性判斷×3、假設語氣×6（含判斷型×3）、介系詞×2、連接詞×3、比較級×1、代名詞×1、時態×4（含判斷型×3）、關係子句×1、動詞(字彙)×3、形容詞(字彙)×3、使役/被動×1、不定詞/動名詞×1、句子結構(子句判斷)×3（共34題，id到tg-34）
 - `junior-vocab`（國中單字）已用字改對照 `data/junior-vocab.json` 實際內容＋`junior-2000-wordlist.json`（官方字表全清單），不再逐字列出 prose 清單（200題等級的清單塞在這裡不利閱讀）；每次要出下一批前，由 Claude Code 執行比對算出「官方字表裡還沒出過的字」，直接提供目標字清單檔案（例如這次的 `_drafts\junior-vocab-batch2-words.txt`），委託時不用再手動核對「已有內容清單」
 - `senior-vocab`（高中單字）已用目標字：significant, reluctant, consequence, accomplish, efficient, genuine, controversial, diverse, aware, essential, ambiguous, compromise, inevitable, substantial, equivalent, interpret, vulnerable, superficial, manipulate, comprehensive, accumulate, subtle, relevant, compulsory, persistent, obstacle, deliberately, deteriorate, take...for granted(片語), indispensable, incorporate, perspective, profitable, come up with(片語), spontaneous（共35題，id到sv-35）
 - `toeic-vocab`（多益單字）已用目標字：reimburse, negotiate, postponed, invoice, colleague, deadline, inventory, candidates, reliable, budget, implement, complimentary, accommodate, tentative, itinerary, eligible, feedback, compensation, allocate, mandatory, previous, seminar, launch, verify, confidential（共25題，id到tv-25）

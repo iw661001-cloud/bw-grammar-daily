@@ -2710,5 +2710,1006 @@
       "動詞・應受；值得"
     ],
     "etymology": "re- (往回/再) + serve (保持) -> 保持下來留給某人 -> 預訂"
+  },
+  {
+    "id": "sv-136",
+    "category": "形容詞",
+    "question": "After eating a large meal, the cat lay on the sofa, looking completely ______.",
+    "chinese": "吃完大餐後，那隻貓躺在沙發上，看起來非常滿足。",
+    "options": [
+      "content",
+      "context",
+      "contract",
+      "contrast"
+    ],
+    "answerIndex": 0,
+    "explanation": "content（滿足的）符合語意，表示吃飽後的滿意狀態；context（上下文）、contract（合約）、contrast（對比）皆為形近字但語意不符。注意 content 也常作名詞「內容」。",
+    "optionNotes": [
+      "形容詞・滿足的；名詞・內容",
+      "名詞・上下文、背景",
+      "名詞・合約；動詞・收縮",
+      "名詞・對比"
+    ]
+  },
+  {
+    "id": "sv-137",
+    "category": "動詞",
+    "question": "Scientists use powerful telescopes to ______ the movement of distant stars and planets.",
+    "chinese": "科學家使用高倍率望遠鏡來觀察遙遠恆星與行星的運動。",
+    "options": [
+      "obscure",
+      "observe",
+      "object",
+      "obsess"
+    ],
+    "answerIndex": 1,
+    "explanation": "observe（觀察）符合「使用望遠鏡觀察天體」的語境；obscure（使模糊）、object（反對）、obsess（使著迷）皆不符。observe 也可引申為「遵守（規則）」。",
+    "optionNotes": [
+      "動詞・使模糊、掩蓋",
+      "動詞・觀察、遵守",
+      "動詞・反對；名詞・物體",
+      "動詞・使著迷、使心神不寧"
+    ]
+  },
+  {
+    "id": "sv-138",
+    "category": "名詞",
+    "question": "The main ______ of the novel is the struggle between good and evil.",
+    "chinese": "這部小說的主要主題是善與惡之間的鬥爭。",
+    "options": [
+      "thread",
+      "theory",
+      "theme",
+      "thumb"
+    ],
+    "answerIndex": 2,
+    "explanation": "theme（主題）適合用來描述文學作品的核心思想；thread（線索/毛線）、theory（理論）、thumb（拇指）語意不合。",
+    "optionNotes": [
+      "名詞・線、線索",
+      "名詞・理論",
+      "名詞・主題",
+      "名詞・拇指"
+    ]
+  },
+  {
+    "id": "sv-139",
+    "category": "形容詞",
+    "question": "Bananas and pineapples are ______ fruits that grow well in hot and humid climates.",
+    "chinese": "香蕉與鳳梨是生長在炎熱潮濕氣候的熱帶水果。",
+    "options": [
+      "typical",
+      "logical",
+      "critical",
+      "tropical"
+    ],
+    "answerIndex": 3,
+    "explanation": "tropical（熱帶的）符合生長在炎熱潮濕氣候的水果描述；typical（典型的）、logical（合乎邏輯的）、critical（關鍵的/批評的）皆不合理。",
+    "optionNotes": [
+      "形容詞・典型的",
+      "形容詞・合乎邏輯的",
+      "形容詞・關鍵的、批評的",
+      "形容詞・熱帶的"
+    ],
+    "etymology": "trop-(轉向/回歸線) + -ic(形容詞字尾) + -al(形容詞字尾) → 靠近回歸線的 → 熱帶的"
+  },
+  {
+    "id": "sv-140",
+    "category": "動詞",
+    "question": "The doctor strongly ______ the patient to quit smoking to improve his lung capacity.",
+    "chinese": "醫生強烈建議該病患戒菸以改善肺活量。",
+    "options": [
+      "advised",
+      "devised",
+      "revised",
+      "arose"
+    ],
+    "answerIndex": 0,
+    "explanation": "advised（建議）符合醫生給予病患忠告的情境；devised（設計/發明）、revised（修訂）、arose（出現/發生，為 arise 過去式）皆不符。",
+    "optionNotes": [
+      "動詞・建議、勸告",
+      "動詞・設計、發明",
+      "動詞・修訂、修改",
+      "動詞・出現、產生"
+    ]
+  },
+  {
+    "id": "sv-141",
+    "category": "形容詞",
+    "question": "Because of her ______ business trips, she rarely has time to spend with her family.",
+    "chinese": "因為頻繁的出差，她鮮少有時間陪伴家人。",
+    "options": [
+      "fragrant",
+      "frequent",
+      "fluent",
+      "flexible"
+    ],
+    "answerIndex": 1,
+    "explanation": "frequent（頻繁的）符合常常出差導致沒時間陪家人的情境；fragrant（芳香的）、fluent（流利的）、flexible（有彈性的）皆不合語意。",
+    "optionNotes": [
+      "形容詞・芳香的",
+      "形容詞・頻繁的",
+      "形容詞・流利的",
+      "形容詞・有彈性的、靈活的"
+    ]
+  },
+  {
+    "id": "sv-142",
+    "category": "形容詞",
+    "question": "Meditation and yoga are excellent ways to improve both physical and ______ health.",
+    "chinese": "冥想與瑜珈是改善生理與心理健康的絕佳方式。",
+    "options": [
+      "manual",
+      "moral",
+      "mental",
+      "mutual"
+    ],
+    "answerIndex": 2,
+    "explanation": "mental（心理的/精神的）常與 physical（生理的）相對，符合語境；manual（手工的）、moral（道德的）、mutual（互相的）皆不符。",
+    "optionNotes": [
+      "形容詞・手工的；名詞・手冊",
+      "形容詞・道德的",
+      "形容詞・心理的、精神的",
+      "形容詞・互相的、共同的"
+    ]
+  },
+  {
+    "id": "sv-143",
+    "category": "動詞",
+    "question": "Detectives were able to ______ the stolen car's location using GPS technology.",
+    "chinese": "偵探們能夠利用全球定位系統技術追蹤到失竊車輛的位置。",
+    "options": [
+      "trade",
+      "track",
+      "trail",
+      "trace"
+    ],
+    "answerIndex": 3,
+    "explanation": "trace（追蹤）符合利用科技找出位置的情境；trade（交易）、track 雖可作追蹤，但這裡 trace...location（追查出位置）較為常見；trail 作動詞多指「拖曳/跟蹤」，在此 trace 搭配更精確。",
+    "optionNotes": [
+      "動詞・交易",
+      "動詞・跟蹤；名詞・軌道",
+      "動詞・拖曳；名詞・小徑",
+      "動詞・追蹤；名詞・痕跡"
+    ]
+  },
+  {
+    "id": "sv-144",
+    "category": "動詞",
+    "question": "Prices of fresh vegetables often ______ depending on the season and weather conditions.",
+    "chinese": "新鮮蔬菜的價格經常會因為季節與天氣狀況而有所變化。",
+    "options": [
+      "vary",
+      "verify",
+      "vanish",
+      "violate"
+    ],
+    "answerIndex": 0,
+    "explanation": "vary（變化、不同）符合價格隨外在條件波動的情境；verify（證實）、vanish（消失）、violate（違反）皆不合理。",
+    "optionNotes": [
+      "動詞・變化、各不相同",
+      "動詞・證實、核對",
+      "動詞・消失",
+      "動詞・違反、侵犯"
+    ]
+  },
+  {
+    "id": "sv-145",
+    "category": "名詞",
+    "question": "Dolphins are known for their high level of ______, which allows them to solve complex problems.",
+    "chinese": "海豚以高度的智力聞名，這讓牠們能夠解決複雜的問題。",
+    "options": [
+      "interference",
+      "intelligence",
+      "insistence",
+      "independence"
+    ],
+    "answerIndex": 1,
+    "explanation": "intelligence（智力）符合海豚能解決問題的特性；interference（干擾）、insistence（堅持）、independence（獨立）皆與解決問題無直接關聯。",
+    "optionNotes": [
+      "名詞・干擾",
+      "名詞・智力、聰明",
+      "名詞・堅持",
+      "名詞・獨立"
+    ]
+  },
+  {
+    "id": "sv-146",
+    "category": "名詞",
+    "question": "The writer found ______ for his latest novel while traveling through the ancient ruins of Greece.",
+    "chinese": "這位作家在希臘古蹟旅行時找到了他最新小說的靈感。",
+    "options": [
+      "instruction",
+      "indication",
+      "inspiration",
+      "interaction"
+    ],
+    "answerIndex": 2,
+    "explanation": "inspiration（靈感）符合作家創作所需的要素；instruction（指示）、indication（跡象）、interaction（互動）皆不符語境。",
+    "optionNotes": [
+      "名詞・指示、教學",
+      "名詞・跡象、指示",
+      "名詞・靈感、啟發",
+      "名詞・互動"
+    ]
+  },
+  {
+    "id": "sv-147",
+    "category": "動詞",
+    "question": "We need to hire a professional to ______ the new air conditioner in the living room.",
+    "chinese": "我們需要請專業人員來客廳安裝新的冷氣機。",
+    "options": [
+      "insult",
+      "inspect",
+      "insert",
+      "install"
+    ],
+    "answerIndex": 3,
+    "explanation": "install（安裝）符合安裝冷氣機的動作；insult（侮辱）、inspect（檢查）、insert（插入）皆不合適。",
+    "optionNotes": [
+      "動詞・侮辱",
+      "動詞・檢查",
+      "動詞・插入",
+      "動詞・安裝"
+    ]
+  },
+  {
+    "id": "sv-148",
+    "category": "名詞",
+    "question": "Climate change poses a serious ______ to the survival of polar bears.",
+    "chinese": "氣候變遷對北極熊的生存構成了嚴重的威脅。",
+    "options": [
+      "threat",
+      "treat",
+      "thread",
+      "thrust"
+    ],
+    "answerIndex": 0,
+    "explanation": "threat（威脅）符合氣候變遷對生物生存帶來危險的情境，常搭配 pose a threat to（對...造成威脅）；treat（款待）、thread（線）、thrust（猛推）皆為形近字但語意不符。",
+    "optionNotes": [
+      "名詞・威脅",
+      "名詞・款待；動詞・對待",
+      "名詞・線、思路",
+      "動詞・猛推"
+    ]
+  },
+  {
+    "id": "sv-149",
+    "category": "動詞",
+    "question": "The new marketing project will ______ traveling to different cities and interviewing customers.",
+    "chinese": "新的行銷專案將涉及前往不同城市以及訪問顧客。",
+    "options": [
+      "resolve",
+      "involve",
+      "revolve",
+      "evolve"
+    ],
+    "answerIndex": 1,
+    "explanation": "involve（涉及、包含）符合專案內容包含出差與訪問的情境；resolve（解決）、revolve（旋轉）、evolve（演化）皆不合語意。",
+    "optionNotes": [
+      "動詞・解決、決心",
+      "動詞・涉及、包含",
+      "動詞・旋轉",
+      "動詞・演化、發展"
+    ]
+  },
+  {
+    "id": "sv-150",
+    "category": "名詞",
+    "question": "The hotel provides an indoor swimming pool, a gym, and a sauna as part of its leisure ______.",
+    "chinese": "該飯店提供室內泳池、健身房與桑拿作為其休閒設施的一部分。",
+    "options": [
+      "faculty",
+      "fallacy",
+      "facilities",
+      "fantasies"
+    ],
+    "answerIndex": 2,
+    "explanation": "facilities（設施）符合泳池、健身房等硬體設備的描述；faculty（全體教職員）、fallacy（謬誤）、fantasies（幻想）皆不符語境。",
+    "optionNotes": [
+      "名詞・全體教職員、機能",
+      "名詞・謬論",
+      "名詞・設施、設備 (複數形)",
+      "名詞・幻想 (複數形)"
+    ]
+  },
+  {
+    "id": "sv-151",
+    "category": "動詞",
+    "question": "Please ______ a recent photo of yourself to the application form before sending it out.",
+    "chinese": "在寄出申請表之前，請附上一張您最近的照片。",
+    "options": [
+      "attack",
+      "attract",
+      "attain",
+      "attach"
+    ],
+    "answerIndex": 3,
+    "explanation": "attach（附加、貼上）符合將照片附在表單上的動作，常接介系詞 to；attack（攻擊）、attract（吸引）、attain（獲得/達成）皆不合語意。",
+    "optionNotes": [
+      "動詞・攻擊",
+      "動詞・吸引",
+      "動詞・獲得、達成",
+      "動詞・附加、貼上"
+    ]
+  },
+  {
+    "id": "sv-152",
+    "category": "動詞",
+    "question": "The photographer waited patiently for hours to ______ the perfect shot of the eagle catching a fish.",
+    "chinese": "攝影師耐心等待了數小時，為了捕捉老鷹抓魚的完美瞬間。",
+    "options": [
+      "capture",
+      "feature",
+      "gesture",
+      "pasture"
+    ],
+    "answerIndex": 0,
+    "explanation": "capture（捕捉）可用於描述拍攝照片的瞬間；feature（以...為特色）、gesture（做手勢）、pasture（放牧）皆不合語意。",
+    "optionNotes": [
+      "動詞・捕捉；名詞・俘虜",
+      "動詞・以...為特色；名詞・特徵",
+      "動詞・做手勢；名詞・手勢",
+      "名詞・牧場"
+    ]
+  },
+  {
+    "id": "sv-153",
+    "category": "名詞",
+    "question": "Eating carrots is often said to be good for your ______, helping you see better in the dark.",
+    "chinese": "吃胡蘿蔔常被說對視力有益，能幫助你在暗處看得更清楚。",
+    "options": [
+      "version",
+      "vision",
+      "visitor",
+      "victim"
+    ],
+    "answerIndex": 1,
+    "explanation": "vision（視力）符合能看見東西的能力；version（版本）、visitor（訪客）、victim（受害者）皆不合語境。vision 也常作「願景」。",
+    "optionNotes": [
+      "名詞・版本",
+      "名詞・視力、願景",
+      "名詞・訪客",
+      "名詞・受害者"
+    ]
+  },
+  {
+    "id": "sv-154",
+    "category": "名詞",
+    "question": "A peace treaty was finally signed, and the two countries offered an ______ branch to each other.",
+    "chinese": "和平條約終於簽訂，兩國互相遞出了橄欖枝（釋出善意）。",
+    "options": [
+      "onion",
+      "ounce",
+      "olive",
+      "oval"
+    ],
+    "answerIndex": 2,
+    "explanation": "olive（橄欖）在此組成 olive branch（橄欖枝），象徵和平與善意；onion（洋蔥）、ounce（盎司）、oval（橢圓形）無法構成此固定片語。",
+    "optionNotes": [
+      "名詞・洋蔥",
+      "名詞・盎司 (重量單位)",
+      "名詞・橄欖 (引申為和平)",
+      "形容詞・橢圓形的"
+    ]
+  },
+  {
+    "id": "sv-155",
+    "category": "名詞",
+    "question": "The software company just released a new ______ of their app with fewer bugs and a better interface.",
+    "chinese": "那家軟體公司剛發布了他們應用程式的新版本，錯誤更少且介面更好。",
+    "options": [
+      "tension",
+      "session",
+      "mission",
+      "version"
+    ],
+    "answerIndex": 3,
+    "explanation": "version（版本）符合軟體發布的情境；tension（緊張）、session（會議/期間）、mission（任務）皆不合語意。",
+    "optionNotes": [
+      "名詞・緊張、張力",
+      "名詞・會議、(活動)期間",
+      "名詞・任務",
+      "名詞・版本"
+    ]
+  },
+  {
+    "id": "sv-156",
+    "category": "動詞",
+    "question": "As a college student with a part-time job, he simply cannot ______ to buy a brand-new car right now.",
+    "chinese": "身為一個有打工的大學生，他現在根本買不起全新的汽車。",
+    "options": [
+      "afford",
+      "absorb",
+      "award",
+      "avoid"
+    ],
+    "answerIndex": 0,
+    "explanation": "afford（負擔得起）符合大學生無法負擔高額消費的情境；absorb（吸收）、award（頒發）、avoid（避免）皆不合適。",
+    "optionNotes": [
+      "動詞・負擔得起",
+      "動詞・吸收",
+      "動詞・頒發、授予",
+      "動詞・避免"
+    ]
+  },
+  {
+    "id": "sv-157",
+    "category": "動詞",
+    "question": "The candidate tried hard to ______ the interviewers with her extensive knowledge of the market.",
+    "chinese": "該求職者努力用她對市場的廣泛知識來讓面試官留下深刻印象。",
+    "options": [
+      "express",
+      "impress",
+      "depress",
+      "compress"
+    ],
+    "answerIndex": 1,
+    "explanation": "impress（使留下深刻印象）符合求職者想在面試中表現的情境；express（表達）、depress（使沮喪）、compress（壓縮）皆不符語境。",
+    "optionNotes": [
+      "動詞・表達",
+      "動詞・使留下深刻印象",
+      "動詞・使沮喪",
+      "動詞・壓縮"
+    ]
+  },
+  {
+    "id": "sv-158",
+    "category": "形容詞",
+    "question": "Despite facing ______ difficulties along the journey, they never gave up on reaching the summit.",
+    "chinese": "儘管在旅途中面臨了無數的困難，他們從未放棄登頂。",
+    "options": [
+      "nervous",
+      "humorous",
+      "numerous",
+      "curious"
+    ],
+    "answerIndex": 2,
+    "explanation": "numerous（許多的、無數的）用來修飾 difficulties，表示困難很多；nervous（緊張的）、humorous（幽默的）、curious（好奇的）皆不合理。",
+    "optionNotes": [
+      "形容詞・緊張的",
+      "形容詞・幽默的",
+      "形容詞・許多的、無數的",
+      "形容詞・好奇的"
+    ]
+  },
+  {
+    "id": "sv-159",
+    "category": "形容詞",
+    "question": "The painkiller provided only ______ relief; the toothache returned after a few hours.",
+    "chinese": "止痛藥只提供了暫時的緩解；幾個小時後牙痛又發作了。",
+    "options": [
+      "primary",
+      "contrary",
+      "necessary",
+      "temporary"
+    ],
+    "answerIndex": 3,
+    "explanation": "temporary（暫時的）符合藥效退去後疼痛復發的情境；primary（首要的）、contrary（相反的）、necessary（必要的）皆不合語意。",
+    "optionNotes": [
+      "形容詞・首要的、主要的",
+      "形容詞・相反的",
+      "形容詞・必要的",
+      "形容詞・暫時的"
+    ]
+  },
+  {
+    "id": "sv-160",
+    "category": "動詞",
+    "question": "With hard work and determination, you can ______ anything you set your mind to.",
+    "chinese": "只要努力與有決心，你可以達成任何你下定決心去做的事。",
+    "options": [
+      "achieve",
+      "relieve",
+      "believe",
+      "grieve"
+    ],
+    "answerIndex": 0,
+    "explanation": "achieve（達成）符合實現目標的語意；relieve（減輕）、believe（相信）、grieve（悲傷）皆為押韻字但語意不合。",
+    "optionNotes": [
+      "動詞・達成、實現",
+      "動詞・減輕、解除",
+      "動詞・相信",
+      "動詞・感到悲傷"
+    ]
+  },
+  {
+    "id": "sv-161",
+    "category": "動詞",
+    "question": "The powerful earthquake was strong enough to ______ entire buildings in the downtown area.",
+    "chinese": "這場強烈的地震威力大到足以摧毀市區裡的整棟建築物。",
+    "options": [
+      "deploy",
+      "destroy",
+      "delay",
+      "display"
+    ],
+    "answerIndex": 1,
+    "explanation": "destroy（摧毀）符合地震破壞建築物的情境；deploy（部署）、delay（延遲）、display（展示）皆不合語意。",
+    "optionNotes": [
+      "動詞・部署",
+      "動詞・破壞、摧毀",
+      "動詞・延遲",
+      "動詞・展示"
+    ]
+  },
+  {
+    "id": "sv-162",
+    "category": "動詞",
+    "question": "After working at the law firm for ten years, she managed to ______ a vast amount of legal knowledge.",
+    "chinese": "在律師事務所工作十年後，她成功獲得了大量的法律知識。",
+    "options": [
+      "require",
+      "inquire",
+      "acquire",
+      "inspire"
+    ],
+    "answerIndex": 2,
+    "explanation": "acquire（獲得）在此指透過經驗獲取知識；require（要求）、inquire（詢問）、inspire（啟發）皆為字尾相似但語意不符的字。",
+    "optionNotes": [
+      "動詞・要求",
+      "動詞・詢問",
+      "動詞・獲得、學得",
+      "動詞・啟發、鼓舞"
+    ]
+  },
+  {
+    "id": "sv-163",
+    "category": "副詞",
+    "question": "The two brothers look so much alike that it is hard for strangers to tell them ______.",
+    "chinese": "這兩兄弟長得太像了，以至於陌生人很難把他們分辨開來。",
+    "options": [
+      "ahead",
+      "aloud",
+      "alike",
+      "apart"
+    ],
+    "answerIndex": 3,
+    "explanation": "apart（分開地）在此構成 tell someone apart（分辨），為固定搭配；ahead（向前）、aloud（大聲地）、alike（相像地）皆無法構成此語意。",
+    "optionNotes": [
+      "副詞・在前方、提前",
+      "副詞・大聲地",
+      "副詞・相似地",
+      "副詞・分開地"
+    ]
+  },
+  {
+    "id": "sv-164",
+    "category": "形容詞",
+    "question": "The startup introduced an ______ solution to reduce plastic waste using biodegradable materials.",
+    "chinese": "這家新創公司引進了一種使用生物可分解材料減少塑膠垃圾的創新解決方案。",
+    "options": [
+      "innovative",
+      "informative",
+      "initiative",
+      "instinctive"
+    ],
+    "answerIndex": 0,
+    "explanation": "innovative（創新的）用來修飾新創公司的獨特解決方案；informative（資訊豐富的）、initiative（主動的/名詞：倡議）、instinctive（本能的）語意皆不搭配。",
+    "optionNotes": [
+      "形容詞・創新的",
+      "形容詞・資訊豐富的",
+      "形容詞・主動的；名詞・倡議",
+      "形容詞・本能的"
+    ]
+  },
+  {
+    "id": "sv-165",
+    "category": "形容詞",
+    "question": "The professor is a highly ______ scholar who has published dozens of books on ancient history.",
+    "chinese": "這位教授是一位非常博學的學者，已經出版了數十本關於古代歷史的著作。",
+    "options": [
+      "loaded",
+      "learned",
+      "leaned",
+      "listed"
+    ],
+    "answerIndex": 1,
+    "explanation": "learned（博學的）讀音為雙音節，專指學識淵博的人，符合教授的身分；loaded（裝載的/富有的）、leaned（傾斜的）、listed（列出的）皆不合理。",
+    "optionNotes": [
+      "形容詞・裝滿的、極富有的",
+      "形容詞・博學的",
+      "動詞・傾斜 (過去式)",
+      "形容詞・表列的"
+    ]
+  },
+  {
+    "id": "sv-166",
+    "category": "名詞",
+    "question": "The children immediately stopped shouting and behaved well in the ______ of the school principal.",
+    "chinese": "在校長的面前，孩子們立刻停止大叫並表現良好。",
+    "options": [
+      "pressure",
+      "preference",
+      "presence",
+      "practice"
+    ],
+    "answerIndex": 2,
+    "explanation": "presence（出席、存在）在此構成 in the presence of（在...的面前），符合語境；pressure（壓力）、preference（偏好）、practice（練習）皆不搭配。",
+    "optionNotes": [
+      "名詞・壓力",
+      "名詞・偏好",
+      "名詞・出席、在場",
+      "名詞・練習、慣例"
+    ]
+  },
+  {
+    "id": "sv-167",
+    "category": "動詞",
+    "question": "The security system is designed to ______ any unauthorized movement within the building.",
+    "chinese": "該保全系統旨在偵測建築物內任何未經授權的活動。",
+    "options": [
+      "defect",
+      "direct",
+      "protect",
+      "detect"
+    ],
+    "answerIndex": 3,
+    "explanation": "detect（偵測）符合保全系統偵測活動的情境；defect（背叛/瑕疵）、direct（引導）、protect（保護，但 protect movement 語意不通）皆不合適。",
+    "optionNotes": [
+      "名詞・瑕疵；動詞・背叛",
+      "動詞・引導；形容詞・直接的",
+      "動詞・保護",
+      "動詞・偵測、察覺"
+    ]
+  },
+  {
+    "id": "sv-168",
+    "category": "動詞",
+    "question": "Languages are not static; they continue to ______ over time as societies and cultures change.",
+    "chinese": "語言不是靜態的；隨著社會與文化的改變，它們會隨時間繼續演化。",
+    "options": [
+      "evolve",
+      "dissolve",
+      "resolve",
+      "involve"
+    ],
+    "answerIndex": 0,
+    "explanation": "evolve（演化、發展）符合語言隨時間緩慢改變的特性；dissolve（溶解）、resolve（解決）、involve（涉及）皆不合語意。",
+    "optionNotes": [
+      "動詞・演化、發展",
+      "動詞・溶解",
+      "動詞・解決、決心",
+      "動詞・涉及、包含"
+    ]
+  },
+  {
+    "id": "sv-169",
+    "category": "形容詞",
+    "question": "Pollution in the ocean is a serious danger to dolphins, sea turtles, and other ______ life.",
+    "chinese": "海洋汙染對海豚、海龜與其他海洋生物是嚴重的危險。",
+    "options": [
+      "massive",
+      "marine",
+      "machine",
+      "mature"
+    ],
+    "answerIndex": 1,
+    "explanation": "marine（海洋的）符合修飾海豚等生物的 marine life（海洋生物）；massive（巨大的）、machine（機器）、mature（成熟的）皆不符語境。",
+    "optionNotes": [
+      "形容詞・巨大的",
+      "形容詞・海洋的",
+      "名詞・機器",
+      "形容詞・成熟的"
+    ]
+  },
+  {
+    "id": "sv-170",
+    "category": "形容詞",
+    "question": "It is highly dangerous and strictly illegal to drive a car while you are ______.",
+    "chinese": "喝醉時開車是非常危險且嚴格違法的行為。",
+    "options": [
+      "dump",
+      "dumb",
+      "drunk",
+      "dust"
+    ],
+    "answerIndex": 2,
+    "explanation": "drunk（喝醉的）符合不能酒駕的法律與安全常識；dump（傾倒）、dumb（啞的/愚笨的）、dust（灰塵）皆不合語意。",
+    "optionNotes": [
+      "動詞・傾倒、丟棄",
+      "形容詞・啞的、愚笨的",
+      "形容詞・喝醉的",
+      "名詞・灰塵"
+    ]
+  },
+  {
+    "id": "sv-171",
+    "category": "動詞",
+    "question": "While hiking in the deep forest, they were surprised to ______ a rare species of butterfly.",
+    "chinese": "在深山中健行時，他們很驚訝地巧遇了一種罕見的蝴蝶。",
+    "options": [
+      "encourage",
+      "entertain",
+      "volunteer",
+      "encounter"
+    ],
+    "answerIndex": 3,
+    "explanation": "encounter（遭遇、不期而遇）符合在森林中意外看見罕見蝴蝶的情境；encourage（鼓勵）、entertain（娛樂）、volunteer（自願）皆不合語意。",
+    "optionNotes": [
+      "動詞・鼓勵",
+      "動詞・娛樂、款待",
+      "動詞・自願",
+      "動詞・遭遇、不期而遇"
+    ]
+  },
+  {
+    "id": "sv-172",
+    "category": "動詞",
+    "question": "The speaker used a bright marker to ______ the most crucial statistics on the whiteboard.",
+    "chinese": "演講者用亮色麥克筆在白板上標示出最關鍵的統計數據。",
+    "options": [
+      "highlight",
+      "delight",
+      "sunlight",
+      "insight"
+    ],
+    "answerIndex": 0,
+    "explanation": "highlight（畫重點、強調）符合用麥克筆標示重要內容的動作；delight（使愉悅）、sunlight（陽光）、insight（洞察力）皆不合適。",
+    "optionNotes": [
+      "動詞・畫重點、強調",
+      "動詞・使愉悅；名詞・愉快",
+      "名詞・陽光",
+      "名詞・洞察力"
+    ]
+  },
+  {
+    "id": "sv-173",
+    "category": "動詞",
+    "question": "The witness was asked to look at a lineup of suspects to ______ the person who stole the bag.",
+    "chinese": "目擊者被要求觀看一排嫌疑犯，以指認出偷包包的人。",
+    "options": [
+      "justify",
+      "identify",
+      "classify",
+      "modify"
+    ],
+    "answerIndex": 1,
+    "explanation": "identify（辨認、指認）符合目擊者在嫌疑犯中指認犯人的情境；justify（證明...有理）、classify（分類）、modify（修改）皆不合語意。",
+    "optionNotes": [
+      "動詞・證明...是合理的",
+      "動詞・辨認、指認",
+      "動詞・分類",
+      "動詞・修改"
+    ]
+  },
+  {
+    "id": "sv-174",
+    "category": "名詞",
+    "question": "The expensive jacket is made of genuine ______, so it should be cleaned carefully.",
+    "chinese": "這件昂貴的外套是由真皮製成的，所以應該小心清潔。",
+    "options": [
+      "feather",
+      "weather",
+      "leather",
+      "rather"
+    ],
+    "answerIndex": 2,
+    "explanation": "leather（皮革）常與 genuine 連用構成「真皮」，符合昂貴外套材質的描述；feather（羽毛）、weather（天氣）、rather（寧願）語意皆不搭配。",
+    "optionNotes": [
+      "名詞・羽毛",
+      "名詞・天氣",
+      "名詞・皮革",
+      "副詞・寧願、相當"
+    ]
+  },
+  {
+    "id": "sv-175",
+    "category": "名詞",
+    "question": "The older ______ often complains that young people today spend too much time on their smartphones.",
+    "chinese": "老一輩的人經常抱怨現在的年輕人花太多時間在智慧型手機上。",
+    "options": [
+      "graduation",
+      "reputation",
+      "operation",
+      "generation"
+    ],
+    "answerIndex": 3,
+    "explanation": "generation（世代）符合描述老一輩與年輕人的代溝情境；graduation（畢業）、reputation（名聲）、operation（操作/手術）皆不合語意。",
+    "optionNotes": [
+      "名詞・畢業",
+      "名詞・名聲",
+      "名詞・操作、手術",
+      "名詞・世代"
+    ]
+  },
+  {
+    "id": "sv-176",
+    "category": "動詞",
+    "question": "For Halloween, children love to ______ scary faces into pumpkins and place a candle inside.",
+    "chinese": "在萬聖節，孩子們喜歡在南瓜上雕刻出可怕的臉，並在裡面放一根蠟燭。",
+    "options": [
+      "carve",
+      "curve",
+      "crave",
+      "starve"
+    ],
+    "answerIndex": 0,
+    "explanation": "carve（雕刻）符合萬聖節雕刻南瓜燈的傳統動作；curve（彎曲）、crave（渴望）、starve（挨餓）皆為形近字但語意不符。",
+    "optionNotes": [
+      "動詞・雕刻",
+      "名詞・曲線；動詞・彎曲",
+      "動詞・渴望",
+      "動詞・挨餓"
+    ]
+  },
+  {
+    "id": "sv-177",
+    "category": "名詞",
+    "question": "The Northern Lights are a beautiful natural ______ that can be seen in polar regions.",
+    "chinese": "北極光是可以在極地地區看到的美麗自然現象。",
+    "options": [
+      "philosophy",
+      "phenomenon",
+      "photography",
+      "physics"
+    ],
+    "answerIndex": 1,
+    "explanation": "phenomenon（現象）常與 natural 搭配，指自然現象，符合北極光的描述；philosophy（哲學）、photography（攝影）、physics（物理學）皆不合適。",
+    "optionNotes": [
+      "名詞・哲學",
+      "名詞・現象 (單數形)",
+      "名詞・攝影",
+      "名詞・物理學"
+    ]
+  },
+  {
+    "id": "sv-178",
+    "category": "動詞",
+    "question": "The celebrity wore sunglasses and a hat because she did not want fans to ______ her at the airport.",
+    "chinese": "這位名人戴著墨鏡和帽子，因為她不想在機場被粉絲包圍。",
+    "options": [
+      "suspend",
+      "render",
+      "surround",
+      "survive"
+    ],
+    "answerIndex": 2,
+    "explanation": "surround（圍繞、包圍）符合名人怕被粉絲簇擁的情境；suspend（懸掛/暫停）、render（使成為/提供）、survive（存活）皆不合語意。",
+    "optionNotes": [
+      "動詞・懸掛、暫停",
+      "動詞・使成為、提供",
+      "動詞・圍繞、包圍",
+      "動詞・存活"
+    ]
+  },
+  {
+    "id": "sv-179",
+    "category": "名詞",
+    "question": "The businessman made a ______ by investing in technology stocks early in his career.",
+    "chinese": "這位商人在他職涯早期藉由投資科技股賺了一大筆財富。",
+    "options": [
+      "failure",
+      "feature",
+      "furniture",
+      "fortune"
+    ],
+    "answerIndex": 3,
+    "explanation": "fortune（財富）構成 make a fortune（賺大錢）的搭配詞；failure（失敗）、feature（特徵）、furniture（家具）皆不合語境。",
+    "optionNotes": [
+      "名詞・失敗",
+      "名詞・特徵",
+      "名詞・家具",
+      "名詞・財富、運氣"
+    ]
+  },
+  {
+    "id": "sv-180",
+    "category": "形容詞",
+    "question": "Drinking a cup of coffee in the morning helps me stay awake and ______ during long meetings.",
+    "chinese": "早上喝杯咖啡有助於我在漫長的會議中保持清醒與警覺。",
+    "options": [
+      "alert",
+      "alter",
+      "alike",
+      "alive"
+    ],
+    "answerIndex": 0,
+    "explanation": "alert（警覺的、機警的）與 awake 並列，符合喝咖啡提神的效果；alter（改變）、alike（相似的）、alive（活著的）皆不合語意。",
+    "optionNotes": [
+      "形容詞・警覺的",
+      "動詞・改變",
+      "形容詞・相似的",
+      "形容詞・活著的"
+    ]
+  },
+  {
+    "id": "sv-181",
+    "category": "名詞",
+    "question": "Having a positive ______ can make it easier to overcome the challenges you face in life.",
+    "chinese": "擁有積極的態度能讓你更容易克服在生活中面臨的挑戰。",
+    "options": [
+      "altitude",
+      "attitude",
+      "aptitude",
+      "latitude"
+    ],
+    "answerIndex": 1,
+    "explanation": "attitude（態度）常與 positive 搭配，指正向態度；altitude（海拔）、aptitude（性向/天賦）、latitude（緯度）皆為常見混淆字但不符語意。",
+    "optionNotes": [
+      "名詞・海拔、高度",
+      "名詞・態度",
+      "名詞・性向、天賦",
+      "名詞・緯度"
+    ]
+  },
+  {
+    "id": "sv-182",
+    "category": "名詞",
+    "question": "The students are required to wear safety goggles while conducting chemical experiments in the ______.",
+    "chinese": "學生在實驗室進行化學實驗時，被要求佩戴護目鏡。",
+    "options": [
+      "territory",
+      "category",
+      "laboratory",
+      "vocabulary"
+    ],
+    "answerIndex": 2,
+    "explanation": "laboratory（實驗室）符合進行化學實驗的地點；territory（領土）、category（種類）、vocabulary（字彙）皆不合語境。",
+    "optionNotes": [
+      "名詞・領土、領域",
+      "名詞・種類、範疇",
+      "名詞・實驗室",
+      "名詞・字彙"
+    ]
+  },
+  {
+    "id": "sv-183",
+    "category": "形容詞",
+    "question": "The right to vote in free elections is considered a fundamental ______ right in democratic countries.",
+    "chinese": "在自由選舉中投票的權利，在民主國家被認為是一項基本的公民權利。",
+    "options": [
+      "cruel",
+      "casual",
+      "equal",
+      "civil"
+    ],
+    "answerIndex": 3,
+    "explanation": "civil（公民的）在此與 right 構成 civil rights（公民權），符合語意；cruel（殘忍的）、casual（休閒的/非正式的）、equal（平等的，雖常講 equal rights 平權，但 civil rights 更專指公民政治權利，在此與投票權最搭，且 equal 不用在 equal right 這種單數組合）。",
+    "optionNotes": [
+      "形容詞・殘忍的",
+      "形容詞・休閒的、非正式的",
+      "形容詞・平等的",
+      "形容詞・公民的、國內的"
+    ]
+  },
+  {
+    "id": "sv-184",
+    "category": "動詞",
+    "question": "Please put your phone on silent mode so that it won't ______ the other people in the library.",
+    "chinese": "請把你的手機調成靜音模式，這樣它才不會打擾到圖書館裡的其他使用者。",
+    "options": [
+      "disturb",
+      "distribute",
+      "disgust",
+      "dispute"
+    ],
+    "answerIndex": 0,
+    "explanation": "disturb（打擾）符合手機聲響會干擾圖書館他人的情境；distribute（分發）、disgust（使反感）、dispute（爭論）皆不合語意。",
+    "optionNotes": [
+      "動詞・打擾",
+      "動詞・分發、分配",
+      "動詞・使反感",
+      "動詞・爭論"
+    ]
+  },
+  {
+    "id": "sv-185",
+    "category": "動詞",
+    "question": "On a sunny Sunday afternoon, many tourists love to ______ through the narrow streets of the old town.",
+    "chinese": "在一個陽光明媚的星期天下午，許多遊客喜歡在舊城區狹窄的街道上漫步。",
+    "options": [
+      "wonder",
+      "wander",
+      "whisper",
+      "whistle"
+    ],
+    "answerIndex": 1,
+    "explanation": "wander（漫步、閒逛）符合遊客在老街悠閒散步的情境；wonder（想知道/納悶）、whisper（低語）、whistle（吹口哨）皆不符。",
+    "optionNotes": [
+      "動詞・想知道、納悶",
+      "動詞・漫步、閒逛",
+      "動詞・低語",
+      "動詞・吹口哨"
+    ]
   }
 ]
