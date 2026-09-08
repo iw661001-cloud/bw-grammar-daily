@@ -6723,5 +6723,1011 @@
       "名詞・生存",
       "名詞・嫌疑犯"
     ]
+  },
+  {
+    "id": "sv-336",
+    "category": "副詞",
+    "question": "The success of the new marketing campaign was ______ due to the creative ideas of the young team.",
+    "chinese": "新行銷活動的成功很大程度上歸功於年輕團隊的創意。",
+    "options": [
+      "largely",
+      "lately",
+      "literally",
+      "loosely"
+    ],
+    "answerIndex": 0,
+    "explanation": "largely（很大程度上、主要地）符合「主要歸功於...」的語意；lately（最近）、literally（照字面地）、loosely（寬鬆地）皆不合語意。",
+    "optionNotes": [
+      "副詞・很大程度上",
+      "副詞・最近",
+      "副詞・照字面地",
+      "副詞・寬鬆地"
+    ]
+  },
+  {
+    "id": "sv-337",
+    "category": "動詞",
+    "question": "The new software is designed to ______ the sharing of information between different departments.",
+    "chinese": "新軟體的設計是為了促進不同部門之間的資訊分享。",
+    "options": [
+      "fabricate",
+      "facilitate",
+      "fascinate",
+      "fluctuate"
+    ],
+    "answerIndex": 1,
+    "explanation": "facilitate（促進、使便利）符合「促進資訊分享」；fabricate（捏造）、fascinate（使著迷）、fluctuate（波動）皆不合適。",
+    "optionNotes": [
+      "動詞・捏造",
+      "動詞・促進",
+      "動詞・使著迷",
+      "動詞・波動"
+    ],
+    "etymology": "facil-(容易) + -ate(動詞字尾) → 使之容易 → 促進"
+  },
+  {
+    "id": "sv-338",
+    "category": "形容詞",
+    "question": "They have been best friends since childhood and share an ______ understanding of each other.",
+    "chinese": "他們從小就是最好的朋友，彼此之間有著親密的默契。",
+    "options": [
+      "initial",
+      "intermediate",
+      "intimate",
+      "infinite"
+    ],
+    "answerIndex": 2,
+    "explanation": "intimate（親密的）符合「最好的朋友之間」的狀態；initial（最初的）、intermediate（中級的）、infinite（無限的）皆不符合語境。",
+    "optionNotes": [
+      "形容詞・最初的",
+      "形容詞・中級的",
+      "形容詞・親密的",
+      "形容詞・無限的"
+    ]
+  },
+  {
+    "id": "sv-339",
+    "category": "名詞",
+    "question": "As a great nature ______, he spends most of his weekends hiking in the mountains.",
+    "chinese": "作為一個大自然的熱愛者，他大部分的週末都在山裡健行。",
+    "options": [
+      "loser",
+      "learner",
+      "leader",
+      "lover"
+    ],
+    "answerIndex": 3,
+    "explanation": "lover 除了指情人，也可以指「愛好者」（如 nature lover、animal lover）；loser（輸家）、learner（學習者）、leader（領導者）皆不合適。",
+    "optionNotes": [
+      "名詞・輸家",
+      "名詞・學習者",
+      "名詞・領導者",
+      "名詞・情人、愛好者"
+    ]
+  },
+  {
+    "id": "sv-340",
+    "category": "動詞",
+    "question": "Despite the severe drought, the cactus is able to ______ a large amount of water in its thick stem.",
+    "chinese": "儘管面臨嚴重的乾旱，仙人掌仍能在其粗壯的莖中保留大量水分。",
+    "options": [
+      "retain",
+      "refrain",
+      "remain",
+      "retreat"
+    ],
+    "answerIndex": 0,
+    "explanation": "retain（保留、保持）符合「保留水分」的語意；refrain（克制）、remain（保持、留下 - 通常作不及物動詞）、retreat（撤退）皆不正確。",
+    "optionNotes": [
+      "動詞・保留",
+      "動詞・克制",
+      "動詞・保持、留下",
+      "動詞・撤退"
+    ],
+    "etymology": "re-(向後) + tain-(握住) → 留在手中 → 保留"
+  },
+  {
+    "id": "sv-341",
+    "category": "名詞",
+    "question": "The smartphone was a great ______ that completely changed how people communicate.",
+    "chinese": "智慧型手機是一項偉大的創新，徹底改變了人們溝通的方式。",
+    "options": [
+      "invasion",
+      "innovation",
+      "invitation",
+      "instruction"
+    ],
+    "answerIndex": 1,
+    "explanation": "innovation（創新）符合改變溝通方式的「偉大發明」；invasion（入侵）、invitation（邀請）、instruction（指示）皆不符合語意。",
+    "optionNotes": [
+      "名詞・入侵",
+      "名詞・創新",
+      "名詞・邀請",
+      "名詞・指示、教學"
+    ],
+    "etymology": "in-(進入) + nov-(新) + -ation(名詞字尾) → 帶入新事物 → 創新"
+  },
+  {
+    "id": "sv-342",
+    "category": "名詞",
+    "question": "By ______, the bride's family in many cultures pays for the wedding ceremony.",
+    "chinese": "按照習俗，在許多文化中，新娘的家庭會支付婚禮的費用。",
+    "options": [
+      "convenience",
+      "connection",
+      "convention",
+      "conviction"
+    ],
+    "answerIndex": 2,
+    "explanation": "convention（習俗、慣例）符合「by convention (按照習俗)」的搭配；convenience（方便）、connection（關聯）、conviction（定罪、堅信）皆不合適。",
+    "optionNotes": [
+      "名詞・方便",
+      "名詞・關聯",
+      "名詞・習俗、大會",
+      "名詞・定罪、堅信"
+    ]
+  },
+  {
+    "id": "sv-343",
+    "category": "名詞",
+    "question": "The brave ______ fought fearlessly to protect his tribe from the invaders.",
+    "chinese": "那位勇敢的戰士無畏地戰鬥，以保護他的部落免受入侵者侵害。",
+    "options": [
+      "barrier",
+      "carrier",
+      "terror",
+      "warrior"
+    ],
+    "answerIndex": 3,
+    "explanation": "warrior（戰士）符合「保護部落而戰」的語境；barrier（障礙物）、carrier（帶菌者、運輸商）、terror（恐懼）皆不合適。",
+    "optionNotes": [
+      "名詞・障礙物",
+      "名詞・帶菌者",
+      "名詞・恐懼",
+      "名詞・戰士"
+    ]
+  },
+  {
+    "id": "sv-344",
+    "category": "動詞",
+    "question": "It really began to ______ me when my neighbor played loud music late at night.",
+    "chinese": "當我的鄰居在深夜播放大聲的音樂時，這真的開始惹惱我了。",
+    "options": [
+      "annoy",
+      "amuse",
+      "amaze",
+      "appeal"
+    ],
+    "answerIndex": 0,
+    "explanation": "annoy（惹惱、使煩躁）符合深夜大聲放音樂造成的結果；amuse（逗樂）、amaze（使驚訝）、appeal（吸引、呼籲）皆不合語意。",
+    "optionNotes": [
+      "動詞・惹惱",
+      "動詞・逗樂",
+      "動詞・使驚訝",
+      "動詞・吸引"
+    ]
+  },
+  {
+    "id": "sv-345",
+    "category": "動詞",
+    "question": "Do not ______ the film to direct sunlight, or the photos will be ruined.",
+    "chinese": "不要將底片暴露在陽光直射下，否則照片會毀掉。",
+    "options": [
+      "explore",
+      "expose",
+      "expand",
+      "export"
+    ],
+    "answerIndex": 1,
+    "explanation": "expose（暴露）搭配介系詞 to，符合「暴露於陽光下」；explore（探索）、expand（擴張）、export（出口）皆不符合語境。",
+    "optionNotes": [
+      "動詞・探索",
+      "動詞・暴露",
+      "動詞・擴張",
+      "動詞・出口"
+    ],
+    "etymology": "ex-(向外) + pos-(放置) → 放在外面無遮蔽 → 暴露"
+  },
+  {
+    "id": "sv-346",
+    "category": "名詞",
+    "question": "The famous ______ traveled to Africa to take pictures of wild animals for the magazine.",
+    "chinese": "那位著名的攝影師前往非洲，為雜誌拍攝野生動物的照片。",
+    "options": [
+      "philosopher",
+      "passenger",
+      "photographer",
+      "messenger"
+    ],
+    "answerIndex": 2,
+    "explanation": "photographer（攝影師）對應到後面 take pictures 的動作；philosopher（哲學家）、passenger（乘客）、messenger（信差）皆不合邏輯。",
+    "optionNotes": [
+      "名詞・哲學家",
+      "名詞・乘客",
+      "名詞・攝影師",
+      "名詞・信差"
+    ]
+  },
+  {
+    "id": "sv-347",
+    "category": "動詞",
+    "question": "The doctor would highly ______ that you get more sleep to improve your health.",
+    "chinese": "醫生會強烈推薦你多睡覺以改善健康。",
+    "options": [
+      "command",
+      "demand",
+      "remind",
+      "recommend"
+    ],
+    "answerIndex": 3,
+    "explanation": "recommend（推薦、建議）符合醫生的建議行為；command（命令）、demand（要求）、remind（提醒）在語氣或用法上不如 recommend 自然。",
+    "optionNotes": [
+      "動詞・命令",
+      "動詞・要求",
+      "動詞・提醒",
+      "動詞・推薦"
+    ]
+  },
+  {
+    "id": "sv-348",
+    "category": "名詞",
+    "question": "A persistent cough is a common ______ of the flu and should not be ignored.",
+    "chinese": "持續的咳嗽是流感的常見症狀，不應該被忽視。",
+    "options": [
+      "symptom",
+      "symbol",
+      "system",
+      "syrup"
+    ],
+    "answerIndex": 0,
+    "explanation": "symptom（症狀）對應流感（flu）的表現；symbol（象徵）、system（系統）、syrup（糖漿）皆不符合語意。",
+    "optionNotes": [
+      "名詞・症狀",
+      "名詞・象徵",
+      "名詞・系統",
+      "名詞・糖漿"
+    ]
+  },
+  {
+    "id": "sv-349",
+    "category": "名詞",
+    "question": "We visited the village where our ______ lived hundreds of years ago.",
+    "chinese": "我們拜訪了我們祖先幾百年前居住的村莊。",
+    "options": [
+      "ambassador",
+      "ancestor",
+      "investor",
+      "inspector"
+    ],
+    "answerIndex": 1,
+    "explanation": "ancestor（祖先）符合「幾百年前居住」的時空背景；ambassador（大使）、investor（投資者）、inspector（檢查員）皆不合邏輯。",
+    "optionNotes": [
+      "名詞・大使",
+      "名詞・祖先",
+      "名詞・投資者",
+      "名詞・檢查員"
+    ]
+  },
+  {
+    "id": "sv-350",
+    "category": "名詞",
+    "question": "The book provides a deep ______ into the complex relationship between humans and nature.",
+    "chinese": "這本書對人類與自然之間的複雜關係提供了深刻的洞察。",
+    "options": [
+      "eyesight",
+      "sightseeing",
+      "insight",
+      "oversight"
+    ],
+    "answerIndex": 2,
+    "explanation": "insight（洞察力、深刻見解）常搭配 into，表示深入了解；eyesight（視力）、sightseeing（觀光）、oversight（疏忽）皆不符合語意。",
+    "optionNotes": [
+      "名詞・視力",
+      "名詞・觀光",
+      "名詞・洞察力",
+      "名詞・疏忽"
+    ]
+  },
+  {
+    "id": "sv-351",
+    "category": "名詞",
+    "question": "The Great Barrier Reef in Australia is the largest ______ reef system in the world.",
+    "chinese": "澳洲的大堡礁是世界上最大的珊瑚礁系統。",
+    "options": [
+      "moral",
+      "rural",
+      "floral",
+      "coral"
+    ],
+    "answerIndex": 3,
+    "explanation": "coral（珊瑚）符合 coral reef (珊瑚礁) 這個專有名詞搭配；moral（道德的）、rural（鄉村的）、floral（花卉的）在此皆不合理。",
+    "optionNotes": [
+      "形容詞・道德的",
+      "形容詞・鄉村的",
+      "形容詞・花卉的",
+      "名詞・珊瑚"
+    ]
+  },
+  {
+    "id": "sv-352",
+    "category": "名詞",
+    "question": "Because it was a hot summer day, she wore a pair of leather ______ to the beach.",
+    "chinese": "因為是個炎熱的夏日，她穿了一雙皮涼鞋去海邊。",
+    "options": [
+      "sandals",
+      "scandals",
+      "vandals",
+      "medals"
+    ],
+    "answerIndex": 0,
+    "explanation": "sandals（涼鞋）是海邊常穿的鞋類；scandals（醜聞）、vandals（破壞公物者）、medals（獎牌）皆不合語意。",
+    "optionNotes": [
+      "名詞・涼鞋",
+      "名詞・醜聞",
+      "名詞・破壞公物者",
+      "名詞・獎牌"
+    ]
+  },
+  {
+    "id": "sv-353",
+    "category": "形容詞",
+    "question": "The ______ businessman donated millions of dollars to build a new library for the city.",
+    "chinese": "那位富裕的商人捐了數百萬美元為城市建造一座新圖書館。",
+    "options": [
+      "healthy",
+      "wealthy",
+      "worthy",
+      "stealthy"
+    ],
+    "answerIndex": 1,
+    "explanation": "wealthy（富裕的）符合「捐贈數百萬美元」的財力背景；healthy（健康的）、worthy（有價值的）、stealthy（鬼鬼祟祟的）皆不符合語意。",
+    "optionNotes": [
+      "形容詞・健康的",
+      "形容詞・富裕的",
+      "形容詞・有價值的",
+      "形容詞・鬼鬼祟祟的"
+    ]
+  },
+  {
+    "id": "sv-354",
+    "category": "動詞",
+    "question": "When moving to a foreign country, it usually takes some time to ______ to the new culture.",
+    "chinese": "搬到外國時，通常需要一些時間來適應新文化。",
+    "options": [
+      "adopt",
+      "addict",
+      "adapt",
+      "adept"
+    ],
+    "answerIndex": 2,
+    "explanation": "adapt（適應）常搭配介系詞 to (adapt to something)；adopt（採用、領養）、addict（使沉迷）、adept（熟練的，為形容詞）皆不合語意。",
+    "optionNotes": [
+      "動詞・採用、領養",
+      "動詞・使沉迷",
+      "動詞・適應",
+      "形容詞・熟練的"
+    ]
+  },
+  {
+    "id": "sv-355",
+    "category": "動詞",
+    "question": "You might need to ______ the height of your office chair so that your feet touch the floor.",
+    "chinese": "你可能需要調整辦公椅的高度，好讓你的腳能碰到地板。",
+    "options": [
+      "admit",
+      "adopt",
+      "attach",
+      "adjust"
+    ],
+    "answerIndex": 3,
+    "explanation": "adjust（調整）符合改變椅子高度的動作；admit（承認）、adopt（採用）、attach（附上）皆不合邏輯。",
+    "optionNotes": [
+      "動詞・承認",
+      "動詞・採用",
+      "動詞・附上",
+      "動詞・調整"
+    ]
+  },
+  {
+    "id": "sv-356",
+    "category": "名詞",
+    "question": "The restaurant has a romantic ______ with its soft lighting and quiet music.",
+    "chinese": "這家餐廳憑藉柔和的燈光和安靜的音樂，有著浪漫的氣氛。",
+    "options": [
+      "atmosphere",
+      "architecture",
+      "agriculture",
+      "adventure"
+    ],
+    "answerIndex": 0,
+    "explanation": "atmosphere 除了指大氣層，也常指環境的「氣氛」；architecture（建築）、agriculture（農業）、adventure（冒險）皆不符合餐廳的描述。",
+    "optionNotes": [
+      "名詞・氣氛、大氣層",
+      "名詞・建築學",
+      "名詞・農業",
+      "名詞・冒險"
+    ]
+  },
+  {
+    "id": "sv-357",
+    "category": "形容詞",
+    "question": "The boy walked on the hot sand with ______ feet and burned his toes.",
+    "chinese": "男孩光著腳走在熱沙上，燙傷了腳趾。",
+    "options": [
+      "bold",
+      "bare",
+      "blind",
+      "bald"
+    ],
+    "answerIndex": 1,
+    "explanation": "bare（赤裸的）符合 bare feet (光腳) 的固定搭配；bold（大膽的）、blind（盲的）、bald（禿頭的）皆不符合語境。",
+    "optionNotes": [
+      "形容詞・大膽的",
+      "形容詞・赤裸的",
+      "形容詞・盲的",
+      "形容詞・禿頭的"
+    ]
+  },
+  {
+    "id": "sv-358",
+    "category": "名詞",
+    "question": "The Golden Retriever is a popular ______ of dog known for its friendly nature.",
+    "chinese": "黃金獵犬是一種受歡迎的狗品種，以其友善的天性聞名。",
+    "options": [
+      "brand",
+      "blend",
+      "breed",
+      "board"
+    ],
+    "answerIndex": 2,
+    "explanation": "breed（品種）專指動植物的品種；brand（品牌，指商品）、blend（混合物）、board（板子、董事會）皆不適用於動物。",
+    "optionNotes": [
+      "名詞・品牌",
+      "名詞・混合物",
+      "名詞・品種",
+      "名詞・板子"
+    ]
+  },
+  {
+    "id": "sv-359",
+    "category": "動詞",
+    "question": "Customers began to ______ about the slow service when their food didn't arrive after an hour.",
+    "chinese": "當食物過了一小時還沒送來時，顧客開始抱怨上菜太慢。",
+    "options": [
+      "contain",
+      "campaign",
+      "explain",
+      "complain"
+    ],
+    "answerIndex": 3,
+    "explanation": "complain（抱怨）符合顧客遇到服務不周時的反應；contain（包含）、campaign（發起運動）、explain（解釋）皆不符合語境。",
+    "optionNotes": [
+      "動詞・包含",
+      "動詞・發起活動",
+      "動詞・解釋",
+      "動詞・抱怨"
+    ]
+  },
+  {
+    "id": "sv-360",
+    "category": "名詞",
+    "question": "The earthquake caused a huge ______ in the wall of the old building.",
+    "chinese": "地震在這棟老建築的牆上造成了一道巨大的裂縫。",
+    "options": [
+      "crack",
+      "track",
+      "crash",
+      "trash"
+    ],
+    "answerIndex": 0,
+    "explanation": "crack（裂縫）符合地震造成的牆壁損壞；track（軌道、蹤跡）、crash（撞擊）、trash（垃圾）皆不符合語意。",
+    "optionNotes": [
+      "名詞・裂縫",
+      "名詞・軌道",
+      "名詞・撞擊",
+      "名詞・垃圾"
+    ]
+  },
+  {
+    "id": "sv-361",
+    "category": "形容詞",
+    "question": "Water is ______ to the survival of all living creatures on Earth.",
+    "chinese": "水對地球上所有生物的生存是至關重要的。",
+    "options": [
+      "classical",
+      "critical",
+      "chemical",
+      "clinical"
+    ],
+    "answerIndex": 1,
+    "explanation": "critical（關鍵的、至關重要的）符合對生存的必要性；classical（古典的）、chemical（化學的）、clinical（臨床的）皆不符合語意。",
+    "optionNotes": [
+      "形容詞・古典的",
+      "形容詞・關鍵的",
+      "形容詞・化學的",
+      "形容詞・臨床的"
+    ]
+  },
+  {
+    "id": "sv-362",
+    "category": "動詞",
+    "question": "Customs often ______ greatly from one country to another, so it's important to be respectful.",
+    "chinese": "各國的習俗往往差異很大，所以保持尊重很重要。",
+    "options": [
+      "suffer",
+      "offer",
+      "differ",
+      "prefer"
+    ],
+    "answerIndex": 2,
+    "explanation": "differ（不同、有差異）符合 from one country to another (國與國之間不同) 的語境；suffer（受苦）、offer（提供）、prefer（偏好）皆不合適。",
+    "optionNotes": [
+      "動詞・受苦",
+      "動詞・提供",
+      "動詞・不同",
+      "動詞・偏好"
+    ]
+  },
+  {
+    "id": "sv-363",
+    "category": "名詞",
+    "question": "Too much ______ to the sun's UV rays can cause serious skin damage.",
+    "chinese": "過度暴露在太陽的紫外線下會造成嚴重的皮膚損傷。",
+    "options": [
+      "pressure",
+      "pleasure",
+      "enclosure",
+      "exposure"
+    ],
+    "answerIndex": 3,
+    "explanation": "exposure（暴露）常搭配 to，符合接觸紫外線的語境；pressure（壓力）、pleasure（愉悅）、enclosure（圍欄、附件）皆不合適。",
+    "optionNotes": [
+      "名詞・壓力",
+      "名詞・愉悅",
+      "名詞・圍欄",
+      "名詞・暴露"
+    ]
+  },
+  {
+    "id": "sv-364",
+    "category": "形容詞",
+    "question": "The athlete's ______ performance in the Olympics won her three gold medals.",
+    "chinese": "這位運動員在奧運會上非凡的表現讓她贏得了三面金牌。",
+    "options": [
+      "extraordinary",
+      "temporary",
+      "elementary",
+      "vocabulary"
+    ],
+    "answerIndex": 0,
+    "explanation": "extraordinary（非凡的、卓越的）符合贏得三金的驚人成就；temporary（暫時的）、elementary（基本的）、vocabulary（字彙，名詞）皆不合適。",
+    "optionNotes": [
+      "形容詞・非凡的",
+      "形容詞・暫時的",
+      "形容詞・基本的",
+      "名詞・字彙"
+    ],
+    "etymology": "extra-(超過) + ordinary(平凡的) → 超出平凡 → 非凡的"
+  },
+  {
+    "id": "sv-365",
+    "category": "名詞",
+    "question": "The young actor achieved instant ______ after starring in the blockbuster movie.",
+    "chinese": "這位年輕演員在主演了這部賣座電影後，瞬間獲得了名聲。",
+    "options": [
+      "fate",
+      "fame",
+      "fake",
+      "flame"
+    ],
+    "answerIndex": 1,
+    "explanation": "fame（名聲）符合主演大片後的結果；fate（命運）、fake（假貨）、flame（火焰）皆不合邏輯。",
+    "optionNotes": [
+      "名詞・命運",
+      "名詞・名聲",
+      "名詞・假貨",
+      "名詞・火焰"
+    ]
+  },
+  {
+    "id": "sv-366",
+    "category": "形容詞",
+    "question": "Animals in the desert have to survive in a ______ environment with very little water.",
+    "chinese": "沙漠中的動物必須在極少水的嚴酷環境中生存。",
+    "options": [
+      "hard",
+      "hasty",
+      "harsh",
+      "handy"
+    ],
+    "answerIndex": 2,
+    "explanation": "harsh（嚴酷的、惡劣的）常用來形容氣候或環境極端；hard（困難的）語氣較弱；hasty（匆忙的）、handy（方便的）不合語意。",
+    "optionNotes": [
+      "形容詞・困難的",
+      "形容詞・匆忙的",
+      "形容詞・嚴酷的",
+      "形容詞・方便的"
+    ]
+  },
+  {
+    "id": "sv-367",
+    "category": "動詞",
+    "question": "The soldiers were ordered to ______ for 20 miles through the heavy rain.",
+    "chinese": "士兵們被命令在暴雨中行軍20英里。",
+    "options": [
+      "match",
+      "catch",
+      "search",
+      "march"
+    ],
+    "answerIndex": 3,
+    "explanation": "march（行軍、齊步走）符合士兵前進的動作；match（匹配）、catch（抓住）、search（搜尋）皆不符合語境。",
+    "optionNotes": [
+      "動詞・匹配",
+      "動詞・抓住",
+      "動詞・搜尋",
+      "動詞・行軍"
+    ]
+  },
+  {
+    "id": "sv-368",
+    "category": "形容詞",
+    "question": "The police are still investigating the ______ disappearance of the painting from the museum.",
+    "chinese": "警方仍在調查博物館畫作神秘失蹤的事件。",
+    "options": [
+      "mysterious",
+      "marvelous",
+      "miserable",
+      "mechanical"
+    ],
+    "answerIndex": 0,
+    "explanation": "mysterious（神祕的）符合警方正在調查的未知失蹤案；marvelous（令人驚嘆的）、miserable（悲慘的）、mechanical（機械的）皆不合邏輯。",
+    "optionNotes": [
+      "形容詞・神秘的",
+      "形容詞・令人驚嘆的",
+      "形容詞・悲慘的",
+      "形容詞・機械的"
+    ]
+  },
+  {
+    "id": "sv-369",
+    "category": "形容詞",
+    "question": "The Eiffel Tower is one of the most ______ landmarks in Paris.",
+    "chinese": "艾菲爾鐵塔是巴黎最著名的地標之一。",
+    "options": [
+      "dominant",
+      "prominent",
+      "permanent",
+      "continent"
+    ],
+    "answerIndex": 1,
+    "explanation": "prominent（著名的、顯著的）符合知名地標的特質；dominant（佔優勢的）、permanent（永久的）語意稍偏；continent（大陸，名詞）詞性錯誤。",
+    "optionNotes": [
+      "形容詞・佔優勢的",
+      "形容詞・著名的",
+      "形容詞・永久的",
+      "名詞・大陸"
+    ]
+  },
+  {
+    "id": "sv-370",
+    "category": "名詞",
+    "question": "The sweet ______ of fresh roses filled the entire room.",
+    "chinese": "新鮮玫瑰的甜美香味充滿了整個房間。",
+    "options": [
+      "scene",
+      "score",
+      "scent",
+      "scale"
+    ],
+    "answerIndex": 2,
+    "explanation": "scent（香味）符合玫瑰花的特徵；scene（場景）、score（分數）、scale（規模、體重計）皆不合語意。",
+    "optionNotes": [
+      "名詞・場景",
+      "名詞・分數",
+      "名詞・香味",
+      "名詞・規模、體重計"
+    ]
+  },
+  {
+    "id": "sv-371",
+    "category": "名詞",
+    "question": "You could see ______ rising from the cup of hot coffee on the cold winter morning.",
+    "chinese": "在寒冷的冬晨，你可以看到熱咖啡杯上冒出的蒸氣。",
+    "options": [
+      "stream",
+      "scream",
+      "steak",
+      "steam"
+    ],
+    "answerIndex": 3,
+    "explanation": "steam（蒸氣）符合熱咖啡冒出來的氣體；stream（溪流）、scream（尖叫）、steak（牛排）皆不合常理。",
+    "optionNotes": [
+      "名詞・溪流",
+      "名詞・尖叫",
+      "名詞・牛排",
+      "名詞・蒸氣"
+    ]
+  },
+  {
+    "id": "sv-372",
+    "category": "形容詞",
+    "question": "After eating the candy with his hands, the little boy had ______ fingers.",
+    "chinese": "用手吃完糖果後，小男孩的手指變得黏黏的。",
+    "options": [
+      "sticky",
+      "strict",
+      "stiff",
+      "tricky"
+    ],
+    "answerIndex": 0,
+    "explanation": "sticky（黏的）符合吃糖果沾到手的狀態；strict（嚴格的）、stiff（僵硬的）、tricky（狡猾的、棘手的）皆不合語意。",
+    "optionNotes": [
+      "形容詞・黏的",
+      "形容詞・嚴格的",
+      "形容詞・僵硬的",
+      "形容詞・棘手的"
+    ]
+  },
+  {
+    "id": "sv-373",
+    "category": "形容詞",
+    "question": "Her ______ goal is to become a doctor and help people in poor countries.",
+    "chinese": "她的最終目標是成為一名醫生，幫助貧窮國家的人們。",
+    "options": [
+      "intimate",
+      "ultimate",
+      "estimate",
+      "accurate"
+    ],
+    "answerIndex": 1,
+    "explanation": "ultimate（最終的、終極的）常搭配 goal，表示長遠的目標；intimate（親密的）、estimate（估計，動名詞）、accurate（精準的）皆不符合語境。",
+    "optionNotes": [
+      "形容詞・親密的",
+      "形容詞・最終的",
+      "動/名詞・估計",
+      "形容詞・精準的"
+    ]
+  },
+  {
+    "id": "sv-374",
+    "category": "動詞",
+    "question": "The store decided to ______ the price of the winter coats to attract more buyers in spring.",
+    "chinese": "商店決定在春天降低冬裝外套的價格以吸引更多買家。",
+    "options": [
+      "release",
+      "increase",
+      "decrease",
+      "disease"
+    ],
+    "answerIndex": 2,
+    "explanation": "decrease（降低、減少）符合在春天降價促銷冬裝的邏輯；release（釋放）、increase（增加，反義字）、disease（疾病，名詞）皆不合適。",
+    "optionNotes": [
+      "動詞・釋放",
+      "動詞・增加",
+      "動詞・減少",
+      "名詞・疾病"
+    ]
+  },
+  {
+    "id": "sv-375",
+    "category": "形容詞",
+    "question": "We don't eat out very often; we only have an ______ dinner at a restaurant to celebrate birthdays.",
+    "chinese": "我們不常在外面吃飯；我們只有在慶祝生日時才會偶爾在餐廳吃晚餐。",
+    "options": [
+      "professional",
+      "traditional",
+      "emotional",
+      "occasional"
+    ],
+    "answerIndex": 3,
+    "explanation": "occasional（偶爾的）呼應前面的 don't eat out very often；professional（專業的）、traditional（傳統的）、emotional（情緒的）皆不合邏輯。",
+    "optionNotes": [
+      "形容詞・專業的",
+      "形容詞・傳統的",
+      "形容詞・情緒的",
+      "形容詞・偶爾的"
+    ]
+  },
+  {
+    "id": "sv-376",
+    "category": "形容詞",
+    "question": "Thank you for your ______ reply to my email; I really appreciate your efficiency.",
+    "chinese": "謝謝你對我的電子郵件迅速的回覆，我非常欣賞你的效率。",
+    "options": [
+      "prompt",
+      "proper",
+      "proud",
+      "prior"
+    ],
+    "answerIndex": 0,
+    "explanation": "prompt（迅速的、立即的）符合「欣賞效率 (efficiency)」的語意；proper（適當的）、proud（驕傲的）、prior（先前的）皆不合適。",
+    "optionNotes": [
+      "形容詞・迅速的",
+      "形容詞・適當的",
+      "形容詞・驕傲的",
+      "形容詞・先前的"
+    ]
+  },
+  {
+    "id": "sv-377",
+    "category": "形容詞",
+    "question": "The professor is conducting a ______ experiment to test his new theory.",
+    "chinese": "這位教授正在進行一項科學實驗來測試他的新理論。",
+    "options": [
+      "specific",
+      "scientific",
+      "significant",
+      "synthetic"
+    ],
+    "answerIndex": 1,
+    "explanation": "scientific（科學的）常搭配 experiment (實驗)；specific（特定的）、significant（重要的）、synthetic（合成的）不如 scientific 貼切。",
+    "optionNotes": [
+      "形容詞・特定的",
+      "形容詞・科學的",
+      "形容詞・重要的",
+      "形容詞・合成的"
+    ]
+  },
+  {
+    "id": "sv-378",
+    "category": "名詞",
+    "question": "The airport has increased its ______ measures to ensure the safety of all passengers.",
+    "chinese": "機場增加了安全措施以確保所有乘客的安全。",
+    "options": [
+      "priority",
+      "majority",
+      "security",
+      "authority"
+    ],
+    "answerIndex": 2,
+    "explanation": "security（安全、保全）搭配 measures (措施) 是常見用法；priority（優先）、majority（多數）、authority（權威、當局）皆不合邏輯。",
+    "optionNotes": [
+      "名詞・優先",
+      "名詞・多數",
+      "名詞・安全",
+      "名詞・權威"
+    ]
+  },
+  {
+    "id": "sv-379",
+    "category": "動詞",
+    "question": "The heavy rain and strong winds ______ to destroy the crops before the harvest.",
+    "chinese": "大雨和強風威脅要在收成前摧毀農作物。",
+    "options": [
+      "sweeten",
+      "shorten",
+      "weaken",
+      "threaten"
+    ],
+    "answerIndex": 3,
+    "explanation": "threaten（威脅）符合天災可能造成的負面結果；sweeten（變甜）、shorten（縮短）、weaken（削弱）在句型上 (weaken to + V) 不通順。",
+    "optionNotes": [
+      "動詞・使變甜",
+      "動詞・縮短",
+      "動詞・削弱",
+      "動詞・威脅"
+    ],
+    "etymology": "threat(威脅) + -en(動詞化字尾) → 構成威脅"
+  },
+  {
+    "id": "sv-380",
+    "category": "名詞",
+    "question": "You can find more detailed information about our products on our official ______.",
+    "chinese": "你可以在我們的官方網站上找到關於產品更詳細的資訊。",
+    "options": [
+      "website",
+      "webcam",
+      "insight",
+      "campsite"
+    ],
+    "answerIndex": 0,
+    "explanation": "website（網站）是查詢資訊的地方；webcam（網路攝影機）、insight（洞察力）、campsite（露營地）皆不符合語境。",
+    "optionNotes": [
+      "名詞・網站",
+      "名詞・網路攝影機",
+      "名詞・洞察力",
+      "名詞・露營地"
+    ]
+  },
+  {
+    "id": "sv-381",
+    "category": "名詞",
+    "question": "Many students experience a lot of ______ before taking a major exam.",
+    "chinese": "許多學生在參加大考前會經歷很多焦慮。",
+    "options": [
+      "society",
+      "anxiety",
+      "variety",
+      "gravity"
+    ],
+    "answerIndex": 1,
+    "explanation": "anxiety（焦慮）符合考試前常見的心理狀態；society（社會）、variety（多樣化）、gravity（重力）皆不合邏輯。",
+    "optionNotes": [
+      "名詞・社會",
+      "名詞・焦慮",
+      "名詞・多樣化",
+      "名詞・重力"
+    ]
+  },
+  {
+    "id": "sv-382",
+    "category": "名詞",
+    "question": "The beautiful old church is a great example of European ______ from the 18th century.",
+    "chinese": "這座美麗的老教堂是18世紀歐洲建築風格的極佳典範。",
+    "options": [
+      "agriculture",
+      "temperature",
+      "architecture",
+      "literature"
+    ],
+    "answerIndex": 2,
+    "explanation": "architecture（建築風格、建築學）符合描述教堂外觀的語境；agriculture（農業）、temperature（溫度）、literature（文學）皆不合適。",
+    "optionNotes": [
+      "名詞・農業",
+      "名詞・溫度",
+      "名詞・建築學",
+      "名詞・文學"
+    ]
+  },
+  {
+    "id": "sv-383",
+    "category": "名詞",
+    "question": "The rebels smuggled illegal ______ into the country to fight against the government.",
+    "chinese": "叛軍走私非法武器進國內以對抗政府。",
+    "options": [
+      "alarms",
+      "armies",
+      "charms",
+      "arms"
+    ],
+    "answerIndex": 3,
+    "explanation": "arms 恆用複數時除了「手臂」，也指「武器」，符合走私對抗政府的情境；alarms（警報）、armies（軍隊，無法走私）、charms（魅力、護身符）皆不合邏輯。",
+    "optionNotes": [
+      "名詞・警報",
+      "名詞・軍隊",
+      "名詞・魅力",
+      "名詞・武器"
+    ]
+  },
+  {
+    "id": "sv-384",
+    "category": "名詞",
+    "question": "The financial ______ of the city is full of tall skyscrapers and busy bankers.",
+    "chinese": "這個城市的金融區充滿了高聳的摩天大樓和忙碌的銀行家。",
+    "options": [
+      "district",
+      "contract",
+      "conflict",
+      "extract"
+    ],
+    "answerIndex": 0,
+    "explanation": "district（行政區、地區）符合 financial district (金融區) 的搭配用法；contract（合約）、conflict（衝突）、extract（萃取物）皆不符合語意。",
+    "optionNotes": [
+      "名詞・區域",
+      "名詞・合約",
+      "名詞・衝突",
+      "名詞・萃取物"
+    ]
+  },
+  {
+    "id": "sv-385",
+    "category": "名詞",
+    "question": "By using the new machines, the factory improved its production ______ by 30%.",
+    "chinese": "透過使用新機器，工廠將其生產效率提高了30%。",
+    "options": [
+      "emergency",
+      "efficiency",
+      "frequency",
+      "tendency"
+    ],
+    "answerIndex": 1,
+    "explanation": "efficiency（效率）符合機器帶來生產提升的結果；emergency（緊急狀況）、frequency（頻率）、tendency（傾向）皆不符合語境。",
+    "optionNotes": [
+      "名詞・緊急狀況",
+      "名詞・效率",
+      "名詞・頻率",
+      "名詞・傾向"
+    ]
   }
 ]
